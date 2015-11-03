@@ -13,74 +13,60 @@ Library {
     $PropName		    "BdWindowsInfo"
     $ObjectID		    1
     $ClassName		    "Simulink.BDWindowsInfo"
-    Array {
-      Type		      "Simulink.WindowInfo"
-      Dimension		      2
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [252.0, -1079.0, 1053.0, 1075.0]
       Object {
-	$ObjectID		2
-	IsActive		[0]
-	Location		[951.0, -690.0, 912.0, 640.0]
-	Object {
-	  $PropName		  "ModelBrowserInfo"
-	  $ObjectID		  3
-	  $ClassName		  "Simulink.ModelBrowserInfo"
-	  Visible		  [0]
-	  DockPosition		  "Left"
-	  Width			  [50]
-	  Height		  [50]
-	  Filter		  [59]
-	}
-	Object {
-	  $PropName		  "ExplorerBarInfo"
-	  $ObjectID		  4
-	  $ClassName		  "Simulink.ExplorerBarInfo"
-	  Visible		  [1]
-	}
-	Object {
-	  $PropName		  "EditorsInfo"
-	  $ObjectID		  5
-	  $ClassName		  "Simulink.EditorInfo"
-	  IsActive		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "824"
-	  Extents		  [862.0, 474.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
-	}
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[58]
       }
       Object {
-	$ObjectID		6
-	IsActive		[1]
-	Location		[18.0, -807.0, 919.0, 605.0]
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		3
 	Object {
-	  $PropName		  "ModelBrowserInfo"
-	  $ObjectID		  7
-	  $ClassName		  "Simulink.ModelBrowserInfo"
-	  Visible		  [0]
-	  DockPosition		  "Left"
-	  Width			  [50]
-	  Height		  [50]
-	  Filter		  [59]
-	}
-	Object {
-	  $PropName		  "ExplorerBarInfo"
-	  $ObjectID		  8
-	  $ClassName		  "Simulink.ExplorerBarInfo"
-	  Visible		  [1]
-	}
-	Object {
-	  $PropName		  "EditorsInfo"
-	  $ObjectID		  9
-	  $ClassName		  "Simulink.EditorInfo"
+	  $ObjectID		  5
 	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [869.0, 439.0]
+	  Extents		  [1003.0, 906.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-17.893456493672829, 7.7547578814481426]
+	  Offset		  [-17.893456493672829, 9.2797573807691265]
 	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "738"
+	  Extents		  [869.0, 436.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-6.5, 0.0]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "84"
+	  Extents		  [1003.0, 906.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	}
+	PropName		"EditorsInfo"
       }
-      PropName		      "WindowsInfo"
     }
   }
   Created		  "Wed Dec 02 10:36:49 2009"
@@ -89,9 +75,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Tim"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Nov 03 12:55:41 2015"
-  RTWModifiedTimeStamp	  368451909
-  ModelVersionFormat	  "1.%<AutoIncrement:273>"
+  LastModifiedDate	  "Tue Nov 03 17:06:35 2015"
+  RTWModifiedTimeStamp	  368467287
+  ModelVersionFormat	  "1.%<AutoIncrement:275>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -172,13 +158,13 @@ Library {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      10
+      $ObjectID		      8
       Version		      "1.14.3"
       Array {
 	Type			"Handle"
 	Dimension		8
 	Simulink.SolverCC {
-	  $ObjectID		  11
+	  $ObjectID		  9
 	  Version		  "1.14.3"
 	  StartTime		  "0.0"
 	  StopTime		  "10.0"
@@ -213,7 +199,7 @@ Library {
 	  InsertRTBMode		  "Whenever possible"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  12
+	  $ObjectID		  10
 	  Version		  "1.14.3"
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
@@ -246,7 +232,7 @@ Library {
 	  Refine		  "1"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  13
+	  $ObjectID		  11
 	  Version		  "1.14.3"
 	  Array {
 	    Type		    "Cell"
@@ -305,7 +291,7 @@ Library {
 	  ParallelExecutionInRapidAccelerator on
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  14
+	  $ObjectID		  12
 	  Version		  "1.14.3"
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
@@ -396,7 +382,7 @@ Library {
 	  IntegerSaturationMsg	  "warning"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  15
+	  $ObjectID		  13
 	  Version		  "1.14.3"
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
@@ -437,7 +423,7 @@ Library {
 	  ProdEqTarget		  on
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  16
+	  $ObjectID		  14
 	  Version		  "1.14.3"
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
 	  CheckModelReferenceTargetMessage "error"
@@ -452,7 +438,7 @@ Library {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  17
+	  $ObjectID		  15
 	  Version		  "1.14.3"
 	  SFSimEnableDebug	  on
 	  SFSimOverflowDetection  on
@@ -468,7 +454,7 @@ Library {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  18
+	  $ObjectID		  16
 	  Version		  "1.14.3"
 	  Array {
 	    Type		    "Cell"
@@ -546,7 +532,7 @@ Library {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      19
+	      $ObjectID		      17
 	      Version		      "1.14.3"
 	      Array {
 		Type			"Cell"
@@ -613,7 +599,7 @@ Library {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      20
+	      $ObjectID		      18
 	      Version		      "1.14.3"
 	      Array {
 		Type			"Cell"
@@ -974,7 +960,7 @@ Library {
   }
   System {
     Name		    "NeuroModelerLibrary"
-    Location		    [18, -807, 937, -202]
+    Location		    [252, -1079, 1305, -4]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    212
@@ -2466,7 +2452,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Membrane Samples"
-	Location		[551, -838, 1478, -133]
+	Location		[252, -1079, 1305, -4]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -4289,8 +4275,8 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Neuron Elements"
-	Location		[18, -807, 937, -202]
-	Open			off
+	Location		[252, -1079, 1305, -4]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -4808,35 +4794,35 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    21
+	    $ObjectID		    19
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		22
+		$ObjectID		20
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		23
+		$ObjectID		21
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"1.7"
 	      }
 	      Object {
-		$ObjectID		24
+		$ObjectID		22
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input Time Constant"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		25
+		$ObjectID		23
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -5489,48 +5475,48 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    26
+	    $ObjectID		    24
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		27
+		$ObjectID		25
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		28
+		$ObjectID		26
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		29
+		$ObjectID		27
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		30
+		$ObjectID		28
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		31
+		$ObjectID		29
 		Type			"edit"
 		Name			"ARFm"
 		Prompt			"Feedback Arresting Resistance"
 		Value			"1e8"
 	      }
 	      Object {
-		$ObjectID		32
+		$ObjectID		30
 		Type			"edit"
 		Name			"ERFm"
 		Prompt			"Feedback Excitatory Resistance"
@@ -5810,34 +5796,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    33
+	    $ObjectID		    31
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		34
+		$ObjectID		32
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		35
+		$ObjectID		33
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		36
+		$ObjectID		34
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		37
+		$ObjectID		35
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -6100,8 +6086,8 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Old Neuron Elements"
-	Location		[951, -690, 1863, -50]
-	Open			on
+	Location		[252, -1079, 1305, -4]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -6600,34 +6586,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    38
+	    $ObjectID		    36
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		39
+		$ObjectID		37
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		40
+		$ObjectID		38
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		41
+		$ObjectID		39
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		42
+		$ObjectID		40
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -6909,34 +6895,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    43
+	    $ObjectID		    41
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		44
+		$ObjectID		42
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		45
+		$ObjectID		43
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		46
+		$ObjectID		44
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		47
+		$ObjectID		45
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -7835,34 +7821,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    48
+	    $ObjectID		    46
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		49
+		$ObjectID		47
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		50
+		$ObjectID		48
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		51
+		$ObjectID		49
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		52
+		$ObjectID		50
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -15913,7 +15899,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Simple Cells"
-	Location		[98, 81, 568, 529]
+	Location		[252, -1079, 1305, -4]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -15931,13 +15917,72 @@ Library {
 	  Name			  "Afferent1"
 	  SID			  "756"
 	  Ports			  [1, 3]
-	  Position		  [35, 149, 130, 201]
+	  Position		  [395, 44, 490, 96]
 	  ZOrder		  -1
 	  NamePlacement		  "alternate"
 	  RequestExecContextInheritance	off
+	  Object {
+	    $PropName		    "MaskObject"
+	    $ObjectID		    51
+	    $ClassName		    "Simulink.Mask"
+	    Array {
+	      Type		      "Simulink.MaskParameter"
+	      Dimension		      2
+	      Object {
+		$ObjectID		52
+		Type			"edit"
+		Name			"ExpCoeff"
+		Prompt			"Input Exp Coeff"
+		Value			"0.001"
+	      }
+	      Object {
+		$ObjectID		53
+		Type			"edit"
+		Name			"IncCoeff"
+		Prompt			"Input Inc Coeff"
+		Value			"0.999"
+	      }
+	      PropName		      "Parameters"
+	    }
+	    Array {
+	      Type		      "Simulink.dialog.Group"
+	      Dimension		      2
+	      Object {
+		$ObjectID		54
+		Prompt			"%<MaskType>"
+		Object {
+		  $PropName		  "DialogControls"
+		  $ObjectID		  55
+		  $ClassName		  "Simulink.dialog.Text"
+		  Prompt		  "Afferent Parameters"
+		  Name			  "AffParams"
+		}
+		Name			"DescGroupVar"
+	      }
+	      Object {
+		$ObjectID		56
+		Prompt			"Simulink:studio:ToolBarParametersMenu"
+		Array {
+		  Type			  "Simulink.dialog.parameter.Edit"
+		  Dimension		  2
+		  Object {
+		    $ObjectID		    57
+		    Name		    "ExpCoeff"
+		  }
+		  Object {
+		    $ObjectID		    58
+		    Name		    "IncCoeff"
+		  }
+		  PropName		  "DialogControls"
+		}
+		Name			"ParameterGroupVar"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	  }
 	  System {
 	    Name		    "Afferent1"
-	    Location		    [117, 65, 1335, 703]
+	    Location		    [252, -1079, 1305, -4]
 	    Open		    off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -15990,7 +16035,7 @@ Library {
 	      SID		      "761"
 	      Position		      [105, 25, 165, 55]
 	      ZOrder		      -5
-	      Expr		      "2-exp(-0.001*u)"
+	      Expr		      "2-exp(-ExpCoeff*(u+IncCoeff))"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -15999,21 +16044,14 @@ Library {
 	      Ports		      [2, 3]
 	      Position		      [715, 112, 800, 168]
 	      ZOrder		      -6
-	      LibraryVersion	      "1.240"
+	      LibraryVersion	      "1.274"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/LTZone"
 	      SourceType	      "Ion pump"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData off
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
 	      NM		      "1"
 	      FB		      "1.7"
 	      IT		      "0.005"
-	      T			      "0.00001"
+	      T			      "0.001"
 	    }
 	    Block {
 	      BlockType		      Reference
@@ -16022,20 +16060,13 @@ Library {
 	      Ports		      [5, 2]
 	      Position		      [450, 57, 615, 183]
 	      ZOrder		      -7
-	      LibraryVersion	      "1.240"
+	      LibraryVersion	      "1.274"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
 	      SourceType	      ""
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData off
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
 	      ACm		      "1e-9"
 	      ARm		      "1e7"
-	      ECm		      "1e-7"
+	      ECm		      "1e-9"
 	      ERm		      "1e7"
 	      ARFm		      "1e8"
 	      ERFm		      "1e8"
@@ -16201,7 +16232,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Electric Simple Cell"
-	    Location		    [70, 123, 1110, 677]
+	    Location		    [252, -1079, 1305, -4]
 	    Open		    off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -16301,16 +16332,10 @@ Library {
 	      Ports		      [2, 3]
 	      Position		      [475, 112, 560, 168]
 	      ZOrder		      -10
+	      LibraryVersion	      "1.274"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/LTZone"
 	      SourceType	      "Ion pump"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
 	      NM		      "1"
 	      FB		      "1.7"
 	      IT		      "0.005"
@@ -16323,16 +16348,10 @@ Library {
 	      Ports		      [5, 2]
 	      Position		      [250, 62, 415, 188]
 	      ZOrder		      -11
+	      LibraryVersion	      "1.274"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	      SourceType	      "Unknown"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
 	      ACm		      "1e-9"
 	      ARm		      "1e7"
 	      ECm		      "1e-9"
@@ -16377,16 +16396,10 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [70, 29, 130, 51]
 	      ZOrder		      -15
+	      LibraryVersion	      "1.274"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Synapse"
-	      SourceType	      "Unknown"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
 	      SecretionTC	      "0.001"
 	      DecompositionTC	      "0.01"
 	      ksi		      "2"
@@ -16399,16 +16412,10 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [70, 214, 130, 236]
 	      ZOrder		      -16
+	      LibraryVersion	      "1.274"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Synapse"
-	      SourceType	      "Unknown"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
 	      SecretionTC	      "0.001"
 	      DecompositionTC	      "0.01"
 	      ksi		      "2"
@@ -17123,7 +17130,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Simple Cell"
-	    Location		    [1007, 144, 1697, 761]
+	    Location		    [252, -1079, 1305, -4]
 	    Open		    off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -17185,7 +17192,7 @@ Library {
 	      Ports		      [2, 3]
 	      Position		      [425, 112, 510, 168]
 	      ZOrder		      -6
-	      LibraryVersion	      "1.241"
+	      LibraryVersion	      "1.273"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/LTZone"
 	      SourceType	      "Ion pump"
 	      ContentPreviewEnabled   off
@@ -17201,7 +17208,7 @@ Library {
 	      Ports		      [5, 2]
 	      Position		      [200, 62, 365, 188]
 	      ZOrder		      -7
-	      LibraryVersion	      "1.241"
+	      LibraryVersion	      "1.273"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
 	      SourceType	      ""
 	      ContentPreviewEnabled   off
@@ -17229,7 +17236,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [70, 29, 130, 51]
 	      ZOrder		      -9
-	      LibraryVersion	      "1.241"
+	      LibraryVersion	      "1.273"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Synapse"
 	      SourceType	      ""
 	      ContentPreviewEnabled   off
@@ -17245,7 +17252,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [70, 214, 130, 236]
 	      ZOrder		      -10
-	      LibraryVersion	      "1.241"
+	      LibraryVersion	      "1.273"
 	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Synapse"
 	      SourceType	      ""
 	      ContentPreviewEnabled   off
@@ -17543,34 +17550,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		53
+		$ObjectID		59
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    54
+		    $ObjectID		    60
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    55
+		    $ObjectID		    61
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    56
+		    $ObjectID		    62
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    57
+		    $ObjectID		    63
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -17819,34 +17826,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		58
+		$ObjectID		64
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    59
+		    $ObjectID		    65
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    60
+		    $ObjectID		    66
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    61
+		    $ObjectID		    67
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    62
+		    $ObjectID		    68
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -22958,7 +22965,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Support"
-	Location		[16, 52, 291, 450]
+	Location		[252, -1079, 1305, -4]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -23147,69 +23154,69 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    63
+	    $ObjectID		    69
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      9
 	      Object {
-		$ObjectID		64
+		$ObjectID		70
 		Type			"edit"
 		Name			"A"
 		Prompt			"Amplitude"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		65
+		$ObjectID		71
 		Type			"edit"
 		Name			"P1"
 		Prompt			"Out1: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		66
+		$ObjectID		72
 		Type			"edit"
 		Name			"P2"
 		Prompt			"Out2: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		67
+		$ObjectID		73
 		Type			"edit"
 		Name			"PW"
 		Prompt			"Pulse Width (number of samples)"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		68
+		$ObjectID		74
 		Type			"edit"
 		Name			"ST"
 		Prompt			"Sample Time"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		69
+		$ObjectID		75
 		Type			"edit"
 		Name			"OOn1"
 		Prompt			"Out1 On (seconds)"
 		Value			"0.5"
 	      }
 	      Object {
-		$ObjectID		70
+		$ObjectID		76
 		Type			"edit"
 		Name			"OOff1"
 		Prompt			"Out1 Off (seconds)"
 		Value			"0.6"
 	      }
 	      Object {
-		$ObjectID		71
+		$ObjectID		77
 		Type			"edit"
 		Name			"OOn2"
 		Prompt			"Out2 On (seconds)"
 		Value			"1.1"
 	      }
 	      Object {
-		$ObjectID		72
+		$ObjectID		78
 		Type			"edit"
 		Name			"OOff2"
 		Prompt			"Out2 Off (seconds)"
@@ -23220,8 +23227,8 @@ Library {
 	  }
 	  System {
 	    Name		    "Two-output\nPulse Generator"
-	    Location		    [58, 300, 619, 770]
-	    Open		    off
+	    Location		    [258, -1062, 1177, -457]
+	    Open		    on
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
