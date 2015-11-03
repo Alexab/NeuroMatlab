@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.5"
+    ComputedModelVersion    "1.7"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -29,7 +29,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [45.0, 52.0, 845.0, 402.0]
+      Location		      [45.0, 52.0, 990.0, 509.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -38,7 +38,7 @@ Model {
 	DockPosition		"Left"
 	Width			[50]
 	Height			[50]
-	Filter			[8]
+	Filter			[9]
       }
       Object {
 	$PropName		"ExplorerBarInfo"
@@ -53,9 +53,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[795.0, 228.0]
+	Extents			[940.0, 335.0]
 	ZoomFactor		[1.0]
-	Offset			[0.0, 0.0]
+	Offset			[-4.0, 0.0]
       }
     }
   }
@@ -65,9 +65,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Tim"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Nov 03 17:06:40 2015"
-  RTWModifiedTimeStamp	  368467589
-  ModelVersionFormat	  "1.%<AutoIncrement:5>"
+  LastModifiedDate	  "Tue Nov 03 23:35:44 2015"
+  RTWModifiedTimeStamp	  368490921
+  ModelVersionFormat	  "1.%<AutoIncrement:7>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -843,7 +843,7 @@ Model {
   }
   System {
     Name		    "AfferentTest"
-    Location		    [45, 52, 890, 454]
+    Location		    [45, 52, 1035, 561]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -866,7 +866,7 @@ Model {
       Position		      [420, 69, 515, 121]
       ZOrder		      4
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.275"
+      LibraryVersion	      "1.281"
       SourceBlock	      "NeuroModelerLibrary/Simple Cells/Afferent1"
       SourceType	      ""
       ContentPreviewEnabled   off
@@ -914,7 +914,7 @@ Model {
       Position		      [670, 80, 700, 115]
       ZOrder		      -6
       Floating		      off
-      Location		      [242, -365, 1457, -114]
+      Location		      [61, 519, 1276, 770]
       Open		      on
       NumInputPorts	      "2"
       ZoomMode		      "xonly"
@@ -935,7 +935,7 @@ Model {
       }
       ShowLegends	      off
       YMin		      "0~0"
-      YMax		      "1~1"
+      YMax		      "5.5~1"
       DataFormat	      "StructureWithTime"
       MaxDataPoints	      "500000"
       SampleTime	      "0"
