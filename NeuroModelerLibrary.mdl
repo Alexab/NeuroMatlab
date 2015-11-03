@@ -18,7 +18,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [252.0, -1079.0, 1053.0, 1075.0]
+      Location		      [-8.0, -1032.0, 1296.0, 1040.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -41,11 +41,11 @@ Library {
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [1]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1003.0, 906.0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1014"
+	  Extents		  [1246.0, 871.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-17.893456493672829, 9.2797573807691265]
+	  Offset		  [0.0, 0.0]
 	}
 	Object {
 	  $ObjectID		  6
@@ -59,11 +59,11 @@ Library {
 	Object {
 	  $ObjectID		  7
 	  IsActive		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "84"
-	  Extents		  [1003.0, 906.0]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1246.0, 871.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
+	  Offset		  [-17.893456493672829, 9.2797573807691265]
 	}
 	PropName		"EditorsInfo"
       }
@@ -75,9 +75,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Tim"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Nov 03 17:06:35 2015"
-  RTWModifiedTimeStamp	  368467287
-  ModelVersionFormat	  "1.%<AutoIncrement:275>"
+  LastModifiedDate	  "Tue Nov 03 19:36:57 2015"
+  RTWModifiedTimeStamp	  368475024
+  ModelVersionFormat	  "1.%<AutoIncrement:281>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -746,6 +746,17 @@ Library {
   }
   BlockParameterDefaults {
     Block {
+      BlockType		      Abs
+      ZeroCross		      on
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
       BlockType		      Clock
       DisplayTime	      off
       Decimation	      "10"
@@ -874,6 +885,24 @@ Library {
       SampleTime	      "-1"
     }
     Block {
+      BlockType		      Scope
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      DataFormat	      "Array"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "-1"
+    }
+    Block {
       BlockType		      Signum
       ZeroCross		      on
       SampleTime	      "-1"
@@ -960,7 +989,7 @@ Library {
   }
   System {
     Name		    "NeuroModelerLibrary"
-    Location		    [252, -1079, 1305, -4]
+    Location		    [-8, -1032, 1288, 8]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    212
@@ -974,7 +1003,736 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "1011"
+    SIDHighWatermark	    "1099"
+    Block {
+      BlockType		      SubSystem
+      Name		      "Analog Simple Cells"
+      SID		      "1014"
+      Ports		      []
+      Position		      [660, 190, 744, 265]
+      ZOrder		      16
+      RequestExecContextInheritance off
+      System {
+	Name			"Analog Simple Cells"
+	Location		[-8, -1032, 1288, 8]
+	Open			on
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Simple Analog Neuron"
+	  SID			  "1035"
+	  Ports			  [4, 2]
+	  Position		  [45, 32, 200, 93]
+	  ZOrder		  19
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Simple Analog Neuron"
+	    Location		    [305, 132, 1130, 625]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ex Input 1"
+	      SID		      "1036"
+	      Position		      [20, 48, 50, 62]
+	      ZOrder		      19
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ex Input 2"
+	      SID		      "1037"
+	      Position		      [30, 95, 45, 125]
+	      ZOrder		      20
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ar Input 2"
+	      SID		      "1039"
+	      Position		      [25, 268, 55, 282]
+	      ZOrder		      22
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ar Input 1"
+	      SID		      "1040"
+	      Position		      [30, 215, 45, 245]
+	      ZOrder		      23
+	      Port		      "4"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C2"
+	      SID		      "1024"
+	      Position		      [170, 124, 200, 146]
+	      ZOrder		      13
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C3"
+	      SID		      "1025"
+	      Position		      [170, 174, 200, 196]
+	      ZOrder		      12
+	      Value		      "-1"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "ContLTZone1"
+	      SID		      "1026"
+	      Ports		      [1, 1]
+	      Position		      [550, 139, 640, 181]
+	      ZOrder		      14
+	      LibraryVersion	      "1.280"
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/ContLTZone"
+	      SourceType	      "SubSystem"
+	      ContentPreviewEnabled   off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane1"
+	      SID		      "1027"
+	      Ports		      [5, 2]
+	      Position		      [270, 97, 435, 223]
+	      ZOrder		      11
+	      LibraryVersion	      "1.280"
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Synapse"
+	      SID		      "1028"
+	      Ports		      [1, 1]
+	      Position		      [90, 44, 150, 66]
+	      ZOrder		      15
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Synapse"
+	      SourceType	      "SubSystem"
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      gamma		      "1e8"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Synapse1"
+	      SID		      "1029"
+	      Ports		      [1, 1]
+	      Position		      [90, 99, 150, 121]
+	      ZOrder		      16
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Synapse"
+	      SourceType	      "SubSystem"
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      gamma		      "1e8"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Synapse2"
+	      SID		      "1030"
+	      Ports		      [1, 1]
+	      Position		      [90, 219, 150, 241]
+	      ZOrder		      17
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Synapse"
+	      SourceType	      "SubSystem"
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      gamma		      "1e8"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Synapse3"
+	      SID		      "1031"
+	      Ports		      [1, 1]
+	      Position		      [90, 264, 150, 286]
+	      ZOrder		      18
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Synapse"
+	      SourceType	      "SubSystem"
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      gamma		      "1e8"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum4"
+	      SID		      "1032"
+	      Ports		      [2, 1]
+	      Position		      [220, 65, 240, 85]
+	      ZOrder		      10
+	      ShowName		      off
+	      IconShape		      "round"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum7"
+	      SID		      "1033"
+	      Ports		      [2, 1]
+	      Position		      [455, 150, 475, 170]
+	      ZOrder		      9
+	      ShowName		      off
+	      IconShape		      "round"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum8"
+	      SID		      "1034"
+	      Ports		      [2, 1]
+	      Position		      [220, 215, 240, 235]
+	      ZOrder		      8
+	      ShowName		      off
+	      IconShape		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out"
+	      SID		      "1041"
+	      Position		      [700, 145, 715, 175]
+	      ZOrder		      24
+	      NamePlacement	      "alternate"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Potential"
+	      SID		      "1042"
+	      Position		      [695, 213, 725, 227]
+	      ZOrder		      25
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "C2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "C3"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      1
+	      Points		      [25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      2
+	      Points		      [25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Sum7"
+	      SrcPort		      1
+	      Points		      [5, 0]
+	      Branch {
+		ZOrder			28
+		Points			[0, 60]
+		DstBlock		"Potential"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			6
+		Labels			[0, 0]
+		DstBlock		"ContLTZone1"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "Ex Input 1"
+	      SrcPort		      1
+	      DstBlock		      "Simple Synapse"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      26
+	      SrcBlock		      "Ar Input 1"
+	      SrcPort		      1
+	      DstBlock		      "Simple Synapse2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Sum4"
+	      SrcPort		      1
+	      Points		      [9, 0; 0, 35]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "Simple Synapse"
+	      SrcPort		      1
+	      Points		      [75, 0]
+	      DstBlock		      "Sum4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Simple Synapse1"
+	      SrcPort		      1
+	      Points		      [75, 0]
+	      DstBlock		      "Sum4"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      25
+	      SrcBlock		      "Ar Input 2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Synapse3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "Sum8"
+	      SrcPort		      1
+	      Points		      [5, 0; 0, -15]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "Simple Synapse2"
+	      SrcPort		      1
+	      Points		      [55, 0; 0, -30]
+	      DstBlock		      "Sum8"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "Simple Synapse3"
+	      SrcPort		      1
+	      Points		      [75, 0]
+	      DstBlock		      "Sum8"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      27
+	      SrcBlock		      "ContLTZone1"
+	      SrcPort		      1
+	      DstBlock		      "Out"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "Ex Input 2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Synapse1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Simple Tanh Analog Neuron "
+	  SID			  "1072"
+	  Ports			  [4, 2]
+	  Position		  [45, 147, 200, 208]
+	  ZOrder		  20
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Simple Tanh Analog Neuron "
+	    Location		    [-8, -1032, 1288, 8]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ex Input 1"
+	      SID		      "1073"
+	      Position		      [20, 48, 50, 62]
+	      ZOrder		      19
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ex Input 2"
+	      SID		      "1074"
+	      Position		      [30, 95, 45, 125]
+	      ZOrder		      20
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ar Input 2"
+	      SID		      "1075"
+	      Position		      [25, 268, 55, 282]
+	      ZOrder		      22
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ar Input 1"
+	      SID		      "1076"
+	      Position		      [30, 215, 45, 245]
+	      ZOrder		      23
+	      Port		      "4"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C2"
+	      SID		      "1077"
+	      Position		      [170, 124, 200, 146]
+	      ZOrder		      13
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C3"
+	      SID		      "1078"
+	      Position		      [170, 174, 200, 196]
+	      ZOrder		      12
+	      Value		      "-1"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane1"
+	      SID		      "1080"
+	      Ports		      [5, 2]
+	      Position		      [270, 97, 435, 223]
+	      ZOrder		      11
+	      LibraryVersion	      "1.278"
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Synapse"
+	      SID		      "1081"
+	      Ports		      [1, 1]
+	      Position		      [90, 44, 150, 66]
+	      ZOrder		      15
+	      LibraryVersion	      "1.278"
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Synapse"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Synapse1"
+	      SID		      "1082"
+	      Ports		      [1, 1]
+	      Position		      [90, 99, 150, 121]
+	      ZOrder		      16
+	      LibraryVersion	      "1.278"
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Synapse"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Synapse2"
+	      SID		      "1083"
+	      Ports		      [1, 1]
+	      Position		      [90, 219, 150, 241]
+	      ZOrder		      17
+	      LibraryVersion	      "1.278"
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Synapse"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Synapse3"
+	      SID		      "1084"
+	      Ports		      [1, 1]
+	      Position		      [90, 264, 150, 286]
+	      ZOrder		      18
+	      LibraryVersion	      "1.278"
+	      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Synapse"
+	      SourceType	      ""
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum4"
+	      SID		      "1085"
+	      Ports		      [2, 1]
+	      Position		      [220, 65, 240, 85]
+	      ZOrder		      10
+	      ShowName		      off
+	      IconShape		      "round"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum7"
+	      SID		      "1086"
+	      Ports		      [2, 1]
+	      Position		      [455, 150, 475, 170]
+	      ZOrder		      9
+	      ShowName		      off
+	      IconShape		      "round"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum8"
+	      SID		      "1087"
+	      Ports		      [2, 1]
+	      Position		      [220, 215, 240, 235]
+	      ZOrder		      8
+	      ShowName		      off
+	      IconShape		      "round"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "tansig"
+	      SID		      "1090"
+	      Ports		      [1, 1]
+	      Position		      [565, 148, 590, 172]
+	      ZOrder		      26
+	      LibraryVersion	      "1.93"
+	      SourceBlock	      "neural/Transfer Functions/tansig"
+	      SourceType	      "TANSIG"
+	      ContentPreviewEnabled   off
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out"
+	      SID		      "1088"
+	      Position		      [700, 145, 715, 175]
+	      ZOrder		      24
+	      NamePlacement	      "alternate"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Potential"
+	      SID		      "1089"
+	      Position		      [695, 213, 725, 227]
+	      ZOrder		      25
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "C2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "C3"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      1
+	      Points		      [25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      2
+	      Points		      [25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Sum7"
+	      SrcPort		      1
+	      Points		      [5, 0]
+	      Branch {
+		ZOrder			19
+		Labels			[0, 0]
+		DstBlock		"tansig"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			6
+		Points			[0, 60]
+		DstBlock		"Potential"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Ex Input 1"
+	      SrcPort		      1
+	      DstBlock		      "Simple Synapse"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Ar Input 1"
+	      SrcPort		      1
+	      DstBlock		      "Simple Synapse2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Sum4"
+	      SrcPort		      1
+	      Points		      [9, 0; 0, 35]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "Simple Synapse"
+	      SrcPort		      1
+	      Points		      [75, 0]
+	      DstBlock		      "Sum4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Simple Synapse1"
+	      SrcPort		      1
+	      Points		      [75, 0]
+	      DstBlock		      "Sum4"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "Ar Input 2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Synapse3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "Sum8"
+	      SrcPort		      1
+	      Points		      [5, 0; 0, -15]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "Simple Synapse2"
+	      SrcPort		      1
+	      Points		      [55, 0; 0, -30]
+	      DstBlock		      "Sum8"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "Simple Synapse3"
+	      SrcPort		      1
+	      Points		      [75, 0]
+	      DstBlock		      "Sum8"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      20
+	      SrcBlock		      "tansig"
+	      SrcPort		      1
+	      DstBlock		      "Out"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "Ex Input 2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Synapse1"
+	      DstPort		      1
+	    }
+	  }
+	}
+      }
+    }
     Block {
       BlockType		      SubSystem
       Name		      "Dendrite Neuron \nSamples"
@@ -4275,8 +5033,8 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Neuron Elements"
-	Location		[252, -1079, 1305, -4]
-	Open			on
+	Location		[-8, -1032, 1288, 8]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -4298,7 +5056,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "ContLTZone"
-	    Location		    [507, 122, 918, 396]
+	    Location		    [252, -1079, 1666, -4]
 	    Open		    off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -4326,20 +5084,13 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [185, 35, 215, 65]
 	      ZOrder		      -2
-	      LibraryVersion	      "1.216"
+	      LibraryVersion	      "1.354"
 	      SourceBlock	      "simulink/Logic and Bit\nOperations/Compare\nTo Zero"
 	      SourceType	      "Compare To Zero"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
 	      relop		      ">="
-	      LogicOutDataTypeMode    "uint8"
-	      ZeroCross		      "off"
+	      OutDataTypeStr	      "uint8"
+	      ZeroCross		      off
 	    }
 	    Block {
 	      BlockType		      Product
@@ -4366,17 +5117,10 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [90, 38, 115, 62]
 	      ZOrder		      -5
-	      LibraryVersion	      "1.37"
+	      LibraryVersion	      "1.93"
 	      SourceBlock	      "neural/Transfer Functions/tansig"
-	      SourceType	      "Unknown"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      SourceType	      "TANSIG"
+	      ContentPreviewEnabled   off
 	    }
 	    Block {
 	      BlockType		      Outport
@@ -5787,6 +6531,23 @@ Library {
 	  }
 	}
 	Block {
+	  BlockType		  Reference
+	  Name			  "Simple Synapse"
+	  SID			  "1095"
+	  Ports			  [1, 1]
+	  Position		  [95, 274, 155, 296]
+	  ZOrder		  2
+	  LibraryVersion	  "1.281"
+	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
+	  SourceType		  ""
+	  ContentPreviewEnabled	  off
+	  SecretionTC		  "0.001"
+	  DecompositionTC	  "0.01"
+	  UseKsi		  off
+	  ksi			  "2"
+	  gamma			  "1e8"
+	}
+	Block {
 	  BlockType		  SubSystem
 	  Name			  "Synapse"
 	  SID			  "150"
@@ -5800,7 +6561,7 @@ Library {
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
-	      Dimension		      4
+	      Dimension		      5
 	      Object {
 		$ObjectID		32
 		Type			"edit"
@@ -5817,13 +6578,20 @@ Library {
 	      }
 	      Object {
 		$ObjectID		34
+		Type			"checkbox"
+		Name			"UseKsi"
+		Prompt			"Use Presynaptic Inhubition"
+		Value			"on"
+	      }
+	      Object {
+		$ObjectID		35
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		35
+		$ObjectID		36
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -5834,7 +6602,7 @@ Library {
 	  }
 	  System {
 	    Name		    "Synapse"
-	    Location		    [314, 191, 1227, 814]
+	    Location		    [-8, -1032, 1288, 8]
 	    Open		    off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -5859,9 +6627,17 @@ Library {
 	      BlockType		      Constant
 	      Name		      "Constant1"
 	      SID		      "152"
-	      Position		      [455, 140, 485, 170]
+	      Position		      [525, 140, 555, 170]
 	      ZOrder		      -2
 	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant2"
+	      SID		      "1092"
+	      Position		      [415, 25, 445, 55]
+	      ZOrder		      2
+	      Value		      "UseKsi"
 	    }
 	    Block {
 	      BlockType		      Constant
@@ -5903,22 +6679,24 @@ Library {
 	      ZOrder		      -7
 	    }
 	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain2"
+	      SID		      "1093"
+	      Position		      [420, 200, 450, 230]
+	      ZOrder		      3
+	      Gain		      "1/gamma"
+	    }
+	    Block {
 	      BlockType		      Reference
 	      Name		      "Inertial Link"
 	      SID		      "158"
 	      Ports		      [2, 1]
 	      Position		      [175, 25, 255, 60]
 	      ZOrder		      -8
+	      LibraryVersion	      "1.278"
 	      SourceBlock	      "NeuroModelerLibrary/Support/Inertial Link"
 	      SourceType	      "SubSystem"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
 	    }
 	    Block {
 	      BlockType		      Sum
@@ -5937,7 +6715,7 @@ Library {
 	      BlockType		      Switch
 	      Name		      "Switch1"
 	      SID		      "160"
-	      Position		      [510, 90, 540, 120]
+	      Position		      [580, 90, 610, 120]
 	      ZOrder		      -10
 	      InputSameDT	      off
 	      SaturateOnIntegerOverflow	off
@@ -5953,10 +6731,20 @@ Library {
 	      SaturateOnIntegerOverflow	off
 	    }
 	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch3"
+	      SID		      "1091"
+	      Position		      [475, 100, 505, 130]
+	      ZOrder		      1
+	      Threshold		      "1"
+	      InputSameDT	      off
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
 	      BlockType		      Outport
 	      Name		      "Out1"
 	      SID		      "162"
-	      Position		      [595, 98, 625, 112]
+	      Position		      [665, 98, 695, 112]
 	      ZOrder		      -12
 	      IconDisplay	      "Port number"
 	    }
@@ -5998,8 +6786,18 @@ Library {
 	      Points		      [40, 0; 0, 25]
 	      Branch {
 		ZOrder			7
-		DstBlock		"Fcn"
-		DstPort			1
+		Points			[0, 90]
+		Branch {
+		  ZOrder		  25
+		  Points		  [0, 55]
+		  DstBlock		  "Gain2"
+		  DstPort		  1
+		}
+		Branch {
+		  ZOrder		  24
+		  DstBlock		  "Fcn"
+		  DstPort		  1
+		}
 	      }
 	      Branch {
 		ZOrder			8
@@ -6033,23 +6831,6 @@ Library {
 	      DstPort		      2
 	    }
 	    Line {
-	      ZOrder		      12
-	      SrcBlock		      "Gain"
-	      SrcPort		      1
-	      Points		      [30, 0]
-	      Branch {
-		ZOrder			13
-		DstBlock		"Switch1"
-		DstPort			2
-	      }
-	      Branch {
-		ZOrder			14
-		Points			[0, -10]
-		DstBlock		"Switch1"
-		DstPort			1
-	      }
-	    }
-	    Line {
 	      ZOrder		      15
 	      SrcBlock		      "Constant1"
 	      SrcPort		      1
@@ -6071,6 +6852,46 @@ Library {
 	      SrcPort		      1
 	      DstBlock		      "Out1"
 	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      DstBlock		      "Switch3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "Switch3"
+	      SrcPort		      1
+	      Points		      [23, 0; 0, -10; 20, 0]
+	      Branch {
+		ZOrder			21
+		Points			[0, -10]
+		DstBlock		"Switch1"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			20
+		DstBlock		"Switch1"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "Constant2"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Switch3"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "Gain2"
+	      SrcPort		      1
+	      Points		      [5, 0]
+	      DstBlock		      "Switch3"
+	      DstPort		      3
 	    }
 	  }
 	}
@@ -6586,34 +7407,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    36
+	    $ObjectID		    37
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		37
+		$ObjectID		38
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		38
+		$ObjectID		39
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		39
+		$ObjectID		40
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		40
+		$ObjectID		41
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -6895,34 +7716,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    41
+	    $ObjectID		    42
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		42
+		$ObjectID		43
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		43
+		$ObjectID		44
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		44
+		$ObjectID		45
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		45
+		$ObjectID		46
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -7821,34 +8642,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    46
+	    $ObjectID		    47
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		47
+		$ObjectID		48
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		48
+		$ObjectID		49
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		49
+		$ObjectID		50
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		50
+		$ObjectID		51
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -15899,7 +16720,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Simple Cells"
-	Location		[252, -1079, 1305, -4]
+	Location		[252, -1079, 1666, -4]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -15923,20 +16744,20 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    51
+	    $ObjectID		    52
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      2
 	      Object {
-		$ObjectID		52
+		$ObjectID		53
 		Type			"edit"
 		Name			"ExpCoeff"
 		Prompt			"Input Exp Coeff"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		53
+		$ObjectID		54
 		Type			"edit"
 		Name			"IncCoeff"
 		Prompt			"Input Inc Coeff"
@@ -15948,11 +16769,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		54
+		$ObjectID		55
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  55
+		  $ObjectID		  56
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "Afferent Parameters"
 		  Name			  "AffParams"
@@ -15960,17 +16781,17 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		56
+		$ObjectID		57
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    57
+		    $ObjectID		    58
 		    Name		    "ExpCoeff"
 		  }
 		  Object {
-		    $ObjectID		    58
+		    $ObjectID		    59
 		    Name		    "IncCoeff"
 		  }
 		  PropName		  "DialogControls"
@@ -17550,34 +18371,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		59
+		$ObjectID		60
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    60
+		    $ObjectID		    61
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    61
+		    $ObjectID		    62
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    62
+		    $ObjectID		    63
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    63
+		    $ObjectID		    64
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -17826,34 +18647,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		64
+		$ObjectID		65
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    65
+		    $ObjectID		    66
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    66
+		    $ObjectID		    67
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    67
+		    $ObjectID		    68
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    68
+		    $ObjectID		    69
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -22965,7 +23786,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Support"
-	Location		[252, -1079, 1305, -4]
+	Location		[252, -1079, 1666, -4]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -22978,6 +23799,368 @@ Library {
 	TiledPageScale		1
 	ShowPageBoundaries	off
 	ZoomFactor		"100"
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Electric Engine Model"
+	  SID			  "1043"
+	  Ports			  [2, 3]
+	  Position		  [50, 170, 140, 230]
+	  ZOrder		  1
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Electric Engine Model"
+	    Location		    [16, 52, 1193, 795]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Voltage"
+	      SID		      "1044"
+	      Position		      [30, 38, 60, 52]
+	      ZOrder		      -1
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Ext moment"
+	      SID		      "1045"
+	      Position		      [330, 128, 360, 142]
+	      ZOrder		      -2
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain"
+	      SID		      "1046"
+	      Position		      [250, 29, 320, 61]
+	      ZOrder		      -3
+	      Gain		      "10"
+	      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain1"
+	      SID		      "1047"
+	      Position		      [60, 146, 125, 174]
+	      ZOrder		      -4
+	      NamePlacement	      "alternate"
+	      Gain		      "10"
+	      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator"
+	      SID		      "1048"
+	      Ports		      [1, 1]
+	      Position		      [600, 30, 630, 60]
+	      ZOrder		      -5
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator1"
+	      SID		      "1049"
+	      Ports		      [1, 1]
+	      Position		      [650, 225, 680, 255]
+	      ZOrder		      -6
+	    }
+	    Block {
+	      BlockType		      Scope
+	      Name		      "Scope"
+	      SID		      "1050"
+	      Ports		      [3]
+	      Position		      [740, 38, 770, 72]
+	      ZOrder		      -7
+	      Floating		      off
+	      Location		      [468, 344, 1492, 861]
+	      Open		      off
+	      NumInputPorts	      "3"
+	      List {
+		ListType		AxesTitles
+		axes1			"Angle"
+		axes2			"Speed"
+		axes3			"Moment"
+	      }
+	      ShowLegends	      off
+	      YMin		      "-700000~-4.5e+008~-1.5e+006"
+	      YMax		      "100000~5e+007~250000"
+	      DataFormat	      "StructureWithTime"
+	      SampleTime	      "0"
+	      ScrollMode	      off
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum"
+	      SID		      "1051"
+	      Ports		      [2, 1]
+	      Position		      [105, 35, 125, 55]
+	      ZOrder		      -8
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      SID		      "1052"
+	      Ports		      [2, 1]
+	      Position		      [380, 35, 400, 55]
+	      ZOrder		      -9
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum2"
+	      SID		      "1053"
+	      Ports		      [2, 1]
+	      Position		      [680, 140, 700, 160]
+	      ZOrder		      -10
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|++"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      TransferFcn
+	      Name		      "Transfer Fcn"
+	      SID		      "1054"
+	      Position		      [155, 27, 215, 63]
+	      ZOrder		      -11
+	      Denominator	      "[0.001 0.1]"
+	    }
+	    Block {
+	      BlockType		      TransferFcn
+	      Name		      "Transfer Fcn1"
+	      SID		      "1055"
+	      Position		      [445, 27, 505, 63]
+	      ZOrder		      -12
+	      Denominator	      "[10 0]"
+	    }
+	    Block {
+	      BlockType		      TransferFcn
+	      Name		      "Transfer Fcn2"
+	      SID		      "1056"
+	      Position		      [560, 222, 620, 258]
+	      ZOrder		      -13
+	      Denominator	      "[10 0]"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Angle"
+	      SID		      "1057"
+	      Tag		      "Angle"
+	      Position		      [855, 38, 885, 52]
+	      ZOrder		      -14
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Speed"
+	      SID		      "1058"
+	      Position		      [855, 68, 885, 82]
+	      ZOrder		      -15
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Moment"
+	      SID		      "1059"
+	      Position		      [855, 98, 885, 112]
+	      ZOrder		      -16
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Voltage"
+	      SrcPort		      1
+	      DstBlock		      "Sum"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Sum"
+	      SrcPort		      1
+	      DstBlock		      "Transfer Fcn"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Transfer Fcn"
+	      SrcPort		      1
+	      DstBlock		      "Gain"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      Points		      [25, 0]
+	      Branch {
+		ZOrder			5
+		DstBlock		"Sum1"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			6
+		Points			[0, 60; 170, 0]
+		Branch {
+		  ZOrder		  7
+		  Points		  [0, 135]
+		  DstBlock		  "Transfer Fcn2"
+		  DstPort		  1
+		}
+		Branch {
+		  ZOrder		  8
+		  DstBlock		  "Moment"
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Transfer Fcn1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Transfer Fcn1"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      Branch {
+		ZOrder			11
+		Points			[20, 0]
+		Branch {
+		  ZOrder		  12
+		  DstBlock		  "Integrator"
+		  DstPort		  1
+		}
+		Branch {
+		  ZOrder		  13
+		  Points		  [0, 30; 140, 0]
+		  Branch {
+		    ZOrder		    14
+		    Points		    [0, -20]
+		    DstBlock		    "Scope"
+		    DstPort		    2
+		  }
+		  Branch {
+		    ZOrder		    15
+		    DstBlock		    "Speed"
+		    DstPort		    1
+		  }
+		}
+	      }
+	      Branch {
+		ZOrder			16
+		Points			[0, 155; -500, 0]
+		DstBlock		"Gain1"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "Gain1"
+	      SrcPort		      1
+	      Points		      [0, -5; -5, 0]
+	      DstBlock		      "Sum"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "Ext moment"
+	      SrcPort		      1
+	      Points		      [25, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "Integrator"
+	      SrcPort		      1
+	      Points		      [20, 0]
+	      Branch {
+		ZOrder			20
+		Points			[35, 0]
+		Branch {
+		  ZOrder		  21
+		  Points		  [0, -20; 135, 0; 0, 20]
+		  DstBlock		  "Angle"
+		  DstPort		  1
+		}
+		Branch {
+		  ZOrder		  22
+		  DstBlock		  "Scope"
+		  DstPort		  1
+		}
+	      }
+	      Branch {
+		ZOrder			23
+		Points			[0, 105]
+		DstBlock		"Sum2"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "Transfer Fcn2"
+	      SrcPort		      1
+	      DstBlock		      "Integrator1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      25
+	      SrcBlock		      "Integrator1"
+	      SrcPort		      1
+	      Points		      [5, 0]
+	      DstBlock		      "Sum2"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      26
+	      SrcBlock		      "Sum2"
+	      SrcPort		      1
+	      Points		      [20, 0]
+	      DstBlock		      "Scope"
+	      DstPort		      3
+	    }
+	    Annotation {
+	      SID		      "1060"
+	      Position		      [345, 122, 347, 137]
+	      InternalMargins	      [0, 0, 0, 0]
+	      FixedHeight	      off
+	      FixedWidth	      off
+	      ZOrder		      -1
+	    }
+	  }
+	}
 	Block {
 	  BlockType		  SubSystem
 	  Name			  "Inertial Link"
@@ -23146,6 +24329,219 @@ Library {
 	}
 	Block {
 	  BlockType		  SubSystem
+	  Name			  "Sign Separator"
+	  SID			  "1061"
+	  Ports			  [1, 2]
+	  Position		  [55, 270, 135, 330]
+	  ZOrder		  24
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Sign Separator"
+	    Location		    [198, 235, 1375, 978]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      "1062"
+	      Position		      [15, 100, 45, 115]
+	      ZOrder		      1
+	      BlockRotation	      270
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Abs
+	      Name		      "Abs"
+	      SID		      "1063"
+	      Position		      [95, 215, 125, 245]
+	      ZOrder		      -1
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Compare\nTo Zero"
+	      SID		      "1064"
+	      Ports		      [1, 1]
+	      Position		      [165, 45, 195, 75]
+	      ZOrder		      -6
+	      LibraryVersion	      "1.354"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Compare\nTo Zero"
+	      SourceType	      "Compare To Zero"
+	      ContentPreviewEnabled   off
+	      relop		      ">="
+	      OutDataTypeStr	      "uint8"
+	      ZeroCross		      off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Compare\nTo Zero1"
+	      SID		      "1065"
+	      Ports		      [1, 1]
+	      Position		      [135, 170, 165, 200]
+	      ZOrder		      -7
+	      LibraryVersion	      "1.354"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Compare\nTo Zero"
+	      SourceType	      "Compare To Zero"
+	      ContentPreviewEnabled   off
+	      relop		      "<"
+	      OutDataTypeStr	      "uint8"
+	      ZeroCross		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product"
+	      SID		      "1066"
+	      Ports		      [2, 1]
+	      Position		      [225, 22, 255, 53]
+	      ZOrder		      -14
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product1"
+	      SID		      "1067"
+	      Ports		      [2, 1]
+	      Position		      [195, 207, 225, 238]
+	      ZOrder		      -15
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Signum
+	      Name		      "Sign"
+	      SID		      "1068"
+	      Position		      [115, 45, 145, 75]
+	      ZOrder		      -18
+	    }
+	    Block {
+	      BlockType		      Signum
+	      Name		      "Sign1"
+	      SID		      "1069"
+	      Position		      [85, 170, 115, 200]
+	      ZOrder		      -19
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "1070"
+	      Position		      [275, 33, 305, 47]
+	      ZOrder		      4
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out2"
+	      SID		      "1071"
+	      Position		      [260, 223, 290, 237]
+	      ZOrder		      5
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      Points		      [0, -27; 35, 0]
+	      Branch {
+		ZOrder			2
+		Points			[0, -8]
+		Branch {
+		  ZOrder		  3
+		  Points		  [0, -30]
+		  DstBlock		  "Product"
+		  DstPort		  1
+		}
+		Branch {
+		  ZOrder		  4
+		  DstBlock		  "Sign"
+		  DstPort		  1
+		}
+	      }
+	      Branch {
+		ZOrder			5
+		Points			[0, 117]
+		Branch {
+		  ZOrder		  6
+		  DstBlock		  "Sign1"
+		  DstPort		  1
+		}
+		Branch {
+		  ZOrder		  7
+		  Points		  [-5, 0; 0, 45]
+		  DstBlock		  "Abs"
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Sign"
+	      SrcPort		      1
+	      DstBlock		      "Compare\nTo Zero"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Sign1"
+	      SrcPort		      1
+	      DstBlock		      "Compare\nTo Zero1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Abs"
+	      SrcPort		      1
+	      DstBlock		      "Product1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "Compare\nTo Zero"
+	      SrcPort		      1
+	      Points		      [5, 0; 0, -15]
+	      DstBlock		      "Product"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Product1"
+	      SrcPort		      1
+	      Points		      [0, 5]
+	      DstBlock		      "Out2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "Product"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "Compare\nTo Zero1"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Product1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
 	  Name			  "Two-output\nPulse Generator"
 	  SID			  "738"
 	  Ports			  [0, 2]
@@ -23154,69 +24550,69 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    69
+	    $ObjectID		    70
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      9
 	      Object {
-		$ObjectID		70
+		$ObjectID		71
 		Type			"edit"
 		Name			"A"
 		Prompt			"Amplitude"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		71
+		$ObjectID		72
 		Type			"edit"
 		Name			"P1"
 		Prompt			"Out1: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		72
+		$ObjectID		73
 		Type			"edit"
 		Name			"P2"
 		Prompt			"Out2: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		73
+		$ObjectID		74
 		Type			"edit"
 		Name			"PW"
 		Prompt			"Pulse Width (number of samples)"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		74
+		$ObjectID		75
 		Type			"edit"
 		Name			"ST"
 		Prompt			"Sample Time"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		75
+		$ObjectID		76
 		Type			"edit"
 		Name			"OOn1"
 		Prompt			"Out1 On (seconds)"
 		Value			"0.5"
 	      }
 	      Object {
-		$ObjectID		76
+		$ObjectID		77
 		Type			"edit"
 		Name			"OOff1"
 		Prompt			"Out1 Off (seconds)"
 		Value			"0.6"
 	      }
 	      Object {
-		$ObjectID		77
+		$ObjectID		78
 		Type			"edit"
 		Name			"OOn2"
 		Prompt			"Out2 On (seconds)"
 		Value			"1.1"
 	      }
 	      Object {
-		$ObjectID		78
+		$ObjectID		79
 		Type			"edit"
 		Name			"OOff2"
 		Prompt			"Out2 Off (seconds)"
@@ -23471,8 +24867,8 @@ Library {
       "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
       "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
       "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
-      "t:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Neuron Models</span></p></body></html>"
-      Position		      [20, 160, 107, 177]
+      "t:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Integrate-and-fire Models</span></p></body></html>"
+      Position		      [20, 160, 165, 177]
       InternalMargins	      [0, 0, 0, 0]
       FixedHeight	      off
       FixedWidth	      off
@@ -23540,6 +24936,22 @@ Library {
       VerticalAlignment	      "top"
       Interpreter	      "rich"
       ZOrder		      -3
+    }
+    Annotation {
+      SID		      "1013"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+      "t:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Integrate-and-not-fire Models</span></p></body></html>"
+      Position		      [660, 165, 827, 182]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      off
+      FixedWidth	      off
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
+      Interpreter	      "rich"
+      ZOrder		      -4
     }
   }
 }
