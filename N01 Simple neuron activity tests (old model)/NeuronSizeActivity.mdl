@@ -1,16 +1,366 @@
 Model {
   Name			  "NeuronSizeActivity"
-  Version		  8.4
-  MdlSubVersion		  0
+  Version		  9.2
   SavedCharacterEncoding  "windows-1251"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.728"
+    ComputedModelVersion    "1.729"
     NumModelReferences	    0
     NumTestPointedSignals   0
+    NumProvidedFunctions    0
+    NumRequiredFunctions    0
+    NumResetEvents	    0
+    HasInitializeEvent	    0
+    HasTerminateEvent	    0
+    PreCompExecutionDomainType "Unset"
+    IsExportFunctionModel   0
+    NumParameterArguments   0
+    NumExternalFileReferences 56
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron/Neuro Membrane"
+      SID		      "39"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron/Neuro Membrane1"
+      SID		      "40"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron/Neuro Membrane2"
+      SID		      "41"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron/Neuro Membrane3"
+      SID		      "42"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron/Neuro Membrane4"
+      SID		      "43"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron/Neuro Membrane5"
+      SID		      "44"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Synapse"
+      Path		      "NeuronSizeActivity/Large  NewNeuron/Synapse1"
+      SID		      "50"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron1/Neuro Membrane"
+      SID		      "91"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron1/Neuro Membrane1"
+      SID		      "92"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron1/Neuro Membrane2"
+      SID		      "93"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron1/Neuro Membrane3"
+      SID		      "94"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron1/Neuro Membrane4"
+      SID		      "95"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Large  NewNeuron1/Neuro Membrane5"
+      SID		      "96"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Synapse"
+      Path		      "NeuronSizeActivity/Large  NewNeuron1/Synapse1"
+      SID		      "102"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron/Neuro Membrane"
+      SID		      "146"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron/Neuro Membrane1"
+      SID		      "147"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron/Neuro Membrane2"
+      SID		      "148"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron/Neuro Membrane3"
+      SID		      "149"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron/Neuro Membrane4"
+      SID		      "150"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron/Neuro Membrane5"
+      SID		      "151"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Synapse"
+      Path		      "NeuronSizeActivity/Small  NewNeuron/Synapse1"
+      SID		      "157"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron1/Neuro Membrane"
+      SID		      "198"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron1/Neuro Membrane1"
+      SID		      "199"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron1/Neuro Membrane2"
+      SID		      "200"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron1/Neuro Membrane3"
+      SID		      "201"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron1/Neuro Membrane4"
+      SID		      "202"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron1/Neuro Membrane5"
+      SID		      "203"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Synapse"
+      Path		      "NeuronSizeActivity/Small  NewNeuron1/Synapse1"
+      SID		      "209"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron2/Neuro Membrane"
+      SID		      "250"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron2/Neuro Membrane1"
+      SID		      "251"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron2/Neuro Membrane2"
+      SID		      "252"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron2/Neuro Membrane3"
+      SID		      "253"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron2/Neuro Membrane4"
+      SID		      "254"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron2/Neuro Membrane5"
+      SID		      "255"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Synapse"
+      Path		      "NeuronSizeActivity/Small  NewNeuron2/Synapse1"
+      SID		      "261"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron3/Neuro Membrane"
+      SID		      "302"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron3/Neuro Membrane1"
+      SID		      "303"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron3/Neuro Membrane2"
+      SID		      "304"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron3/Neuro Membrane3"
+      SID		      "305"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron3/Neuro Membrane4"
+      SID		      "306"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron3/Neuro Membrane5"
+      SID		      "307"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Synapse"
+      Path		      "NeuronSizeActivity/Small  NewNeuron3/Synapse1"
+      SID		      "313"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron4/Neuro Membrane"
+      SID		      "354"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron4/Neuro Membrane1"
+      SID		      "355"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron4/Neuro Membrane2"
+      SID		      "356"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron4/Neuro Membrane3"
+      SID		      "357"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron4/Neuro Membrane4"
+      SID		      "358"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron4/Neuro Membrane5"
+      SID		      "359"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Synapse"
+      Path		      "NeuronSizeActivity/Small  NewNeuron4/Synapse1"
+      SID		      "365"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron5/Neuro Membrane"
+      SID		      "406"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron5/Neuro Membrane1"
+      SID		      "407"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron5/Neuro Membrane2"
+      SID		      "408"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron5/Neuro Membrane3"
+      SID		      "409"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron5/Neuro Membrane4"
+      SID		      "410"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
+      Path		      "NeuronSizeActivity/Small  NewNeuron5/Neuro Membrane5"
+      SID		      "411"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Old Neuron Elements/Synapse"
+      Path		      "NeuronSizeActivity/Small  NewNeuron5/Synapse1"
+      SID		      "417"
+      Type		      "LIBRARY_BLOCK"
+    }
+    OrderedModelArguments   1
   }
+  DiagnosticSuppressor	  "on"
+  WebScopes_FoundationPlugin "on"
+  NotesPlugin		  "on"
+  LogicAnalyzerPlugin	  "on"
+  SLCCPlugin		  "on"
   ScopeRefreshTime	  0.035000
   OverrideScopeRefreshTime on
   DisableAllScopes	  off
@@ -20,6 +370,7 @@ Model {
   MinMaxOverflowArchiveMode "Overwrite"
   FPTRunName		  "Run 1"
   MaxMDLFileLineLength	  120
+  LastSavedArchitecture	  "win64"
   Object {
     $PropName		    "BdWindowsInfo"
     $ObjectID		    1
@@ -29,7 +380,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [457.0, -1031.0, 1121.0, 953.0]
+      Location		      [-7.0, -7.0, 1442.0, 878.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -53,28 +404,57 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1071.0, 779.0]
+	Extents			[1739.0, 883.0]
 	ZoomFactor		[1.05]
 	Offset			[0.0, 0.0]
       }
+      Object {
+	$PropName		"DockComponentsInfo"
+	$ObjectID		6
+	$ClassName		"Simulink.DockComponentInfo"
+	Type			"GLUE2:PropertyInspector"
+	ID			"Property Inspector"
+	Visible			[0]
+	CreateCallback		""
+	UserData		""
+	Floating		[0]
+	DockPosition		"Right"
+	Width			[512]
+	Height			[384]
+      }
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB5AP///wAAAAEAAAAAAAAAAPwCA"
+      "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
+      "QBjAHQAbwByAAAAAAD/////AAAARgD///8AAAb4AAADuAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wEAAACR/////wAAAAAAAAAA/////wEAAAEE/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAGV/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAPG/////wAAAAAAAAAA/"
+      "////wEAAAP+/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
+  HideAutomaticNames	  on
   Created		  "Wed Jun 16 10:17:16 2004"
   Creator		  "Timba"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Tim"
+  LastModifiedBy	  "Bakhshiev"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Nov 03 13:09:10 2015"
-  RTWModifiedTimeStamp	  368453349
-  ModelVersionFormat	  "1.%<AutoIncrement:728>"
-  ConfigurationManager	  "none"
+  LastModifiedDate	  "Sun Apr 28 14:24:45 2019"
+  RTWModifiedTimeStamp	  478361008
+  ModelVersionFormat	  "1.%<AutoIncrement:729>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
   WideLines		  off
   ShowLineDimensions	  on
   ShowPortDataTypes	  off
+  ShowAllPropagatedSignalLabels	off
+  PortDataTypeDisplayFormat "AliasTypeOnly"
+  ShowEditTimeErrors	  on
+  ShowEditTimeWarnings	  on
+  ShowEditTimeAdvisorChecks off
+  ShowPortUnits		  off
   ShowDesignRanges	  off
   ShowLoopsOnError	  on
   IgnoreBidirectionalLines off
@@ -83,22 +463,31 @@ Model {
   ShowSignalResolutionIcons on
   ShowViewerIcons	  on
   SortedOrder		  off
+  VariantCondition	  off
+  ShowSubsystemDomainSpec off
   ExecutionContextIcon	  off
   ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
   ShowMarkup		  on
   BlockNameDataTip	  off
   BlockParametersDataTip  on
   BlockDescriptionStringDataTip	off
+  BlockVariantConditionDataTip off
   ToolBar		  on
   StatusBar		  on
   BrowserShowLibraryLinks off
+  FunctionConnectors	  off
   BrowserLookUnderMasks	  off
+  MultiThreadCoSim	  on
   SimulationMode	  "normal"
+  VisualizeLoggedSignalsWhenLoggingToFile off
   PauseTimes		  "5"
   NumberOfSteps		  1
   SnapshotBufferSize	  10
   SnapshotInterval	  10
   NumberOfLastSnapshots	  0
+  EnablePacing		  off
+  PacingRate		  1
   LinearizationMsg	  "none"
   Profile		  off
   ParamWorkspaceSource	  "MATLABWorkspace"
@@ -108,7 +497,7 @@ Model {
   TryForcingSFcnDF	  off
   Object {
     $PropName		    "DataLoggingOverride"
-    $ObjectID		    6
+    $ObjectID		    7
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "NeuronSizeActivity"
     Array {
@@ -124,27 +513,6 @@ Model {
       PropName		      "logAsSpecifiedByModelsSSIDs_"
     }
   }
-  RecordCoverage	  off
-  CovPath		  "/"
-  CovSaveName		  "covdata"
-  CovMetricSettings	  "dw"
-  CovNameIncrementing	  off
-  CovHtmlReporting	  on
-  CovForceBlockReductionOff on
-  CovEnableCumulative	  on
-  covSaveCumulativeToWorkspaceVar on
-  CovSaveSingleToWorkspaceVar on
-  CovCumulativeVarName	  "covCumulativeData"
-  CovCumulativeReport	  off
-  CovReportOnPause	  on
-  CovModelRefEnable	  "Off"
-  CovExternalEMLEnable	  off
-  CovSFcnEnable		  off
-  CovBoundaryAbsTol	  0.000010
-  CovBoundaryRelTol	  0.010000
-  CovUseTimeInterval	  off
-  CovStartTime		  0
-  CovStopTime		  0
   ExtModeBatchMode	  off
   ExtModeEnableFloating	  on
   ExtModeTrigType	  "manual"
@@ -166,27 +534,31 @@ Model {
   ExtModeSkipDownloadWhenConnect off
   ExtModeLogAll		  on
   ExtModeAutoUpdateStatusClock on
-  BufferReuse		  on
   ShowModelReferenceBlockVersion off
   ShowModelReferenceBlockIO off
+  OrderedModelArguments	  on
   Array {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      7
-      Version		      "1.14.3"
+      $ObjectID		      8
+      Version		      "1.18.1"
+      DisabledProps	      []
+      Description	      ""
       Array {
 	Type			"Handle"
-	Dimension		8
+	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  8
-	  Version		  "1.14.3"
+	  $ObjectID		  9
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
 	  StartTime		  "0.0"
 	  StopTime		  "1"
 	  AbsTol		  "auto"
+	  AutoScaleAbsTol	  on
 	  FixedStep		  "auto"
 	  InitialStep		  "auto"
-	  MaxNumMinSteps	  "-1"
 	  MaxOrder		  5
 	  ZcThreshold		  "auto"
 	  ConsecutiveZCsStepRelTol "10*128*eps"
@@ -197,8 +569,7 @@ Model {
 	  MinStep		  "auto"
 	  MaxConsecutiveMinStep	  "1"
 	  RelTol		  "1e-3"
-	  SolverMode		  "Auto"
-	  EnableConcurrentExecution off
+	  EnableMultiTasking	  on
 	  ConcurrentTasks	  off
 	  Solver		  "ode45"
 	  SolverName		  "ode45"
@@ -207,15 +578,22 @@ Model {
 	  ZeroCrossControl	  "UseLocalSettings"
 	  ZeroCrossAlgorithm	  "Nonadaptive"
 	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
 	  SolverResetMethod	  "Fast"
 	  PositivePriorityOrder	  off
 	  AutoInsertRateTranBlk	  off
 	  SampleTimeConstraint	  "Unconstrained"
 	  InsertRTBMode		  "Whenever possible"
+	  SampleTimeProperty	  []
+	  DecoupledContinuousIntegration off
+	  MinimalZcImpactIntegration off
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  9
-	  Version		  "1.14.3"
+	  $ObjectID		  10
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
 	  FinalStateName	  "xFinal"
@@ -234,6 +612,8 @@ Model {
 	  DSMLogging		  on
 	  InspectSignalLogs	  off
 	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
 	  SaveTime		  on
 	  ReturnWorkspaceOutputs  off
 	  StateSaveName		  "xout"
@@ -245,10 +625,14 @@ Model {
 	  OutputTimes		  "[]"
 	  ReturnWorkspaceOutputsName "out"
 	  Refine		  "1"
+	  LoggingToFile		  off
+	  DatasetSignalFormat	  "timeseries"
+	  LoggingFileName	  "out.mat"
+	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  10
-	  Version		  "1.14.3"
+	  $ObjectID		  11
+	  Version		  "1.18.1"
 	  Array {
 	    Type		    "Cell"
 	    Dimension		    8
@@ -262,11 +646,12 @@ Model {
 	    Cell		    "UseSpecifiedMinMax"
 	    PropName		    "DisabledProps"
 	  }
+	  Description		  ""
 	  BlockReduction	  off
 	  BooleanDataType	  off
 	  ConditionallyExecuteInputs on
-	  InlineParams		  off
-	  UseDivisionForNetSlopeComputation "Off"
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
 	  UseFloatMulNetSlope	  off
 	  DefaultUnderspecifiedDataType	"double"
 	  UseSpecifiedMinMax	  off
@@ -277,42 +662,56 @@ Model {
 	  CachingGlobalReferences off
 	  GlobalBufferReuse	  on
 	  StrengthReduction	  off
+	  AdvancedOptControl	  ""
 	  ExpressionFolding	  on
 	  BooleansAsBitfields	  off
 	  BitfieldContainerType	  "uint_T"
 	  EnableMemcpy		  on
 	  MemcpyThreshold	  64
 	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
 	  ExpressionDepthLimit	  128
-	  FoldNonRolledExpr	  on
 	  LocalBlockOutputs	  on
 	  RollThreshold		  5
-	  SystemCodeInlineAuto	  off
 	  StateBitsets		  off
 	  DataBitsets		  off
 	  ActiveStateOutputEnumStorageType "Native Integer"
-	  UseTempVars		  off
 	  ZeroExternalMemoryAtStartup on
 	  ZeroInternalMemoryAtStartup on
 	  InitFltsAndDblsToZero	  off
 	  NoFixptDivByZeroProtection off
 	  EfficientFloat2IntCast  off
 	  EfficientMapNaN2IntZero on
-	  OptimizeModelRefInitCode off
 	  LifeSpan		  "inf"
 	  MaxStackSize		  "Inherit from target"
 	  BufferReusableBoundary  on
-	  SimCompilerOptimization "Off"
+	  SimCompilerOptimization "off"
 	  AccelVerboseBuild	  off
-	  ParallelExecutionInRapidAccelerator on
+	  OptimizeBlockOrder	  "off"
+	  OptimizeDataStoreBuffers on
+	  BusAssignmentInplaceUpdate on
+	  DifferentSizesBufferReuse off
+	  OptimizationLevel	  "level2"
+	  OptimizationPriority	  "Balanced"
+	  OptimizationCustomize	  on
+	  UseRowMajorAlgorithm	  off
+	  LabelGuidedReuse	  off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  11
-	  Version		  "1.14.3"
+	  $ObjectID		  12
+	  Version		  "1.18.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "UseOnlyExistingSharedCode"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
 	  ArrayBoundsChecking	  "none"
 	  SignalInfNanChecking	  "none"
+	  StringTruncationChecking "error"
 	  SignalRangeChecking	  "none"
 	  ReadBeforeWriteMsg	  "UseLocalSettings"
 	  WriteAfterWriteMsg	  "UseLocalSettings"
@@ -335,12 +734,12 @@ Model {
 	  IgnoredZcDiagnostic	  "warning"
 	  SolverPrmCheckMsg	  "none"
 	  InheritedTsInSrcMsg	  "warning"
-	  DiscreteInheritContinuousMsg "warning"
 	  MultiTaskDSMMsg	  "warning"
 	  MultiTaskCondExecSysMsg "none"
 	  MultiTaskRateTransMsg	  "error"
 	  SingleTaskRateTransMsg  "none"
 	  TasksWithSamePriorityMsg "warning"
+	  ExportedTasksRateTransMsg "none"
 	  SigSpecEnsureSampleTimeMsg "warning"
 	  CheckMatrixSingularityMsg "none"
 	  IntegerOverflowMsg	  "warning"
@@ -357,23 +756,24 @@ Model {
 	  UnnecessaryDatatypeConvMsg "none"
 	  VectorMatrixConversionMsg "none"
 	  InvalidFcnCallConnMsg	  "error"
-	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  FcnCallInpInsideContextMsg "error"
 	  SignalLabelMismatchMsg  "none"
 	  UnconnectedInputMsg	  "warning"
 	  UnconnectedOutputMsg	  "warning"
 	  UnconnectedLineMsg	  "warning"
+	  UseOnlyExistingSharedCode "error"
 	  SFcnCompatibilityMsg	  "none"
-	  FrameProcessingCompatibilityMsg "warning"
+	  FrameProcessingCompatibilityMsg "error"
 	  UniqueDataStoreMsg	  "none"
 	  BusObjectLabelMismatch  "warning"
 	  RootOutportRequireBusObject "warning"
 	  AssertControl		  "UseLocalSettings"
-	  EnableOverflowDetection off
+	  AllowSymbolicDim	  on
+	  RowMajorDimensionSupport off
 	  ModelReferenceIOMsg	  "none"
 	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
 	  ModelReferenceVersionMismatchMessage "none"
 	  ModelReferenceIOMismatchMessage "none"
-	  ModelReferenceCSMismatchMessage "none"
 	  UnknownTsInhSupMsg	  "warning"
 	  ModelReferenceDataLoggingMessage "warning"
 	  ModelReferenceSymbolNameMessage "warning"
@@ -381,25 +781,46 @@ Model {
 	  StateNameClashWarn	  "none"
 	  SimStateInterfaceChecksumMismatchMsg "warning"
 	  SimStateOlderReleaseMsg "error"
+	  ChecksumConsistencyForSSReuse	"none"
+	  LibraryContextMissingDiagnostic "warning"
+	  MatchCodeGenerationContextForUpdateDiagram "none"
 	  InitInArrayFormatMsg	  "warning"
-	  StrictBusMsg		  "None"
+	  StrictBusMsg		  "ErrorLevel1"
 	  BusNameAdapt		  "WarnAndRepair"
 	  NonBusSignalsTreatedAsBus "none"
-	  LoggingUnavailableSignals "error"
+	  SymbolicDimMinMaxWarning "warning"
+	  LossOfSymbolicDimsSimulationWarning "warning"
+	  LossOfSymbolicDimsCodeGenerationWarning "error"
+	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
 	  BlockIODiagnostic	  "none"
 	  SFUnusedDataAndEventsDiag "warning"
 	  SFUnexpectedBacktrackingDiag "warning"
 	  SFInvalidInputDataAccessInChartInitDiag "warning"
 	  SFNoUnconditionalDefaultTransitionDiag "warning"
 	  SFTransitionOutsideNaturalParentDiag "warning"
-	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUnreachableExecutionPathDiag "warning"
 	  SFUndirectedBroadcastEventsDiag "warning"
 	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
+	  SFSelfTransitionDiag	  "warning"
+	  SFExecutionAtInitializationDiag "none"
+	  SFMachineParentedDataDiag "warning"
 	  IntegerSaturationMsg	  "warning"
+	  AllowedUnitSystems	  "all"
+	  UnitsInconsistencyMsg	  "warning"
+	  AllowAutomaticUnitConversions	on
+	  RCSCRenamedMsg	  "warning"
+	  RCSCObservableMsg	  "warning"
+	  ForceCombineOutputUpdateInSim	off
+	  UnitDatabase		  ""
+	  UnderSpecifiedDimensionMsg "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  12
-	  Version		  "1.14.3"
+	  $ObjectID		  13
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
 	  ProdBitPerInt		  32
@@ -408,6 +829,8 @@ Model {
 	  ProdBitPerFloat	  32
 	  ProdBitPerDouble	  64
 	  ProdBitPerPointer	  32
+	  ProdBitPerSizeT	  32
+	  ProdBitPerPtrDiffT	  32
 	  ProdLargestAtomicInteger "Char"
 	  ProdLargestAtomicFloat  "None"
 	  ProdIntDivRoundTo	  "Undefined"
@@ -424,6 +847,8 @@ Model {
 	  TargetBitPerFloat	  32
 	  TargetBitPerDouble	  64
 	  TargetBitPerPointer	  32
+	  TargetBitPerSizeT	  32
+	  TargetBitPerPtrDiffT	  32
 	  TargetLargestAtomicInteger "Char"
 	  TargetLargestAtomicFloat "None"
 	  TargetShiftRightIntArith on
@@ -431,50 +856,72 @@ Model {
 	  TargetIntDivRoundTo	  "Undefined"
 	  TargetEndianess	  "Unspecified"
 	  TargetWordSize	  32
-	  TargetTypeEmulationWarnSuppressLevel 0
 	  TargetPreprocMaxBitsSint 32
 	  TargetPreprocMaxBitsUint 32
 	  TargetHWDeviceType	  "Specified"
 	  TargetUnknown		  on
 	  ProdEqTarget		  on
+	  UseEmbeddedCoderFeatures on
+	  UseSimulinkCoderFeatures on
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  13
-	  Version		  "1.14.3"
+	  $ObjectID		  14
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
 	  CheckModelReferenceTargetMessage "error"
 	  EnableParallelModelReferenceBuilds off
 	  ParallelModelReferenceErrorOnInvalidPool on
 	  ParallelModelReferenceMATLABWorkerInit "None"
 	  ModelReferenceNumInstancesAllowed "Multi"
 	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelDependencies	  ""
 	  ModelReferencePassRootInputsByReference on
 	  ModelReferenceMinAlgLoopOccurrences off
 	  PropagateSignalLabelsOutOfModel off
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  14
-	  Version		  "1.14.3"
-	  SFSimEnableDebug	  on
-	  SFSimOverflowDetection  on
+	  $ObjectID		  15
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  SimCustomSourceCode	  ""
+	  SimCustomHeaderCode	  ""
+	  SimCustomInitializer	  ""
+	  SimCustomTerminator	  ""
+	  SimReservedNameArray	  []
+	  SimUserSources	  ""
+	  SimUserIncludeDirs	  ""
+	  SimUserLibraries	  ""
+	  SimUserDefines	  ""
+	  SimCustomCompilerFlags  ""
+	  SimCustomLinkerFlags	  ""
 	  SFSimEcho		  on
-	  SimBlas		  on
 	  SimCtrlC		  on
-	  SimExtrinsic		  on
 	  SimIntegrity		  on
 	  SimUseLocalCustomCode	  off
 	  SimParseCustomCode	  on
+	  SimAnalyzeCustomCode	  off
 	  SimBuildMode		  "sf_incremental_build"
 	  SimGenImportedTypeDefs  off
+	  ModelFunctionsGlobalVisibility "on"
+	  CompileTimeRecursionLimit 50
+	  EnableRuntimeRecursion  on
+	  MATLABDynamicMemAlloc	  on
+	  MATLABDynamicMemAllocThreshold 65536
+	  CustomCodeFunctionArrayLayout	[]
+	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  15
-	  Version		  "1.14.3"
+	  $ObjectID		  16
+	  Version		  "1.18.1"
 	  Array {
 	    Type		    "Cell"
-	    Dimension		    15
+	    Dimension		    16
 	    Cell		    "IncludeHyperlinkInReport"
 	    Cell		    "GenerateTraceInfo"
 	    Cell		    "GenerateTraceReport"
@@ -490,9 +937,11 @@ Model {
 	    Cell		    "CodeExecutionProfiling"
 	    Cell		    "CodeProfilingSaveOptions"
 	    Cell		    "CodeProfilingInstrumentation"
+	    Cell		    "GenerateMissedCodeReplacementReport"
 	    PropName		    "DisabledProps"
 	  }
 	  SystemTargetFile	  "grt.tlc"
+	  HardwareBoard		  "None"
 	  TLCOptions		  ""
 	  GenCodeOnly		  off
 	  MakeCommand		  "make_rtw"
@@ -503,18 +952,13 @@ Model {
 	  PostCodeGenCommand	  ""
 	  Description		  ""
 	  GenerateReport	  off
-	  SaveLog		  off
 	  RTWVerbose		  on
 	  RetainRTWFile		  off
+	  RTWBuildHooks		  []
 	  ProfileTLC		  off
 	  TLCDebug		  off
 	  TLCCoverage		  off
 	  TLCAssert		  off
-	  ProcessScriptMode	  "Default"
-	  ConfigurationMode	  "Optimized"
-	  ProcessScript		  ""
-	  ConfigurationScript	  ""
-	  ConfigAtBuild		  off
 	  RTWUseLocalCustomCode	  off
 	  RTWUseSimCustomCode	  off
 	  CustomSourceCode	  ""
@@ -522,10 +966,15 @@ Model {
 	  CustomInclude		  ""
 	  CustomSource		  ""
 	  CustomLibrary		  ""
+	  CustomDefine		  ""
+	  CustomBLASCallback	  ""
+	  CustomLAPACKCallback	  ""
+	  CustomFFTCallback	  ""
 	  CustomInitializer	  ""
 	  CustomTerminator	  ""
 	  Toolchain		  "Automatically locate an installed toolchain"
 	  BuildConfiguration	  "Faster Builds"
+	  CustomToolchainOptions  []
 	  IncludeHyperlinkInReport off
 	  LaunchReport		  off
 	  PortableWordSizes	  off
@@ -533,35 +982,33 @@ Model {
 	  CodeExecutionProfiling  off
 	  CodeExecutionProfileVariable "executionProfile"
 	  CodeProfilingSaveOptions "SummaryOnly"
-	  CodeProfilingInstrumentation off
+	  CodeProfilingInstrumentation "off"
 	  SILDebugging		  off
 	  TargetLang		  "C"
 	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
-	  IncludeERTFirstTime	  on
 	  GenerateTraceInfo	  off
 	  GenerateTraceReport	  off
 	  GenerateTraceReportSl	  off
 	  GenerateTraceReportSf	  off
 	  GenerateTraceReportEml  off
-	  GenerateCodeInfo	  off
 	  GenerateWebview	  off
 	  GenerateCodeMetricsReport off
 	  GenerateCodeReplacementReport	off
-	  RTWCompilerOptimization "Off"
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  ObjectivePriorities	  []
 	  RTWCustomCompilerOptimizations ""
 	  CheckMdlBeforeBuild	  "Off"
-	  CustomRebuildMode	  "OnUpdate"
-	  DataInitializer	  ""
 	  SharedConstantsCachingThreshold 1024
 	  Array {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      16
-	      Version		      "1.14.3"
+	      $ObjectID		      17
+	      Version		      "1.18.1"
 	      Array {
 		Type			"Cell"
-		Dimension		24
+		Dimension		29
 		Cell			"IgnoreCustomStorageClasses"
 		Cell			"ParameterTuningSideEffectCode"
 		Cell			"IgnoreTestpoints"
@@ -586,54 +1033,71 @@ Model {
 		Cell			"CustomSymbolStrMacro"
 		Cell			"CustomSymbolStrUtil"
 		Cell			"ReqsInCode"
+		Cell			"BlockCommentType"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"CustomUserTokenString"
 		PropName		"DisabledProps"
 	      }
+	      Description	      ""
+	      Comment		      ""
 	      ForceParamTrailComments off
 	      GenerateComments	      on
 	      CommentStyle	      "Auto"
 	      IgnoreCustomStorageClasses on
 	      IgnoreTestpoints	      off
-	      IncHierarchyInIds	      off
 	      MaxIdLength	      31
 	      PreserveName	      off
 	      PreserveNameWithParent  off
 	      ShowEliminatedStatement off
 	      OperatorAnnotations     off
-	      IncAutoGenComments      off
 	      SimulinkDataObjDesc     off
 	      SFDataObjDesc	      off
 	      MATLABFcnDesc	      off
-	      IncDataTypeInIds	      off
 	      MangleLength	      1
+	      SharedChecksumLength    8
 	      CustomSymbolStrGlobalVar "$R$N$M"
 	      CustomSymbolStrType     "$N$R$M_T"
 	      CustomSymbolStrField    "$N$M"
 	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrModelFcn "$R$N"
 	      CustomSymbolStrFcnArg   "rt$I$N$M"
 	      CustomSymbolStrBlkIO    "rtb_$N$M"
 	      CustomSymbolStrTmpVar   "$N$M"
 	      CustomSymbolStrMacro    "$R$N$M"
 	      CustomSymbolStrUtil     "$N$C"
+	      CustomSymbolStrEmxType  "emxArray_$M$N"
+	      CustomSymbolStrEmxFcn   "emx$M$N"
+	      CustomUserTokenString   ""
+	      CustomCommentsFcn	      ""
 	      DefineNamingRule	      "None"
+	      DefineNamingFcn	      ""
 	      ParamNamingRule	      "None"
+	      ParamNamingFcn	      ""
 	      SignalNamingRule	      "None"
+	      SignalNamingFcn	      ""
 	      InsertBlockDesc	      off
 	      InsertPolySpaceComments off
 	      SimulinkBlockComments   on
+	      BlockCommentType	      "BlockPathComment"
+	      StateflowObjectComments on
 	      MATLABSourceComments    off
 	      EnableCustomComments    off
+	      InternalIdentifierFile  ""
 	      InternalIdentifier      "Shortened"
 	      InlinedPrmAccess	      "Literals"
 	      ReqsInCode	      off
 	      UseSimReservedNames     off
+	      ReservedNameArray	      []
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      17
-	      Version		      "1.14.3"
+	      $ObjectID		      18
+	      Version		      "1.18.1"
 	      Array {
 		Type			"Cell"
-		Dimension		13
+		Dimension		17
 		Cell			"GeneratePreprocessorConditionals"
 		Cell			"IncludeMdlTerminateFcn"
 		Cell			"SupportNonInlinedSFcns"
@@ -647,8 +1111,13 @@ Model {
 		Cell			"SupportComplex"
 		Cell			"SupportAbsoluteTime"
 		Cell			"SupportContinuousTime"
+		Cell			"PreserveStateflowLocalDataDimensions"
+		Cell			"ExistingSharedCode"
+		Cell			"RemoveDisableFunc"
+		Cell			"RemoveResetFunc"
 		PropName		"DisabledProps"
 	      }
+	      Description	      ""
 	      TargetFcnLib	      "ansi_tfl_tmw.mat"
 	      TargetLibSuffix	      ""
 	      TargetPreCompLibLocation ""
@@ -656,10 +1125,12 @@ Model {
 	      TargetLangStandard      "C89/C90 (ANSI)"
 	      CodeReplacementLibrary  "None"
 	      UtilityFuncGeneration   "Auto"
-	      ERTMultiwordTypeDef     "System defined"
-	      ERTMultiwordLength      256
+	      MultiwordTypeDef	      "System defined"
 	      MultiwordLength	      2048
+	      DynamicStringBufferSize 256
 	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      ExistingSharedCode      ""
 	      GenerateSampleERTMain   off
 	      GenerateTestInterfaces  off
 	      ModelReferenceCompliant on
@@ -670,8 +1141,8 @@ Model {
 	      GeneratePreprocessorConditionals "Disable all"
 	      CombineOutputUpdateFcns off
 	      CombineSignalStateStructs	off
+	      GroupInternalDataByFunction off
 	      SuppressErrorStatus     off
-	      ERTFirstTimeCompliant   off
 	      IncludeFileDelimiter    "Auto"
 	      ERTCustomFileBanners    off
 	      SupportAbsoluteTime     on
@@ -679,22 +1150,36 @@ Model {
 	      MatFileLogging	      on
 	      MultiInstanceERTCode    off
 	      CodeInterfacePackaging  "Nonreusable function"
+	      PurelyIntegerCode	      off
 	      SupportNonFinite	      on
 	      SupportComplex	      on
-	      PurelyIntegerCode	      off
 	      SupportContinuousTime   on
 	      SupportNonInlinedSFcns  on
+	      RemoveDisableFunc	      off
+	      RemoveResetFunc	      off
 	      SupportVariableSizeSignals off
-	      EnableShiftOperators    on
 	      ParenthesesLevel	      "Nominal"
 	      CastingMode	      "Nominal"
+	      PreserveStateflowLocalDataDimensions off
 	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
 	      ModelStepFunctionPrototypeControlCompliant off
 	      CPPClassGenCompliant    on
 	      AutosarCompliant	      off
+	      MDXCompliant	      off
 	      GRTInterface	      on
 	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
 	      GenerateSharedConstants on
+	      CoderGroups	      []
+	      AccessMethods	      []
+	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
+	      LUTObjectStructOrderExplicitValues "Size,Breakpoints,Table"
+	      LUTObjectStructOrderEvenSpacing "Size,Breakpoints,Table"
+	      ArrayLayout	      "Column-major"
+	      UnsupportedSFcnMsg      "error"
+	      ERTHeaderFileRootName   "$R$E"
+	      ERTSourceFileRootName   "$R$E"
+	      ERTDataFileRootName     "$R_data"
 	      UseMalloc		      off
 	      ExtMode		      off
 	      ExtModeStaticAlloc      off
@@ -702,6 +1187,7 @@ Model {
 	      ExtModeStaticAllocSize  1000000
 	      ExtModeTransport	      0
 	      ExtModeMexFile	      "ext_comm"
+	      ExtModeMexArgs	      ""
 	      ExtModeIntrfLevel	      "Level1"
 	      RTWCAPISignals	      off
 	      RTWCAPIParams	      off
@@ -713,22 +1199,62 @@ Model {
 	    PropName		    "Components"
 	  }
 	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  19
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  "Simulink Coverage Configuration Component"
+	  Name			  "Simulink Coverage"
+	  CovEnable		  off
+	  CovScope		  "EntireSystem"
+	  CovIncludeTopModel	  on
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovCompData		  ""
+	  CovMetricSettings	  "dw"
+	  CovFilter		  ""
+	  CovHTMLOptions	  ""
+	  CovNameIncrementing	  off
+	  CovHtmlReporting	  on
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar on
+	  CovSaveSingleToWorkspaceVar on
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovSaveOutputData	  on
+	  CovOutputDir		  "slcov_output/$ModelName$"
+	  CovDataFileName	  "$ModelName$_cvdata"
+	  CovShowResultsExplorer  on
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovModelRefExcluded	  ""
+	  CovExternalEMLEnable	  off
+	  CovSFcnEnable		  off
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	  CovMcdcMode		  "Masking"
+	}
 	PropName		"Components"
       }
       Name		      "Configuration"
       ExtraOptions	      "-aEnforceIntegerDowncast=1 -aPrefixModelToSubsysFcnNames=1 "
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition     [ 420, 220, 1500, 860 ] 
+      ConfigPrmDlgPosition    [ 420, 220, 1500, 860 ]
     }
     PropName		    "ConfigurationSets"
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    7
+    $ObjectID		    8
   }
   Object {
     $PropName		    "DataTransfer"
-    $ObjectID		    18
+    $ObjectID		    20
     $ClassName		    "Simulink.GlobalDataTransfer"
     DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
     DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
@@ -747,6 +1273,7 @@ Model {
     FontWeight		    "normal"
     FontAngle		    "normal"
     ShowName		    on
+    HideAutomaticName	    on
     BlockRotation	    0
     BlockMirror		    off
   }
@@ -760,7 +1287,12 @@ Model {
     FontSize		    10
     FontWeight		    "normal"
     FontAngle		    "normal"
+    MarkupType		    "model"
     UseDisplayTextAsClickCallback off
+    AnnotationType	    "note_annotation"
+    FixedHeight		    off
+    FixedWidth		    off
+    Interpreter		    "off"
   }
   LineDefaults {
     FontName		    "Helvetica"
@@ -771,8 +1303,8 @@ Model {
   MaskDefaults {
     SelfModifiable	    "off"
     IconFrame		    "on"
-    IconOpaque		    "on"
-    RunInitForIconRedraw    "off"
+    IconOpaque		    "opaque"
+    RunInitForIconRedraw    "analyze"
     IconRotate		    "none"
     PortRotate		    "default"
     IconUnits		    "autoscale"
@@ -846,6 +1378,7 @@ Model {
       OutDataTypeStr	      "Inherit: auto"
       LockScale		      off
       BusOutputAsStruct	      off
+      Unit		      "inherit"
       PortDimensions	      "-1"
       VarSizeSig	      "Inherit"
       SampleTime	      "-1"
@@ -863,6 +1396,9 @@ Model {
       LimitOutput	      off
       UpperSaturationLimit    "inf"
       LowerSaturationLimit    "-inf"
+      WrapState		      off
+      WrappedStateUpperValue  "pi"
+      WrappedStateLowerValue  "-pi"
       ShowSaturationPort      off
       ShowStatePort	      off
       AbsoluteTolerance	      "auto"
@@ -878,14 +1414,20 @@ Model {
       OutDataTypeStr	      "Inherit: auto"
       LockScale		      off
       BusOutputAsStruct	      off
+      Unit		      "inherit"
       PortDimensions	      "-1"
       VarSizeSig	      "Inherit"
       SampleTime	      "-1"
       SignalType	      "auto"
       SamplingMode	      "auto"
+      EnsureOutportIsVirtual  off
       SourceOfInitialOutputValue "Dialog"
       OutputWhenDisabled      "held"
       InitialOutput	      "[]"
+      MustResolveToSignalObject	off
+      OutputWhenUnConnected   off
+      OutputWhenUnconnectedValue "0"
+      VectorParamsAs1DForOutWhenUnconnected off
     }
     Block {
       BlockType		      Product
@@ -918,21 +1460,7 @@ Model {
     }
     Block {
       BlockType		      Scope
-      ModelBased	      off
-      TickLabels	      "OneTimeTick"
-      ZoomMode		      "on"
-      Grid		      "on"
-      TimeRange		      "auto"
-      YMin		      "-5"
-      YMax		      "5"
-      SaveToWorkspace	      off
-      SaveName		      "ScopeData"
-      DataFormat	      "Array"
-      LimitDataPoints	      on
-      MaxDataPoints	      "5000"
-      Decimation	      "1"
-      SampleInput	      off
-      SampleTime	      "-1"
+      DefaultConfigurationName "Simulink.scopes.TimeScopeBlockCfg"
     }
     Block {
       BlockType		      SubSystem
@@ -942,7 +1470,6 @@ Model {
       TreatAsAtomicUnit	      off
       MinAlgLoopOccurrences   off
       PropExecContextOutsideSubsystem off
-      CheckFcnCallInpInsideContextMsg off
       SystemSampleTime	      "-1"
       RTWSystemCode	      "Auto"
       RTWFcnNameOpts	      "Auto"
@@ -961,9 +1488,18 @@ Model {
       Opaque		      off
       MaskHideContents	      off
       SFBlockType	      "NONE"
+      VariantControlMode      "Expression"
       Variant		      off
       GeneratePreprocessorConditionals off
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      TreatAsGroupedWhenPropagatingVariantConditions on
       ContentPreviewEnabled   off
+      IsWebBlock	      off
+      IsObserver	      off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
+      IsWebBlockPanel	      off
     }
     Block {
       BlockType		      Sum
@@ -1016,8 +1552,11 @@ Model {
   }
   System {
     Name		    "NeuronSizeActivity"
-    Location		    [457, -1031, 1578, -78]
+    Location		    [-7, -7, 1435, 871]
     Open		    on
+    PortBlocksUseCompactNotation off
+    SetExecutionDomain	    off
+    ExecutionDomainType	    "Deduce"
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -1043,6 +1582,9 @@ Model {
 	Name			"Large \nNewNeuron"
 	Location		[457, -1031, 1578, -78]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1129,42 +1671,42 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    19
+	    $ObjectID		    21
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		20
+		$ObjectID		22
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		21
+		$ObjectID		23
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		22
+		$ObjectID		24
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		23
+		$ObjectID		25
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		24
+		$ObjectID		26
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -1177,6 +1719,9 @@ Model {
 	    Name		    "Ion Channel11"
 	    Location		    [16, 52, 1000, 758]
 	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -1256,6 +1801,9 @@ Model {
 		Name			"Inertial Link (H1)"
 		Location		[102, 52, 588, 423]
 		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -1646,10 +2194,8 @@ Model {
 	    Annotation {
 	      SID		      "37"
 	      Name		      "X2"
-	      Position		      [567, 248, 584, 265]
+	      Position		      [559, 240, 575, 256]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -1
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -1658,10 +2204,8 @@ Model {
 	    Annotation {
 	      SID		      "38"
 	      Name		      "X1"
-	      Position		      [457, 245, 474, 262]
+	      Position		      [449, 237, 465, 253]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -2
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -1676,7 +2220,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [385, 148, 550, 272]
 	  ZOrder		  -11
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -1692,7 +2236,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 143, 335, 267]
 	  ZOrder		  -12
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -1708,7 +2252,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [955, 158, 1120, 282]
 	  ZOrder		  -13
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -1724,7 +2268,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [680, 148, 845, 272]
 	  ZOrder		  -14
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -1740,7 +2284,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [965, 463, 1130, 587]
 	  ZOrder		  -15
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -1756,7 +2300,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 333, 335, 457]
 	  ZOrder		  -16
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -1803,7 +2347,7 @@ Model {
 	  Ports			  [1, 1]
 	  Position		  [55, 99, 115, 121]
 	  ZOrder		  -22
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Synapse"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -2105,6 +2649,9 @@ Model {
 	Name			"Large \nNewNeuron1"
 	Location		[457, -1031, 1578, -78]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -2191,42 +2738,42 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    25
+	    $ObjectID		    27
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		26
+		$ObjectID		28
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		27
+		$ObjectID		29
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		28
+		$ObjectID		30
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		29
+		$ObjectID		31
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		30
+		$ObjectID		32
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -2239,6 +2786,9 @@ Model {
 	    Name		    "Ion Channel11"
 	    Location		    [16, 52, 1000, 758]
 	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -2318,6 +2868,9 @@ Model {
 		Name			"Inertial Link (H1)"
 		Location		[102, 52, 588, 423]
 		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -2708,10 +3261,8 @@ Model {
 	    Annotation {
 	      SID		      "89"
 	      Name		      "X2"
-	      Position		      [567, 248, 584, 265]
+	      Position		      [559, 240, 575, 256]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -1
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -2720,10 +3271,8 @@ Model {
 	    Annotation {
 	      SID		      "90"
 	      Name		      "X1"
-	      Position		      [457, 245, 474, 262]
+	      Position		      [449, 237, 465, 253]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -2
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -2738,7 +3287,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [385, 148, 550, 272]
 	  ZOrder		  -11
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -2754,7 +3303,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 143, 335, 267]
 	  ZOrder		  -12
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -2770,7 +3319,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [955, 158, 1120, 282]
 	  ZOrder		  -13
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -2786,7 +3335,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [680, 148, 845, 272]
 	  ZOrder		  -14
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -2802,7 +3351,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [965, 463, 1130, 587]
 	  ZOrder		  -15
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -2818,7 +3367,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 333, 335, 457]
 	  ZOrder		  -16
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -2865,7 +3414,7 @@ Model {
 	  Ports			  [1, 1]
 	  Position		  [55, 99, 115, 121]
 	  ZOrder		  -22
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Synapse"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -3162,35 +3711,59 @@ Model {
       Ports		      [5]
       Position		      [600, 68, 690, 202]
       ZOrder		      -3
-      Floating		      off
-      Location		      [13, 350, 1121, 748]
-      Open		      on
+      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
+      "gr.Configuration('Core','General UI',true,'FigureColor',[1 1 1]),extmgr.Configuration('Core','Source UI',true),e"
+      "xtmgr.Configuration('Sources','WiredSimulink',true,'DataLoggingSaveFormat','StructureWithTime','DataLoggingMaxPo"
+      "ints','50000','DataLoggingLimitDataPoints',true,'DataLoggingDecimation','1','DataLoggingDecimateData',true),extm"
+      "gr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-10','MaxYLimReal','11"
+      "0','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMa"
+      "gPhase',false,'AxesColor',[1 1 1],'AxesTickColor',[0 0 0],'ColorOrder',[0 0.447058823529412 0.741176470588235;0."
+      "850980392156863 0.325490196078431 0.0980392156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.494"
+      "117647058824 0.184313725490196 0.556862745098039;0.466666666666667 0.674509803921569 0.188235294117647;0.3019607"
+      "84313725 0.745098039215686 0.933333333333333;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','%<"
+      "SignalLabel>','LinePropertiesCache',{{struct('Color',[0 0 0],'LineStyle','-','LineWidth',1,'Marker','none','Visi"
+      "ble','on')}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Two-output Pulse Generator/1'}},'ShowCon"
+      "tent',true,'Placement',1),struct('MinYLimReal','-10','MaxYLimReal','110','YLabelReal','','MinYLimMag','0','MaxYL"
+      "imMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[1 1 1],'AxesTic"
+      "kColor',[0 0 0],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.850980392156863 0.325490196078431 0.098039"
+      "2156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 0.184313725490196 0.556862745"
+      "098039;0.466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.745098039215686 0.9333333333333"
+      "33;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','%<SignalLabel>','LinePropertiesCache',{{stru"
+      "ct('Color',[0 0 0],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on')}},'UserDefinedChannelNames',{{}"
+      "},'NumLines',1,'LineNames',{{'Small  NewNeuron/2'}},'ShowContent',true,'Placement',2),struct('MinYLimReal','-10'"
+      ",'MaxYLimReal','110','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'Y"
+      "Grid',true,'PlotMagPhase',false,'AxesColor',[1 1 1],'AxesTickColor',[0 0 0],'ColorOrder',[0 0.447058823529412 0."
+      "741176470588235;0.850980392156863 0.325490196078431 0.0980392156862745;0.929411764705882 0.694117647058824 0.125"
+      "490196078431;0.494117647058824 0.184313725490196 0.556862745098039;0.466666666666667 0.674509803921569 0.1882352"
+      "94117647;0.301960784313725 0.745098039215686 0.933333333333333;0.635294117647059 0.0784313725490196 0.1843137254"
+      "90196],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Color',[0 0 0],'LineStyle','-','LineWidth',1,'Ma"
+      "rker','none','Visible','on')}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Small  NewNeuron1/2'}}"
+      ",'ShowContent',true,'Placement',3),struct('MinYLimReal','-10','MaxYLimReal','110','YLabelReal','','MinYLimMag','"
+      "0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[1 1 1]"
+      ",'AxesTickColor',[0 0 0],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.850980392156863 0.325490196078431"
+      " 0.0980392156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 0.184313725490196 0."
+      "556862745098039;0.466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.745098039215686 0.9333"
+      "33333333333;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','%<SignalLabel>','LinePropertiesCach"
+      "e',{{struct('Color',[0 0 0],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on')}},'UserDefinedChannelN"
+      "ames',{{}},'NumLines',1,'LineNames',{{'Large  NewNeuron/2'}},'ShowContent',true,'Placement',4),struct('MinYLimRe"
+      "al','-10','MaxYLimReal','110','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid"
+      "',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[1 1 1],'AxesTickColor',[0 0 0],'ColorOrder',[0 0.447058823"
+      "529412 0.741176470588235;0.850980392156863 0.325490196078431 0.0980392156862745;0.929411764705882 0.694117647058"
+      "824 0.125490196078431;0.494117647058824 0.184313725490196 0.556862745098039;0.466666666666667 0.674509803921569 "
+      "0.188235294117647;0.301960784313725 0.745098039215686 0.933333333333333;0.635294117647059 0.0784313725490196 0.1"
+      "84313725490196],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Color',[0 0 0],'LineStyle','-','LineWid"
+      "th',1,'Marker','none','Visible','on')}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Large  NewNeu"
+      "ron1/2'}},'ShowContent',true,'Placement',5)},'DisplayPropertyDefaults',struct('MinYLimReal','-10','MaxYLimReal',"
+      "'110','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'Plo"
+      "tMagPhase',false,'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353"
+      " 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0"
+      ".0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}"
+      "},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1),'DisplayLayou"
+      "tDimensions',[5 1]),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false),extmgr.Configuration"
+      "('Tools','Measurements',true,'Version','2018b')),'Version','2018b','Location',[31.4 95.8 1139.4 493.4],'VisibleA"
+      "tModelOpen','on')"
       NumInputPorts	      "5"
-      List {
-	ListType		AxesTitles
-	axes1			"%<SignalLabel>"
-	axes2			"%<SignalLabel>"
-	axes3			"%<SignalLabel>"
-	axes4			"%<SignalLabel>"
-	axes5			"%<SignalLabel>"
-      }
-      List {
-	ListType		ScopeGraphics
-	FigureColor		"[0.5 0.5 0.5]"
-	AxesColor		"[0 0 0]"
-	AxesTickColor		"[1 1 1]"
-	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
-	LineStyles		"-|-|-|-|-|-"
-	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
-	MarkerStyles		"none|none|none|none|none|none"
-      }
-      ShowLegends	      off
-      YMin		      "-10~-10~-10~-10~-10"
-      YMax		      "110~110~110~110~110"
-      DataFormat	      "StructureWithTime"
-      MaxDataPoints	      "50000"
-      SampleTime	      "0"
-      ScrollMode	      off
+      Floating		      off
     }
     Block {
       BlockType		      Scope
@@ -3199,36 +3772,53 @@ Model {
       Ports		      [5]
       Position		      [820, 304, 900, 366]
       ZOrder		      -4
-      Floating		      off
-      Location		      [44, 486, 1152, 884]
-      Open		      on
+      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
+      "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
+      "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData1','DataLoggingSaveFormat','StructureWithTime',"
+      "'DataLoggingMaxPoints','50000','DataLoggingLimitDataPoints',true,'DataLoggingDecimation','1','DataLoggingDecimat"
+      "eData',true),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-10',"
+      "'MaxYLimReal','110','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YG"
+      "rid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274"
+      "509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.160"
+      "78431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.05882"
+      "35294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'Use"
+      "rDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Two-output Pulse Generator/1'}},'ShowContent',true,'Place"
+      "ment',1),struct('MinYLimReal','-10','MaxYLimReal','110','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','Lege"
+      "ndVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274"
+      "509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.6235294"
+      "11764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.7176470"
+      "58823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLab"
+      "el>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Small  NewNeuron2/2'}"
+      "},'ShowContent',true,'Placement',2),struct('MinYLimReal','-10','MaxYLimReal','110','YLabelReal','','MinYLimMag',"
+      "'0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0"
+      "],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0"
+      ".0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0"
+      ".0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.6509803921"
+      "56863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineName"
+      "s',{{'Small  NewNeuron3/2'}},'ShowContent',true,'Placement',3),struct('MinYLimReal','-10','MaxYLimReal','110','Y"
+      "LabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhas"
+      "e',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder"
+      "',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.39215686"
+      "2745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07"
+      "45098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',"
+      "{{}},'NumLines',1,'LineNames',{{'Small  NewNeuron4/2'}},'ShowContent',true,'Placement',4),struct('MinYLimReal','"
+      "-10','MaxYLimReal','110','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',tru"
+      "e,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.6"
+      "86274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 "
+      "0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0."
+      "0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}}"
+      ",'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Small  NewNeuron5/2'}},'ShowContent',true,'Placement"
+      "',5)},'DisplayPropertyDefaults',struct('MinYLimReal','-10','MaxYLimReal','110','YLabelReal','','MinYLimMag','0',"
+      "'MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'A"
+      "xesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.074"
+      "5098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.074"
+      "5098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.65098039215686"
+      "3],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{"
+      "{[]}},'ShowContent',true,'Placement',1),'DisplayLayoutDimensions',[5 1]),extmgr.Configuration('Tools','Plot Navi"
+      "gation',true,'OnceAtStop',false),extmgr.Configuration('Tools','Measurements',true,'Version','2018b')),'Version',"
+      "'2018b','Location',[44 486 1152 884],'VisibleAtModelOpen','on')"
       NumInputPorts	      "5"
-      List {
-	ListType		AxesTitles
-	axes1			"%<SignalLabel>"
-	axes2			"%<SignalLabel>"
-	axes3			"%<SignalLabel>"
-	axes4			"%<SignalLabel>"
-	axes5			"%<SignalLabel>"
-      }
-      List {
-	ListType		ScopeGraphics
-	FigureColor		"[0.5 0.5 0.5]"
-	AxesColor		"[0 0 0]"
-	AxesTickColor		"[1 1 1]"
-	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
-	LineStyles		"-|-|-|-|-|-"
-	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
-	MarkerStyles		"none|none|none|none|none|none"
-      }
-      ShowLegends	      off
-      YMin		      "-10~-10~-10~-10~-10"
-      YMax		      "110~110~110~110~110"
-      SaveName		      "ScopeData1"
-      DataFormat	      "StructureWithTime"
-      MaxDataPoints	      "50000"
-      SampleTime	      "0"
-      ScrollMode	      off
+      Floating		      off
     }
     Block {
       BlockType		      SubSystem
@@ -3242,6 +3832,9 @@ Model {
 	Name			"Small \nNewNeuron"
 	Location		[457, -1031, 1578, -78]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -3327,42 +3920,42 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    31
+	    $ObjectID		    33
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		32
+		$ObjectID		34
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		33
+		$ObjectID		35
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		34
+		$ObjectID		36
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		35
+		$ObjectID		37
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		36
+		$ObjectID		38
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -3375,6 +3968,9 @@ Model {
 	    Name		    "Ion Channel11"
 	    Location		    [16, 52, 1000, 758]
 	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -3454,6 +4050,9 @@ Model {
 		Name			"Inertial Link (H1)"
 		Location		[102, 52, 588, 423]
 		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -3844,10 +4443,8 @@ Model {
 	    Annotation {
 	      SID		      "144"
 	      Name		      "X2"
-	      Position		      [567, 248, 584, 265]
+	      Position		      [559, 240, 575, 256]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -1
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -3856,10 +4453,8 @@ Model {
 	    Annotation {
 	      SID		      "145"
 	      Name		      "X1"
-	      Position		      [457, 245, 474, 262]
+	      Position		      [449, 237, 465, 253]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -2
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -3874,7 +4469,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [385, 148, 550, 272]
 	  ZOrder		  -11
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -3890,7 +4485,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 143, 335, 267]
 	  ZOrder		  -12
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -3906,7 +4501,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [955, 158, 1120, 282]
 	  ZOrder		  -13
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -3922,7 +4517,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [680, 148, 845, 272]
 	  ZOrder		  -14
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -3938,7 +4533,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [965, 463, 1130, 587]
 	  ZOrder		  -15
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -3954,7 +4549,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 333, 335, 457]
 	  ZOrder		  -16
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -4001,7 +4596,7 @@ Model {
 	  Ports			  [1, 1]
 	  Position		  [55, 99, 115, 121]
 	  ZOrder		  -22
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Synapse"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -4287,6 +4882,9 @@ Model {
 	Name			"Small \nNewNeuron1"
 	Location		[457, -1031, 1578, -78]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -4372,42 +4970,42 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    37
+	    $ObjectID		    39
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		38
+		$ObjectID		40
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		39
+		$ObjectID		41
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		40
+		$ObjectID		42
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		41
+		$ObjectID		43
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		42
+		$ObjectID		44
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -4420,6 +5018,9 @@ Model {
 	    Name		    "Ion Channel11"
 	    Location		    [16, 52, 1000, 758]
 	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -4499,6 +5100,9 @@ Model {
 		Name			"Inertial Link (H1)"
 		Location		[102, 52, 588, 423]
 		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -4889,10 +5493,8 @@ Model {
 	    Annotation {
 	      SID		      "196"
 	      Name		      "X2"
-	      Position		      [567, 248, 584, 265]
+	      Position		      [559, 240, 575, 256]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -1
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -4901,10 +5503,8 @@ Model {
 	    Annotation {
 	      SID		      "197"
 	      Name		      "X1"
-	      Position		      [457, 245, 474, 262]
+	      Position		      [449, 237, 465, 253]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -2
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -4919,7 +5519,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [385, 148, 550, 272]
 	  ZOrder		  -11
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -4935,7 +5535,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 143, 335, 267]
 	  ZOrder		  -12
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -4951,7 +5551,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [955, 158, 1120, 282]
 	  ZOrder		  -13
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -4967,7 +5567,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [680, 148, 845, 272]
 	  ZOrder		  -14
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -4983,7 +5583,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [970, 463, 1135, 587]
 	  ZOrder		  -15
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -4999,7 +5599,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 333, 335, 457]
 	  ZOrder		  -16
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -5046,7 +5646,7 @@ Model {
 	  Ports			  [1, 1]
 	  Position		  [55, 99, 115, 121]
 	  ZOrder		  -22
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Synapse"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -5330,8 +5930,11 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Small \nNewNeuron2"
-	Location		[457, -1031, 1578, -78]
+	Location		[-7, -7, 1435, 871]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -5417,42 +6020,42 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    43
+	    $ObjectID		    45
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		44
+		$ObjectID		46
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		45
+		$ObjectID		47
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		46
+		$ObjectID		48
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		47
+		$ObjectID		49
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		48
+		$ObjectID		50
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -5465,6 +6068,9 @@ Model {
 	    Name		    "Ion Channel11"
 	    Location		    [16, 52, 1000, 758]
 	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -5544,6 +6150,9 @@ Model {
 		Name			"Inertial Link (H1)"
 		Location		[102, 52, 588, 423]
 		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -5934,10 +6543,8 @@ Model {
 	    Annotation {
 	      SID		      "248"
 	      Name		      "X2"
-	      Position		      [567, 248, 584, 265]
+	      Position		      [559, 240, 575, 256]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -1
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -5946,10 +6553,8 @@ Model {
 	    Annotation {
 	      SID		      "249"
 	      Name		      "X1"
-	      Position		      [457, 245, 474, 262]
+	      Position		      [449, 237, 465, 253]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -2
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -5964,7 +6569,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [385, 148, 550, 272]
 	  ZOrder		  -11
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -5980,7 +6585,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 143, 335, 267]
 	  ZOrder		  -12
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -5996,7 +6601,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [955, 158, 1120, 282]
 	  ZOrder		  -13
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -6012,7 +6617,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [680, 148, 845, 272]
 	  ZOrder		  -14
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -6028,7 +6633,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [965, 463, 1130, 587]
 	  ZOrder		  -15
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -6044,7 +6649,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 333, 335, 457]
 	  ZOrder		  -16
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -6091,7 +6696,7 @@ Model {
 	  Ports			  [1, 1]
 	  Position		  [55, 99, 115, 121]
 	  ZOrder		  -22
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Synapse"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -6375,8 +6980,11 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Small \nNewNeuron3"
-	Location		[457, -1031, 1578, -78]
+	Location		[-7, -7, 1435, 871]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -6462,42 +7070,42 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    49
+	    $ObjectID		    51
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		50
+		$ObjectID		52
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		51
+		$ObjectID		53
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		52
+		$ObjectID		54
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		53
+		$ObjectID		55
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		54
+		$ObjectID		56
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -6510,6 +7118,9 @@ Model {
 	    Name		    "Ion Channel11"
 	    Location		    [16, 52, 1000, 758]
 	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -6589,6 +7200,9 @@ Model {
 		Name			"Inertial Link (H1)"
 		Location		[102, 52, 588, 423]
 		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -6979,10 +7593,8 @@ Model {
 	    Annotation {
 	      SID		      "300"
 	      Name		      "X2"
-	      Position		      [567, 248, 584, 265]
+	      Position		      [559, 240, 575, 256]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -1
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -6991,10 +7603,8 @@ Model {
 	    Annotation {
 	      SID		      "301"
 	      Name		      "X1"
-	      Position		      [457, 245, 474, 262]
+	      Position		      [449, 237, 465, 253]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -2
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -7009,7 +7619,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [385, 148, 550, 272]
 	  ZOrder		  -11
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -7025,7 +7635,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 143, 335, 267]
 	  ZOrder		  -12
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -7041,7 +7651,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [955, 158, 1120, 282]
 	  ZOrder		  -13
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -7057,7 +7667,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [680, 148, 845, 272]
 	  ZOrder		  -14
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -7073,7 +7683,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [965, 463, 1130, 587]
 	  ZOrder		  -15
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -7089,7 +7699,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 333, 335, 457]
 	  ZOrder		  -16
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -7136,7 +7746,7 @@ Model {
 	  Ports			  [1, 1]
 	  Position		  [55, 99, 115, 121]
 	  ZOrder		  -22
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Synapse"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -7420,8 +8030,11 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Small \nNewNeuron4"
-	Location		[457, -1031, 1578, -78]
+	Location		[-7, -7, 1435, 871]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -7507,42 +8120,42 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    55
+	    $ObjectID		    57
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		56
+		$ObjectID		58
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		57
+		$ObjectID		59
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		58
+		$ObjectID		60
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		59
+		$ObjectID		61
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		60
+		$ObjectID		62
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -7555,6 +8168,9 @@ Model {
 	    Name		    "Ion Channel11"
 	    Location		    [16, 52, 1000, 758]
 	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -7634,6 +8250,9 @@ Model {
 		Name			"Inertial Link (H1)"
 		Location		[102, 52, 588, 423]
 		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -8024,10 +8643,8 @@ Model {
 	    Annotation {
 	      SID		      "352"
 	      Name		      "X2"
-	      Position		      [567, 248, 584, 265]
+	      Position		      [559, 240, 575, 256]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -1
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -8036,10 +8653,8 @@ Model {
 	    Annotation {
 	      SID		      "353"
 	      Name		      "X1"
-	      Position		      [457, 245, 474, 262]
+	      Position		      [449, 237, 465, 253]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -2
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -8054,7 +8669,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [385, 148, 550, 272]
 	  ZOrder		  -11
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -8070,7 +8685,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 143, 335, 267]
 	  ZOrder		  -12
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -8086,7 +8701,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [955, 158, 1120, 282]
 	  ZOrder		  -13
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -8102,7 +8717,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [680, 148, 845, 272]
 	  ZOrder		  -14
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -8118,7 +8733,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [965, 463, 1130, 587]
 	  ZOrder		  -15
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -8134,7 +8749,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 333, 335, 457]
 	  ZOrder		  -16
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -8181,7 +8796,7 @@ Model {
 	  Ports			  [1, 1]
 	  Position		  [55, 99, 115, 121]
 	  ZOrder		  -22
-	  LibraryVersion	  "1.272"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Synapse"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -8465,8 +9080,11 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Small \nNewNeuron5"
-	Location		[457, -1031, 1578, -78]
+	Location		[-7, -7, 1435, 871]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -8552,42 +9170,42 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    61
+	    $ObjectID		    63
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		62
+		$ObjectID		64
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		63
+		$ObjectID		65
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		64
+		$ObjectID		66
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		65
+		$ObjectID		67
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		66
+		$ObjectID		68
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -8600,6 +9218,9 @@ Model {
 	    Name		    "Ion Channel11"
 	    Location		    [16, 52, 1000, 758]
 	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -8679,6 +9300,9 @@ Model {
 		Name			"Inertial Link (H1)"
 		Location		[102, 52, 588, 423]
 		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -9069,10 +9693,8 @@ Model {
 	    Annotation {
 	      SID		      "404"
 	      Name		      "X2"
-	      Position		      [567, 248, 584, 265]
+	      Position		      [559, 240, 575, 256]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -1
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -9081,10 +9703,8 @@ Model {
 	    Annotation {
 	      SID		      "405"
 	      Name		      "X1"
-	      Position		      [457, 245, 474, 262]
+	      Position		      [449, 237, 465, 253]
 	      InternalMargins	      [0, 0, 0, 0]
-	      FixedHeight	      off
-	      FixedWidth	      off
 	      ZOrder		      -2
 	      FontSize		      12
 	      FontWeight	      "bold"
@@ -9099,7 +9719,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [385, 148, 550, 272]
 	  ZOrder		  -11
-	  LibraryVersion	  "1.273"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -9115,7 +9735,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 148, 335, 272]
 	  ZOrder		  -12
-	  LibraryVersion	  "1.273"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -9131,7 +9751,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [955, 158, 1120, 282]
 	  ZOrder		  -13
-	  LibraryVersion	  "1.273"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -9147,7 +9767,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [680, 148, 845, 272]
 	  ZOrder		  -14
-	  LibraryVersion	  "1.273"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -9163,7 +9783,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [965, 463, 1130, 587]
 	  ZOrder		  -15
-	  LibraryVersion	  "1.273"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -9179,7 +9799,7 @@ Model {
 	  Ports			  [5, 2]
 	  Position		  [170, 333, 335, 457]
 	  ZOrder		  -16
-	  LibraryVersion	  "1.273"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Neuro Membrane"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -9226,7 +9846,7 @@ Model {
 	  Ports			  [1, 1]
 	  Position		  [55, 99, 115, 121]
 	  ZOrder		  -22
-	  LibraryVersion	  "1.273"
+	  LibraryVersion	  "1.283"
 	  SourceBlock		  "NeuroModelerLibrary/Old Neuron Elements/Synapse"
 	  SourceType		  ""
 	  ContentPreviewEnabled	  off
@@ -9509,69 +10129,69 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		67
+	$ObjectID		69
 	$ClassName		"Simulink.Mask"
 	Array {
 	  Type			  "Simulink.MaskParameter"
 	  Dimension		  9
 	  Object {
-	    $ObjectID		    68
+	    $ObjectID		    70
 	    Type		    "edit"
 	    Name		    "A"
 	    Prompt		    "Amplitude"
 	    Value		    "100"
 	  }
 	  Object {
-	    $ObjectID		    69
+	    $ObjectID		    71
 	    Type		    "edit"
 	    Name		    "P1"
 	    Prompt		    "Out1: Period (number of samples)"
 	    Value		    "400"
 	  }
 	  Object {
-	    $ObjectID		    70
+	    $ObjectID		    72
 	    Type		    "edit"
 	    Name		    "P2"
 	    Prompt		    "Out2: Period (number of samples)"
 	    Value		    "100"
 	  }
 	  Object {
-	    $ObjectID		    71
+	    $ObjectID		    73
 	    Type		    "edit"
 	    Name		    "PW"
 	    Prompt		    "Pulse Width (number of samples)"
 	    Value		    "1"
 	  }
 	  Object {
-	    $ObjectID		    72
+	    $ObjectID		    74
 	    Type		    "edit"
 	    Name		    "ST"
 	    Prompt		    "Sample Time"
 	    Value		    "0.001"
 	  }
 	  Object {
-	    $ObjectID		    73
+	    $ObjectID		    75
 	    Type		    "edit"
 	    Name		    "OOn1"
 	    Prompt		    "Out1 On (seconds)"
 	    Value		    "0.04"
 	  }
 	  Object {
-	    $ObjectID		    74
+	    $ObjectID		    76
 	    Type		    "edit"
 	    Name		    "OOff1"
 	    Prompt		    "Out1 Off (seconds)"
 	    Value		    "0.5"
 	  }
 	  Object {
-	    $ObjectID		    75
+	    $ObjectID		    77
 	    Type		    "edit"
 	    Name		    "OOn2"
 	    Prompt		    "Out2 On (seconds)"
 	    Value		    "0.4"
 	  }
 	  Object {
-	    $ObjectID		    76
+	    $ObjectID		    78
 	    Type		    "edit"
 	    Name		    "OOff2"
 	    Prompt		    "Out2 Off (seconds)"
@@ -9584,6 +10204,9 @@ Model {
 	Name			"Two-output\nPulse Generator"
 	Location		[58, 300, 619, 770]
 	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
