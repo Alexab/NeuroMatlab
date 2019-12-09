@@ -1,6 +1,7 @@
 # glob syntax.
 syntax: glob
 .hg
+.git
 .svn           
 __history 
 *.obj       
