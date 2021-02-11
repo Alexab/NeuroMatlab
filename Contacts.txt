@@ -1,3 +1,0 @@
-This archive has been downloaded from https://bitbucket.org/aicommunity/neuromatlab/
-Documentation (in russian): https://ailab.ru/investigation/bionika/modeli-impulsnikh-neironov-v-matlab-rukovodstvo.html
-More documentation (in russian): https://ailab.ru/investigation/bionika/modelirovanie-biopodobnikh-sistem-upravleniya-dvijeniem.html
