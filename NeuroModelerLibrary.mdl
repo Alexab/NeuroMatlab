@@ -27,7 +27,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-7.0, -1087.0, 1873.0, 1095.0]
+      Location		      [-7.0, -7.0, 1175.0, 735.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -47,251 +47,20 @@ Library {
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		39
+	Dimension		57
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1210"
-	  Extents		  [2731.0, 1300.0]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1685.0, 760.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [27.630158730159792, 22.186927042120828]
-	  SceneRectInView	  [27.630158730159792, 22.186927042120828, 1820.6666666666667, 866.66666666666663]
+	  Offset		  [-70.2904696449641, 13.933333333333415]
+	  SceneRectInView	  [-70.2904696449641, 13.933333333333415, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1211"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-5.2838541666667993, 14.833333333333306]
-	  SceneRectInView	  [-5.2838541666667993, 14.833333333333306, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  7
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [0.79999999999999993]
-	  Offset		  [-112.35772619718955, -33.5]
-	  SceneRectInView	  [-112.35772619718955, -33.5, 2275.8333333333335, 1083.3333333333335]
-	}
-	Object {
-	  $ObjectID		  8
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1469"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-76.361979166666629, 151.1333333333333]
-	  SceneRectInView	  [-76.361979166666629, 151.1333333333333, 1456.5333333333333, 693.33333333333337]
-	}
-	Object {
-	  $ObjectID		  9
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1471"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [55.665364583333414, 15.1666666666666]
-	  SceneRectInView	  [55.665364583333414, 15.1666666666666, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  10
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1470"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-743.00130208333326, -29.833333333333343]
-	  SceneRectInView	  [-743.00130208333326, -29.833333333333343, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  11
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1472"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [16.998697916666742, 15.166666666666657]
-	  SceneRectInView	  [16.998697916666742, 15.166666666666657, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  12
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1661"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-331.66796875, -100.83333333333331]
-	  SceneRectInView	  [-331.66796875, -100.83333333333331, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  13
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1316"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-258.126264711221, 160.49999999999997]
-	  SceneRectInView	  [-258.126264711221, 160.49999999999997, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  14
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1377"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [0.79999999999999982]
-	  Offset		  [-397.36197916666674, -149.16666666666674]
-	  SceneRectInView	  [-397.36197916666674, -149.16666666666674, 2275.8333333333339, 1083.3333333333335]
-	}
-	Object {
-	  $ObjectID		  15
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1378"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-743.00130208333326, 34.166666666666657]
-	  SceneRectInView	  [-743.00130208333326, 34.166666666666657, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  16
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1380"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [16.998697916666742, 79.166666666666657]
-	  SceneRectInView	  [16.998697916666742, 79.166666666666657, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  17
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1379"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [16.998697916666742, 13.124973177909865]
-	  SceneRectInView	  [16.998697916666742, 13.124973177909865, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  18
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1145"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
-	  SceneRectInView	  [0.0, 0.0, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  19
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1563"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [0.79999999999999993]
-	  Offset		  [-539.7953124999998, -67.950002318620633]
-	  SceneRectInView	  [-539.7953124999998, -67.950002318620633, 2275.8333333333335, 1083.3333333333335]
-	}
-	Object {
-	  $ObjectID		  20
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1564"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-790.5568576388888, -29.937491595745144]
-	  SceneRectInView	  [-790.5568576388888, -29.937491595745144, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  21
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1565"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [0.79999999999999993]
-	  Offset		  [-233.33463541666652, 26.687509626150149]
-	  SceneRectInView	  [-233.33463541666652, 26.687509626150149, 2275.8333333333335, 1083.3333333333335]
-	}
-	Object {
-	  $ObjectID		  22
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1566"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [0.79999999999999993]
-	  Offset		  [-197.92352430555388, 13.088888888889016]
-	  SceneRectInView	  [-197.92352430555388, 13.088888888889016, 2275.8333333333335, 1083.3333333333335]
-	}
-	Object {
-	  $ObjectID		  23
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1284"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [0.79999999999999993]
-	  Offset		  [-218.22632865508402, 13.066666666666624]
-	  SceneRectInView	  [-218.22632865508402, 13.066666666666624, 2275.8333333333335, 1083.3333333333335]
-	}
-	Object {
-	  $ObjectID		  24
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1386"
-	  Extents		  [2731.0, 1300.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-1350.98046875, -719.83333333333326]
-	  SceneRectInView	  [-1350.98046875, -719.83333333333326, 1820.6666666666667, 866.66666666666663]
-	}
-	Object {
-	  $ObjectID		  25
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1315"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-405.71379274924561, 104.84444444444429]
-	  SceneRectInView	  [-405.71379274924561, 104.84444444444429, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  26
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1275"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-251.33333333333326, -259.33333333333337]
-	  SceneRectInView	  [-251.33333333333326, -259.33333333333337, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  27
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -302,84 +71,18 @@ Library {
 	  SceneRectInView	  [-363.83333333333326, -73.833333333333343, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  28
+	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "534"
+	  LoadSaveID		  "728"
 	  Extents		  [1685.0, 760.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [14.049479166666742, 76.166666666666657]
-	  SceneRectInView	  [14.049479166666742, 76.166666666666657, 1123.3333333333333, 506.66666666666669]
+	  Offset		  [-395.48489583333333, -67.833333333333343]
+	  SceneRectInView	  [-395.48489583333333, -67.833333333333343, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  29
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "473"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-298.83333333333326, -83.833333333333343]
-	  SceneRectInView	  [-298.83333333333326, -83.833333333333343, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  30
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "809"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
-	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
-	}
-	Object {
-	  $ObjectID		  31
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "808"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
-	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
-	}
-	Object {
-	  $ObjectID		  32
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1170"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.7499999999999996]
-	  Offset		  [-151.65545743427566, 13.904562562003832]
-	  SceneRectInView	  [-151.65545743427566, 13.904562562003832, 641.90476190476215, 289.52380952380963]
-	}
-	Object {
-	  $ObjectID		  33
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "84"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [0.5]
-	  Offset		  [-423.33789796450947, -130.7]
-	  SceneRectInView	  [-423.33789796450947, -130.7, 2246.6666666666665, 1013.3333333333334]
-	}
-	Object {
-	  $ObjectID		  34
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1095"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-201.33333333333326, -130.83333333333334]
-	  SceneRectInView	  [-201.33333333333326, -130.83333333333334, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  35
+	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -390,7 +93,535 @@ Library {
 	  SceneRectInView	  [-361.16666666666657, -60.333333333333343, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "163"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-141.16666666666657, 13.666666666666657]
+	  SceneRectInView	  [-141.16666666666657, 13.666666666666657, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-338.83333333333326, -191.33333333333334]
+	  SceneRectInView	  [-338.83333333333326, -191.33333333333334, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "771"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-291.33333333333326, -195.33333333333334]
+	  SceneRectInView	  [-291.33333333333326, -195.33333333333334, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "67"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-436.33333333333326, -206.33333333333334]
+	  SceneRectInView	  [-436.33333333333326, -206.33333333333334, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  13
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "84"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-79.449009075620381, 11.911111111111126]
+	  SceneRectInView	  [-79.449009075620381, 11.911111111111126, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  14
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1145"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  15
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1100"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-356.66666666666663, -140.33333333333334]
+	  SceneRectInView	  [-356.66666666666663, -140.33333333333334, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  16
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1014"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-438.83333333333326, -125.33333333333334]
+	  SceneRectInView	  [-438.83333333333326, -125.33333333333334, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  17
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1210"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-140.16666666666669, -76.666666666666686]
+	  SceneRectInView	  [-140.16666666666669, -76.666666666666686, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  18
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "116"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-233.19270833333326, -53.0]
+	  SceneRectInView	  [-233.19270833333326, -53.0, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  19
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "85"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-171.54036458333326, -118.16666666666669]
+	  SceneRectInView	  [-171.54036458333326, -118.16666666666669, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  20
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "749"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-383.83333333333326, -206.83333333333334]
+	  SceneRectInView	  [-383.83333333333326, -206.83333333333334, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  21
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1692"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-66.4374828338623, -87.024980783462524]
+	  SceneRectInView	  [-66.4374828338623, -87.024980783462524, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  22
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "473"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-172.570838411649, 3.8332979281743214]
+	  SceneRectInView	  [-172.570838411649, 3.8332979281743214, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  23
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "790"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  24
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "812"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  25
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "808"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  26
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "809"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  27
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "810"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  28
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "807"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  29
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "811"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  30
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "816"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  31
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "817"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  32
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "815"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  33
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "814"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  34
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "813"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  35
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1211"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-5.2838541666667993, 14.833333333333306]
+	  SceneRectInView	  [-5.2838541666667993, 14.833333333333306, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
 	  $ObjectID		  36
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1469"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-76.361979166666629, 151.1333333333333]
+	  SceneRectInView	  [-76.361979166666629, 151.1333333333333, 1456.5333333333333, 693.33333333333337]
+	}
+	Object {
+	  $ObjectID		  37
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1471"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [55.665364583333414, 15.1666666666666]
+	  SceneRectInView	  [55.665364583333414, 15.1666666666666, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  38
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1470"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-743.00130208333326, -29.833333333333343]
+	  SceneRectInView	  [-743.00130208333326, -29.833333333333343, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  39
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1472"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [16.998697916666742, 15.166666666666657]
+	  SceneRectInView	  [16.998697916666742, 15.166666666666657, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  40
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1661"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-331.66796875, -100.83333333333331]
+	  SceneRectInView	  [-331.66796875, -100.83333333333331, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  41
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1316"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-258.126264711221, 160.49999999999997]
+	  SceneRectInView	  [-258.126264711221, 160.49999999999997, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  42
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1377"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [0.79999999999999982]
+	  Offset		  [-397.36197916666674, -149.16666666666674]
+	  SceneRectInView	  [-397.36197916666674, -149.16666666666674, 2275.8333333333339, 1083.3333333333335]
+	}
+	Object {
+	  $ObjectID		  43
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1378"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-743.00130208333326, 34.166666666666657]
+	  SceneRectInView	  [-743.00130208333326, 34.166666666666657, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  44
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1380"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [16.998697916666742, 79.166666666666657]
+	  SceneRectInView	  [16.998697916666742, 79.166666666666657, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  45
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1379"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [16.998697916666742, 13.124973177909865]
+	  SceneRectInView	  [16.998697916666742, 13.124973177909865, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  46
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1563"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [0.79999999999999993]
+	  Offset		  [-539.7953124999998, -67.950002318620633]
+	  SceneRectInView	  [-539.7953124999998, -67.950002318620633, 2275.8333333333335, 1083.3333333333335]
+	}
+	Object {
+	  $ObjectID		  47
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1564"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-790.5568576388888, -29.937491595745144]
+	  SceneRectInView	  [-790.5568576388888, -29.937491595745144, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  48
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1565"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [0.79999999999999993]
+	  Offset		  [-233.33463541666652, 26.687509626150149]
+	  SceneRectInView	  [-233.33463541666652, 26.687509626150149, 2275.8333333333335, 1083.3333333333335]
+	}
+	Object {
+	  $ObjectID		  49
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1566"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [0.79999999999999993]
+	  Offset		  [-197.92352430555388, 13.088888888889016]
+	  SceneRectInView	  [-197.92352430555388, 13.088888888889016, 2275.8333333333335, 1083.3333333333335]
+	}
+	Object {
+	  $ObjectID		  50
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1284"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [0.79999999999999993]
+	  Offset		  [-218.22632865508402, 13.066666666666624]
+	  SceneRectInView	  [-218.22632865508402, 13.066666666666624, 2275.8333333333335, 1083.3333333333335]
+	}
+	Object {
+	  $ObjectID		  51
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1386"
+	  Extents		  [2731.0, 1300.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-1350.98046875, -719.83333333333326]
+	  SceneRectInView	  [-1350.98046875, -719.83333333333326, 1820.6666666666667, 866.66666666666663]
+	}
+	Object {
+	  $ObjectID		  52
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1315"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-405.71379274924561, 104.84444444444429]
+	  SceneRectInView	  [-405.71379274924561, 104.84444444444429, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  53
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1275"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-251.33333333333326, -259.33333333333337]
+	  SceneRectInView	  [-251.33333333333326, -259.33333333333337, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  54
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "534"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [14.049479166666742, 76.166666666666657]
+	  SceneRectInView	  [14.049479166666742, 76.166666666666657, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  55
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1170"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.7499999999999996]
+	  Offset		  [-151.65545743427566, 13.904562562003832]
+	  SceneRectInView	  [-151.65545743427566, 13.904562562003832, 641.90476190476215, 289.52380952380963]
+	}
+	Object {
+	  $ObjectID		  56
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1095"
+	  Extents		  [1685.0, 760.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-201.33333333333326, -130.83333333333334]
+	  SceneRectInView	  [-201.33333333333326, -130.83333333333334, 1123.3333333333333, 506.66666666666669]
+	}
+	Object {
+	  $ObjectID		  57
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -401,7 +632,7 @@ Library {
 	  SceneRectInView	  [-251.33333333333326, -259.33333333333337, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  37
+	  $ObjectID		  58
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -412,7 +643,7 @@ Library {
 	  SceneRectInView	  [-162.79427083333326, -118.16666666666669, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  38
+	  $ObjectID		  59
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -423,18 +654,7 @@ Library {
 	  SceneRectInView	  [-96.079427083333371, -23.833333333333314, 715.33333333333337, 319.33333333333331]
 	}
 	Object {
-	  $ObjectID		  39
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "728"
-	  Extents		  [1557.0, 835.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-527.4, -138.5]
-	  SceneRectInView	  [-527.4, -138.5, 1245.6, 668.0]
-	}
-	Object {
-	  $ObjectID		  40
+	  $ObjectID		  60
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -445,7 +665,7 @@ Library {
 	  SceneRectInView	  [-407.4, -218.39999999999998, 1245.6, 668.0]
 	}
 	Object {
-	  $ObjectID		  41
+	  $ObjectID		  61
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -455,48 +675,13 @@ Library {
 	  Offset		  [-407.4, -229.7]
 	  SceneRectInView	  [-407.4, -229.7, 1245.6, 647.2]
 	}
-	Object {
-	  $ObjectID		  42
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "816"
-	  Extents		  [1557.0, 810.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
-	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
-	}
-	Object {
-	  $ObjectID		  43
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1100"
-	  Extents		  [1557.0, 810.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
-	  SceneRectInView	  [0.0, 0.0, 1245.6, 648.0]
-	}
 	PropName		"EditorsInfo"
       }
       Array {
 	Type			"Simulink.DockComponentInfo"
 	Dimension		2
 	Object {
-	  $ObjectID		  44
-	  Type			  "Simulink:Editor:ReferencedFiles"
-	  ID			  "Referenced Files"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
-	  Floating		  [0]
-	  DockPosition		  "Left"
-	  Width			  [426]
-	  Height		  [320]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  45
+	  $ObjectID		  62
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -508,6 +693,19 @@ Library {
 	  Height		  [320]
 	  Minimized		  "Unset"
 	}
+	Object {
+	  $ObjectID		  63
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
+	  Width			  [426]
+	  Height		  [320]
+	  Minimized		  "Unset"
+	}
 	PropName		"DockComponentsInfo"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
@@ -515,7 +713,7 @@ Library {
       "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACTAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
       "QBzAAAAAAD/////AAAAxwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAK4wAABWAAAAABAAAAAgAAAAEAAAAC/"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAGzQAAA0QAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAEAAAACAAAAAA=="
       Array {
 	Type			"Cell"
@@ -535,9 +733,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Bakhshiev"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Mar 17 18:41:19 2021"
-  RTWModifiedTimeStamp	  537907275
-  ModelVersionFormat	  "%<AutoIncrement:3.38>"
+  LastModifiedDate	  "Thu Mar 18 16:12:52 2021"
+  RTWModifiedTimeStamp	  537984285
+  ModelVersionFormat	  "%<AutoIncrement:3.39>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -610,7 +808,7 @@ Library {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      46
+      $ObjectID		      64
       Version		      "20.1.0"
       DisabledProps	      []
       Description	      ""
@@ -618,7 +816,7 @@ Library {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  47
+	  $ObjectID		  65
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -660,7 +858,7 @@ Library {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  48
+	  $ObjectID		  66
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -702,7 +900,7 @@ Library {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  49
+	  $ObjectID		  67
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -776,7 +974,7 @@ Library {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  50
+	  $ObjectID		  68
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -899,7 +1097,7 @@ Library {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  51
+	  $ObjectID		  69
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -949,7 +1147,7 @@ Library {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  52
+	  $ObjectID		  70
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -969,7 +1167,7 @@ Library {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  53
+	  $ObjectID		  71
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1013,7 +1211,7 @@ Library {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  54
+	  $ObjectID		  72
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -1119,7 +1317,7 @@ Library {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      55
+	      $ObjectID		      73
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -1209,7 +1407,7 @@ Library {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      56
+	      $ObjectID		      74
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -1316,7 +1514,7 @@ Library {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  57
+	  $ObjectID		  75
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -1673,9 +1871,9 @@ Library {
   }
   System {
     Name		    "NeuroModelerLibrary"
-    Location		    [-7, -1087, 1866, 8]
+    Location		    [-7, -7, 1168, 728]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1689,21 +1887,21 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "80"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "1691"
+    SIDHighWatermark	    "1692"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
       Name		      "Actuators"
       SID		      "1100"
       Ports		      []
-      Position		      [365, 450, 449, 525]
+      Position		      [795, 315, 879, 390]
       ZOrder		      17
       RequestExecContextInheritance off
       System {
 	Name			"Actuators"
-	Location		[123, -1031, 1419, -149]
+	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -1993,7 +2191,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Analog Simple Cells"
-	Location		[-8, -1024, 1288, 16]
+	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -2016,7 +2214,7 @@ Library {
 	  Name			  "Simple Analog Neuron"
 	  SID			  "1035"
 	  Ports			  [4, 2]
-	  Position		  [45, 32, 200, 93]
+	  Position		  [-380, -88, -225, -27]
 	  ZOrder		  19
 	  RequestExecContextInheritance	off
 	  System {
@@ -2383,7 +2581,7 @@ Library {
 	  Name			  "Simple Tanh Analog Neuron "
 	  SID			  "1072"
 	  Ports			  [4, 2]
-	  Position		  [45, 147, 200, 208]
+	  Position		  [-380, 27, -225, 88]
 	  ZOrder		  20
 	  RequestExecContextInheritance	off
 	  System {
@@ -2742,9 +2940,9 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"CSNM"
-	Location		[-7, -1087, 1866, 8]
+	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -13603,36 +13801,6 @@ Library {
     }
     Block {
       BlockType		      SubSystem
-      Name		      "Dendrite Neuron \nSamples"
-      SID		      "811"
-      Ports		      []
-      Position		      [140, 580, 224, 655]
-      ZOrder		      7
-      RequestExecContextInheritance off
-      System {
-	Name			"Dendrite Neuron \nSamples"
-	Location		[551, -838, 1478, -133]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
       Name		      "Dendrites Cells"
       SID		      "1"
       Ports		      []
@@ -13641,7 +13809,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Dendrites Cells"
-	Location		[-8, -1024, 1288, 16]
+	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -13664,7 +13832,7 @@ Library {
 	  Name			  "Branching Dendrites Cell"
 	  SID			  "2"
 	  Ports			  [8, 3]
-	  Position		  [240, 27, 395, 113]
+	  Position		  [-100, -148, 55, -62]
 	  ZOrder		  -1
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -14445,7 +14613,7 @@ Library {
 	  Name			  "Long Dendite Cell"
 	  SID			  "37"
 	  Ports			  [8, 3]
-	  Position		  [50, 27, 205, 113]
+	  Position		  [-290, -148, -135, -62]
 	  ZOrder		  -2
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -15104,36 +15272,6 @@ Library {
     }
     Block {
       BlockType		      SubSystem
-      Name		      "Membrane Samples"
-      SID		      "807"
-      Ports		      []
-      Position		      [140, 450, 224, 525]
-      ZOrder		      3
-      RequestExecContextInheritance off
-      System {
-	Name			"Membrane Samples"
-	Location		[252, -1079, 1305, -4]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
       Name		      "Memory Modules"
       SID		      "771"
       Ports		      []
@@ -15142,7 +15280,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Memory Modules"
-	Location		[551, -838, 1478, -133]
+	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -15165,7 +15303,7 @@ Library {
 	  Name			  "Time-Memory Element"
 	  SID			  "774"
 	  Ports			  [3, 2]
-	  Position		  [30, 17, 240, 83]
+	  Position		  [-245, -153, -35, -87]
 	  ZOrder		  9
 	  RequestExecContextInheritance	off
 	  System {
@@ -15357,7 +15495,7 @@ Library {
 	  Name			  "Time-Memory PI Element"
 	  SID			  "783"
 	  Ports			  [3, 1]
-	  Position		  [300, 17, 510, 83]
+	  Position		  [25, -153, 235, -87]
 	  ZOrder		  10
 	  RequestExecContextInheritance	off
 	  System {
@@ -16544,7 +16682,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Multistate Cells"
-	Location		[-8, -1024, 1288, 16]
+	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -16905,36 +17043,6 @@ Library {
     }
     Block {
       BlockType		      SubSystem
-      Name		      "Multistate Neuron \nSamples"
-      SID		      "810"
-      Ports		      []
-      Position		      [365, 580, 449, 655]
-      ZOrder		      6
-      RequestExecContextInheritance off
-      System {
-	Name			"Multistate Neuron \nSamples"
-	Location		[551, -838, 1478, -133]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
       Name		      "Neuron Elements"
       SID		      "84"
       Ports		      []
@@ -16959,7 +17067,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"50"
+	ZoomFactor		"100"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -16971,7 +17079,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "ContLTZone"
-	    Location		    [252, -1079, 1666, -4]
+	    Location		    [-7, -7, 1168, 728]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -17003,10 +17111,15 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [185, 35, 215, 65]
 	      ZOrder		      -2
-	      LibraryVersion	      "1.354"
+	      LibraryVersion	      "1.476"
 	      SourceBlock	      "simulink/Logic and Bit\nOperations/Compare\nTo Zero"
 	      SourceType	      "Compare To Zero"
 	      SourceProductBaseCode   "SL"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
 	      ContentPreviewEnabled   off
 	      relop		      ">="
 	      OutDataTypeStr	      "uint8"
@@ -17035,10 +17148,15 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [90, 38, 115, 62]
 	      ZOrder		      -5
-	      LibraryVersion	      "1.93"
+	      LibraryVersion	      "5.0"
 	      SourceBlock	      "neural/Transfer Functions/tansig"
 	      SourceType	      "TANSIG"
 	      SourceProductBaseCode   "NN"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
 	      ContentPreviewEnabled   off
 	    }
 	    Block {
@@ -17106,7 +17224,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Ion System"
-	    Location		    [18, -807, 937, -202]
+	    Location		    [-7, -7, 1168, 728]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -17218,10 +17336,22 @@ Library {
 	      Ports		      [2, 1]
 	      Position		      [505, 80, 585, 115]
 	      ZOrder		      -11
-	      LibraryVersion	      "1.272"
+	      LibraryVersion	      "3.38"
 	      SourceBlock	      "$bdroot/Support/Inertial Link"
 	      SourceType	      "SubSystem"
+	      ShowPortLabels	      "FromPortIcon"
+	      SystemSampleTime	      "-1"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      VariantActivationTime   "update diagram"
+	      AllowZeroVariantControls off
+	      PropagateVariantConditions off
 	      ContentPreviewEnabled   off
+	      Latency		      "0"
+	      AutoFrameSizeCalculation off
 	    }
 	    Block {
 	      BlockType		      Product
@@ -17462,35 +17592,35 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    58
+	    $ObjectID		    76
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		59
+		$ObjectID		77
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		60
+		$ObjectID		78
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"1.7"
 	      }
 	      Object {
-		$ObjectID		61
+		$ObjectID		79
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input Time Constant"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		62
+		$ObjectID		80
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -17739,49 +17869,49 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    63
+	    $ObjectID		    81
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		64
+		$ObjectID		82
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		65
+		$ObjectID		83
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		66
+		$ObjectID		84
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input Time Constant"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		67
+		$ObjectID		85
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
 		Value			"-0.055"
 	      }
 	      Object {
-		$ObjectID		68
+		$ObjectID		86
 		Type			"checkbox"
 		Name			"inertia"
 		Prompt			"Use inertia link"
 		Value			"on"
 	      }
 	      Object {
-		$ObjectID		69
+		$ObjectID		87
 		Type			"edit"
 		Name			"switchOff"
 		Prompt			"Switch off point"
@@ -17793,11 +17923,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      3
 	      Object {
-		$ObjectID		70
+		$ObjectID		88
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  71
+		  $ObjectID		  89
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -17805,33 +17935,33 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		72
+		$ObjectID		90
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Control"
 		  Dimension		  5
 		  Object {
-		    $ObjectID		    73
+		    $ObjectID		    91
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "NM"
 		  }
 		  Object {
-		    $ObjectID		    74
+		    $ObjectID		    92
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "FB"
 		  }
 		  Object {
-		    $ObjectID		    75
+		    $ObjectID		    93
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "IT"
 		  }
 		  Object {
-		    $ObjectID		    76
+		    $ObjectID		    94
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "T"
 		  }
 		  Object {
-		    $ObjectID		    77
+		    $ObjectID		    95
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    HorizontalStretch	    "off"
 		    Name		    "inertia"
@@ -17841,11 +17971,11 @@ Library {
 		Name			"ParameterGroupVar"
 	      }
 	      Object {
-		$ObjectID		78
+		$ObjectID		96
 		Prompt			"Relay "
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  79
+		  $ObjectID		  97
 		  $ClassName		  "Simulink.dialog.parameter.Edit"
 		  Name			  "switchOff"
 		}
@@ -18165,7 +18295,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Multistate Membrane"
-	    Location		    [380, 109, 1134, 689]
+	    Location		    [-7, -7, 1168, 728]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -18249,16 +18379,15 @@ Library {
 	      Ports		      [5, 2]
 	      Position		      [295, 37, 460, 163]
 	      ZOrder		      -8
+	      LibraryVersion	      "3.38"
 	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
-	      SourceType	      "Unknown"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
+	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
 	      RTWMemSecFuncExecute    "Inherit from model"
 	      RTWMemSecDataConstants  "Inherit from model"
 	      RTWMemSecDataInternal   "Inherit from model"
 	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
 	      ACm		      "1e-9"
 	      ARm		      "1e7"
 	      ECm		      "1e-9"
@@ -18273,16 +18402,15 @@ Library {
 	      Ports		      [5, 2]
 	      Position		      [290, 227, 455, 353]
 	      ZOrder		      -9
+	      LibraryVersion	      "3.38"
 	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
-	      SourceType	      "Unknown"
-	      ShowPortLabels	      "FromPortIcon"
-	      SystemSampleTime	      "-1"
-	      FunctionWithSeparateData "off"
+	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
 	      RTWMemSecFuncExecute    "Inherit from model"
 	      RTWMemSecDataConstants  "Inherit from model"
 	      RTWMemSecDataInternal   "Inherit from model"
 	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
 	      ACm		      "1e-9"
 	      ARm		      "1e7"
 	      ECm		      "1e-9"
@@ -18588,48 +18716,48 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    80
+	    $ObjectID		    98
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		81
+		$ObjectID		99
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		82
+		$ObjectID		100
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		83
+		$ObjectID		101
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		84
+		$ObjectID		102
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		85
+		$ObjectID		103
 		Type			"edit"
 		Name			"ARFm"
 		Prompt			"Feedback Arresting Resistance"
 		Value			"1e8"
 	      }
 	      Object {
-		$ObjectID		86
+		$ObjectID		104
 		Type			"edit"
 		Name			"ERFm"
 		Prompt			"Feedback Excitatory Resistance"
@@ -18906,7 +19034,7 @@ Library {
 	  Ports			  [1, 1]
 	  Position		  [95, 274, 155, 296]
 	  ZOrder		  2
-	  LibraryVersion	  "3.3"
+	  LibraryVersion	  "3.38"
 	  SourceBlock		  "$bdroot/Neuron Elements/Synapse"
 	  SourceType		  ""
 	  RTWMemSecFuncInitTerm	  "Inherit from model"
@@ -18931,41 +19059,41 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    87
+	    $ObjectID		    105
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		88
+		$ObjectID		106
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		89
+		$ObjectID		107
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		90
+		$ObjectID		108
 		Type			"checkbox"
 		Name			"UseKsi"
 		Prompt			"Use Presynaptic Inhubition"
 		Value			"on"
 	      }
 	      Object {
-		$ObjectID		91
+		$ObjectID		109
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		92
+		$ObjectID		110
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -19320,35 +19448,35 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    93
+	    $ObjectID		    111
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		94
+		$ObjectID		112
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		95
+		$ObjectID		113
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		96
+		$ObjectID		114
 		Type			"edit"
 		Name			"T"
 		Prompt			"On Threshold"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		97
+		$ObjectID		115
 		Type			"edit"
 		Name			"switchOff"
 		Prompt			"Off Threshold"
@@ -19360,11 +19488,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      3
 	      Object {
-		$ObjectID		98
+		$ObjectID		116
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  99
+		  $ObjectID		  117
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -19372,25 +19500,25 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		100
+		$ObjectID		118
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    101
+		    $ObjectID		    119
 		    Name		    "NM"
 		  }
 		  Object {
-		    $ObjectID		    102
+		    $ObjectID		    120
 		    Name		    "FB"
 		  }
 		  Object {
-		    $ObjectID		    103
+		    $ObjectID		    121
 		    Name		    "T"
 		  }
 		  Object {
-		    $ObjectID		    104
+		    $ObjectID		    122
 		    Name		    "switchOff"
 		  }
 		  PropName		  "DialogControls"
@@ -19398,7 +19526,7 @@ Library {
 		Name			"ParameterGroupVar"
 	      }
 	      Object {
-		$ObjectID		105
+		$ObjectID		123
 		Prompt			"Relay "
 		Name			"Container3"
 	      }
@@ -19648,62 +19776,62 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    106
+	    $ObjectID		    124
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      8
 	      Object {
-		$ObjectID		107
+		$ObjectID		125
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		108
+		$ObjectID		126
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		109
+		$ObjectID		127
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		110
+		$ObjectID		128
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		111
+		$ObjectID		129
 		Type			"edit"
 		Name			"ARFm"
 		Prompt			"Feedback Arresting Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		112
+		$ObjectID		130
 		Type			"edit"
 		Name			"ERFm"
 		Prompt			"Feedback Excitatory Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		113
+		$ObjectID		131
 		Type			"edit"
 		Name			"U0"
 		Prompt			"Synaptic potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		114
+		$ObjectID		132
 		Type			"edit"
 		Name			"sign"
 		Prompt			"Synaptic current sign"
@@ -19715,11 +19843,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		115
+		$ObjectID		133
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  116
+		  $ObjectID		  134
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -19727,41 +19855,41 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		117
+		$ObjectID		135
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  8
 		  Object {
-		    $ObjectID		    118
+		    $ObjectID		    136
 		    Name		    "ACm"
 		  }
 		  Object {
-		    $ObjectID		    119
+		    $ObjectID		    137
 		    Name		    "ARm"
 		  }
 		  Object {
-		    $ObjectID		    120
+		    $ObjectID		    138
 		    Name		    "ECm"
 		  }
 		  Object {
-		    $ObjectID		    121
+		    $ObjectID		    139
 		    Name		    "ERm"
 		  }
 		  Object {
-		    $ObjectID		    122
+		    $ObjectID		    140
 		    Name		    "ARFm"
 		  }
 		  Object {
-		    $ObjectID		    123
+		    $ObjectID		    141
 		    Name		    "ERFm"
 		  }
 		  Object {
-		    $ObjectID		    124
+		    $ObjectID		    142
 		    Name		    "U0"
 		  }
 		  Object {
-		    $ObjectID		    125
+		    $ObjectID		    143
 		    Name		    "sign"
 		  }
 		  PropName		  "DialogControls"
@@ -20108,62 +20236,62 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    126
+	    $ObjectID		    144
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      8
 	      Object {
-		$ObjectID		127
+		$ObjectID		145
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		128
+		$ObjectID		146
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		129
+		$ObjectID		147
 		Type			"checkbox"
 		Name			"UseKsi"
 		Prompt			"Use Presynaptic Inhubition"
 		Value			"off"
 	      }
 	      Object {
-		$ObjectID		130
+		$ObjectID		148
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
 		Value			"2e7"
 	      }
 	      Object {
-		$ObjectID		131
+		$ObjectID		149
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		132
+		$ObjectID		150
 		Type			"edit"
 		Name			"U0"
 		Prompt			"Synaptic potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		133
+		$ObjectID		151
 		Type			"edit"
 		Name			"weight"
 		Prompt			"Synaptic weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		134
+		$ObjectID		152
 		Type			"checkbox"
 		Name			"sign"
 		Prompt			"Negative synaptic current "
@@ -20175,11 +20303,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		135
+		$ObjectID		153
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  136
+		  $ObjectID		  154
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -20187,48 +20315,48 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		137
+		$ObjectID		155
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Control"
 		  Dimension		  8
 		  Object {
-		    $ObjectID		    138
+		    $ObjectID		    156
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "SecretionTC"
 		  }
 		  Object {
-		    $ObjectID		    139
+		    $ObjectID		    157
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "DecompositionTC"
 		  }
 		  Object {
-		    $ObjectID		    140
+		    $ObjectID		    158
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "UseKsi"
 		  }
 		  Object {
-		    $ObjectID		    141
+		    $ObjectID		    159
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "gamma"
 		  }
 		  Object {
-		    $ObjectID		    142
+		    $ObjectID		    160
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "ksi"
 		  }
 		  Object {
-		    $ObjectID		    143
+		    $ObjectID		    161
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "U0"
 		  }
 		  Object {
-		    $ObjectID		    144
+		    $ObjectID		    162
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "weight"
 		  }
 		  Object {
-		    $ObjectID		    145
+		    $ObjectID		    163
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "sign"
 		  }
@@ -21218,34 +21346,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    146
+	    $ObjectID		    164
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		147
+		$ObjectID		165
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		148
+		$ObjectID		166
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		149
+		$ObjectID		167
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		150
+		$ObjectID		168
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -21531,34 +21659,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    151
+	    $ObjectID		    169
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		152
+		$ObjectID		170
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		153
+		$ObjectID		171
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		154
+		$ObjectID		172
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		155
+		$ObjectID		173
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -22517,34 +22645,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    156
+	    $ObjectID		    174
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		157
+		$ObjectID		175
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		158
+		$ObjectID		176
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		159
+		$ObjectID		177
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		160
+		$ObjectID		178
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -22824,66 +22952,6 @@ Library {
     }
     Block {
       BlockType		      SubSystem
-      Name		      "PCN1"
-      SID		      "814"
-      Ports		      []
-      Position		      [255, 735, 339, 810]
-      ZOrder		      10
-      RequestExecContextInheritance off
-      System {
-	Name			"PCN1"
-	Location		[551, -838, 1478, -133]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
-      Name		      "PCN2"
-      SID		      "815"
-      Ports		      []
-      Position		      [370, 735, 454, 810]
-      ZOrder		      11
-      RequestExecContextInheritance off
-      System {
-	Name			"PCN2"
-	Location		[551, -838, 1478, -133]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
       Name		      "Pacemaker Cells"
       SID		      "163"
       Ports		      []
@@ -22892,7 +22960,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Pacemaker Cells"
-	Location		[16, 52, 943, 732]
+	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -30558,14 +30626,14 @@ Library {
     }
     Block {
       BlockType		      SubSystem
-      Name		      "Pacemaker Samples"
-      SID		      "809"
+      Name		      "Recycle Bin"
+      SID		      "1692"
       Ports		      []
-      Position		      [480, 580, 564, 655]
-      ZOrder		      5
+      Position		      [530, 505, 614, 580]
+      ZOrder		      20
       RequestExecContextInheritance off
       System {
-	Name			"Pacemaker Samples"
+	Name			"Recycle Bin"
 	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
@@ -30577,73 +30645,419 @@ Library {
 	ScreenColor		"white"
 	PaperOrientation	"landscape"
 	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
 	ZoomFactor		"100"
 	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
-      Name		      "RCN"
-      SID		      "813"
-      Ports		      []
-      Position		      [140, 735, 224, 810]
-      ZOrder		      9
-      RequestExecContextInheritance off
-      System {
-	Name			"RCN"
-	Location		[551, -838, 1478, -133]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
-      Name		      "Simple \nNeural Networks"
-      SID		      "817"
-      Ports		      []
-      Position		      [25, 735, 109, 810]
-      ZOrder		      13
-      RequestExecContextInheritance off
-      System {
-	Name			"Simple \nNeural Networks"
-	Location		[551, -838, 1478, -133]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dendrite Neuron \nSamples"
+	  SID			  "811"
+	  Ports			  []
+	  Position		  [145, 270, 229, 345]
+	  ZOrder		  24
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Dendrite Neuron \nSamples"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Membrane Samples"
+	  SID			  "807"
+	  Ports			  []
+	  Position		  [145, 140, 229, 215]
+	  ZOrder		  20
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Membrane Samples"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Multistate Neuron \nSamples"
+	  SID			  "810"
+	  Ports			  []
+	  Position		  [370, 270, 454, 345]
+	  ZOrder		  23
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Multistate Neuron \nSamples"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "PCN1"
+	  SID			  "814"
+	  Ports			  []
+	  Position		  [250, -30, 334, 45]
+	  ZOrder		  15
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "PCN1"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "PCN2"
+	  SID			  "815"
+	  Ports			  []
+	  Position		  [365, -30, 449, 45]
+	  ZOrder		  16
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "PCN2"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Pacemaker Samples"
+	  SID			  "809"
+	  Ports			  []
+	  Position		  [485, 270, 569, 345]
+	  ZOrder		  22
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Pacemaker Samples"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "RCN"
+	  SID			  "813"
+	  Ports			  []
+	  Position		  [135, -30, 219, 45]
+	  ZOrder		  14
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "RCN"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Simple \nNeural Networks"
+	  SID			  "817"
+	  Ports			  []
+	  Position		  [20, -30, 104, 45]
+	  ZOrder		  18
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Simple \nNeural Networks"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Simple Neuron Samples"
+	  SID			  "808"
+	  Ports			  []
+	  Position		  [30, 270, 114, 345]
+	  ZOrder		  21
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Simple Neuron Samples"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Size Neuron \nSamples"
+	  SID			  "812"
+	  Ports			  []
+	  Position		  [260, 270, 344, 345]
+	  ZOrder		  25
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Size Neuron \nSamples"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Synapse Samples"
+	  SID			  "790"
+	  Ports			  []
+	  Position		  [25, 140, 109, 215]
+	  ZOrder		  19
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Synapse Samples"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "TCN"
+	  SID			  "816"
+	  Ports			  []
+	  Position		  [475, -30, 559, 45]
+	  ZOrder		  17
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "TCN"
+	    Location		    [-7, -7, 1168, 728]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	  }
+	}
+	Annotation {
+	  SID			  "821"
+	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
+	  "><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</styl"
+	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
+	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
+	  " style=\" font-size:9pt; font-weight:600;\">Neural Networks Samples</span></p></body></html>"
+	  Position		  [20, -55, 160, -39]
+	  InternalMargins	  [0, 0, 0, 0]
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  Interpreter		  "rich"
+	  ZOrder		  -1
+	  FontName		  "Helvetica"
+	  FontSize		  10
+	  FontWeight		  "normal"
+	  FontAngle		  "normal"
+	}
+	Annotation {
+	  SID			  "820"
+	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
+	  "><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</styl"
+	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
+	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
+	  " style=\" font-size:9pt; font-weight:600;\">Neuron Samples</span></p></body></html>"
+	  Position		  [25, 240, 116, 256]
+	  InternalMargins	  [0, 0, 0, 0]
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  Interpreter		  "rich"
+	  ZOrder		  -2
+	}
+	Annotation {
+	  SID			  "819"
+	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
+	  "><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</styl"
+	  "e></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\""
+	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
+	  " style=\" font-size:9pt; font-weight:600;\">Neuron Parts Samples</span></p></body></html>"
+	  Position		  [25, 110, 147, 126]
+	  InternalMargins	  [0, 0, 0, 0]
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  Interpreter		  "rich"
+	  ZOrder		  -3
+	}
       }
     }
     Block {
@@ -30679,26 +31093,26 @@ Library {
 	  Name			  "Afferent1"
 	  SID			  "756"
 	  Ports			  [1, 3]
-	  Position		  [395, 44, 490, 96]
+	  Position		  [225, 54, 320, 106]
 	  ZOrder		  -1
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    161
+	    $ObjectID		    179
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      2
 	      Object {
-		$ObjectID		162
+		$ObjectID		180
 		Type			"edit"
 		Name			"ExpCoeff"
 		Prompt			"Input Exp Coeff"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		163
+		$ObjectID		181
 		Type			"edit"
 		Name			"IncCoeff"
 		Prompt			"Input Inc Coeff"
@@ -30710,11 +31124,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		164
+		$ObjectID		182
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  165
+		  $ObjectID		  183
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "Afferent Parameters"
 		  Name			  "AffParams"
@@ -30722,17 +31136,17 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		166
+		$ObjectID		184
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    167
+		    $ObjectID		    185
 		    Name		    "ExpCoeff"
 		  }
 		  Object {
-		    $ObjectID		    168
+		    $ObjectID		    186
 		    Name		    "IncCoeff"
 		  }
 		  PropName		  "DialogControls"
@@ -30996,7 +31410,7 @@ Library {
 	  Name			  "Electric Simple Cell"
 	  SID			  "474"
 	  Ports			  [4, 5]
-	  Position		  [185, 35, 310, 105]
+	  Position		  [15, 45, 140, 115]
 	  ZOrder		  -2
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -31421,7 +31835,7 @@ Library {
 	  Name			  "Electric Simple2 Cell"
 	  SID			  "496"
 	  Ports			  [4, 5]
-	  Position		  [185, 145, 310, 215]
+	  Position		  [15, 155, 140, 225]
 	  ZOrder		  -3
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -31912,7 +32326,7 @@ Library {
 	  Name			  "Simple Cell"
 	  SID			  "519"
 	  Ports			  [2, 3]
-	  Position		  [35, 29, 130, 81]
+	  Position		  [-135, 39, -40, 91]
 	  ZOrder		  -4
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -32194,7 +32608,7 @@ Library {
 	  Name			  "Simple Cell - Inertial"
 	  SID			  "770"
 	  Ports			  [2, 3]
-	  Position		  [35, 274, 130, 326]
+	  Position		  [-135, 159, -40, 211]
 	  ZOrder		  1
 	  NameLocation		  "top"
 	  AncestorBlock		  "NeuroModelerLibrary/Simple Cells/Simple Cell"
@@ -32350,34 +32764,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		169
+		$ObjectID		187
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    170
+		    $ObjectID		    188
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    171
+		    $ObjectID		    189
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    172
+		    $ObjectID		    190
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    173
+		    $ObjectID		    191
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -32634,34 +33048,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		174
+		$ObjectID		192
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    175
+		    $ObjectID		    193
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    176
+		    $ObjectID		    194
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    177
+		    $ObjectID		    195
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    178
+		    $ObjectID		    196
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -33077,66 +33491,6 @@ Library {
     }
     Block {
       BlockType		      SubSystem
-      Name		      "Simple Neuron Samples"
-      SID		      "808"
-      Ports		      []
-      Position		      [25, 580, 109, 655]
-      ZOrder		      4
-      RequestExecContextInheritance off
-      System {
-	Name			"Simple Neuron Samples"
-	Location		[-7, -7, 1168, 728]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
-      Name		      "Size Neuron \nSamples"
-      SID		      "812"
-      Ports		      []
-      Position		      [255, 580, 339, 655]
-      ZOrder		      8
-      RequestExecContextInheritance off
-      System {
-	Name			"Size Neuron \nSamples"
-	Location		[551, -838, 1478, -133]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
       Name		      "Sized Cells"
       SID		      "533"
       Ports		      []
@@ -33168,7 +33522,7 @@ Library {
 	  Name			  "Size Cell"
 	  SID			  "534"
 	  Ports			  [8, 3]
-	  Position		  [25, 27, 180, 113]
+	  Position		  [-315, -28, -160, 58]
 	  ZOrder		  -1
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -33893,7 +34247,7 @@ Library {
 	  Name			  "Size2 Cell"
 	  SID			  "564"
 	  Ports			  [8, 3]
-	  Position		  [220, 27, 375, 113]
+	  Position		  [-120, -28, 35, 58]
 	  ZOrder		  -2
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -34647,7 +35001,7 @@ Library {
 	  Name			  "Size3 Cell"
 	  SID			  "598"
 	  Ports			  [8, 3]
-	  Position		  [25, 142, 180, 228]
+	  Position		  [-315, 87, -160, 173]
 	  ZOrder		  -3
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -35575,7 +35929,7 @@ Library {
 	  Name			  "Size4 Cell"
 	  SID			  "636"
 	  Ports			  [8, 3]
-	  Position		  [220, 142, 375, 228]
+	  Position		  [-120, 87, 35, 173]
 	  ZOrder		  -4
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -36516,7 +36870,7 @@ Library {
 	  Name			  "Size6 Cell"
 	  SID			  "678"
 	  Ports			  [8, 3]
-	  Position		  [20, 262, 175, 348]
+	  Position		  [-320, 207, -165, 293]
 	  ZOrder		  -5
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
@@ -37750,7 +38104,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Support"
-	Location		[228, -986, 1524, -115]
+	Location		[-7, -7, 1168, 728]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -38747,69 +39101,69 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    179
+	    $ObjectID		    197
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      9
 	      Object {
-		$ObjectID		180
+		$ObjectID		198
 		Type			"edit"
 		Name			"A"
 		Prompt			"Amplitude"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		181
+		$ObjectID		199
 		Type			"edit"
 		Name			"P1"
 		Prompt			"Out1: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		182
+		$ObjectID		200
 		Type			"edit"
 		Name			"P2"
 		Prompt			"Out2: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		183
+		$ObjectID		201
 		Type			"edit"
 		Name			"PW"
 		Prompt			"Pulse Width (number of samples)"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		184
+		$ObjectID		202
 		Type			"edit"
 		Name			"ST"
 		Prompt			"Sample Time"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		185
+		$ObjectID		203
 		Type			"edit"
 		Name			"OOn1"
 		Prompt			"Out1 On (seconds)"
 		Value			"0.5"
 	      }
 	      Object {
-		$ObjectID		186
+		$ObjectID		204
 		Type			"edit"
 		Name			"OOff1"
 		Prompt			"Out1 Off (seconds)"
 		Value			"0.6"
 	      }
 	      Object {
-		$ObjectID		187
+		$ObjectID		205
 		Type			"edit"
 		Name			"OOn2"
 		Prompt			"Out2 On (seconds)"
 		Value			"1.1"
 	      }
 	      Object {
-		$ObjectID		188
+		$ObjectID		206
 		Type			"edit"
 		Name			"OOff2"
 		Prompt			"Out2 Off (seconds)"
@@ -39013,66 +39367,6 @@ Library {
 	}
       }
     }
-    Block {
-      BlockType		      SubSystem
-      Name		      "Synapse Samples"
-      SID		      "790"
-      Ports		      []
-      Position		      [20, 450, 104, 525]
-      ZOrder		      2
-      RequestExecContextInheritance off
-      System {
-	Name			"Synapse Samples"
-	Location		[551, -838, 1478, -133]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
-    Block {
-      BlockType		      SubSystem
-      Name		      "TCN"
-      SID		      "816"
-      Ports		      []
-      Position		      [480, 735, 564, 810]
-      ZOrder		      12
-      RequestExecContextInheritance off
-      System {
-	Name			"TCN"
-	Location		[123, -1031, 1419, -149]
-	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-      }
-    }
     Annotation {
       SID		      "818"
       Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -39089,7 +39383,7 @@ Library {
     }
     Annotation {
       SID		      "769"
-      Name		      "Copyright Aleksandr Bakhshiev, Sergey Romanov, Filipp Gundelakh, Anton Korsakov 2000-2020\nalexab@a"
+      Name		      "Copyright Aleksandr Bakhshiev, Sergey Romanov, Filipp Gundelakh, Anton Korsakov 2000-2021\nalexab@a"
       "ilab.ru\nwww.ailab.ru"
       Position		      [516, 25, 1099, 90]
       InternalMargins	      [0, 0, 0, 0]
@@ -39098,48 +39392,6 @@ Library {
       ZOrder		      -1
       FontName		      "Arial"
       FontSize		      14
-    }
-    Annotation {
-      SID		      "819"
-      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
-      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
-      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
-      "t:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Neuron Parts Samples</span></p></body></html>"
-      Position		      [20, 420, 142, 436]
-      InternalMargins	      [0, 0, 0, 0]
-      HorizontalAlignment     "left"
-      VerticalAlignment	      "top"
-      Interpreter	      "rich"
-      ZOrder		      -1
-    }
-    Annotation {
-      SID		      "820"
-      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
-      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
-      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
-      "t:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Neuron Samples</span></p></body></html>"
-      Position		      [20, 550, 111, 566]
-      InternalMargins	      [0, 0, 0, 0]
-      HorizontalAlignment     "left"
-      VerticalAlignment	      "top"
-      Interpreter	      "rich"
-      ZOrder		      -2
-    }
-    Annotation {
-      SID		      "821"
-      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
-      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
-      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
-      "t:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Neural Networks Samples</span></p></body></html>"
-      Position		      [20, 705, 160, 721]
-      InternalMargins	      [0, 0, 0, 0]
-      HorizontalAlignment     "left"
-      VerticalAlignment	      "top"
-      Interpreter	      "rich"
-      ZOrder		      -3
     }
     Annotation {
       SID		      "1013"
@@ -39163,7 +39415,7 @@ Library {
       "yle:normal;\">\n<p align=\"left\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;"
       " -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">Muscles &amp; Other Ac"
       "tuators</span></p></body></html>"
-      Position		      [365, 420, 508, 436]
+      Position		      [795, 285, 938, 301]
       InternalMargins	      [0, 0, 0, 0]
       HorizontalAlignment     "left"
       VerticalAlignment	      "top"
