@@ -3,13 +3,13 @@ Library {
   Version		  10.2
   SavedCharacterEncoding  "windows-1251"
   ModelUUID		  "0758ad01-5541-449b-9836-01f811f9a473"
+  LogicAnalyzerPlugin	  "on"
+  WebScopes_FoundationPlugin "on"
   SLCCPlugin		  "on"
   slcheck_filter_plugin	  "on"
-  NotesPlugin		  "on"
-  WebScopes_FoundationPlugin "on"
   AnimationPlugin	  "on"
-  LogicAnalyzerPlugin	  "on"
   DiagnosticSuppressor	  "on"
+  NotesPlugin		  "on"
   LibraryType		  "BlockLibrary"
   EnableAccessToBaseWorkspace on
   ScopeRefreshTime	  0.035000
@@ -27,7 +27,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-7.0, -727.0, 1201.0, 735.0]
+      Location		      [-8.0, -8.0, 1382.0, 744.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -43,57 +43,299 @@ Library {
 	$PropName		"ExplorerBarInfo"
 	$ObjectID		4
 	$ClassName		"Simulink.ExplorerBarInfo"
-	Visible			[1]
+	Visible			[0]
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		73
+	Dimension		74
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-60.957136311630734, 16.088888888888995]
-	  SceneRectInView	  [-60.957136311630734, 16.088888888888995, 1149.3333333333333, 506.66666666666669]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1737"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-264.6522135416667, -67.48712871287114]
+	  SceneRectInView	  [-264.6522135416667, -67.48712871287114, 1062.4, 426.4]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "533"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-807.16666666666663, 62.424992620944948]
-	  SceneRectInView	  [-807.16666666666663, 62.424992620944948, 1149.3333333333333, 506.66666666666669]
+	  LoadSaveID		  "1756"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [1.0622565789473684]
+	  Offset		  [-170.08438465778534, -200.41371707450008]
+	  SceneRectInView	  [-170.08438465778534, -200.41371707450008, 1250.1687693155709, 501.76201358825244]
 	}
 	Object {
 	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "84"
-	  Extents		  [1724.0, 760.0]
+	  LoadSaveID		  "729"
+	  Extents		  [1328.0, 533.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-46.237897964508306, -393.00000000000011]
-	  SceneRectInView	  [-46.237897964508306, -393.00000000000011, 1149.3333333333333, 506.66666666666669]
+	  Offset		  [-449.0, -158.0]
+	  SceneRectInView	  [-449.0, -158.0, 1328.0, 533.0]
 	}
 	Object {
 	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1737"
-	  Extents		  [1724.0, 760.0]
+	  LoadSaveID		  "1116"
+	  Extents		  [1328.0, 533.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, -10.774999856948853]
-	  SceneRectInView	  [0.0, -10.774999856948853, 1149.3333333333333, 506.66666666666669]
+	  Offset		  [-474.0, -158.5]
+	  SceneRectInView	  [-474.0, -158.5, 1328.0, 533.0]
 	}
 	Object {
 	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1738"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [663.5, 140.5]
+	  SceneRectInView	  [663.5, 140.5, 1328.0, 533.0]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1821"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [0.79421052631578959]
+	  Offset		  [-544.88239572978785, 107.95833333333331]
+	  SceneRectInView	  [-544.88239572978785, 107.95833333333331, 1672.1007289595757, 633.33333333333326]
+	}
+	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1765"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-332.47013595510327, 196.63374751491028]
+	  SceneRectInView	  [-332.47013595510327, 196.63374751491028, 1328.0, 503.0]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1791"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [708.31661459812472, 156.16698381141754]
+	  SceneRectInView	  [708.31661459812472, 156.16698381141754, 1660.0, 666.25]
+	}
+	Object {
+	  $ObjectID		  13
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "728"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-497.88033854166673, -66.0]
+	  SceneRectInView	  [-497.88033854166673, -66.0, 1328.0, 533.0]
+	}
+	Object {
+	  $ObjectID		  14
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "533"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [0.6]
+	  Offset		  [-1125.2500000000005, -76.075007379055023]
+	  SceneRectInView	  [-1125.2500000000005, -76.075007379055023, 2213.3333333333335, 838.33333333333337]
+	}
+	Object {
+	  $ObjectID		  15
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1014"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-966.5, -265.5]
+	  SceneRectInView	  [-966.5, -265.5, 1328.0, 533.0]
+	}
+	Object {
+	  $ObjectID		  16
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-853.55765407554668, -306.25414181577207]
+	  SceneRectInView	  [-853.55765407554668, -306.25414181577207, 1328.0, 503.0]
+	}
+	Object {
+	  $ObjectID		  17
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "473"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-785.16673853227076, -130.00476190476172]
+	  SceneRectInView	  [-785.16673853227076, -130.00476190476172, 1660.0, 666.25]
+	}
+	Object {
+	  $ObjectID		  18
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "163"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [0.2]
+	  Offset		  [-3473.5215663057743, -1029.7139634396158]
+	  SceneRectInView	  [-3473.5215663057743, -1029.7139634396158, 6640.0, 2515.0]
+	}
+	Object {
+	  $ObjectID		  19
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1100"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-849.0, -278.5]
+	  SceneRectInView	  [-849.0, -278.5, 1328.0, 503.0]
+	}
+	Object {
+	  $ObjectID		  20
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "67"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-959.0, -377.0]
+	  SceneRectInView	  [-959.0, -377.0, 1328.0, 503.0]
+	}
+	Object {
+	  $ObjectID		  21
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "84"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [0.6]
+	  Offset		  [-91.281185435524549, -535.88166834688877]
+	  SceneRectInView	  [-91.281185435524549, -535.88166834688877, 2213.3333333333335, 838.33333333333337]
+	}
+	Object {
+	  $ObjectID		  22
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-24.971887550200563, -2.5552878179382787]
+	  SceneRectInView	  [-24.971887550200563, -2.5552878179382787, 1660.0, 666.25]
+	}
+	Object {
+	  $ObjectID		  23
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1703"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [0.595657894736842]
+	  Offset		  [-987.23381930638391, -441.72222222222223]
+	  SceneRectInView	  [-987.23381930638391, -441.72222222222223, 2229.467638612768, 844.44444444444457]
+	}
+	Object {
+	  $ObjectID		  24
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "771"
+	  Extents		  [1328.0, 533.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-772.33233929754772, -414.20245195493709]
+	  SceneRectInView	  [-772.33233929754772, -414.20245195493709, 1328.0, 533.0]
+	}
+	Object {
+	  $ObjectID		  25
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1146"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-354.0, -257.5]
+	  SceneRectInView	  [-354.0, -257.5, 1328.0, 503.0]
+	}
+	Object {
+	  $ObjectID		  26
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1692"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-368.37890625, -92.5]
+	  SceneRectInView	  [-368.37890625, -92.5, 1328.0, 503.0]
+	}
+	Object {
+	  $ObjectID		  27
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "813"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  28
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "817"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  29
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1035"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-293.0234375, -78.5]
+	  SceneRectInView	  [-293.0234375, -78.5, 1328.0, 503.0]
+	}
+	Object {
+	  $ObjectID		  30
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1785"
+	  Extents		  [1328.0, 503.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-414.0, -182.5]
+	  SceneRectInView	  [-414.0, -182.5, 1328.0, 503.0]
+	}
+	Object {
+	  $ObjectID		  31
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -104,7 +346,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 8.7182014689109337, 1965.964912280702, 866.66666666666674]
 	}
 	Object {
-	  $ObjectID		  10
+	  $ObjectID		  32
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -115,7 +357,7 @@ Library {
 	  SceneRectInView	  [-404.31709155701742, -100.83333333333331, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  11
+	  $ObjectID		  33
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -126,7 +368,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  12
+	  $ObjectID		  34
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -137,7 +379,7 @@ Library {
 	  SceneRectInView	  [-134.48127741228063, 11.554385964912191, 1572.7719298245615, 693.33333333333337]
 	}
 	Object {
-	  $ObjectID		  13
+	  $ObjectID		  35
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -148,7 +390,7 @@ Library {
 	  SceneRectInView	  [-288.73492781432583, -40.712506257189233, 2457.4561403508774, 1083.3333333333335]
 	}
 	Object {
-	  $ObjectID		  14
+	  $ObjectID		  36
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -159,7 +401,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 8.0575392120761649, 1965.964912280702, 866.66666666666674]
 	}
 	Object {
-	  $ObjectID		  15
+	  $ObjectID		  37
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -170,7 +412,7 @@ Library {
 	  SceneRectInView	  [-324.14603892543846, 26.687509626150131, 2457.4561403508774, 1083.3333333333335]
 	}
 	Object {
-	  $ObjectID		  16
+	  $ObjectID		  38
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -181,7 +423,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 8.4649122807017676, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  17
+	  $ObjectID		  39
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -192,7 +434,7 @@ Library {
 	  SceneRectInView	  [-1127.1504248903507, 57.8695259481145, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  18
+	  $ObjectID		  40
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -203,7 +445,7 @@ Library {
 	  SceneRectInView	  [-488.17338267543846, -149.16666666666674, 2298.6666666666665, 1013.3333333333334]
 	}
 	Object {
-	  $ObjectID		  19
+	  $ObjectID		  41
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -214,7 +456,7 @@ Library {
 	  SceneRectInView	  [-630.60671600877174, -67.950002318620648, 2457.4561403508774, 1083.3333333333335]
 	}
 	Object {
-	  $ObjectID		  20
+	  $ObjectID		  42
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -225,7 +467,7 @@ Library {
 	  SceneRectInView	  [-1164.6504248903507, -29.833333333333314, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  21
+	  $ObjectID		  43
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -236,7 +478,7 @@ Library {
 	  SceneRectInView	  [-1164.6504248903507, -36.535087719298225, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  22
+	  $ObjectID		  44
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -247,7 +489,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, -41.66557001231007, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  23
+	  $ObjectID		  45
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -258,7 +500,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 15.166666666666458, 1965.964912280702, 866.66666666666674]
 	}
 	Object {
-	  $ObjectID		  24
+	  $ObjectID		  46
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -269,7 +511,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 8.8333333333332682, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  25
+	  $ObjectID		  47
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -280,7 +522,7 @@ Library {
 	  SceneRectInView	  [-270.36197916666663, 14.955555555555435, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  26
+	  $ObjectID		  48
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -291,7 +533,7 @@ Library {
 	  SceneRectInView	  [-756.33463541666663, -29.822222222222376, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  27
+	  $ObjectID		  49
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -302,7 +544,7 @@ Library {
 	  SceneRectInView	  [-264.66666666666663, -259.33333333333337, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  28
+	  $ObjectID		  50
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -313,95 +555,7 @@ Library {
 	  SceneRectInView	  [-264.66666666666663, -259.33333333333337, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  29
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "728"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-408.44244791666659, -67.833333333333343]
-	  SceneRectInView	  [-408.44244791666659, -67.833333333333343, 1149.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  30
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1756"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0699999999999998]
-	  Offset		  [-82.0716510903427, -186.29283489096579]
-	  SceneRectInView	  [-82.0716510903427, -186.29283489096579, 1074.1433021806856, 473.52024922118386]
-	}
-	Object {
-	  $ObjectID		  31
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1738"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [752.83333333333337, 138.66666666666666]
-	  SceneRectInView	  [752.83333333333337, 138.66666666666666, 1149.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  32
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1791"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [0.5]
-	  Offset		  [368.16666666666674, 1.3333333333333144]
-	  SceneRectInView	  [368.16666666666674, 1.3333333333333144, 2298.6666666666665, 1013.3333333333334]
-	}
-	Object {
-	  $ObjectID		  33
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1765"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [-424.66536458333326, 107.95833333333331]
-	  SceneRectInView	  [-424.66536458333326, 107.95833333333331, 1436.6666666666665, 633.33333333333326]
-	}
-	Object {
-	  $ObjectID		  34
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1821"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [-427.16536458333326, 107.95833333333331]
-	  SceneRectInView	  [-427.16536458333326, 107.95833333333331, 1436.6666666666665, 633.33333333333326]
-	}
-	Object {
-	  $ObjectID		  35
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1014"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-877.16666666666663, -165.92085244258246]
-	  SceneRectInView	  [-877.16666666666663, -165.92085244258246, 1149.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  36
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1146"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-251.33333333333326, -259.33333333333337]
-	  SceneRectInView	  [-251.33333333333326, -259.33333333333337, 1149.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  37
+	  $ObjectID		  51
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -412,7 +566,7 @@ Library {
 	  SceneRectInView	  [-1015.6471354166666, -539.83333333333337, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  38
+	  $ObjectID		  52
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -423,95 +577,7 @@ Library {
 	  SceneRectInView	  [-1178.7582465277778, -727.38888888888891, 1915.5555555555557, 844.44444444444457]
 	}
 	Object {
-	  $ObjectID		  39
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1692"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-279.04557291666663, -87.024980783462524]
-	  SceneRectInView	  [-279.04557291666663, -87.024980783462524, 1149.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  40
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1116"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-384.66666666666663, -160.33333333333334]
-	  SceneRectInView	  [-384.66666666666663, -160.33333333333334, 1149.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  41
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1703"
-	  Extents		  [1724.0, 760.0]
-	  ZoomFactor		  [0.6]
-	  Offset		  [-830.27777777777771, -441.72222222222223]
-	  SceneRectInView	  [-830.27777777777771, -441.72222222222223, 1915.5555555555557, 844.44444444444457]
-	}
-	Object {
-	  $ObjectID		  42
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "771"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-291.33333333333326, -330.02083899577462]
-	  SceneRectInView	  [-291.33333333333326, -330.02083899577462, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  43
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "163"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-141.16666666666657, -39.949971318245034]
-	  SceneRectInView	  [-141.16666666666657, -39.949971318245034, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  44
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "67"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-436.33333333333326, -206.33333333333334]
-	  SceneRectInView	  [-436.33333333333326, -206.33333333333334, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  45
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "473"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-172.40417174498236, -125.21671549479169]
-	  SceneRectInView	  [-172.40417174498236, -125.21671549479169, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  46
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-338.83333333333326, -248.34583320220312]
-	  SceneRectInView	  [-338.83333333333326, -248.34583320220312, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  47
+	  $ObjectID		  53
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -522,7 +588,7 @@ Library {
 	  SceneRectInView	  [14.049479166666742, 76.166666666666657, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  48
+	  $ObjectID		  54
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -533,7 +599,7 @@ Library {
 	  SceneRectInView	  [-122.47786458333326, -123.33333333333334, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  49
+	  $ObjectID		  55
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -544,29 +610,7 @@ Library {
 	  SceneRectInView	  [-233.19270833333326, -53.0, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  50
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1035"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-190.35677083333326, -80.333333333333343]
-	  SceneRectInView	  [-190.35677083333326, -80.333333333333343, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  51
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1100"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-356.66666666666663, -140.33333333333334]
-	  SceneRectInView	  [-356.66666666666663, -140.33333333333334, 1123.3333333333333, 506.66666666666669]
-	}
-	Object {
-	  $ObjectID		  52
+	  $ObjectID		  56
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -577,18 +621,7 @@ Library {
 	  SceneRectInView	  [-469.06666666666661, -319.16666666666663, 898.66666666666663, 405.33333333333331]
 	}
 	Object {
-	  $ObjectID		  53
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "813"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
-	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
-	}
-	Object {
-	  $ObjectID		  54
+	  $ObjectID		  57
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -599,7 +632,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  55
+	  $ObjectID		  58
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -610,7 +643,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  56
+	  $ObjectID		  59
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -621,7 +654,7 @@ Library {
 	  SceneRectInView	  [-233.19270833333326, -53.0, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  57
+	  $ObjectID		  60
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -632,7 +665,7 @@ Library {
 	  SceneRectInView	  [-171.54036458333326, -118.16666666666669, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  58
+	  $ObjectID		  61
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -643,7 +676,7 @@ Library {
 	  SceneRectInView	  [-383.83333333333326, -206.83333333333334, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  59
+	  $ObjectID		  62
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -654,7 +687,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  60
+	  $ObjectID		  63
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -665,7 +698,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  61
+	  $ObjectID		  64
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -676,7 +709,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  62
+	  $ObjectID		  65
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -687,7 +720,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  63
+	  $ObjectID		  66
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -698,7 +731,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  64
+	  $ObjectID		  67
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -709,7 +742,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  65
+	  $ObjectID		  68
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -720,7 +753,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  66
+	  $ObjectID		  69
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -731,18 +764,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  67
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "817"
-	  Extents		  [1685.0, 760.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [0.0, 0.0]
-	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
-	}
-	Object {
-	  $ObjectID		  68
+	  $ObjectID		  70
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -753,7 +775,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  69
+	  $ObjectID		  71
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -764,7 +786,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  70
+	  $ObjectID		  72
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -775,7 +797,7 @@ Library {
 	  SceneRectInView	  [-1350.98046875, -719.83333333333326, 1820.6666666666667, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  71
+	  $ObjectID		  73
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -786,7 +808,7 @@ Library {
 	  SceneRectInView	  [-251.33333333333326, -259.33333333333337, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  72
+	  $ObjectID		  74
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -797,7 +819,7 @@ Library {
 	  SceneRectInView	  [14.049479166666742, 76.166666666666657, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  73
+	  $ObjectID		  75
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -808,7 +830,7 @@ Library {
 	  SceneRectInView	  [-151.65545743427566, 13.904562562003832, 641.90476190476215, 289.52380952380963]
 	}
 	Object {
-	  $ObjectID		  74
+	  $ObjectID		  76
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -819,7 +841,7 @@ Library {
 	  SceneRectInView	  [-201.33333333333326, -130.83333333333334, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  75
+	  $ObjectID		  77
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -830,7 +852,7 @@ Library {
 	  SceneRectInView	  [-162.79427083333326, -118.16666666666669, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  76
+	  $ObjectID		  78
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -840,24 +862,13 @@ Library {
 	  Offset		  [-96.079427083333371, -23.833333333333314]
 	  SceneRectInView	  [-96.079427083333371, -23.833333333333314, 715.33333333333337, 319.33333333333331]
 	}
-	Object {
-	  $ObjectID		  77
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "729"
-	  Extents		  [1557.0, 809.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-407.4, -229.7]
-	  SceneRectInView	  [-407.4, -229.7, 1245.6, 647.2]
-	}
 	PropName		"EditorsInfo"
       }
       Array {
 	Type			"Simulink.DockComponentInfo"
 	Dimension		2
 	Object {
-	  $ObjectID		  78
+	  $ObjectID		  79
 	  Type			  "Simulink:Editor:ReferencedFiles"
 	  ID			  "Referenced Files"
 	  Visible		  [0]
@@ -865,12 +876,12 @@ Library {
 	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
 	  Floating		  [0]
 	  DockPosition		  "Left"
-	  Width			  [426]
-	  Height		  [320]
+	  Width			  [640]
+	  Height		  [480]
 	  Minimized		  "Unset"
 	}
 	Object {
-	  $ObjectID		  79
+	  $ObjectID		  80
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -878,18 +889,18 @@ Library {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
-	  Width			  [426]
-	  Height		  [320]
+	  Width			  [640]
+	  Height		  [480]
 	  Minimized		  "Unset"
 	}
 	PropName		"DockComponentsInfo"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACTAP////sAAABgAFMAaQBtAHUAb"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
-      "QBzAAAAAAD/////AAAAxwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAG9AAAA0QAAAABAAAAAgAAAAEAAAAC/"
+      "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAFVgAAAjQAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAEAAAACAAAAAA=="
       Array {
 	Type			"Cell"
@@ -907,11 +918,11 @@ Library {
   Creator		  "Bakhshiev"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Bakhshiev"
+  LastModifiedBy	  "Александра"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Apr 23 11:13:27 2021"
-  RTWModifiedTimeStamp	  541076993
-  ModelVersionFormat	  "%<AutoIncrement:3.62>"
+  LastModifiedDate	  "Thu May 06 01:28:59 2021"
+  RTWModifiedTimeStamp	  542168920
+  ModelVersionFormat	  "%<AutoIncrement:3.66>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -984,7 +995,7 @@ Library {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      80
+      $ObjectID		      81
       Version		      "20.1.0"
       DisabledProps	      []
       Description	      ""
@@ -992,7 +1003,7 @@ Library {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  81
+	  $ObjectID		  82
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1034,7 +1045,7 @@ Library {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  82
+	  $ObjectID		  83
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1076,7 +1087,7 @@ Library {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  83
+	  $ObjectID		  84
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -1150,7 +1161,7 @@ Library {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  84
+	  $ObjectID		  85
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -1273,7 +1284,7 @@ Library {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  85
+	  $ObjectID		  86
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1323,7 +1334,7 @@ Library {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  86
+	  $ObjectID		  87
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1343,7 +1354,7 @@ Library {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  87
+	  $ObjectID		  88
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1387,7 +1398,7 @@ Library {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  88
+	  $ObjectID		  89
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -1493,7 +1504,7 @@ Library {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      89
+	      $ObjectID		      90
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -1583,7 +1594,7 @@ Library {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      90
+	      $ObjectID		      91
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -1690,7 +1701,7 @@ Library {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  91
+	  $ObjectID		  92
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -2086,9 +2097,9 @@ Library {
   }
   System {
     Name		    "NeuroModelerLibrary"
-    Location		    [-7, -727, 1194, 8]
+    Location		    [-8, -8, 1374, 736]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -2102,7 +2113,7 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "100"
+    ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "2038"
     SimulinkSubDomain	    "Simulink"
@@ -2116,7 +2127,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Actuators"
-	Location		[-7, -7, 1168, 728]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -2406,7 +2417,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Analog Simple Cells"
-	Location		[-7, -727, 1194, 8]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -2434,7 +2445,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Simple Analog Neuron"
-	    Location		    [-7, -7, 1168, 728]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -2505,7 +2516,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [550, 139, 640, 181]
 	      ZOrder		      14
-	      LibraryVersion	      "3.39"
+	      LibraryVersion	      "3.62"
 	      SourceBlock	      "$bdroot/Neuron Elements/ContLTZone"
 	      SourceType	      "SubSystem"
 	      ShowPortLabels	      "FromPortIcon"
@@ -2529,7 +2540,7 @@ Library {
 	      Ports		      [5, 2]
 	      Position		      [270, 97, 435, 223]
 	      ZOrder		      11
-	      LibraryVersion	      "3.39"
+	      LibraryVersion	      "3.62"
 	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -2552,7 +2563,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [90, 44, 150, 66]
 	      ZOrder		      15
-	      LibraryVersion	      "3.39"
+	      LibraryVersion	      "3.62"
 	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -2574,7 +2585,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [90, 99, 150, 121]
 	      ZOrder		      16
-	      LibraryVersion	      "3.39"
+	      LibraryVersion	      "3.62"
 	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -2596,7 +2607,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [90, 219, 150, 241]
 	      ZOrder		      17
-	      LibraryVersion	      "3.39"
+	      LibraryVersion	      "3.62"
 	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -2618,7 +2629,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [90, 264, 150, 286]
 	      ZOrder		      18
-	      LibraryVersion	      "3.39"
+	      LibraryVersion	      "3.62"
 	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -3199,9 +3210,9 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Classic Models"
-	Location		[-7, -727, 1194, 8]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -3215,7 +3226,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"125"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -3226,9 +3237,86 @@ Library {
 	  ZOrder		  1248
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
+	  Object {
+	    $PropName		    "MaskObject"
+	    $ObjectID		    93
+	    $ClassName		    "Simulink.Mask"
+	    RunInitForIconRedraw    "off"
+	    Array {
+	      Type		      "Simulink.MaskParameter"
+	      Dimension		      4
+	      Object {
+		$ObjectID		94
+		Type			"edit"
+		Name			"tau_syn"
+		Prompt			"Rise time of the exciatory synaptic alpha function"
+		Value			"2e-3"
+	      }
+	      Object {
+		$ObjectID		95
+		Type			"edit"
+		Name			"I_syn"
+		Prompt			"Synaptic current amplitude"
+		Value			"1e-12"
+	      }
+	      Object {
+		$ObjectID		96
+		Type			"edit"
+		Name			"weight"
+		Prompt			"Weight"
+		Value			"1"
+	      }
+	      Object {
+		$ObjectID		97
+		Type			"edit"
+		Name			"delay"
+		Prompt			"Delay"
+		Value			"1e-3"
+	      }
+	      PropName		      "Parameters"
+	    }
+	    Array {
+	      Type		      "Simulink.dialog.Control"
+	      Dimension		      5
+	      Object {
+		$ObjectID		98
+		$ClassName		"Simulink.dialog.Group"
+		Prompt			"%<MaskType>"
+		Object {
+		  $PropName		  "DialogControls"
+		  $ObjectID		  99
+		  $ClassName		  "Simulink.dialog.Text"
+		  Prompt		  "%<MaskDescription>"
+		  Name			  "DescTextVar"
+		}
+		Name			"DescGroupVar"
+	      }
+	      Object {
+		$ObjectID		100
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"tau_syn"
+	      }
+	      Object {
+		$ObjectID		101
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"I_syn"
+	      }
+	      Object {
+		$ObjectID		102
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"weight"
+	      }
+	      Object {
+		$ObjectID		103
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"delay"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	  }
 	  System {
 	    Name		    "Alpha-Function Synapse (nonsmooth)"
-	    Location		    [-7, -727, 1194, 8]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -3244,11 +3332,11 @@ Library {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "80"
+	    ZoomFactor		    "79"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "In1"
+	      Name		      "pulse input"
 	      SID		      "1822"
 	      Position		      [-280, 243, -250, 257]
 	      ZOrder		      1117
@@ -3257,17 +3345,9 @@ Library {
 	      BlockType		      Gain
 	      Name		      "-1/tau_syn"
 	      SID		      "1823"
-	      Position		      [55, 432, 130, 488]
+	      Position		      [70, 377, 145, 433]
 	      ZOrder		      1107
-	      Gain		      "-1/(2e-3)"
-	    }
-	    Block {
-	      BlockType		      Gain
-	      Name		      "1/tau_syn"
-	      SID		      "1824"
-	      Position		      [125, 352, 190, 408]
-	      ZOrder		      1109
-	      Gain		      "1/(2e-3)"
+	      Gain		      "-1/(tau_syn)"
 	    }
 	    Block {
 	      BlockType		      Clock
@@ -3280,14 +3360,14 @@ Library {
 	      BlockType		      Constant
 	      Name		      "Constant"
 	      SID		      "1826"
-	      Position		      [135, 510, 165, 540]
+	      Position		      [115, 495, 145, 525]
 	      ZOrder		      1130
 	    }
 	    Block {
 	      BlockType		      Constant
 	      Name		      "Constant1"
 	      SID		      "1827"
-	      Position		      [135, 575, 165, 605]
+	      Position		      [115, 560, 145, 590]
 	      ZOrder		      1131
 	      Value		      "0"
 	    }
@@ -3306,15 +3386,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [660, 425, 705, 465]
 	      ZOrder		      1136
-	      DelayTime		      "0.001"
-	    }
-	    Block {
-	      BlockType		      Gain
-	      Name		      "Gain4"
-	      SID		      "1830"
-	      Position		      [55, 356, 105, 404]
-	      ZOrder		      1105
-	      Gain		      "exp(1)"
+	      DelayTime		      "delay"
 	    }
 	    Block {
 	      BlockType		      Gain
@@ -3322,14 +3394,14 @@ Library {
 	      SID		      "1831"
 	      Position		      [285, 381, 335, 429]
 	      ZOrder		      1111
-	      Gain		      "1e-12"
+	      Gain		      "I_syn"
 	    }
 	    Block {
 	      BlockType		      Math
 	      Name		      "Math\nFunction"
 	      SID		      "1832"
 	      Ports		      [1, 1]
-	      Position		      [160, 445, 190, 475]
+	      Position		      [175, 390, 205, 420]
 	      ZOrder		      1106
 	    }
 	    Block {
@@ -3354,87 +3426,11 @@ Library {
 	    }
 	    Block {
 	      BlockType		      Product
-	      Name		      "Product"
-	      SID		      "1834"
-	      Ports		      [2, 1]
-	      Position		      [230, 359, 245, 446]
-	      ZOrder		      1110
-	    }
-	    Block {
-	      BlockType		      Product
 	      Name		      "Product1"
 	      SID		      "1835"
 	      Ports		      [2, 1]
 	      Position		      [355, 384, 370, 471]
 	      ZOrder		      1112
-	    }
-	    Block {
-	      BlockType		      Scope
-	      Name		      "Scope"
-	      SID		      "1836"
-	      Ports		      [3]
-	      Position		      [65, 273, 95, 307]
-	      ZOrder		      1126
-	      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(ext"
-	      "mgr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration("
-	      "'Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData3'),extmgr.Configuration('Visuals','Time Dom"
-	      "ain',true,'SerializedDisplays',{struct('MinYLimReal','-0.125','MaxYLimReal','1.125','YLabelReal','','MinYLimMag"
-	      "','0.00000','MaxYLimMag','1.125','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesC"
-	      "olor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.06666"
-	      "66666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831"
-	      "372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07450980392156"
-	      "86 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLi"
-	      "nes',1,'LineNames',{{'In1'}},'ShowContent',true,'Placement',1),struct('MinYLimReal','-0.0375','MaxYLimReal','0."
-	      "3375','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.125','LegendVisibility','off','XGrid',true,'YGrid'"
-	      ",true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509"
-	      "803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078"
-	      "431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.058823"
-	      "5294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'Use"
-	      "rDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Triggered Subsystem'}},'ShowContent',true,'Placement',2)"
-	      ",struct('MinYLimReal','-0.025','MaxYLimReal','0.225','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.125"
-	      "','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',["
-	      "0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 "
-	      "0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686"
-	      ";0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','"
-	      "%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Sum'}},'S"
-	      "howContent',true,'Placement',3)},'DisplayPropertyDefaults',struct('YLabelReal','','LegendVisibility','off','XGr"
-	      "id',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.68627450980"
-	      "3922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.160784313725"
-	      "49;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.074509803"
-	      "9215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863]),'DisplayLayoutDimensions',[3 1]),extmgr"
-	      ".Configuration('Tools','Plot Navigation',true),extmgr.Configuration('Tools','Measurements',true,'Version','2020"
-	      "b')),'Version','2020b','Position',[90.3333333333333 838.333333333333 950.666666666667 379.333333333333],'Visibl"
-	      "eAtModelOpen','on')"
-	      NumInputPorts	      "3"
-	      Floating		      off
-	    }
-	    Block {
-	      BlockType		      Scope
-	      Name		      "Scope1"
-	      SID		      "1837"
-	      Ports		      [1]
-	      Position		      [780, 449, 810, 481]
-	      ZOrder		      1127
-	      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(ext"
-	      "mgr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration("
-	      "'Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData4'),extmgr.Configuration('Visuals','Time Dom"
-	      "ain',true,'SerializedDisplays',{struct('MinYLimReal','-0.125','MaxYLimReal','1.13','YLabelReal','','MinYLimMag'"
-	      ",'0.00000','MaxYLimMag','1.125','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesCo"
-	      "lor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.066666"
-	      "6666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.8313"
-	      "72549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.074509803921568"
-	      "6 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLin"
-	      "es',1,'LineNames',{{'Delay'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal'"
-	      ",'-0.125','MaxYLimReal','1.13','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.125','LegendVisibility','"
-	      "Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.68"
-	      "6274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.160"
-	      "78431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0."
-	      "0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools',"
-	      "'Plot Navigation',true,'OnceAtStop',false,'PreviousZoomMode','ZoomX','PreviousAutoscale','XY'),extmgr.Configura"
-	      "tion('Tools','Measurements',true,'Version','2020b')),'Version','2020b','Position',[88.3333333333333 793.6666666"
-	      "66667 1008.66666666667 264],'VisibleAtModelOpen','on')"
-	      NumInputPorts	      "1"
-	      Floating		      off
 	    }
 	    Block {
 	      BlockType		      Sum
@@ -3449,7 +3445,7 @@ Library {
 	      BlockType		      Switch
 	      Name		      "Switch"
 	      SID		      "1839"
-	      Position		      [210, 535, 260, 575]
+	      Position		      [190, 520, 240, 560]
 	      ZOrder		      1129
 	      Criteria		      "u2 > Threshold"
 	      InputSameDT	      off
@@ -3534,32 +3530,23 @@ Library {
 	      SID		      "1845"
 	      Position		      [555, 427, 625, 463]
 	      ZOrder		      1116
+	      Gain		      "weight"
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "alpha-function"
+	      Name		      "i_syn"
 	      SID		      "1846"
 	      Position		      [815, 363, 845, 377]
 	      ZOrder		      1118
 	    }
 	    Line {
 	      ZOrder		      1
+	      Labels		      [-1, 1]
 	      SrcBlock		      "Delay"
 	      SrcPort		      1
-	      Points		      [20, 0]
-	      Branch {
-		ZOrder			2
-		Points			[0, 20]
-		DstBlock		"Scope1"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			3
-		Labels			[-1, 1]
-		Points			[0, -5; 25, 0; 0, -70]
-		DstBlock		"alpha-function"
-		DstPort			1
-	      }
+	      Points		      [20, 0; 0, -5; 25, 0; 0, -70]
+	      DstBlock		      "i_syn"
+	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      4
@@ -3611,21 +3598,12 @@ Library {
 	      SrcBlock		      "Triggered\nSubsystem"
 	      SrcPort		      1
 	      Points		      [10, 0]
-	      Branch {
-		ZOrder			11
-		Points			[0, -30]
-		DstBlock		"Scope"
-		DstPort			2
-	      }
-	      Branch {
-		ZOrder			12
-		DstBlock		"Sum"
-		DstPort			1
-	      }
+	      DstBlock		      "Sum"
+	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      13
-	      SrcBlock		      "In1"
+	      SrcBlock		      "pulse input"
 	      SrcPort		      1
 	      Points		      [0, 5; 157, 0]
 	      Branch {
@@ -3635,17 +3613,9 @@ Library {
 	      }
 	      Branch {
 		ZOrder			15
-		Points			[0, -5; 3, 0; 0, 30]
-		Branch {
-		  ZOrder		  16
-		  DstBlock		  "Triggered\nSubsystem"
-		  DstPort		  trigger
-		}
-		Branch {
-		  ZOrder		  17
-		  DstBlock		  "Scope"
-		  DstPort		  1
-		}
+		Points			[0, -5; 3, 0]
+		DstBlock		"Triggered\nSubsystem"
+		DstPort			trigger
 	      }
 	    }
 	    Line {
@@ -3669,7 +3639,7 @@ Library {
 	      ZOrder		      21
 	      SrcBlock		      "Switch"
 	      SrcPort		      1
-	      Points		      [45, 0; 0, -105]
+	      Points		      [65, 0; 0, -90]
 	      DstBlock		      "Product1"
 	      DstPort		      2
 	    }
@@ -3677,19 +3647,8 @@ Library {
 	      ZOrder		      22
 	      SrcBlock		      "Math\nFunction"
 	      SrcPort		      1
-	      Points		      [12, 0; 0, -7]
-	      Branch {
-		ZOrder			23
-		Points			[0, -28]
-		DstBlock		"Product"
-		DstPort			2
-	      }
-	      Branch {
-		ZOrder			24
-		Points			[58, 0; 0, -48]
-		DstBlock		"I_syn"
-		DstPort			1
-	      }
+	      DstBlock		      "I_syn"
+	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      25
@@ -3699,46 +3658,20 @@ Library {
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      26
-	      SrcBlock		      "Gain4"
-	      SrcPort		      1
-	      DstBlock		      "1/tau_syn"
-	      DstPort		      1
-	    }
-	    Line {
 	      ZOrder		      27
 	      SrcBlock		      "Sum"
 	      SrcPort		      1
-	      Points		      [22, 0]
+	      Points		      [32, 0; 0, 25]
 	      Branch {
-		ZOrder			28
-		Points			[10, 0]
-		Branch {
-		  ZOrder		  29
-		  DstBlock		  "Gain4"
-		  DstPort		  1
-		}
-		Branch {
-		  ZOrder		  30
-		  Points		  [0, 80]
-		  Branch {
-		    ZOrder		    31
-		    DstBlock		    "-1/tau_syn"
-		    DstPort		    1
-		  }
-		  Branch {
-		    ZOrder		    32
-		    Points		    [0, 95]
-		    DstBlock		    "Switch"
-		    DstPort		    2
-		  }
-		}
+		ZOrder			37
+		Points			[0, 135]
+		DstBlock		"Switch"
+		DstPort			2
 	      }
 	      Branch {
-		ZOrder			33
-		Points			[0, -80]
-		DstBlock		"Scope"
-		DstPort			3
+		ZOrder			31
+		DstBlock		"-1/tau_syn"
+		DstPort			1
 	      }
 	    }
 	    Line {
@@ -3746,13 +3679,6 @@ Library {
 	      SrcBlock		      "Weight"
 	      SrcPort		      1
 	      DstBlock		      "Delay"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      35
-	      SrcBlock		      "1/tau_syn"
-	      SrcPort		      1
-	      DstBlock		      "Product"
 	      DstPort		      1
 	    }
 	    Line {
@@ -3773,9 +3699,86 @@ Library {
 	  ZOrder		  1246
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
+	  Object {
+	    $PropName		    "MaskObject"
+	    $ObjectID		    104
+	    $ClassName		    "Simulink.Mask"
+	    RunInitForIconRedraw    "off"
+	    Array {
+	      Type		      "Simulink.MaskParameter"
+	      Dimension		      4
+	      Object {
+		$ObjectID		105
+		Type			"edit"
+		Name			"tau_syn"
+		Prompt			"Rise time of excitatory synaptic alpha function"
+		Value			"2e-3"
+	      }
+	      Object {
+		$ObjectID		106
+		Type			"edit"
+		Name			"I_syn"
+		Prompt			"Synaptic current amplitude"
+		Value			"1e-12"
+	      }
+	      Object {
+		$ObjectID		107
+		Type			"edit"
+		Name			"weight"
+		Prompt			"Weight"
+		Value			"1"
+	      }
+	      Object {
+		$ObjectID		108
+		Type			"edit"
+		Name			"delay"
+		Prompt			"Delay"
+		Value			"1e-3"
+	      }
+	      PropName		      "Parameters"
+	    }
+	    Array {
+	      Type		      "Simulink.dialog.Control"
+	      Dimension		      5
+	      Object {
+		$ObjectID		109
+		$ClassName		"Simulink.dialog.Group"
+		Prompt			"%<MaskType>"
+		Object {
+		  $PropName		  "DialogControls"
+		  $ObjectID		  110
+		  $ClassName		  "Simulink.dialog.Text"
+		  Prompt		  "%<MaskDescription>"
+		  Name			  "DescTextVar"
+		}
+		Name			"DescGroupVar"
+	      }
+	      Object {
+		$ObjectID		111
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"tau_syn"
+	      }
+	      Object {
+		$ObjectID		112
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"I_syn"
+	      }
+	      Object {
+		$ObjectID		113
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"weight"
+	      }
+	      Object {
+		$ObjectID		114
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"delay"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	  }
 	  System {
 	    Name		    "Alpha-Function Synapse (smooth)"
-	    Location		    [-7, -727, 1194, 8]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -3791,13 +3794,13 @@ Library {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "80"
+	    ZoomFactor		    "100"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "In1"
+	      Name		      "pulse input"
 	      SID		      "1766"
-	      Position		      [-280, 243, -250, 257]
+	      Position		      [-280, 263, -250, 277]
 	      ZOrder		      1117
 	    }
 	    Block {
@@ -3806,7 +3809,7 @@ Library {
 	      SID		      "1767"
 	      Position		      [55, 432, 130, 488]
 	      ZOrder		      1107
-	      Gain		      "-1/(2e-3)"
+	      Gain		      "-1/(tau_syn)"
 	    }
 	    Block {
 	      BlockType		      Gain
@@ -3814,7 +3817,7 @@ Library {
 	      SID		      "1768"
 	      Position		      [125, 352, 190, 408]
 	      ZOrder		      1109
-	      Gain		      "1/(2e-3)"
+	      Gain		      "1/(tau_syn)"
 	    }
 	    Block {
 	      BlockType		      Clock
@@ -3853,7 +3856,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [660, 425, 705, 465]
 	      ZOrder		      1135
-	      DelayTime		      "0.001"
+	      DelayTime		      "delay"
 	    }
 	    Block {
 	      BlockType		      Gain
@@ -3869,7 +3872,7 @@ Library {
 	      SID		      "1775"
 	      Position		      [285, 381, 335, 429]
 	      ZOrder		      1111
-	      Gain		      "1e-12"
+	      Gain		      "I_syn"
 	    }
 	    Block {
 	      BlockType		      Math
@@ -3884,7 +3887,7 @@ Library {
 	      Name		      "MinMax\nRunning\nResettable"
 	      SID		      "1777"
 	      Ports		      [2, 1]
-	      Position		      [250, 246, 315, 284]
+	      Position		      [250, 266, 315, 304]
 	      ZOrder		      1132
 	      LibraryVersion	      "1.476"
 	      SourceBlock	      "simulink/Math\nOperations/MinMax\nRunning\nResettable"
@@ -3914,73 +3917,6 @@ Library {
 	      Ports		      [2, 1]
 	      Position		      [355, 384, 370, 471]
 	      ZOrder		      1112
-	    }
-	    Block {
-	      BlockType		      Scope
-	      Name		      "Scope"
-	      SID		      "1780"
-	      Ports		      [3]
-	      Position		      [65, 273, 95, 307]
-	      ZOrder		      1126
-	      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(ext"
-	      "mgr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration("
-	      "'Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData3'),extmgr.Configuration('Visuals','Time Dom"
-	      "ain',true,'SerializedDisplays',{struct('MinYLimReal','-1.00000','MaxYLimReal','1.00000','YLabelReal','','MinYLi"
-	      "mMag','0.00000','MaxYLimMag','1.00000','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,"
-	      "'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0"
-	      ".0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098"
-	      " 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07450980"
-	      "39215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},"
-	      "'NumLines',1,'LineNames',{{'In1'}},'ShowContent',true,'Placement',1),struct('MinYLimReal','-1.00000','MaxYLimRe"
-	      "al','1.00000','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.125','LegendVisibility','off','XGrid',true"
-	      ",'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.6"
-	      "86274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353"
-	      " 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;"
-	      "0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{"
-	      "{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Triggered Subsystem'}},'ShowContent',true,'Place"
-	      "ment',2),struct('MinYLimReal','-0.0125','MaxYLimReal','0.1125','YLabelReal','','MinYLimMag','0.00000','MaxYLimM"
-	      "ag','1.125','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTi"
-	      "ckColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098"
-	      "039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.074509"
-	      "8039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863]"
-	      ",'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{"
-	      "'Sum'}},'ShowContent',true,'Placement',3)},'DisplayPropertyDefaults',struct('YLabelReal','','LegendVisibility',"
-	      "'off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.6"
-	      "86274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16"
-	      "078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0"
-	      ".0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863]),'DisplayLayoutDimensions',[3 "
-	      "1]),extmgr.Configuration('Tools','Plot Navigation',true),extmgr.Configuration('Tools','Measurements',true,'Vers"
-	      "ion','2020b')),'Version','2020b','Position',[1 41 1366 652])"
-	      NumInputPorts	      "3"
-	      Floating		      off
-	    }
-	    Block {
-	      BlockType		      Scope
-	      Name		      "Scope1"
-	      SID		      "1781"
-	      Ports		      [1]
-	      Position		      [785, 454, 815, 486]
-	      ZOrder		      1127
-	      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(ext"
-	      "mgr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration("
-	      "'Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData4'),extmgr.Configuration('Visuals','Time Dom"
-	      "ain',true,'SerializedDisplays',{struct('MinYLimReal','-0.000000001','MaxYLimReal','0.000000011','YLabelReal',''"
-	      ",'MinYLimMag','0.000000000','MaxYLimMag','0.000000011','LegendVisibility','off','XGrid',true,'YGrid',true,'Plot"
-	      "MagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'Co"
-	      "lorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0"
-	      ".392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 "
-	      "1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedCha"
-	      "nnelNames',{{}},'NumLines',1,'LineNames',{{'alpha-function'}},'ShowContent',true,'Placement',1)},'DisplayProper"
-	      "tyDefaults',struct('MinYLimReal','-0.000000001','MaxYLimReal','0.000000011','YLabelReal','','MinYLimMag','0.000"
-	      "000000','MaxYLimMag','0.000000011','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axe"
-	      "sColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098"
-	      "039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.2"
-	      "74509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.074509803921"
-	      "5686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousZoomM"
-	      "ode','ZoomX','PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2020b')),'Ve"
-	      "rsion','2020b','Position',[1 41 1366 652])"
-	      NumInputPorts	      "1"
-	      Floating		      off
 	    }
 	    Block {
 	      BlockType		      Sum
@@ -4023,7 +3959,7 @@ Library {
 	      ContentPreviewEnabled   on
 	      System {
 		Name			"Triggered\nSubsystem"
-		Location		[401, 346, 899, 646]
+		Location		[-8, -8, 1374, 736]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -4080,32 +4016,23 @@ Library {
 	      SID		      "1789"
 	      Position		      [555, 427, 625, 463]
 	      ZOrder		      1116
+	      Gain		      "weight"
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "alpha-function"
+	      Name		      "i_syn"
 	      SID		      "1790"
 	      Position		      [820, 368, 850, 382]
 	      ZOrder		      1118
 	    }
 	    Line {
 	      ZOrder		      1
+	      Labels		      [-1, 1]
 	      SrcBlock		      "Delay"
 	      SrcPort		      1
-	      Points		      [25, 0]
-	      Branch {
-		ZOrder			2
-		Labels			[-1, 1]
-		Points			[25, 0; 0, -70]
-		DstBlock		"alpha-function"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			3
-		Points			[0, 25]
-		DstBlock		"Scope1"
-		DstPort			1
-	      }
+	      Points		      [50, 0; 0, -70]
+	      DstBlock		      "i_syn"
+	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      4
@@ -4118,7 +4045,7 @@ Library {
 	      ZOrder		      5
 	      SrcBlock		      "MinMax\nRunning\nResettable"
 	      SrcPort		      1
-	      Points		      [93, 0; 0, 180]
+	      Points		      [93, 0; 0, 160]
 	      DstBlock		      "Switch1"
 	      DstPort		      2
 	    }
@@ -4164,23 +4091,14 @@ Library {
 	      SrcBlock		      "Triggered\nSubsystem"
 	      SrcPort		      1
 	      Points		      [10, 0]
-	      Branch {
-		ZOrder			12
-		Points			[0, -30]
-		DstBlock		"Scope"
-		DstPort			2
-	      }
-	      Branch {
-		ZOrder			13
-		DstBlock		"Sum"
-		DstPort			1
-	      }
+	      DstBlock		      "Sum"
+	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      14
-	      SrcBlock		      "In1"
+	      SrcBlock		      "pulse input"
 	      SrcPort		      1
-	      Points		      [0, 5; 157, 0]
+	      Points		      [0, 5; 160, 0]
 	      Branch {
 		ZOrder			15
 		DstBlock		"MinMax\nRunning\nResettable"
@@ -4188,17 +4106,8 @@ Library {
 	      }
 	      Branch {
 		ZOrder			16
-		Points			[0, -5; 3, 0; 0, 30]
-		Branch {
-		  ZOrder		  17
-		  DstBlock		  "Triggered\nSubsystem"
-		  DstPort		  trigger
-		}
-		Branch {
-		  ZOrder		  18
-		  DstBlock		  "Scope"
-		  DstPort		  1
-		}
+		DstBlock		"Triggered\nSubsystem"
+		DstPort			trigger
 	      }
 	    }
 	    Line {
@@ -4252,36 +4161,26 @@ Library {
 	      ZOrder		      26
 	      SrcBlock		      "Sum"
 	      SrcPort		      1
-	      Points		      [22, 0]
+	      Points		      [32, 0]
 	      Branch {
-		ZOrder			27
-		Points			[10, 0]
+		ZOrder			28
+		DstBlock		"Gain4"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			29
+		Points			[0, 80]
 		Branch {
-		  ZOrder		  28
-		  DstBlock		  "Gain4"
+		  ZOrder		  30
+		  DstBlock		  "-1/tau_syn"
 		  DstPort		  1
 		}
 		Branch {
-		  ZOrder		  29
-		  Points		  [0, 80]
-		  Branch {
-		    ZOrder		    30
-		    DstBlock		    "-1/tau_syn"
-		    DstPort		    1
-		  }
-		  Branch {
-		    ZOrder		    31
-		    Points		    [0, 95]
-		    DstBlock		    "Switch"
-		    DstPort		    2
-		  }
+		  ZOrder		  31
+		  Points		  [0, 95]
+		  DstBlock		  "Switch"
+		  DstPort		  2
 		}
-	      }
-	      Branch {
-		ZOrder			32
-		Points			[0, -80]
-		DstBlock		"Scope"
-		DstPort			3
 	      }
 	    }
 	    Line {
@@ -4318,49 +4217,49 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    92
+	    $ObjectID		    115
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		93
+		$ObjectID		116
 		Type			"edit"
 		Name			"tau_m"
 		Prompt			"Membrane time constatnt"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		94
+		$ObjectID		117
 		Type			"edit"
 		Name			"Cm"
 		Prompt			"Membrane capacity"
 		Value			"250e-12"
 	      }
 	      Object {
-		$ObjectID		95
+		$ObjectID		118
 		Type			"edit"
 		Name			"I_const"
 		Prompt			"Constant input current"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		96
+		$ObjectID		119
 		Type			"edit"
 		Name			"E_L"
 		Prompt			"Resting membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		97
+		$ObjectID		120
 		Type			"edit"
 		Name			"V_reset"
 		Prompt			"Reset membrane potential"
 		Value			"-0.10"
 	      }
 	      Object {
-		$ObjectID		98
+		$ObjectID		121
 		Type			"edit"
 		Name			"V_th"
 		Prompt			"Threshold potential"
@@ -4372,11 +4271,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		99
+		$ObjectID		122
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  100
+		  $ObjectID		  123
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -4384,33 +4283,33 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		101
+		$ObjectID		124
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    102
+		    $ObjectID		    125
 		    Name		    "tau_m"
 		  }
 		  Object {
-		    $ObjectID		    103
+		    $ObjectID		    126
 		    Name		    "Cm"
 		  }
 		  Object {
-		    $ObjectID		    104
+		    $ObjectID		    127
 		    Name		    "I_const"
 		  }
 		  Object {
-		    $ObjectID		    105
+		    $ObjectID		    128
 		    Name		    "E_L"
 		  }
 		  Object {
-		    $ObjectID		    106
+		    $ObjectID		    129
 		    Name		    "V_reset"
 		  }
 		  Object {
-		    $ObjectID		    107
+		    $ObjectID		    130
 		    Name		    "V_th"
 		  }
 		  PropName		  "DialogControls"
@@ -4426,7 +4325,7 @@ Library {
 	  }
 	  System {
 	    Name		    "IaF Neuron"
-	    Location		    [-7, -727, 1194, 8]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -4446,7 +4345,7 @@ Library {
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "In1"
+	      Name		      "i_syn"
 	      SID		      "1739"
 	      Position		      [835, 248, 865, 262]
 	      ZOrder		      534
@@ -4528,7 +4427,7 @@ Library {
 	      Ports		      [4, 2]
 	      Position		      [1460, 319, 1540, 361]
 	      ZOrder		      536
-	      LibraryVersion	      "3.50"
+	      LibraryVersion	      "3.64"
 	      SourceBlock	      "$bdroot/Support/Inertial Link With Reset"
 	      SourceType	      "SubSystem"
 	      ShowPortLabels	      "FromPortIcon"
@@ -4581,7 +4480,7 @@ Library {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Out1"
+	      Name		      "Vm"
 	      SID		      "1754"
 	      Position		      [1790, 508, 1820, 522]
 	      ZOrder		      535
@@ -4590,12 +4489,12 @@ Library {
 	      ZOrder		      1
 	      SrcBlock		      "S3"
 	      SrcPort		      1
-	      DstBlock		      "Out1"
+	      DstBlock		      "Vm"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      2
-	      SrcBlock		      "In1"
+	      SrcBlock		      "i_syn"
 	      SrcPort		      1
 	      DstBlock		      "Gain3"
 	      DstPort		      1
@@ -4742,56 +4641,56 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    108
+	    $ObjectID		    131
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      7
 	      Object {
-		$ObjectID		109
+		$ObjectID		132
 		Type			"edit"
 		Name			"tau_m"
 		Prompt			"Membrane time constatnt"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		110
+		$ObjectID		133
 		Type			"edit"
 		Name			"Cm"
 		Prompt			"Membrane capacity"
 		Value			"250e-12"
 	      }
 	      Object {
-		$ObjectID		111
+		$ObjectID		134
 		Type			"edit"
 		Name			"I_const"
 		Prompt			"Constant input current"
 		Value			"376e-12"
 	      }
 	      Object {
-		$ObjectID		112
+		$ObjectID		135
 		Type			"edit"
 		Name			"E_L"
 		Prompt			"Resting membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		113
+		$ObjectID		136
 		Type			"edit"
 		Name			"V_reset"
 		Prompt			"Reset membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		114
+		$ObjectID		137
 		Type			"edit"
 		Name			"V_th"
 		Prompt			"Threshold potential"
 		Value			"-0.055"
 	      }
 	      Object {
-		$ObjectID		115
+		$ObjectID		138
 		Type			"edit"
 		Name			"tau_ref"
 		Prompt			"Refractory period"
@@ -4803,11 +4702,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		116
+		$ObjectID		139
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  117
+		  $ObjectID		  140
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -4815,37 +4714,37 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		118
+		$ObjectID		141
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  7
 		  Object {
-		    $ObjectID		    119
+		    $ObjectID		    142
 		    Name		    "tau_m"
 		  }
 		  Object {
-		    $ObjectID		    120
+		    $ObjectID		    143
 		    Name		    "Cm"
 		  }
 		  Object {
-		    $ObjectID		    121
+		    $ObjectID		    144
 		    Name		    "I_const"
 		  }
 		  Object {
-		    $ObjectID		    122
+		    $ObjectID		    145
 		    Name		    "E_L"
 		  }
 		  Object {
-		    $ObjectID		    123
+		    $ObjectID		    146
 		    Name		    "V_reset"
 		  }
 		  Object {
-		    $ObjectID		    124
+		    $ObjectID		    147
 		    Name		    "V_th"
 		  }
 		  Object {
-		    $ObjectID		    125
+		    $ObjectID		    148
 		    PromptLocation	    "left"
 		    Name		    "tau_ref"
 		  }
@@ -4858,7 +4757,7 @@ Library {
 	  }
 	  System {
 	    Name		    "IaF Neuron with refractory"
-	    Location		    [-7, -727, 1194, 8]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -4874,11 +4773,11 @@ Library {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "50"
+	    ZoomFactor		    "80"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "In1"
+	      Name		      "i_syn"
 	      SID		      "1792"
 	      Position		      [970, 228, 1000, 242]
 	      ZOrder		      534
@@ -4933,7 +4832,7 @@ Library {
 	      BlockType		      Constant
 	      Name		      "Constant3"
 	      SID		      "1799"
-	      Position		      [1845, 765, 1875, 795]
+	      Position		      [1845, 735, 1875, 765]
 	      ZOrder		      1129
 	      Value		      "E_L"
 	    }
@@ -4979,7 +4878,7 @@ Library {
 	      Ports		      [4, 2]
 	      Position		      [1350, 312, 1465, 388]
 	      ZOrder		      515
-	      LibraryVersion	      "3.50"
+	      LibraryVersion	      "3.63"
 	      SourceBlock	      "$bdroot/Support/Inertial Link With Reset"
 	      SourceType	      "SubSystem"
 	      ShowPortLabels	      "FromPortIcon"
@@ -5027,116 +4926,6 @@ Library {
 	      Position		      [1670, 520, 1700, 550]
 	      ZOrder		      1144
 	      Threshold		      "V_th - 0.000005"
-	    }
-	    Block {
-	      BlockType		      Scope
-	      Name		      "Scope"
-	      SID		      "1809"
-	      Ports		      [1]
-	      Position		      [1810, 248, 1840, 282]
-	      ZOrder		      1128
-	      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(ext"
-	      "mgr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration("
-	      "'Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData4'),extmgr.Configuration('Visuals','Time Dom"
-	      "ain',true,'SerializedDisplays',{struct('MinYLimReal','-1.00000','MaxYLimReal','1.00000','YLabelReal','','MinYLi"
-	      "mMag','0.00000','MaxYLimMag','1.00000','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'"
-	      "AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0."
-	      "0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 "
-	      "0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.074509803"
-	      "9215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'"
-	      "NumLines',1,'LineNames',{{'S1'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimRe"
-	      "al','-1.00000','MaxYLimReal','1.00000','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.00000','LegendVis"
-	      "ibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.68627450980"
-	      "3922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882"
-	      "353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549"
-	      "019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration"
-	      "('Tools','Plot Navigation',true,'PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Ver"
-	      "sion','2020b')),'Version','2020b','Position',[67 134 560 420])"
-	      NumInputPorts	      "1"
-	      Floating		      off
-	    }
-	    Block {
-	      BlockType		      Scope
-	      Name		      "Scope1"
-	      SID		      "1810"
-	      Ports		      [1]
-	      Position		      [1990, 648, 2020, 682]
-	      ZOrder		      1137
-	      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(ext"
-	      "mgr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration("
-	      "'Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData5'),extmgr.Configuration('Visuals','Time Dom"
-	      "ain',true,'SerializedDisplays',{struct('MinYLimReal','-0.07187','MaxYLimReal','-0.05313','YLabelReal','','MinYL"
-	      "imMag','0.00000','MaxYLimMag','0.07187','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,"
-	      "'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0"
-	      ".0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098"
-	      " 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07450980"
-	      "39215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},"
-	      "'NumLines',1,'LineNames',{{'S2'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimR"
-	      "eal','-0.07187','MaxYLimReal','-0.05313','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','0.07187','LegendV"
-	      "isibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509"
-	      "803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.4117647058"
-	      "82353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.8313725"
-	      "49019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configurati"
-	      "on('Tools','Plot Navigation',true,'PreviousAutoscale','XY','OnceAtStop',false,'PreviousZoomMode','ZoomX'),extmg"
-	      "r.Configuration('Tools','Measurements',true,'Version','2020b')),'Version','2020b','Position',[67 134 560 420])"
-	      NumInputPorts	      "1"
-	      Floating		      off
-	    }
-	    Block {
-	      BlockType		      Scope
-	      Name		      "Scope2"
-	      SID		      "1811"
-	      Ports		      [1]
-	      Position		      [1480, 219, 1510, 251]
-	      ZOrder		      1131
-	      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(ext"
-	      "mgr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration("
-	      "'Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData6'),extmgr.Configuration('Visuals','Time Dom"
-	      "ain',true,'SerializedDisplays',{struct('MinYLimReal','-0.055043','MaxYLimReal','-0.054982','YLabelReal','','Min"
-	      "YLimMag','0.000000','MaxYLimMag','0.055043','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',f"
-	      "alse,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',["
-	      "1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.3921568627"
-	      "45098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.074"
-	      "5098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',"
-	      "{{}},'NumLines',1,'LineNames',{{'Inertial Link With Reset1/1'}},'ShowContent',true,'Placement',1)},'DisplayProp"
-	      "ertyDefaults',struct('MinYLimReal','-0.055043','MaxYLimReal','-0.054982','YLabelReal','','MinYLimMag','0.000000"
-	      "','MaxYLimMag','0.055043','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',["
-	      "0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686"
-	      " 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.2745098039"
-	      "21569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.65"
-	      "0980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousZoomMode','Zoo"
-	      "mY','PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2020b')),'Version','2"
-	      "020b')"
-	      NumInputPorts	      "1"
-	      Floating		      off
-	    }
-	    Block {
-	      BlockType		      Scope
-	      Name		      "Scope3"
-	      SID		      "1812"
-	      Ports		      [2]
-	      Position		      [1880, 625, 1910, 660]
-	      ZOrder		      1138
-	      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(ext"
-	      "mgr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration("
-	      "'Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData7'),extmgr.Configuration('Visuals','Time Dom"
-	      "ain',true,'SerializedDisplays',{struct('MinYLimReal','-0.05','MaxYLimReal','0.45','YLabelReal','','MinYLimMag',"
-	      "'0.00000','MaxYLimMag','0.45','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor"
-	      "',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.066666666"
-	      "6666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.8313725"
-	      "49019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0"
-	      ".650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines'"
-	      ",2,'LineNames',{{'Triggered Subsystem','Sum'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',str"
-	      "uct('MinYLimReal','-0.05','MaxYLimReal','0.45','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','0.45','Lege"
-	      "ndVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274"
-	      "509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.4117647"
-	      "05882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.8313"
-	      "72549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configur"
-	      "ation('Tools','Plot Navigation',true,'PreviousAutoscale','XY','OnceAtStop',false,'PreviousZoomMode','ZoomX'),ex"
-	      "tmgr.Configuration('Tools','Measurements',true,'Version','2020b')),'Version','2020b','Position',[67 134 560 420"
-	      "])"
-	      NumInputPorts	      "2"
-	      Floating		      off
 	    }
 	    Block {
 	      BlockType		      Sum
@@ -5234,9 +5023,9 @@ Library {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Out1"
+	      Name		      "Vm"
 	      SID		      "1820"
-	      Position		      [2040, 588, 2070, 602]
+	      Position		      [2025, 698, 2055, 712]
 	      ZOrder		      1139
 	    }
 	    Line {
@@ -5259,45 +5048,35 @@ Library {
 	      ZOrder		      3
 	      SrcBlock		      "Inertial Link With Reset1"
 	      SrcPort		      1
-	      Points		      [30, 0]
+	      Points		      [30, 0; 0, 35]
 	      Branch {
-		ZOrder			4
-		Points			[0, 35]
+		ZOrder			5
+		DstBlock		"S1"
+		DstPort			2
+	      }
+	      Branch {
+		ZOrder			6
+		Points			[0, 95]
 		Branch {
-		  ZOrder		  5
-		  DstBlock		  "S1"
+		  ZOrder		  7
+		  DstBlock		  "S3"
 		  DstPort		  2
 		}
 		Branch {
-		  ZOrder		  6
-		  Points		  [0, 95]
+		  ZOrder		  8
+		  Points		  [0, 10]
 		  Branch {
-		    ZOrder		    7
-		    DstBlock		    "S3"
-		    DstPort		    2
-		  }
-		  Branch {
-		    ZOrder		    8
-		    Points		    [0, 10]
-		    Branch {
 		    ZOrder		    9
 		    DstBlock		    "S3"
 		    DstPort		    3
-		    }
-		    Branch {
+		  }
+		  Branch {
 		    ZOrder		    10
 		    Points		    [0, 65]
 		    DstBlock		    "S4"
 		    DstPort		    2
-		    }
 		  }
 		}
-	      }
-	      Branch {
-		ZOrder			11
-		Points			[1, 0; 0, -60; -45, 0; 0, -35]
-		DstBlock		"Scope2"
-		DstPort			1
 	      }
 	    }
 	    Line {
@@ -5312,7 +5091,7 @@ Library {
 	      ZOrder		      13
 	      SrcBlock		      "Constant3"
 	      SrcPort		      1
-	      Points		      [20, 0; 0, -65]
+	      Points		      [20, 0; 0, -35]
 	      DstBlock		      "S2"
 	      DstPort		      3
 	    }
@@ -5320,35 +5099,15 @@ Library {
 	      ZOrder		      14
 	      SrcBlock		      "S2"
 	      SrcPort		      1
-	      Points		      [18, 0; 0, -40]
-	      Branch {
-		ZOrder			15
-		DstBlock		"Scope1"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			16
-		Points			[0, -70]
-		DstBlock		"Out1"
-		DstPort			1
-	      }
+	      DstBlock		      "Vm"
+	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      17
 	      SrcBlock		      "Sum"
 	      SrcPort		      1
-	      Points		      [7, 0]
-	      Branch {
-		ZOrder			18
-		DstBlock		"S2"
-		DstPort			2
-	      }
-	      Branch {
-		ZOrder			19
-		Points			[0, -55]
-		DstBlock		"Scope3"
-		DstPort			2
-	      }
+	      DstBlock		      "S2"
+	      DstPort		      2
 	    }
 	    Line {
 	      ZOrder		      20
@@ -5373,16 +5132,8 @@ Library {
 	      SrcBlock		      "Triggered\nSubsystem"
 	      SrcPort		      1
 	      Points		      [10, 0]
-	      Branch {
-		ZOrder			24
-		DstBlock		"Sum"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			25
-		DstBlock		"Scope3"
-		DstPort			1
-	      }
+	      DstBlock		      "Sum"
+	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "Input"
@@ -5406,19 +5157,9 @@ Library {
 	      ZOrder		      28
 	      SrcBlock		      "S1"
 	      SrcPort		      1
-	      Points		      [19, 0; 0, -28; -34, 0; 0, -49]
-	      Branch {
-		ZOrder			29
-		Points			[0, -23]
-		DstBlock		"Scope"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			30
-		Points			[-369, 0; 0, 92]
-		DstBlock		"Inertial Link With Reset1"
-		DstPort			4
-	      }
+	      Points		      [19, 0; 0, -28; -34, 0; 0, -49; -369, 0; 0, 92]
+	      DstBlock		      "Inertial Link With Reset1"
+	      DstPort		      4
 	    }
 	    Line {
 	      ZOrder		      31
@@ -5479,7 +5220,7 @@ Library {
 	    }
 	    Line {
 	      ZOrder		      39
-	      SrcBlock		      "In1"
+	      SrcBlock		      "i_syn"
 	      SrcPort		      1
 	      Points		      [50, 0]
 	      DstBlock		      "Sum1"
@@ -5514,35 +5255,35 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    126
+	    $ObjectID		    149
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		127
+		$ObjectID		150
 		Type			"edit"
 		Name			"tau_syn"
 		Prompt			"Rise time of the excitatory synaptic alpha function"
 		Value			"2e-3"
 	      }
 	      Object {
-		$ObjectID		128
+		$ObjectID		151
 		Type			"edit"
 		Name			"I_syn"
 		Prompt			"Synaptic current amplitude"
 		Value			"1e-8"
 	      }
 	      Object {
-		$ObjectID		129
+		$ObjectID		152
 		Type			"edit"
 		Name			"weight"
 		Prompt			"Weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		130
+		$ObjectID		153
 		Type			"edit"
 		Name			"delay"
 		Prompt			"Delay"
@@ -5554,11 +5295,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		131
+		$ObjectID		154
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  132
+		  $ObjectID		  155
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -5566,25 +5307,25 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		133
+		$ObjectID		156
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    134
+		    $ObjectID		    157
 		    Name		    "tau_syn"
 		  }
 		  Object {
-		    $ObjectID		    135
+		    $ObjectID		    158
 		    Name		    "I_syn"
 		  }
 		  Object {
-		    $ObjectID		    136
+		    $ObjectID		    159
 		    Name		    "weight"
 		  }
 		  Object {
-		    $ObjectID		    137
+		    $ObjectID		    160
 		    Name		    "delay"
 		  }
 		  PropName		  "DialogControls"
@@ -5596,7 +5337,7 @@ Library {
 	  }
 	  System {
 	    Name		    "Static Synapse"
-	    Location		    [-7, -727, 1194, 8]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -5612,7 +5353,7 @@ Library {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "107"
+	    ZoomFactor		    "106"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -5656,9 +5397,9 @@ Library {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Out1"
+	      Name		      "i_syn"
 	      SID		      "1762"
-	      Position		      [860, 53, 890, 67]
+	      Position		      [760, 43, 790, 57]
 	      ZOrder		      268
 	    }
 	    Line {
@@ -5693,8 +5434,7 @@ Library {
 	      ZOrder		      5
 	      SrcBlock		      "Transport\nDelay"
 	      SrcPort		      1
-	      Points		      [83, 0; 0, 10]
-	      DstBlock		      "Out1"
+	      DstBlock		      "i_syn"
 	      DstPort		      1
 	    }
 	  }
@@ -5739,7 +5479,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Dendrites Cells"
-	Location		[-7, -7, 1168, 728]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -7225,7 +6965,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Memory Modules"
-	Location		[-7, -7, 1168, 728]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -8642,7 +8382,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Multistate Cells"
-	Location		[-7, -7, 1168, 728]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -9058,7 +8798,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Neuron Elements"
-	Location		[-7, -727, 1194, 8]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -9074,7 +8814,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"60"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -9086,62 +8826,62 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    138
+	    $ObjectID		    161
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      8
 	      Object {
-		$ObjectID		139
+		$ObjectID		162
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		140
+		$ObjectID		163
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		141
+		$ObjectID		164
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		142
+		$ObjectID		165
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		143
+		$ObjectID		166
 		Type			"edit"
 		Name			"ARFm"
 		Prompt			"Feedback Arresting Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		144
+		$ObjectID		167
 		Type			"edit"
 		Name			"ERFm"
 		Prompt			"Feedback Excitatory Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		145
+		$ObjectID		168
 		Type			"edit"
 		Name			"U0"
 		Prompt			"Synaptic potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		146
+		$ObjectID		169
 		Type			"edit"
 		Name			"sign"
 		Prompt			"Synaptic current sign"
@@ -9153,11 +8893,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		147
+		$ObjectID		170
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  148
+		  $ObjectID		  171
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -9165,41 +8905,41 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		149
+		$ObjectID		172
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  8
 		  Object {
-		    $ObjectID		    150
+		    $ObjectID		    173
 		    Name		    "ACm"
 		  }
 		  Object {
-		    $ObjectID		    151
+		    $ObjectID		    174
 		    Name		    "ARm"
 		  }
 		  Object {
-		    $ObjectID		    152
+		    $ObjectID		    175
 		    Name		    "ECm"
 		  }
 		  Object {
-		    $ObjectID		    153
+		    $ObjectID		    176
 		    Name		    "ERm"
 		  }
 		  Object {
-		    $ObjectID		    154
+		    $ObjectID		    177
 		    Name		    "ARFm"
 		  }
 		  Object {
-		    $ObjectID		    155
+		    $ObjectID		    178
 		    Name		    "ERFm"
 		  }
 		  Object {
-		    $ObjectID		    156
+		    $ObjectID		    179
 		    Name		    "U0"
 		  }
 		  Object {
-		    $ObjectID		    157
+		    $ObjectID		    180
 		    Name		    "sign"
 		  }
 		  PropName		  "DialogControls"
@@ -9546,35 +9286,35 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    158
+	    $ObjectID		    181
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		159
+		$ObjectID		182
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		160
+		$ObjectID		183
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		161
+		$ObjectID		184
 		Type			"edit"
 		Name			"T"
 		Prompt			"On Threshold"
 		Value			"-0.055"
 	      }
 	      Object {
-		$ObjectID		162
+		$ObjectID		185
 		Type			"edit"
 		Name			"switchOff"
 		Prompt			"Off Threshold"
@@ -9586,11 +9326,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      3
 	      Object {
-		$ObjectID		163
+		$ObjectID		186
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  164
+		  $ObjectID		  187
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -9598,25 +9338,25 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		165
+		$ObjectID		188
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    166
+		    $ObjectID		    189
 		    Name		    "NM"
 		  }
 		  Object {
-		    $ObjectID		    167
+		    $ObjectID		    190
 		    Name		    "FB"
 		  }
 		  Object {
-		    $ObjectID		    168
+		    $ObjectID		    191
 		    Name		    "T"
 		  }
 		  Object {
-		    $ObjectID		    169
+		    $ObjectID		    192
 		    Name		    "switchOff"
 		  }
 		  PropName		  "DialogControls"
@@ -9624,7 +9364,7 @@ Library {
 		Name			"ParameterGroupVar"
 	      }
 	      Object {
-		$ObjectID		170
+		$ObjectID		193
 		Prompt			"Relay "
 		Name			"Container3"
 	      }
@@ -9874,62 +9614,62 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    171
+	    $ObjectID		    194
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      8
 	      Object {
-		$ObjectID		172
+		$ObjectID		195
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		173
+		$ObjectID		196
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		174
+		$ObjectID		197
 		Type			"checkbox"
 		Name			"UseKsi"
 		Prompt			"Use Presynaptic Inhubition"
 		Value			"off"
 	      }
 	      Object {
-		$ObjectID		175
+		$ObjectID		198
 		Type			"edit"
 		Name			"Rs"
 		Prompt			"Synaptic Resistance"
 		Value			"2e7"
 	      }
 	      Object {
-		$ObjectID		176
+		$ObjectID		199
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		177
+		$ObjectID		200
 		Type			"edit"
 		Name			"U0"
 		Prompt			"Synaptic potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		178
+		$ObjectID		201
 		Type			"edit"
 		Name			"Weight"
 		Prompt			"Synaptic weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		179
+		$ObjectID		202
 		Type			"checkbox"
 		Name			"sign"
 		Prompt			"Negative synaptic current "
@@ -9941,11 +9681,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		180
+		$ObjectID		203
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  181
+		  $ObjectID		  204
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -9953,48 +9693,48 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		182
+		$ObjectID		205
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Control"
 		  Dimension		  8
 		  Object {
-		    $ObjectID		    183
+		    $ObjectID		    206
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "SecretionTC"
 		  }
 		  Object {
-		    $ObjectID		    184
+		    $ObjectID		    207
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "DecompositionTC"
 		  }
 		  Object {
-		    $ObjectID		    185
+		    $ObjectID		    208
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "UseKsi"
 		  }
 		  Object {
-		    $ObjectID		    186
+		    $ObjectID		    209
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "Rs"
 		  }
 		  Object {
-		    $ObjectID		    187
+		    $ObjectID		    210
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "ksi"
 		  }
 		  Object {
-		    $ObjectID		    188
+		    $ObjectID		    211
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "U0"
 		  }
 		  Object {
-		    $ObjectID		    189
+		    $ObjectID		    212
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "Weight"
 		  }
 		  Object {
-		    $ObjectID		    190
+		    $ObjectID		    213
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "sign"
 		  }
@@ -10007,7 +9747,7 @@ Library {
 	  }
 	  System {
 	    Name		    "CSNM Synapse"
-	    Location		    [-7, -727, 1194, 8]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -10150,7 +9890,7 @@ Library {
 	      Ports		      [2, 1]
 	      Position		      [55, -70, 135, -35]
 	      ZOrder		      -8
-	      LibraryVersion	      "3.48"
+	      LibraryVersion	      "3.62"
 	      SourceBlock	      "$bdroot/Support/Inertial Link"
 	      SourceType	      "SubSystem"
 	      ShowPortLabels	      "FromPortIcon"
@@ -10444,62 +10184,62 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    191
+	    $ObjectID		    214
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      8
 	      Object {
-		$ObjectID		192
+		$ObjectID		215
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		193
+		$ObjectID		216
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		194
+		$ObjectID		217
 		Type			"checkbox"
 		Name			"UseKsi"
 		Prompt			"Use Presynaptic Inhubition"
 		Value			"off"
 	      }
 	      Object {
-		$ObjectID		195
+		$ObjectID		218
 		Type			"edit"
 		Name			"Rs"
 		Prompt			"Synaptic Resistance"
 		Value			"2e7"
 	      }
 	      Object {
-		$ObjectID		196
+		$ObjectID		219
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		197
+		$ObjectID		220
 		Type			"edit"
 		Name			"U0"
 		Prompt			"Synaptic potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		198
+		$ObjectID		221
 		Type			"edit"
 		Name			"Weight"
 		Prompt			"Synaptic weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		199
+		$ObjectID		222
 		Type			"checkbox"
 		Name			"sign"
 		Prompt			"Negative synaptic current "
@@ -10511,11 +10251,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		200
+		$ObjectID		223
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  201
+		  $ObjectID		  224
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -10523,48 +10263,48 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		202
+		$ObjectID		225
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Control"
 		  Dimension		  8
 		  Object {
-		    $ObjectID		    203
+		    $ObjectID		    226
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "SecretionTC"
 		  }
 		  Object {
-		    $ObjectID		    204
+		    $ObjectID		    227
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "DecompositionTC"
 		  }
 		  Object {
-		    $ObjectID		    205
+		    $ObjectID		    228
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "UseKsi"
 		  }
 		  Object {
-		    $ObjectID		    206
+		    $ObjectID		    229
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "Rs"
 		  }
 		  Object {
-		    $ObjectID		    207
+		    $ObjectID		    230
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "ksi"
 		  }
 		  Object {
-		    $ObjectID		    208
+		    $ObjectID		    231
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "U0"
 		  }
 		  Object {
-		    $ObjectID		    209
+		    $ObjectID		    232
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "Weight"
 		  }
 		  Object {
-		    $ObjectID		    210
+		    $ObjectID		    233
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "sign"
 		  }
@@ -10577,7 +10317,7 @@ Library {
 	  }
 	  System {
 	    Name		    "CSNM Synapse-D"
-	    Location		    [-7, -727, 1194, 8]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -10742,7 +10482,7 @@ Library {
 	      Ports		      [2, 1]
 	      Position		      [55, -70, 135, -35]
 	      ZOrder		      -8
-	      LibraryVersion	      "3.42"
+	      LibraryVersion	      "3.62"
 	      SourceBlock	      "$bdroot/Support/Inertial Link"
 	      SourceType	      "SubSystem"
 	      ShowPortLabels	      "FromPortIcon"
@@ -11318,49 +11058,49 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    211
+	    $ObjectID		    234
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		212
+		$ObjectID		235
 		Type			"edit"
 		Name			"tau_m"
 		Prompt			"Membrane time constatnt"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		213
+		$ObjectID		236
 		Type			"edit"
 		Name			"Cm"
 		Prompt			"Membrane capacity"
 		Value			"250e-12"
 	      }
 	      Object {
-		$ObjectID		214
+		$ObjectID		237
 		Type			"edit"
 		Name			"I_const"
 		Prompt			"Constant input current"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		215
+		$ObjectID		238
 		Type			"edit"
 		Name			"E_L"
 		Prompt			"Resting membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		216
+		$ObjectID		239
 		Type			"edit"
 		Name			"V_reset"
 		Prompt			"Reset membrane potential"
 		Value			"-0.10"
 	      }
 	      Object {
-		$ObjectID		217
+		$ObjectID		240
 		Type			"edit"
 		Name			"V_th"
 		Prompt			"Threshold potential"
@@ -11372,11 +11112,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		218
+		$ObjectID		241
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  219
+		  $ObjectID		  242
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -11384,33 +11124,33 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		220
+		$ObjectID		243
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    221
+		    $ObjectID		    244
 		    Name		    "tau_m"
 		  }
 		  Object {
-		    $ObjectID		    222
+		    $ObjectID		    245
 		    Name		    "Cm"
 		  }
 		  Object {
-		    $ObjectID		    223
+		    $ObjectID		    246
 		    Name		    "I_const"
 		  }
 		  Object {
-		    $ObjectID		    224
+		    $ObjectID		    247
 		    Name		    "E_L"
 		  }
 		  Object {
-		    $ObjectID		    225
+		    $ObjectID		    248
 		    Name		    "V_reset"
 		  }
 		  Object {
-		    $ObjectID		    226
+		    $ObjectID		    249
 		    Name		    "V_th"
 		  }
 		  PropName		  "DialogControls"
@@ -11650,49 +11390,49 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    227
+	    $ObjectID		    250
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		228
+		$ObjectID		251
 		Type			"edit"
 		Name			"tau_m"
 		Prompt			"Membrane time constatnt"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		229
+		$ObjectID		252
 		Type			"edit"
 		Name			"Cm"
 		Prompt			"Membrane capacity"
 		Value			"250e-12"
 	      }
 	      Object {
-		$ObjectID		230
+		$ObjectID		253
 		Type			"edit"
 		Name			"I_const"
 		Prompt			"Constant input current"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		231
+		$ObjectID		254
 		Type			"edit"
 		Name			"E_L"
 		Prompt			"Resting membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		232
+		$ObjectID		255
 		Type			"edit"
 		Name			"V_reset"
 		Prompt			"Reset membrane potential"
 		Value			"-0.10"
 	      }
 	      Object {
-		$ObjectID		233
+		$ObjectID		256
 		Type			"edit"
 		Name			"V_th"
 		Prompt			"Threshold potential"
@@ -11704,11 +11444,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		234
+		$ObjectID		257
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  235
+		  $ObjectID		  258
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -11716,33 +11456,33 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		236
+		$ObjectID		259
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    237
+		    $ObjectID		    260
 		    Name		    "tau_m"
 		  }
 		  Object {
-		    $ObjectID		    238
+		    $ObjectID		    261
 		    Name		    "Cm"
 		  }
 		  Object {
-		    $ObjectID		    239
+		    $ObjectID		    262
 		    Name		    "I_const"
 		  }
 		  Object {
-		    $ObjectID		    240
+		    $ObjectID		    263
 		    Name		    "E_L"
 		  }
 		  Object {
-		    $ObjectID		    241
+		    $ObjectID		    264
 		    Name		    "V_reset"
 		  }
 		  Object {
-		    $ObjectID		    242
+		    $ObjectID		    265
 		    Name		    "V_th"
 		  }
 		  PropName		  "DialogControls"
@@ -12237,35 +11977,35 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    243
+	    $ObjectID		    266
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		244
+		$ObjectID		267
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		245
+		$ObjectID		268
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"1.7"
 	      }
 	      Object {
-		$ObjectID		246
+		$ObjectID		269
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input Time Constant"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		247
+		$ObjectID		270
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -12514,49 +12254,49 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    248
+	    $ObjectID		    271
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		249
+		$ObjectID		272
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		250
+		$ObjectID		273
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		251
+		$ObjectID		274
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input Time Constant"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		252
+		$ObjectID		275
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
 		Value			"-0.055"
 	      }
 	      Object {
-		$ObjectID		253
+		$ObjectID		276
 		Type			"checkbox"
 		Name			"inertia"
 		Prompt			"Use inertia link"
 		Value			"on"
 	      }
 	      Object {
-		$ObjectID		254
+		$ObjectID		277
 		Type			"edit"
 		Name			"switchOff"
 		Prompt			"Switch off point"
@@ -12568,11 +12308,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      3
 	      Object {
-		$ObjectID		255
+		$ObjectID		278
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  256
+		  $ObjectID		  279
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -12580,33 +12320,33 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		257
+		$ObjectID		280
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Control"
 		  Dimension		  5
 		  Object {
-		    $ObjectID		    258
+		    $ObjectID		    281
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "NM"
 		  }
 		  Object {
-		    $ObjectID		    259
+		    $ObjectID		    282
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "FB"
 		  }
 		  Object {
-		    $ObjectID		    260
+		    $ObjectID		    283
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "IT"
 		  }
 		  Object {
-		    $ObjectID		    261
+		    $ObjectID		    284
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "T"
 		  }
 		  Object {
-		    $ObjectID		    262
+		    $ObjectID		    285
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    HorizontalStretch	    "off"
 		    Name		    "inertia"
@@ -12616,11 +12356,11 @@ Library {
 		Name			"ParameterGroupVar"
 	      }
 	      Object {
-		$ObjectID		263
+		$ObjectID		286
 		Prompt			"Relay "
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  264
+		  $ObjectID		  287
 		  $ClassName		  "Simulink.dialog.parameter.Edit"
 		  Name			  "switchOff"
 		}
@@ -13871,34 +13611,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    265
+	    $ObjectID		    288
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		266
+		$ObjectID		289
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		267
+		$ObjectID		290
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		268
+		$ObjectID		291
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		269
+		$ObjectID		292
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -14184,48 +13924,48 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    270
+	    $ObjectID		    293
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		271
+		$ObjectID		294
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		272
+		$ObjectID		295
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		273
+		$ObjectID		296
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		274
+		$ObjectID		297
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		275
+		$ObjectID		298
 		Type			"edit"
 		Name			"ARFm"
 		Prompt			"Feedback Arresting Resistance"
 		Value			"1e8"
 	      }
 	      Object {
-		$ObjectID		276
+		$ObjectID		299
 		Type			"edit"
 		Name			"ERFm"
 		Prompt			"Feedback Excitatory Resistance"
@@ -14502,7 +14242,7 @@ Library {
 	  Ports			  [1, 1]
 	  Position		  [305, -266, 365, -244]
 	  ZOrder		  2
-	  LibraryVersion	  "3.60"
+	  LibraryVersion	  "3.62"
 	  SourceBlock		  "$bdroot/Neuron Elements/Synapse"
 	  SourceType		  ""
 	  RTWMemSecFuncInitTerm	  "Inherit from model"
@@ -14527,41 +14267,41 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    277
+	    $ObjectID		    300
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		278
+		$ObjectID		301
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		279
+		$ObjectID		302
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		280
+		$ObjectID		303
 		Type			"checkbox"
 		Name			"UseKsi"
 		Prompt			"Use Presynaptic Inhubition"
 		Value			"on"
 	      }
 	      Object {
-		$ObjectID		281
+		$ObjectID		304
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		282
+		$ObjectID		305
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -15407,34 +15147,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    283
+	    $ObjectID		    306
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		284
+		$ObjectID		307
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		285
+		$ObjectID		308
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		286
+		$ObjectID		309
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		287
+		$ObjectID		310
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -15720,34 +15460,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    288
+	    $ObjectID		    311
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		289
+		$ObjectID		312
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		290
+		$ObjectID		313
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		291
+		$ObjectID		314
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		292
+		$ObjectID		315
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -16232,7 +15972,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Pacemaker Cells"
-	Location		[-7, -7, 1168, 728]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -16248,7 +15988,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"20"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -23916,7 +23656,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Recycle Bin"
-	Location		[-7, -727, 1194, 8]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -24124,7 +23864,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "RCN"
-	    Location		    [-7, -7, 1168, 728]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -24154,7 +23894,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Simple \nNeural Networks"
-	    Location		    [-7, -7, 1168, 728]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -24348,7 +24088,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Simple Cells"
-	Location		[-7, -7, 1168, 728]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -24364,7 +24104,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"80"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -24377,20 +24117,20 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    293
+	    $ObjectID		    316
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      2
 	      Object {
-		$ObjectID		294
+		$ObjectID		317
 		Type			"edit"
 		Name			"ExpCoeff"
 		Prompt			"Input Exp Coeff"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		295
+		$ObjectID		318
 		Type			"edit"
 		Name			"IncCoeff"
 		Prompt			"Input Inc Coeff"
@@ -24402,11 +24142,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		296
+		$ObjectID		319
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  297
+		  $ObjectID		  320
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "Afferent Parameters"
 		  Name			  "AffParams"
@@ -24414,17 +24154,17 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		298
+		$ObjectID		321
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    299
+		    $ObjectID		    322
 		    Name		    "ExpCoeff"
 		  }
 		  Object {
-		    $ObjectID		    300
+		    $ObjectID		    323
 		    Name		    "IncCoeff"
 		  }
 		  PropName		  "DialogControls"
@@ -26042,34 +25782,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		301
+		$ObjectID		324
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    302
+		    $ObjectID		    325
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    303
+		    $ObjectID		    326
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    304
+		    $ObjectID		    327
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    305
+		    $ObjectID		    328
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -26326,34 +26066,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		306
+		$ObjectID		329
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    307
+		    $ObjectID		    330
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    308
+		    $ObjectID		    331
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    309
+		    $ObjectID		    332
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    310
+		    $ObjectID		    333
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -26792,7 +26532,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Sized Cells"
-	Location		[-7, -727, 1194, 8]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -26808,7 +26548,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"60"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -42267,7 +42007,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Support"
-	Location		[-7, -727, 1194, 8]
+	Location		[-8, -8, 1374, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -42631,7 +42371,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Inertial Link"
-	    Location		    [8, 8, 1304, 890]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -42811,7 +42551,7 @@ Library {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Inertial Link With Reset"
-	    Location		    [-7, -727, 1194, 8]
+	    Location		    [-8, -8, 1374, 736]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -43264,69 +43004,69 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    311
+	    $ObjectID		    334
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      9
 	      Object {
-		$ObjectID		312
+		$ObjectID		335
 		Type			"edit"
 		Name			"A"
 		Prompt			"Amplitude"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		313
+		$ObjectID		336
 		Type			"edit"
 		Name			"P1"
 		Prompt			"Out1: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		314
+		$ObjectID		337
 		Type			"edit"
 		Name			"P2"
 		Prompt			"Out2: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		315
+		$ObjectID		338
 		Type			"edit"
 		Name			"PW"
 		Prompt			"Pulse Width (number of samples)"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		316
+		$ObjectID		339
 		Type			"edit"
 		Name			"ST"
 		Prompt			"Sample Time"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		317
+		$ObjectID		340
 		Type			"edit"
 		Name			"OOn1"
 		Prompt			"Out1 On (seconds)"
 		Value			"0.5"
 	      }
 	      Object {
-		$ObjectID		318
+		$ObjectID		341
 		Type			"edit"
 		Name			"OOff1"
 		Prompt			"Out1 Off (seconds)"
 		Value			"0.6"
 	      }
 	      Object {
-		$ObjectID		319
+		$ObjectID		342
 		Type			"edit"
 		Name			"OOn2"
 		Prompt			"Out2 On (seconds)"
 		Value			"1.1"
 	      }
 	      Object {
-		$ObjectID		320
+		$ObjectID		343
 		Type			"edit"
 		Name			"OOff2"
 		Prompt			"Out2 Off (seconds)"
