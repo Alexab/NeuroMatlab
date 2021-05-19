@@ -3,13 +3,13 @@ Library {
   Version		  10.2
   SavedCharacterEncoding  "windows-1251"
   ModelUUID		  "0758ad01-5541-449b-9836-01f811f9a473"
-  LogicAnalyzerPlugin	  "on"
-  WebScopes_FoundationPlugin "on"
   SLCCPlugin		  "on"
   slcheck_filter_plugin	  "on"
-  AnimationPlugin	  "on"
-  DiagnosticSuppressor	  "on"
   NotesPlugin		  "on"
+  WebScopes_FoundationPlugin "on"
+  AnimationPlugin	  "on"
+  LogicAnalyzerPlugin	  "on"
+  DiagnosticSuppressor	  "on"
   LibraryType		  "BlockLibrary"
   EnableAccessToBaseWorkspace on
   ScopeRefreshTime	  0.035000
@@ -27,7 +27,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-8.0, -8.0, 1382.0, 744.0]
+      Location		      [-7.0, 1.0, 1173.0, 725.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -43,7 +43,7 @@ Library {
 	$PropName		"ExplorerBarInfo"
 	$ObjectID		4
 	$ClassName		"Simulink.ExplorerBarInfo"
-	Visible			[0]
+	Visible			[1]
       }
       Array {
 	Type			"Simulink.EditorInfo"
@@ -52,15 +52,26 @@ Library {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "533"
-	  Extents		  [1328.0, 533.0]
-	  ZoomFactor		  [0.6]
-	  Offset		  [-953.0651832128483, -151.21829693689551]
-	  SceneRectInView	  [-953.0651832128483, -151.21829693689551, 2213.3333333333335, 888.33333333333337]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1681.0, 746.0]
+	  ZoomFactor		  [0.75020080321285132]
+	  Offset		  [-44.138554216867306, -10.838210730143942]
+	  SceneRectInView	  [-44.138554216867306, -10.838210730143942, 1493.8222698072807, 662.93361884368312]
 	}
 	Object {
 	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "533"
+	  Extents		  [1868.0, 774.0]
+	  ZoomFactor		  [0.56265060240963849]
+	  Offset		  [-953.0651832128483, -165.595527486503]
+	  SceneRectInView	  [-953.0651832128483, -165.595527486503, 2213.3333333333335, 917.08779443254832]
+	}
+	Object {
+	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -69,17 +80,6 @@ Library {
 	  ZoomFactor		  [0.5]
 	  Offset		  [-567.58203125, -351.5]
 	  SceneRectInView	  [-567.58203125, -351.5, 2656.0, 1066.0]
-	}
-	Object {
-	  $ObjectID		  7
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1328.0, 533.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [-44.138554216867306, -0.055287817938335593]
-	  SceneRectInView	  [-44.138554216867306, -0.055287817938335593, 1660.0, 666.25]
 	}
 	Object {
 	  $ObjectID		  8
@@ -880,19 +880,6 @@ Library {
 	Dimension		2
 	Object {
 	  $ObjectID		  80
-	  Type			  "Simulink:Editor:ReferencedFiles"
-	  ID			  "Referenced Files"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
-	  Floating		  [0]
-	  DockPosition		  "Left"
-	  Width			  [640]
-	  Height		  [480]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  81
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -900,18 +887,31 @@ Library {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
-	  Width			  [640]
-	  Height		  [480]
+	  Width			  [426]
+	  Height		  [320]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  81
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
+	  Width			  [426]
+	  Height		  [320]
 	  Minimized		  "Unset"
 	}
 	PropName		"DockComponentsInfo"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACTAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
-      "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAFVgAAAjQAAAABAAAAAgAAAAEAAAAC/"
+      "QBzAAAAAAD/////AAAAxwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAGyQAAAzYAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAEAAAACAAAAAA=="
       Array {
 	Type			"Cell"
@@ -929,11 +929,11 @@ Library {
   Creator		  "Bakhshiev"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Александра"
+  LastModifiedBy	  "Bakhshiev"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed May 12 14:10:51 2021"
-  RTWModifiedTimeStamp	  542733043
-  ModelVersionFormat	  "%<AutoIncrement:3.68>"
+  LastModifiedDate	  "Wed May 19 10:49:57 2021"
+  RTWModifiedTimeStamp	  543322196
+  ModelVersionFormat	  "%<AutoIncrement:3.71>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -2108,9 +2108,9 @@ Library {
   }
   System {
     Name		    "NeuroModelerLibrary"
-    Location		    [-8, -8, 1374, 736]
+    Location		    [-7, 1, 1166, 726]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -2124,7 +2124,7 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "80"
+    ZoomFactor		    "75"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "2446"
     SimulinkSubDomain	    "Simulink"
@@ -26543,9 +26543,9 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Sized Cells"
-	Location		[-8, -8, 1374, 736]
+	Location		[-8, -8, 1289, 736]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -26559,7 +26559,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"60"
+	ZoomFactor		"56"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -48615,10 +48615,6 @@ Library {
 	    }
 	    Line {
 	      Name		      "Out"
-	      FontName		      "Helvetica"
-	      FontSize		      9
-	      FontWeight	      "normal"
-	      FontAngle		      "normal"
 	      ZOrder		      8
 	      Labels		      [0, 0]
 	      SrcBlock		      "IaF LTZone9"
@@ -54696,9 +54692,9 @@ Library {
     }
     Annotation {
       SID		      "769"
-      Name		      "Copyright Aleksandr Bakhshiev, Sergey Romanov, Filipp Gundelakh, Anton Korsakov 2000-2021\nalexab@a"
-      "ilab.ru\nwww.ailab.ru"
-      Position		      [425, 28, 1008, 93]
+      Name		      "Authors: Aleksandr Bakhshiev, Sergey Romanov, Filipp Gundelakh, Anton Korsakov, Alexandra Demcheva "
+      "2000-2021\nalexab@ailab.ru\nwww.ailab.ru\nhttps://github.com/aicommunity/NeuroMatlab"
+      Position		      [425, 28, 1118, 118]
       InternalMargins	      [0, 0, 0, 0]
       FixedHeight	      on
       FixedWidth	      on
