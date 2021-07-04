@@ -1,55 +1,252 @@
 Model {
   Name			  "LongDendriteCells"
-  Version		  7.1
-  MdlSubVersion		  0
+  Version		  10.2
+  SavedCharacterEncoding  "windows-1251"
+  ModelUUID		  "e5f10db3-f825-4fe1-8e8a-3f12b73073fc"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.341"
+    ComputedModelVersion    "26.0"
     NumModelReferences	    0
     NumTestPointedSignals   0
+    NumProvidedFunctions    0
+    NumRequiredFunctions    0
+    NumResetEvents	    0
+    HasInitializeEvent	    0
+    HasTerminateEvent	    0
+    PreCompExecutionDomainType "Unset"
+    IsExportFunctionModel   0
+    IsArchitectureModel	    0
+    IsAUTOSARArchitectureModel 0
+    NumParameterArguments   0
+    NumExternalFileReferences 10
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGenSyn"
+      Path		      "LongDendriteCells/Branching Dendrites Cell ModGenSyn"
+      SID		      "17"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGenSyn"
+      Path		      "LongDendriteCells/Branching Dendrites Cell ModGenSyn1"
+      SID		      "18"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGenSyn"
+      Path		      "LongDendriteCells/Branching Dendrites Cell ModGenSyn2"
+      SID		      "19"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Dendrites Cells/Long Dendite Cell ModGenSyn"
+      Path		      "LongDendriteCells/Long Dendite Cell ModGenSyn"
+      SID		      "16"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells/Two-output Pulse Generator"
+      SID		      "10"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells/Two-output Pulse Generator1"
+      SID		      "11"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells/Two-output Pulse Generator2"
+      SID		      "12"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells/Two-output Pulse Generator3"
+      SID		      "13"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells/Two-output Pulse Generator4"
+      SID		      "14"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells/Two-output Pulse Generator5"
+      SID		      "15"
+      Type		      "LIBRARY_BLOCK"
+    }
+    OrderedModelArguments   1
   }
-  SavedCharacterEncoding  "windows-1251"
-  SaveDefaultBlockParams  on
+  SLCCPlugin		  "on"
+  slcheck_filter_plugin	  "on"
+  NotesPlugin		  "on"
+  WebScopes_FoundationPlugin "on"
+  AnimationPlugin	  "on"
+  LogicAnalyzerPlugin	  "on"
+  DiagnosticSuppressor	  "on"
+  EnableAccessToBaseWorkspace on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  LastSavedArchitecture	  "win64"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-7.0, -7.0, 1414.0, 878.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+	Minimized		"Unset"
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	IsTabbed		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[1704.0, 805.0]
+	ZoomFactor		[1.0]
+	Offset			[-107.0, 1.6999999999999886]
+	SceneRectInView		[-107.0, 1.6999999999999886, 1363.2, 644.0]
+      }
+      Array {
+	Type			"Simulink.DockComponentInfo"
+	Dimension		2
+	Object {
+	  $ObjectID		  6
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
+	  Width			  [512]
+	  Height		  [384]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  7
+	  Type			  "GLUE2:PropertyInspector"
+	  ID			  "Property Inspector"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  ""
+	  Floating		  [0]
+	  DockPosition		  "Right"
+	  Width			  [512]
+	  Height		  [384]
+	  Minimized		  "Unset"
+	}
+	PropName		"DockComponentsInfo"
+      }
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB5AP////sAAABgAFMAaQBtAHUAb"
+      "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
+      "QBzAAAAAAD/////AAAApwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAhYA////AAAG1QAAA2sAAAABAAAAAgAAAAEAAAAC/"
+      "AAAAAA="
+      Array {
+	Type			"Cell"
+	Dimension		0
+	PropName		"PersistedApps"
+      }
+      WindowUuid	      "ebb0c7fd-be51-46d0-8265-67543da3d3bc"
+    }
+    BDUuid		    ""
+  }
+  HideAutomaticNames	  on
+  SequenceViewerTimePrecision 3
+  SequenceViewerHistory	  1000
+  Created		  "Fri Oct 30 12:11:32 2009"
+  Creator		  "Bakhshiev"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Bakhshiev"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Sun Jul 04 18:58:29 2021"
+  RTWModifiedTimeStamp	  547325894
+  ModelVersionFormat	  "%<AutoIncrement:26.0>"
   SampleTimeColors	  off
+  SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
   WideLines		  off
   ShowLineDimensions	  off
   ShowPortDataTypes	  off
+  ShowAllPropagatedSignalLabels	off
+  PortDataTypeDisplayFormat "AliasTypeOnly"
+  ShowEditTimeErrors	  on
+  ShowEditTimeWarnings	  on
+  ShowEditTimeAdvisorChecks off
+  ShowPortUnits		  off
+  ShowDesignRanges	  off
   ShowLoopsOnError	  on
   IgnoreBidirectionalLines off
   ShowStorageClass	  off
   ShowTestPointIcons	  on
   ShowSignalResolutionIcons on
   ShowViewerIcons	  on
-  SortedOrder		  off
-  ExecutionContextIcon	  off
+  VariantCondition	  off
   ShowLinearizationAnnotations on
-  ScopeRefreshTime	  0.035000
-  OverrideScopeRefreshTime on
-  DisableAllScopes	  off
-  DataTypeOverride	  "UseLocalSettings"
-  MinMaxOverflowLogging	  "UseLocalSettings"
-  MinMaxOverflowArchiveMode "Overwrite"
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
   BlockNameDataTip	  off
   BlockParametersDataTip  off
   BlockDescriptionStringDataTip	off
+  BlockVariantConditionDataTip off
   ToolBar		  on
   StatusBar		  on
   BrowserShowLibraryLinks off
+  FunctionConnectors	  off
   BrowserLookUnderMasks	  off
-  Created		  "Fri Oct 30 12:11:32 2009"
-  Creator		  "Bakhshiev"
-  UpdateHistory		  "UpdateHistoryNever"
-  ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Timba"
-  ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Jan 03 17:38:41 2010"
-  RTWModifiedTimeStamp	  0
-  ModelVersionFormat	  "1.%<AutoIncrement:341>"
-  ConfigurationManager	  "None"
+  MultiThreadCoSim	  "on"
   SimulationMode	  "normal"
+  SILPILModeSetting	  "automated"
+  SILPILSystemUnderTest	  "topmodel"
+  SILPILSimulationModeTopModel "normal"
+  SILPILSimulationModeModelRef "normal"
+  SimTabSimulationMode	  "normal"
+  CodeVerificationMode	  "software-in-the-loop (sil)"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  EnablePacing		  off
+  PacingRate		  1
   LinearizationMsg	  "none"
   Profile		  off
   ParamWorkspaceSource	  "MATLABWorkspace"
@@ -57,24 +254,31 @@ Model {
   AccelTemplateMakefile	  "accel_default_tmf"
   AccelMakeCommand	  "make_rtw"
   TryForcingSFcnDF	  off
-  RecordCoverage	  off
-  CovPath		  "/"
-  CovSaveName		  "covdata"
-  CovMetricSettings	  "dw"
-  CovNameIncrementing	  off
-  CovHtmlReporting	  on
-  covSaveCumulativeToWorkspaceVar on
-  CovSaveSingleToWorkspaceVar on
-  CovCumulativeVarName	  "covCumulativeData"
-  CovCumulativeReport	  off
-  CovReportOnPause	  on
-  CovModelRefEnable	  "Off"
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    8
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "LongDendriteCells"
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "LongDendriteCells"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      ""
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
   ExtModeBatchMode	  off
   ExtModeEnableFloating	  on
   ExtModeTrigType	  "manual"
   ExtModeTrigMode	  "normal"
   ExtModeTrigPort	  "1"
   ExtModeTrigElement	  "any"
+  ExtModeTrigSignalOutputPortIndex 0
   ExtModeTrigDuration	  1000
   ExtModeTrigDurationFloating "auto"
   ExtModeTrigHoldOff	  0
@@ -90,27 +294,33 @@ Model {
   ExtModeSkipDownloadWhenConnect off
   ExtModeLogAll		  on
   ExtModeAutoUpdateStatusClock on
-  BufferReuse		  on
+  VariantFading		  on
   ShowModelReferenceBlockVersion off
   ShowModelReferenceBlockIO off
+  OrderedModelArguments	  on
   Array {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      1
-      Version		      "1.4.0"
+      $ObjectID		      9
+      Version		      "20.1.0"
+      DisabledProps	      []
+      Description	      ""
       Array {
 	Type			"Handle"
-	Dimension		8
+	Dimension		10
 	Simulink.SolverCC {
-	  $ObjectID		  2
-	  Version		  "1.4.0"
+	  $ObjectID		  10
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
 	  StartTime		  "0.0"
 	  StopTime		  "1.5"
 	  AbsTol		  "auto"
+	  AutoScaleAbsTol	  on
 	  FixedStep		  "auto"
 	  InitialStep		  "auto"
-	  MaxNumMinSteps	  "-1"
 	  MaxOrder		  5
 	  ZcThreshold		  "auto"
 	  ConsecutiveZCsStepRelTol "10*128*eps"
@@ -121,22 +331,32 @@ Model {
 	  MinStep		  "auto"
 	  MaxConsecutiveMinStep	  "1"
 	  RelTol		  "1e-3"
-	  SolverMode		  "Auto"
-	  Solver		  "ode45"
+	  EnableMultiTasking	  on
+	  ConcurrentTasks	  off
 	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
 	  ShapePreserveControl	  "DisableAll"
 	  ZeroCrossControl	  "UseLocalSettings"
 	  ZeroCrossAlgorithm	  "Non-adaptive"
 	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
 	  SolverResetMethod	  "Fast"
 	  PositivePriorityOrder	  off
 	  AutoInsertRateTranBlk	  off
 	  SampleTimeConstraint	  "Unconstrained"
 	  InsertRTBMode		  "Whenever possible"
+	  SampleTimeProperty	  []
+	  DecoupledContinuousIntegration off
+	  MinimalZcImpactIntegration off
+	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  3
-	  Version		  "1.4.0"
+	  $ObjectID		  11
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
 	  FinalStateName	  "xFinal"
@@ -146,69 +366,123 @@ Model {
 	  LoadExternalInput	  off
 	  LoadInitialState	  off
 	  SaveFinalState	  off
+	  SaveOperatingPoint	  off
 	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "ModelDataLogs"
 	  SaveOutput		  on
 	  SaveState		  off
 	  SignalLogging		  on
+	  DSMLogging		  on
 	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
 	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
 	  StateSaveName		  "xout"
 	  TimeSaveName		  "tout"
 	  OutputSaveName	  "yout"
 	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
 	  OutputOption		  "RefineOutputTimes"
 	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
 	  Refine		  "1"
+	  LoggingToFile		  off
+	  DatasetSignalFormat	  "timeseries"
+	  LoggingFileName	  "out.mat"
+	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  4
+	  $ObjectID		  12
+	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
-	    Dimension		    5
+	    Dimension		    9
 	    Cell		    "ZeroExternalMemoryAtStartup"
 	    Cell		    "ZeroInternalMemoryAtStartup"
-	    Cell		    "InitFltsAndDblsToZero"
+	    Cell		    "EfficientTunableParamExpr"
 	    Cell		    "OptimizeModelRefInitCode"
 	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "UseSpecifiedMinMax"
 	    PropName		    "DisabledProps"
 	  }
-	  Version		  "1.4.0"
+	  Description		  ""
+	  Components		  []
 	  BlockReduction	  on
 	  BooleanDataType	  on
 	  ConditionallyExecuteInputs on
-	  InlineParams		  off
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  GainParamInheritBuiltInType off
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
 	  InlineInvariantSignals  off
 	  OptimizeBlockIOStorage  on
 	  BufferReuse		  on
 	  EnhancedBackFolding	  off
-	  EnforceIntegerDowncast  on
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  AdvancedOptControl	  ""
 	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  BitwiseOrLogicalOp	  "Same as modeled"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
 	  ExpressionDepthLimit	  2147483647
-	  FoldNonRolledExpr	  on
 	  LocalBlockOutputs	  on
 	  RollThreshold		  5
-	  SystemCodeInlineAuto	  off
 	  StateBitsets		  off
 	  DataBitsets		  off
-	  UseTempVars		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
 	  ZeroExternalMemoryAtStartup on
 	  ZeroInternalMemoryAtStartup on
 	  InitFltsAndDblsToZero	  on
 	  NoFixptDivByZeroProtection off
 	  EfficientFloat2IntCast  off
-	  OptimizeModelRefInitCode off
+	  EfficientMapNaN2IntZero on
 	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
 	  BufferReusableBoundary  on
-	  SimCompilerOptimization "Off"
+	  SimCompilerOptimization "off"
 	  AccelVerboseBuild	  off
+	  OptimizeBlockOrder	  "off"
+	  OptimizeDataStoreBuffers on
+	  BusAssignmentInplaceUpdate on
+	  DifferentSizesBufferReuse off
+	  UseRowMajorAlgorithm	  off
+	  OptimizationLevel	  "level2"
+	  OptimizationPriority	  "Balanced"
+	  OptimizationCustomize	  on
+	  LabelGuidedReuse	  off
+	  MultiThreadedLoops	  off
+	  DenormalBehavior	  "GradualUnderflow"
+	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  5
-	  Version		  "1.4.0"
+	  $ObjectID		  13
+	  Version		  "20.1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "UseOnlyExistingSharedCode"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  Components		  []
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
 	  ArrayBoundsChecking	  "none"
 	  SignalInfNanChecking	  "none"
+	  StringTruncationChecking "error"
 	  SignalRangeChecking	  "none"
 	  ReadBeforeWriteMsg	  "UseLocalSettings"
 	  WriteAfterWriteMsg	  "UseLocalSettings"
@@ -218,6 +492,8 @@ Model {
 	  SaveWithDisabledLinksMsg "warning"
 	  SaveWithParameterizedLinksMsg	"warning"
 	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
 	  CheckExecutionContextPreStartOutputMsg off
 	  CheckExecutionContextRuntimeOutputMsg	off
 	  SignalResolutionControl "UseLocalSettings"
@@ -225,14 +501,16 @@ Model {
 	  MinStepSizeMsg	  "warning"
 	  TimeAdjustmentMsg	  "none"
 	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
 	  SolverPrmCheckMsg	  "warning"
 	  InheritedTsInSrcMsg	  "warning"
-	  DiscreteInheritContinuousMsg "warning"
 	  MultiTaskDSMMsg	  "error"
 	  MultiTaskCondExecSysMsg "error"
 	  MultiTaskRateTransMsg	  "error"
 	  SingleTaskRateTransMsg  "none"
 	  TasksWithSamePriorityMsg "warning"
+	  ExportedTasksRateTransMsg "none"
 	  SigSpecEnsureSampleTimeMsg "warning"
 	  CheckMatrixSingularityMsg "none"
 	  IntegerOverflowMsg	  "warning"
@@ -242,123 +520,302 @@ Model {
 	  ParameterUnderflowMsg	  "none"
 	  ParameterPrecisionLossMsg "warning"
 	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
 	  UnderSpecifiedDataTypeMsg "none"
 	  UnnecessaryDatatypeConvMsg "none"
 	  VectorMatrixConversionMsg "none"
-	  InvalidFcnCallConnMsg	  "error"
-	  FcnCallInpInsideContextMsg "Use local settings"
+	  FcnCallInpInsideContextMsg "warning"
 	  SignalLabelMismatchMsg  "none"
 	  UnconnectedInputMsg	  "warning"
 	  UnconnectedOutputMsg	  "warning"
 	  UnconnectedLineMsg	  "warning"
+	  UseOnlyExistingSharedCode "error"
 	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
 	  UniqueDataStoreMsg	  "none"
 	  BusObjectLabelMismatch  "warning"
 	  RootOutportRequireBusObject "warning"
 	  AssertControl		  "UseLocalSettings"
-	  EnableOverflowDetection off
+	  AllowSymbolicDim	  on
+	  RowMajorDimensionSupport off
 	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
 	  ModelReferenceVersionMismatchMessage "none"
 	  ModelReferenceIOMismatchMessage "none"
-	  ModelReferenceCSMismatchMessage "none"
-	  ModelReferenceSimTargetVerbose off
 	  UnknownTsInhSupMsg	  "warning"
 	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceNoExplicitFinalValueMsg	"none"
 	  ModelReferenceSymbolNameMessage "warning"
 	  ModelReferenceExtraNoncontSigs "error"
 	  StateNameClashWarn	  "warning"
-	  StrictBusMsg		  "Warning"
-	  LoggingUnavailableSignals "error"
+	  OperatingPointInterfaceChecksumMismatchMsg "warning"
+	  NonCurrentReleaseOperatingPointMsg "error"
+	  ChecksumConsistencyForSSReuse	"none"
+	  PregeneratedLibrarySubsystemCodeDiagnostic "warning"
+	  MatchCodeGenerationContextForUpdateDiagram "none"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  LossOfSymbolicDimsSimulationWarning "warning"
+	  LossOfSymbolicDimsCodeGenerationWarning "error"
+	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
 	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnreachableExecutionPathDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
+	  SFSelfTransitionDiag	  "warning"
+	  SFExecutionAtInitializationDiag "none"
+	  SFMachineParentedDataDiag "warning"
+	  IntegerSaturationMsg	  "warning"
+	  AllowedUnitSystems	  "all"
+	  UnitsInconsistencyMsg	  "warning"
+	  AllowAutomaticUnitConversions	on
+	  RCSCRenamedMsg	  "warning"
+	  RCSCObservableMsg	  "warning"
+	  ForceCombineOutputUpdateInSim	off
+	  UnitDatabase		  ""
+	  UnderSpecifiedDimensionMsg "none"
+	  DebugExecutionForFMUViaOutOfProcess off
+	  ArithmeticOperatorsInVariantConditions "warning"
+	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  6
-	  Version		  "1.4.0"
+	  $ObjectID		  14
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
 	  ProdBitPerInt		  32
 	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdBitPerSizeT	  32
+	  ProdBitPerPtrDiffT	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
 	  ProdIntDivRoundTo	  "Undefined"
 	  ProdEndianess		  "Unspecified"
 	  ProdWordSize		  32
 	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
 	  ProdHWDeviceType	  "32-bit Generic"
 	  TargetBitPerChar	  8
 	  TargetBitPerShort	  16
 	  TargetBitPerInt	  32
 	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetBitPerSizeT	  32
+	  TargetBitPerPtrDiffT	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
 	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
 	  TargetIntDivRoundTo	  "Undefined"
 	  TargetEndianess	  "Unspecified"
 	  TargetWordSize	  32
-	  TargetTypeEmulationWarnSuppressLevel 0
 	  TargetPreprocMaxBitsSint 32
 	  TargetPreprocMaxBitsUint 32
 	  TargetHWDeviceType	  "Specified"
 	  TargetUnknown		  off
 	  ProdEqTarget		  on
+	  UseEmbeddedCoderFeatures on
+	  UseSimulinkCoderFeatures on
+	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  7
-	  Version		  "1.4.0"
+	  $ObjectID		  15
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
 	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
 	  ModelReferenceNumInstancesAllowed "Multi"
-	  ModelReferenceSigSizeVariationType "Always allowed"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelDependencies	  ""
 	  ModelReferencePassRootInputsByReference on
 	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  16
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  SimCustomSourceCode	  ""
+	  SimCustomHeaderCode	  ""
+	  SimCustomInitializer	  ""
+	  SimCustomTerminator	  ""
+	  SimReservedNameArray	  []
+	  SimUserSources	  ""
+	  SimUserIncludeDirs	  ""
+	  SimUserLibraries	  ""
+	  SimUserDefines	  ""
+	  SimCustomCompilerFlags  ""
+	  SimCustomLinkerFlags	  ""
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  on
+	  SimParseCustomCode	  on
+	  SimAnalyzeCustomCode	  off
+	  SimGenImportedTypeDefs  off
+	  ModelFunctionsGlobalVisibility "on"
+	  CompileTimeRecursionLimit 50
+	  EnableRuntimeRecursion  on
+	  MATLABDynamicMemAlloc	  on
+	  MATLABDynamicMemAllocThreshold 65536
+	  CustomCodeFunctionArrayLayout	[]
+	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
+	  CustomCodeUndefinedFunction "FilterOut"
+	  CustomCodeGlobalsAsFunctionIO	off
+	  SimTargetLang		  "C"
+	  GPUAcceleration	  off
+	  SimGPUMallocThreshold	  200
+	  SimGPUStackLimitPerThread 1024
+	  SimGPUErrorChecks	  off
+	  SimGPUCustomComputeCapability	""
+	  SimGPUCompilerFlags	  ""
+	  SimDLTargetLibrary	  "mkl-dnn"
+	  SimDLAutoTuning	  on
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  8
+	  $ObjectID		  17
+	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
-	    Dimension		    6
+	    Dimension		    16
 	    Cell		    "IncludeHyperlinkInReport"
 	    Cell		    "GenerateTraceInfo"
 	    Cell		    "GenerateTraceReport"
 	    Cell		    "GenerateTraceReportSl"
 	    Cell		    "GenerateTraceReportSf"
 	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
 	    PropName		    "DisabledProps"
 	  }
-	  Version		  "1.4.0"
+	  Description		  ""
 	  SystemTargetFile	  "grt.tlc"
+	  HardwareBoard		  "None"
+	  ShowCustomHardwareApp	  off
+	  ShowEmbeddedHardwareApp off
+	  TLCOptions		  ""
 	  GenCodeOnly		  off
 	  MakeCommand		  "make_rtw"
 	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
 	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
 	  GenerateReport	  off
-	  SaveLog		  off
 	  RTWVerbose		  on
 	  RetainRTWFile		  off
+	  RTWBuildHooks		  []
 	  ProfileTLC		  off
 	  TLCDebug		  off
 	  TLCCoverage		  off
 	  TLCAssert		  off
-	  ProcessScriptMode	  "Default"
-	  ConfigurationMode	  "Optimized"
-	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  on
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomDefine		  ""
+	  CustomBLASCallback	  ""
+	  CustomLAPACKCallback	  ""
+	  CustomFFTCallback	  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  CustomToolchainOptions  []
 	  IncludeHyperlinkInReport off
 	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation "off"
+	  SILDebugging		  off
 	  TargetLang		  "C"
+	  GenerateGPUCode	  "None"
 	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
-	  IncludeERTFirstTime	  off
 	  GenerateTraceInfo	  off
 	  GenerateTraceReport	  off
 	  GenerateTraceReportSl	  off
 	  GenerateTraceReportSf	  off
 	  GenerateTraceReportEml  off
-	  GenerateCodeInfo	  off
-	  RTWCompilerOptimization "Off"
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  ObjectivePriorities	  []
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  GPUKernelNamePrefix	  ""
+	  GPUDeviceID		  -1
+	  GPUMallocMode		  "discrete"
+	  GPUMallocThreshold	  200
+	  GPUStackLimitPerThread  1024
+	  GPUcuBLAS		  on
+	  GPUcuSOLVER		  on
+	  GPUcuFFT		  on
+	  GPUErrorChecks	  off
+	  GPUComputeCapability	  "3.5"
+	  GPUCustomComputeCapability ""
+	  GPUCompilerFlags	  ""
+	  DLTargetLibrary	  "none"
+	  DLAutoTuning		  on
+	  DLArmComputeVersion	  "19.05"
+	  DLArmComputeArch	  "unspecified"
 	  Array {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      9
+	      $ObjectID		      18
+	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
-		Dimension		16
+		Dimension		28
 		Cell			"IgnoreCustomStorageClasses"
 		Cell			"InsertBlockDesc"
 		Cell			"SFDataObjDesc"
@@ -375,381 +832,270 @@ Model {
 		Cell			"CustomSymbolStrBlkIO"
 		Cell			"CustomSymbolStrTmpVar"
 		Cell			"CustomSymbolStrMacro"
+		Cell			"IgnoreTestpoints"
+		Cell			"BlockCommentType"
+		Cell			"InsertPolySpaceComments"
+		Cell			"MATLABFcnDesc"
+		Cell			"InternalIdentifier"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"CustomUserTokenString"
+		Cell			"ReqsInCode"
 		PropName		"DisabledProps"
 	      }
-	      Version		      "1.4.0"
+	      Description	      ""
+	      Components	      []
+	      Comment		      ""
 	      ForceParamTrailComments off
 	      GenerateComments	      on
+	      CommentStyle	      "Auto"
 	      IgnoreCustomStorageClasses on
-	      IncHierarchyInIds	      off
+	      IgnoreTestpoints	      off
 	      MaxIdLength	      31
 	      PreserveName	      off
 	      PreserveNameWithParent  off
 	      ShowEliminatedStatement off
-	      IncAutoGenComments      off
+	      OperatorAnnotations     off
 	      SimulinkDataObjDesc     off
 	      SFDataObjDesc	      off
-	      IncDataTypeInIds	      off
+	      MATLABFcnDesc	      off
 	      MangleLength	      1
+	      SharedChecksumLength    8
 	      CustomSymbolStrGlobalVar "$R$N$M"
-	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrType     "$N$R$M_T"
 	      CustomSymbolStrField    "$N$M"
 	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrModelFcn "$R$N"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
 	      CustomSymbolStrBlkIO    "rtb_$N$M"
 	      CustomSymbolStrTmpVar   "$N$M"
 	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      CustomSymbolStrEmxType  "emxArray_$M$N"
+	      CustomSymbolStrEmxFcn   "emx$M$N"
+	      CustomUserTokenString   ""
+	      CustomCommentsFcn	      ""
 	      DefineNamingRule	      "None"
+	      DefineNamingFcn	      ""
 	      ParamNamingRule	      "None"
+	      ParamNamingFcn	      ""
 	      SignalNamingRule	      "None"
+	      SignalNamingFcn	      ""
 	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
 	      SimulinkBlockComments   on
+	      BlockCommentType	      "BlockPathComment"
+	      StateflowObjectComments on
+	      MATLABSourceComments    off
 	      EnableCustomComments    off
+	      InternalIdentifierFile  ""
+	      InternalIdentifier      "Shortened"
 	      InlinedPrmAccess	      "Literals"
 	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	      ReservedNameArray	      []
+	      EnumMemberNameClash     "error"
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      10
+	      $ObjectID		      19
+	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
-		Dimension		16
+		Dimension		18
 		Cell			"IncludeMdlTerminateFcn"
-		Cell			"CombineOutputUpdateFcns"
+		Cell			"RemoveResetFunc"
 		Cell			"SuppressErrorStatus"
 		Cell			"ERTCustomFileBanners"
 		Cell			"GenerateSampleERTMain"
 		Cell			"GenerateTestInterfaces"
 		Cell			"ModelStepFunctionPrototypeControlCompliant"
 		Cell			"CPPClassGenCompliant"
-		Cell			"MultiInstanceERTCode"
+		Cell			"PortableWordSizes"
 		Cell			"PurelyIntegerCode"
-		Cell			"SupportNonFinite"
+		Cell			"PreserveStateflowLocalDataDimensions"
 		Cell			"SupportComplex"
 		Cell			"SupportAbsoluteTime"
 		Cell			"SupportContinuousTime"
 		Cell			"SupportNonInlinedSFcns"
-		Cell			"PortableWordSizes"
+		Cell			"GenerateAllocFcn"
+		Cell			"ExistingSharedCode"
+		Cell			"RemoveDisableFunc"
 		PropName		"DisabledProps"
 	      }
-	      Version		      "1.4.0"
+	      Description	      ""
+	      Components	      []
 	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
 	      TargetLibSuffix	      ""
 	      TargetPreCompLibLocation ""
-	      TargetFunctionLibrary   "ANSI_C"
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
 	      UtilityFuncGeneration   "Auto"
+	      MultiwordTypeDef	      "System defined"
+	      MultiwordLength	      2048
+	      DynamicStringBufferSize 256
 	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      ExistingSharedCode      ""
 	      GenerateSampleERTMain   off
 	      GenerateTestInterfaces  off
-	      IsPILTarget	      off
 	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
 	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
 	      IncludeMdlTerminateFcn  on
 	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      GroupInternalDataByFunction off
 	      SuppressErrorStatus     off
-	      ERTFirstTimeCompliant   off
 	      IncludeFileDelimiter    "Auto"
 	      ERTCustomFileBanners    off
 	      SupportAbsoluteTime     on
 	      LogVarNameModifier      "rt_"
 	      MatFileLogging	      on
-	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      PurelyIntegerCode	      off
 	      SupportNonFinite	      on
 	      SupportComplex	      on
-	      PurelyIntegerCode	      off
 	      SupportContinuousTime   on
 	      SupportNonInlinedSFcns  on
-	      EnableShiftOperators    on
+	      RemoveDisableFunc	      off
+	      RemoveResetFunc	      off
+	      SupportVariableSizeSignals off
 	      ParenthesesLevel	      "Nominal"
-	      PortableWordSizes	      off
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
 	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
 	      AutosarCompliant	      off
+	      MDXCompliant	      off
+	      GRTInterface	      on
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      CoderGroups	      []
+	      AccessMethods	      []
+	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
+	      LUTObjectStructOrderExplicitValues "Size,Breakpoints,Table"
+	      LUTObjectStructOrderEvenSpacing "Size,Breakpoints,Table"
+	      ArrayLayout	      "Column-major"
+	      UnsupportedSFcnMsg      "error"
+	      ERTHeaderFileRootName   "$R$E"
+	      ERTSourceFileRootName   "$R$E"
+	      ERTDataFileRootName     "$R_data"
+	      UseMalloc		      off
 	      ExtMode		      off
 	      ExtModeStaticAlloc      off
 	      ExtModeTesting	      off
 	      ExtModeStaticAllocSize  1000000
 	      ExtModeTransport	      0
 	      ExtModeMexFile	      "ext_comm"
+	      ExtModeMexArgs	      ""
 	      ExtModeIntrfLevel	      "Level1"
 	      RTWCAPISignals	      off
 	      RTWCAPIParams	      off
 	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
 	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
 	    }
 	    PropName		    "Components"
 	  }
 	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  20
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  "Simulink Coverage Configuration Component"
+	  Components		  []
+	  Name			  "Simulink Coverage"
+	  CovEnable		  off
+	  CovScope		  "EntireSystem"
+	  CovIncludeTopModel	  on
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovCompData		  ""
+	  CovMetricSettings	  "dw"
+	  CovFilter		  ""
+	  CovHTMLOptions	  ""
+	  CovNameIncrementing	  off
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar on
+	  CovSaveSingleToWorkspaceVar on
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovSaveOutputData	  on
+	  CovOutputDir		  "slcov_output/$ModelName$"
+	  CovDataFileName	  "$ModelName$_cvdata"
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovModelRefExcluded	  ""
+	  CovExternalEMLEnable	  on
+	  CovSFcnEnable		  on
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	  CovMcdcMode		  "Masking"
+	}
 	hdlcoderui.hdlcc {
-	  $ObjectID		  11
+	  $ObjectID		  21
+	  Version		  "20.1.0"
+	  DisabledProps		  []
 	  Description		  "HDL Coder custom configuration component"
-	  Version		  "1.4.0"
+	  Components		  []
 	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
 	}
 	PropName		"Components"
       }
       Name		      "Configuration"
       CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    [ 0, 0, 0, 0 ]
+      ExtraOptions	      ""
     }
     PropName		    "ConfigurationSets"
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    1
+    $ObjectID		    9
   }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    22
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+  }
+  ExplicitPartitioning	  off
   BlockDefaults {
-    Orientation		    "right"
     ForegroundColor	    "black"
     BackgroundColor	    "white"
     DropShadow		    off
-    NamePlacement	    "normal"
+    NameLocation	    "bottom"
     FontName		    "Helvetica"
     FontSize		    10
     FontWeight		    "normal"
     FontAngle		    "normal"
     ShowName		    on
-  }
-  BlockParameterDefaults {
-    Block {
-      BlockType		      Clock
-      DisplayTime	      off
-    }
-    Block {
-      BlockType		      Fcn
-      Expr		      "sin(u[1])"
-      SampleTime	      "-1"
-    }
-    Block {
-      BlockType		      Gain
-      Gain		      "1"
-      Multiplication	      "Element-wise(K.*u)"
-      ParamMin		      "[]"
-      ParamMax		      "[]"
-      ParameterDataTypeMode   "Same as input"
-      ParameterDataType	      "fixdt(1,16,0)"
-      ParameterScalingMode    "Best Precision: Matrix-wise"
-      ParameterScaling	      "[]"
-      ParamDataTypeStr	      "Inherit: Same as input"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeMode	      "Same as input"
-      OutDataType	      "fixdt(1,16,0)"
-      OutScaling	      "[]"
-      OutDataTypeStr	      "Inherit: Same as input"
-      LockScale		      off
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	on
-      SampleTime	      "-1"
-    }
-    Block {
-      BlockType		      Inport
-      Port		      "1"
-      UseBusObject	      off
-      BusObject		      "BusObject"
-      BusOutputAsStruct	      off
-      PortDimensions	      "-1"
-      SampleTime	      "-1"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      DataType		      "auto"
-      OutDataType	      "fixdt(1,16,0)"
-      OutScaling	      "[]"
-      OutDataTypeStr	      "Inherit: auto"
-      SignalType	      "auto"
-      SamplingMode	      "auto"
-      LatchByDelayingOutsideSignal off
-      LatchByCopyingInsideSignal off
-      Interpolate	      on
-    }
-    Block {
-      BlockType		      Integrator
-      ExternalReset	      "none"
-      InitialConditionSource  "internal"
-      InitialCondition	      "0"
-      LimitOutput	      off
-      UpperSaturationLimit    "inf"
-      LowerSaturationLimit    "-inf"
-      ShowSaturationPort      off
-      ShowStatePort	      off
-      AbsoluteTolerance	      "auto"
-      IgnoreLimit	      off
-      ZeroCross		      on
-      ContinuousStateAttributes	"''"
-    }
-    Block {
-      BlockType		      Mux
-      Inputs		      "4"
-      DisplayOption	      "none"
-      UseBusObject	      off
-      BusObject		      "BusObject"
-      NonVirtualBus	      off
-    }
-    Block {
-      BlockType		      Outport
-      Port		      "1"
-      UseBusObject	      off
-      BusObject		      "BusObject"
-      BusOutputAsStruct	      off
-      PortDimensions	      "-1"
-      SampleTime	      "-1"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      DataType		      "auto"
-      OutDataType	      "fixdt(1,16,0)"
-      OutScaling	      "[]"
-      OutDataTypeStr	      "Inherit: auto"
-      SignalType	      "auto"
-      SamplingMode	      "auto"
-      OutputWhenDisabled      "held"
-      InitialOutput	      "[]"
-    }
-    Block {
-      BlockType		      Product
-      Inputs		      "2"
-      Multiplication	      "Element-wise(.*)"
-      CollapseMode	      "All dimensions"
-      CollapseDim	      "1"
-      InputSameDT	      on
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeMode	      "Same as first input"
-      OutDataType	      "fixdt(1,16,0)"
-      OutScaling	      "[]"
-      OutDataTypeStr	      "Inherit: Same as first input"
-      LockScale		      off
-      RndMeth		      "Zero"
-      SaturateOnIntegerOverflow	on
-      SampleTime	      "-1"
-    }
-    Block {
-      BlockType		      Relay
-      OnSwitchValue	      "eps"
-      OffSwitchValue	      "eps"
-      OnOutputValue	      "1"
-      OffOutputValue	      "0"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeMode	      "All ports same datatype"
-      OutDataType	      "fixdt(1,16,0)"
-      ConRadixGroup	      "Use specified scaling"
-      OutScaling	      "[]"
-      OutDataTypeStr	      "Inherit: All ports same datatype"
-      ZeroCross		      on
-      SampleTime	      "-1"
-    }
-    Block {
-      BlockType		      Scope
-      ModelBased	      off
-      TickLabels	      "OneTimeTick"
-      ZoomMode		      "on"
-      Grid		      "on"
-      TimeRange		      "auto"
-      YMin		      "-5"
-      YMax		      "5"
-      SaveToWorkspace	      off
-      SaveName		      "ScopeData"
-      LimitDataPoints	      on
-      MaxDataPoints	      "5000"
-      Decimation	      "1"
-      SampleInput	      off
-      SampleTime	      "-1"
-    }
-    Block {
-      BlockType		      SubSystem
-      ShowPortLabels	      "FromPortIcon"
-      Permissions	      "ReadWrite"
-      PermitHierarchicalResolution "All"
-      TreatAsAtomicUnit	      off
-      CheckFcnCallInpInsideContextMsg off
-      SystemSampleTime	      "-1"
-      RTWFcnNameOpts	      "Auto"
-      RTWFileNameOpts	      "Auto"
-      RTWMemSecFuncInitTerm   "Inherit from model"
-      RTWMemSecFuncExecute    "Inherit from model"
-      RTWMemSecDataConstants  "Inherit from model"
-      RTWMemSecDataInternal   "Inherit from model"
-      RTWMemSecDataParameters "Inherit from model"
-      SimViewingDevice	      off
-      DataTypeOverride	      "UseLocalSettings"
-      MinMaxOverflowLogging   "UseLocalSettings"
-    }
-    Block {
-      BlockType		      Sum
-      IconShape		      "rectangular"
-      Inputs		      "++"
-      CollapseMode	      "All dimensions"
-      CollapseDim	      "1"
-      InputSameDT	      on
-      AccumDataTypeStr	      "Inherit: Inherit via internal rule"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeMode	      "Same as first input"
-      OutDataType	      "fixdt(1,16,0)"
-      OutScaling	      "[]"
-      OutDataTypeStr	      "Inherit: Same as first input"
-      LockScale		      off
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	on
-      SampleTime	      "-1"
-    }
-    Block {
-      BlockType		      Switch
-      Criteria		      "u2 >= Threshold"
-      Threshold		      "0"
-      InputSameDT	      on
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeMode	      "Inherit via internal rule"
-      OutDataType	      "fixdt(1,16,0)"
-      OutScaling	      "[]"
-      OutDataTypeStr	      "Inherit: Inherit via internal rule"
-      LockScale		      off
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	on
-      ZeroCross		      on
-      SampleTime	      "-1"
-    }
-    Block {
-      BlockType		      TransferFcn
-      Numerator		      "[1]"
-      Denominator	      "[1 2 1]"
-      AbsoluteTolerance	      "auto"
-      ContinuousStateAttributes	"''"
-      Realization	      "auto"
-    }
-    Block {
-      BlockType		      TransportDelay
-      DelayTime		      "1"
-      InitialOutput	      "0"
-      BufferSize	      "1024"
-      FixedBuffer	      off
-      TransDelayFeedthrough   off
-      PadeOrder		      "0"
-    }
-    Block {
-      BlockType		      Constant
-      Value		      "1"
-      VectorParams1D	      on
-      SamplingMode	      "Sample based"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeMode	      "Inherit from 'Constant value'"
-      OutDataType	      "fixdt(1,16,0)"
-      ConRadixGroup	      "Use specified scaling"
-      OutScaling	      "[]"
-      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
-      SampleTime	      "inf"
-      FramePeriod	      "inf"
-    }
-    Block {
-      BlockType		      DiscretePulseGenerator
-      PulseType		      "Sample based"
-      TimeSource	      "Use simulation time"
-      Amplitude		      "1"
-      Period		      "2"
-      PulseWidth	      "1"
-      PhaseDelay	      "0"
-      SampleTime	      "1"
-      VectorParams1D	      on
-    }
+    HideAutomaticName	    on
+    BlockRotation	    0
+    BlockMirror		    off
   }
   AnnotationDefaults {
     HorizontalAlignment	    "center"
@@ -761,7 +1107,12 @@ Model {
     FontSize		    10
     FontWeight		    "normal"
     FontAngle		    "normal"
+    MarkupType		    "model"
     UseDisplayTextAsClickCallback off
+    AnnotationType	    "note_annotation"
+    FixedHeight		    off
+    FixedWidth		    off
+    Interpreter		    "off"
   }
   LineDefaults {
     FontName		    "Helvetica"
@@ -769,10 +1120,47 @@ Model {
     FontWeight		    "normal"
     FontAngle		    "normal"
   }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "opaque"
+    RunInitForIconRedraw    "analyze"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      Scope
+      DefaultConfigurationName "Simulink.scopes.TimeScopeBlockCfg"
+    }
+  }
   System {
     Name		    "LongDendriteCells"
-    Location		    [2, 80, 873, 576]
+    Location		    [-7, -7, 1407, 871]
+    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
     Open		    on
+    PortBlocksUseCompactNotation off
+    SetExecutionDomain	    off
+    ExecutionDomainType	    "Deduce"
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -785,3043 +1173,115 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "19"
+    SimulinkSubDomain	    "Simulink"
     Block {
-      BlockType		      SubSystem
-      Name		      "Branching Dendrites Cell"
+      BlockType		      Reference
+      Name		      "Branching Dendrites Cell ModGenSyn"
+      SID		      "17"
       Ports		      [8, 3]
       Position		      [235, 252, 390, 338]
-      NamePlacement	      "alternate"
-      AncestorBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell"
-      MinAlgLoopOccurrences   off
-      PropExecContextOutsideSubsystem off
-      RTWSystemCode	      "Auto"
-      FunctionWithSeparateData off
-      Opaque		      off
-      RequestExecContextInheritance off
-      MaskHideContents	      off
-      System {
-	Name			"Branching Dendrites Cell"
-	Location		[11, 90, 1006, 569]
-	Open			off
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate1"
-	  Position		  [30, 200, 45, 230]
-	  NamePlacement		  "alternate"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate2"
-	  Position		  [30, 145, 45, 175]
-	  NamePlacement		  "alternate"
-	  Port			  "2"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate3"
-	  Position		  [30, 95, 45, 125]
-	  NamePlacement		  "alternate"
-	  Port			  "3"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate4"
-	  Position		  [30, 40, 45, 70]
-	  NamePlacement		  "alternate"
-	  Port			  "4"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate5"
-	  Position		  [20, 385, 35, 415]
-	  NamePlacement		  "alternate"
-	  Port			  "5"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate6"
-	  Position		  [20, 490, 35, 520]
-	  NamePlacement		  "alternate"
-	  Port			  "6"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate7"
-	  Position		  [20, 550, 35, 580]
-	  NamePlacement		  "alternate"
-	  Port			  "7"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate8"
-	  Position		  [20, 605, 35, 635]
-	  NamePlacement		  "alternate"
-	  Port			  "8"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C1"
-	  Position		  [960, 379, 990, 401]
-	  NamePlacement		  "alternate"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C2"
-	  Position		  [70, 264, 100, 286]
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C3"
-	  Position		  [70, 314, 100, 336]
-	  Value			  "-1"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Gain
-	  Name			  "Inputs"
-	  Position		  [380, 260, 405, 290]
-	  Gain			  "0.5"
-	  ParameterDataType	  "sfix(16)"
-	  ParameterScaling	  "2^0"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Gain
-	  Name			  "Inputs1"
-	  Position		  [385, 310, 410, 340]
-	  Gain			  "0.5"
-	  ParameterDataType	  "sfix(16)"
-	  ParameterScaling	  "2^0"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "LTZone"
-	  Ports			  [2, 3]
-	  Position		  [1025, 287, 1110, 343]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/LTZone"
-	  SourceType		  "Ion pump"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  NM			  "1"
-	  FB			  "2"
-	  IT			  "0.005"
-	  T			  "0.1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane"
-	  Ports			  [5, 2]
-	  Position		  [815, 237, 980, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane1"
-	  Ports			  [5, 2]
-	  Position		  [620, 237, 785, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane2"
-	  Ports			  [5, 2]
-	  Position		  [430, 237, 595, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane3"
-	  Ports			  [5, 2]
-	  Position		  [160, 237, 325, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane4"
-	  Ports			  [5, 2]
-	  Position		  [160, 387, 325, 513]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum1"
-	  Ports			  [2, 1]
-	  Position		  [340, 325, 360, 345]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum12"
-	  Ports			  [2, 1]
-	  Position		  [340, 265, 360, 285]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum2"
-	  Ports			  [4, 1]
-	  Position		  [130, 525, 150, 545]
-	  ShowName		  off
-	  IconShape		  "round"
-	  Inputs		  "++++"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum7"
-	  Ports			  [2, 1]
-	  Position		  [985, 290, 1005, 310]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse"
-	  Ports			  [1, 1]
-	  Position		  [70, 204, 130, 226]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse1"
-	  Ports			  [1, 1]
-	  Position		  [50, 389, 110, 411]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse2"
-	  Ports			  [1, 1]
-	  Position		  [70, 149, 130, 171]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse3"
-	  Ports			  [1, 1]
-	  Position		  [70, 99, 130, 121]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse4"
-	  Ports			  [1, 1]
-	  Position		  [70, 44, 130, 66]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse5"
-	  Ports			  [1, 1]
-	  Position		  [55, 494, 115, 516]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse6"
-	  Ports			  [1, 1]
-	  Position		  [55, 554, 115, 576]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse7"
-	  Ports			  [1, 1]
-	  Position		  [55, 609, 115, 631]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Out"
-	  Position		  [1135, 320, 1150, 350]
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Visual"
-	  Position		  [1135, 270, 1150, 300]
-	  Port			  "2"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Potential"
-	  Position		  [1100, 380, 1115, 410]
-	  Port			  "3"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Line {
-	  SrcBlock		  "Synapse5"
-	  SrcPort		  1
-	  Points		  [-1, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Inputs1"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Inputs"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Synapse1"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, 110]
-	  DstBlock		  "Sum2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum2"
-	  SrcPort		  1
-	  Points		  [0, -40; -10, 0]
-	  DstBlock		  "Simple Membrane4"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane2"
-	  SrcPort		  2
-	  Points		  [0, -10]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane2"
-	  SrcPort		  1
-	  Points		  [0, 5]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane3"
-	  SrcPort		  1
-	  Points		  [0, -20]
-	  DstBlock		  "Sum12"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane3"
-	  SrcPort		  2
-	  Points		  [0, -25]
-	  DstBlock		  "Sum1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum1"
-	  SrcPort		  1
-	  Points		  [0, -10]
-	  DstBlock		  "Inputs1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum12"
-	  SrcPort		  1
-	  DstBlock		  "Inputs"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane4"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, -120]
-	  DstBlock		  "Sum12"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane4"
-	  SrcPort		  2
-	  Points		  [20, 0]
-	  DstBlock		  "Sum1"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane"
-	  SrcPort		  2
-	  Points		  [10, 0]
-	  DstBlock		  "Sum7"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane"
-	  SrcPort		  1
-	  Points		  [10, 0]
-	  DstBlock		  "Sum7"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  1
-	  Points		  [0, -75; -315, 0]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  3
-	}
-	Line {
-	  SrcBlock		  "Sum7"
-	  SrcPort		  1
-	  Points		  [0, 0]
-	  Branch {
-	    DstBlock		    "LTZone"
-	    DstPort		    1
-	  }
-	  Branch {
-	    Points		    [0, 95]
-	    DstBlock		    "Potential"
-	    DstPort		    1
-	  }
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane1"
-	  SrcPort		  2
-	  Points		  [0, -10]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane1"
-	  SrcPort		  1
-	  Points		  [0, 5]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Stimulate5"
-	  SrcPort		  1
-	  DstBlock		  "Synapse1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate1"
-	  SrcPort		  1
-	  DstBlock		  "Synapse"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "C1"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, -60]
-	  DstBlock		  "LTZone"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  3
-	  DstBlock		  "Out"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  2
-	  Points		  [5, 0]
-	  DstBlock		  "Visual"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "C3"
-	  SrcPort		  1
-	  Points		  [25, 0]
-	  Branch {
-	    DstBlock		    "Simple Membrane3"
-	    DstPort		    4
-	  }
-	  Branch {
-	    Points		    [0, 150]
-	    DstBlock		    "Simple Membrane4"
-	    DstPort		    4
-	  }
-	}
-	Line {
-	  SrcBlock		  "C2"
-	  SrcPort		  1
-	  Points		  [35, 0]
-	  Branch {
-	    DstBlock		    "Simple Membrane3"
-	    DstPort		    2
-	  }
-	  Branch {
-	    Points		    [0, 150]
-	    DstBlock		    "Simple Membrane4"
-	    DstPort		    2
-	  }
-	}
-	Line {
-	  SrcBlock		  "Synapse"
-	  SrcPort		  1
-	  Points		  [10, 0]
-	  DstBlock		  "Simple Membrane3"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse2"
-	  SrcPort		  1
-	  Points		  [280, 0]
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate2"
-	  SrcPort		  1
-	  DstBlock		  "Synapse2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse3"
-	  SrcPort		  1
-	  Points		  [470, 0]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate3"
-	  SrcPort		  1
-	  DstBlock		  "Synapse3"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse4"
-	  SrcPort		  1
-	  Points		  [660, 0; 0, 195]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate4"
-	  SrcPort		  1
-	  DstBlock		  "Synapse4"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate6"
-	  SrcPort		  1
-	  DstBlock		  "Synapse5"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate7"
-	  SrcPort		  1
-	  DstBlock		  "Synapse6"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse6"
-	  SrcPort		  1
-	  Points		  [15, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  3
-	}
-	Line {
-	  SrcBlock		  "Stimulate8"
-	  SrcPort		  1
-	  DstBlock		  "Synapse7"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse7"
-	  SrcPort		  1
-	  Points		  [20, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  4
-	}
-      }
+      ZOrder		      3
+      NameLocation	      "top"
+      LibraryVersion	      "3.92"
+      SourceBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGenSyn"
+      SourceType	      "SubSystem"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      ContentPreviewEnabled   off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
     }
     Block {
-      BlockType		      SubSystem
-      Name		      "Branching Dendrites Cell1"
+      BlockType		      Reference
+      Name		      "Branching Dendrites Cell ModGenSyn1"
+      SID		      "18"
       Ports		      [8, 3]
       Position		      [235, 427, 390, 513]
-      NamePlacement	      "alternate"
-      AncestorBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell"
-      MinAlgLoopOccurrences   off
-      PropExecContextOutsideSubsystem off
-      RTWSystemCode	      "Auto"
-      FunctionWithSeparateData off
-      Opaque		      off
-      RequestExecContextInheritance off
-      MaskHideContents	      off
-      System {
-	Name			"Branching Dendrites Cell1"
-	Location		[11, 90, 1006, 569]
-	Open			off
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate1"
-	  Position		  [30, 200, 45, 230]
-	  NamePlacement		  "alternate"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate2"
-	  Position		  [30, 145, 45, 175]
-	  NamePlacement		  "alternate"
-	  Port			  "2"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate3"
-	  Position		  [30, 95, 45, 125]
-	  NamePlacement		  "alternate"
-	  Port			  "3"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate4"
-	  Position		  [30, 40, 45, 70]
-	  NamePlacement		  "alternate"
-	  Port			  "4"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate5"
-	  Position		  [20, 385, 35, 415]
-	  NamePlacement		  "alternate"
-	  Port			  "5"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate6"
-	  Position		  [20, 490, 35, 520]
-	  NamePlacement		  "alternate"
-	  Port			  "6"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate7"
-	  Position		  [20, 550, 35, 580]
-	  NamePlacement		  "alternate"
-	  Port			  "7"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate8"
-	  Position		  [20, 605, 35, 635]
-	  NamePlacement		  "alternate"
-	  Port			  "8"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C1"
-	  Position		  [960, 379, 990, 401]
-	  NamePlacement		  "alternate"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C2"
-	  Position		  [70, 264, 100, 286]
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C3"
-	  Position		  [70, 314, 100, 336]
-	  Value			  "-1"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Gain
-	  Name			  "Inputs"
-	  Position		  [380, 260, 405, 290]
-	  Gain			  "0.5"
-	  ParameterDataType	  "sfix(16)"
-	  ParameterScaling	  "2^0"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Gain
-	  Name			  "Inputs1"
-	  Position		  [385, 310, 410, 340]
-	  Gain			  "0.5"
-	  ParameterDataType	  "sfix(16)"
-	  ParameterScaling	  "2^0"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "LTZone"
-	  Ports			  [2, 3]
-	  Position		  [1025, 287, 1110, 343]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/LTZone"
-	  SourceType		  "Ion pump"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  NM			  "1"
-	  FB			  "2"
-	  IT			  "0.005"
-	  T			  "0.1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane"
-	  Ports			  [5, 2]
-	  Position		  [815, 237, 980, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane1"
-	  Ports			  [5, 2]
-	  Position		  [620, 237, 785, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane2"
-	  Ports			  [5, 2]
-	  Position		  [430, 237, 595, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane3"
-	  Ports			  [5, 2]
-	  Position		  [160, 237, 325, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane4"
-	  Ports			  [5, 2]
-	  Position		  [160, 387, 325, 513]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum1"
-	  Ports			  [2, 1]
-	  Position		  [340, 325, 360, 345]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum12"
-	  Ports			  [2, 1]
-	  Position		  [340, 265, 360, 285]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum2"
-	  Ports			  [4, 1]
-	  Position		  [130, 525, 150, 545]
-	  ShowName		  off
-	  IconShape		  "round"
-	  Inputs		  "++++"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum7"
-	  Ports			  [2, 1]
-	  Position		  [985, 290, 1005, 310]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse"
-	  Ports			  [1, 1]
-	  Position		  [70, 204, 130, 226]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse1"
-	  Ports			  [1, 1]
-	  Position		  [50, 389, 110, 411]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse2"
-	  Ports			  [1, 1]
-	  Position		  [70, 149, 130, 171]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse3"
-	  Ports			  [1, 1]
-	  Position		  [70, 99, 130, 121]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse4"
-	  Ports			  [1, 1]
-	  Position		  [70, 44, 130, 66]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse5"
-	  Ports			  [1, 1]
-	  Position		  [55, 494, 115, 516]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse6"
-	  Ports			  [1, 1]
-	  Position		  [55, 554, 115, 576]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse7"
-	  Ports			  [1, 1]
-	  Position		  [55, 609, 115, 631]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Out"
-	  Position		  [1135, 320, 1150, 350]
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Visual"
-	  Position		  [1135, 270, 1150, 300]
-	  Port			  "2"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Potential"
-	  Position		  [1100, 380, 1115, 410]
-	  Port			  "3"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Line {
-	  SrcBlock		  "Synapse5"
-	  SrcPort		  1
-	  Points		  [-1, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Inputs1"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Inputs"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Synapse1"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, 110]
-	  DstBlock		  "Sum2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum2"
-	  SrcPort		  1
-	  Points		  [0, -40; -10, 0]
-	  DstBlock		  "Simple Membrane4"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane2"
-	  SrcPort		  2
-	  Points		  [0, -10]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane2"
-	  SrcPort		  1
-	  Points		  [0, 5]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane3"
-	  SrcPort		  1
-	  Points		  [0, -20]
-	  DstBlock		  "Sum12"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane3"
-	  SrcPort		  2
-	  Points		  [0, -25]
-	  DstBlock		  "Sum1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum1"
-	  SrcPort		  1
-	  Points		  [0, -10]
-	  DstBlock		  "Inputs1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum12"
-	  SrcPort		  1
-	  DstBlock		  "Inputs"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane4"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, -120]
-	  DstBlock		  "Sum12"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane4"
-	  SrcPort		  2
-	  Points		  [20, 0]
-	  DstBlock		  "Sum1"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane"
-	  SrcPort		  2
-	  Points		  [10, 0]
-	  DstBlock		  "Sum7"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane"
-	  SrcPort		  1
-	  Points		  [10, 0]
-	  DstBlock		  "Sum7"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  1
-	  Points		  [0, -75; -315, 0]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  3
-	}
-	Line {
-	  SrcBlock		  "Sum7"
-	  SrcPort		  1
-	  Points		  [0, 0]
-	  Branch {
-	    DstBlock		    "LTZone"
-	    DstPort		    1
-	  }
-	  Branch {
-	    Points		    [0, 95]
-	    DstBlock		    "Potential"
-	    DstPort		    1
-	  }
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane1"
-	  SrcPort		  2
-	  Points		  [0, -10]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane1"
-	  SrcPort		  1
-	  Points		  [0, 5]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Stimulate5"
-	  SrcPort		  1
-	  DstBlock		  "Synapse1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate1"
-	  SrcPort		  1
-	  DstBlock		  "Synapse"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "C1"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, -60]
-	  DstBlock		  "LTZone"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  3
-	  DstBlock		  "Out"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  2
-	  Points		  [5, 0]
-	  DstBlock		  "Visual"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "C3"
-	  SrcPort		  1
-	  Points		  [25, 0]
-	  Branch {
-	    DstBlock		    "Simple Membrane3"
-	    DstPort		    4
-	  }
-	  Branch {
-	    Points		    [0, 150]
-	    DstBlock		    "Simple Membrane4"
-	    DstPort		    4
-	  }
-	}
-	Line {
-	  SrcBlock		  "C2"
-	  SrcPort		  1
-	  Points		  [35, 0]
-	  Branch {
-	    DstBlock		    "Simple Membrane3"
-	    DstPort		    2
-	  }
-	  Branch {
-	    Points		    [0, 150]
-	    DstBlock		    "Simple Membrane4"
-	    DstPort		    2
-	  }
-	}
-	Line {
-	  SrcBlock		  "Synapse"
-	  SrcPort		  1
-	  Points		  [10, 0]
-	  DstBlock		  "Simple Membrane3"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse2"
-	  SrcPort		  1
-	  Points		  [280, 0]
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate2"
-	  SrcPort		  1
-	  DstBlock		  "Synapse2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse3"
-	  SrcPort		  1
-	  Points		  [470, 0]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate3"
-	  SrcPort		  1
-	  DstBlock		  "Synapse3"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse4"
-	  SrcPort		  1
-	  Points		  [660, 0; 0, 195]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate4"
-	  SrcPort		  1
-	  DstBlock		  "Synapse4"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate6"
-	  SrcPort		  1
-	  DstBlock		  "Synapse5"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate7"
-	  SrcPort		  1
-	  DstBlock		  "Synapse6"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse6"
-	  SrcPort		  1
-	  Points		  [15, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  3
-	}
-	Line {
-	  SrcBlock		  "Stimulate8"
-	  SrcPort		  1
-	  DstBlock		  "Synapse7"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse7"
-	  SrcPort		  1
-	  Points		  [20, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  4
-	}
-      }
+      ZOrder		      4
+      NameLocation	      "top"
+      LibraryVersion	      "3.92"
+      SourceBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGenSyn"
+      SourceType	      "SubSystem"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      ContentPreviewEnabled   off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
     }
     Block {
-      BlockType		      SubSystem
-      Name		      "Branching Dendrites Cell2"
+      BlockType		      Reference
+      Name		      "Branching Dendrites Cell ModGenSyn2"
+      SID		      "19"
       Ports		      [8, 3]
       Position		      [235, 542, 390, 628]
-      NamePlacement	      "alternate"
-      AncestorBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell"
-      MinAlgLoopOccurrences   off
-      PropExecContextOutsideSubsystem off
-      RTWSystemCode	      "Auto"
-      FunctionWithSeparateData off
-      Opaque		      off
-      RequestExecContextInheritance off
-      MaskHideContents	      off
-      System {
-	Name			"Branching Dendrites Cell2"
-	Location		[11, 90, 1006, 569]
-	Open			off
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate1"
-	  Position		  [30, 200, 45, 230]
-	  NamePlacement		  "alternate"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate2"
-	  Position		  [30, 145, 45, 175]
-	  NamePlacement		  "alternate"
-	  Port			  "2"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate3"
-	  Position		  [30, 95, 45, 125]
-	  NamePlacement		  "alternate"
-	  Port			  "3"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate4"
-	  Position		  [30, 40, 45, 70]
-	  NamePlacement		  "alternate"
-	  Port			  "4"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate5"
-	  Position		  [20, 385, 35, 415]
-	  NamePlacement		  "alternate"
-	  Port			  "5"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate6"
-	  Position		  [20, 490, 35, 520]
-	  NamePlacement		  "alternate"
-	  Port			  "6"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate7"
-	  Position		  [20, 550, 35, 580]
-	  NamePlacement		  "alternate"
-	  Port			  "7"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate8"
-	  Position		  [20, 605, 35, 635]
-	  NamePlacement		  "alternate"
-	  Port			  "8"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C1"
-	  Position		  [960, 379, 990, 401]
-	  NamePlacement		  "alternate"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C2"
-	  Position		  [70, 264, 100, 286]
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C3"
-	  Position		  [70, 314, 100, 336]
-	  Value			  "-1"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Gain
-	  Name			  "Inputs"
-	  Position		  [380, 260, 405, 290]
-	  Gain			  "0.5"
-	  ParameterDataType	  "sfix(16)"
-	  ParameterScaling	  "2^0"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Gain
-	  Name			  "Inputs1"
-	  Position		  [385, 310, 410, 340]
-	  Gain			  "0.5"
-	  ParameterDataType	  "sfix(16)"
-	  ParameterScaling	  "2^0"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "LTZone"
-	  Ports			  [2, 3]
-	  Position		  [1025, 287, 1110, 343]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/LTZone"
-	  SourceType		  "Ion pump"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  NM			  "1"
-	  FB			  "2"
-	  IT			  "0.005"
-	  T			  "0.1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane"
-	  Ports			  [5, 2]
-	  Position		  [815, 237, 980, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane1"
-	  Ports			  [5, 2]
-	  Position		  [620, 237, 785, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane2"
-	  Ports			  [5, 2]
-	  Position		  [430, 237, 595, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane3"
-	  Ports			  [5, 2]
-	  Position		  [160, 237, 325, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane4"
-	  Ports			  [5, 2]
-	  Position		  [160, 387, 325, 513]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum1"
-	  Ports			  [2, 1]
-	  Position		  [340, 325, 360, 345]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum12"
-	  Ports			  [2, 1]
-	  Position		  [340, 265, 360, 285]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum2"
-	  Ports			  [4, 1]
-	  Position		  [130, 525, 150, 545]
-	  ShowName		  off
-	  IconShape		  "round"
-	  Inputs		  "++++"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum7"
-	  Ports			  [2, 1]
-	  Position		  [985, 290, 1005, 310]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse"
-	  Ports			  [1, 1]
-	  Position		  [70, 204, 130, 226]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse1"
-	  Ports			  [1, 1]
-	  Position		  [50, 389, 110, 411]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse2"
-	  Ports			  [1, 1]
-	  Position		  [70, 149, 130, 171]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse3"
-	  Ports			  [1, 1]
-	  Position		  [70, 99, 130, 121]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse4"
-	  Ports			  [1, 1]
-	  Position		  [70, 44, 130, 66]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse5"
-	  Ports			  [1, 1]
-	  Position		  [55, 494, 115, 516]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse6"
-	  Ports			  [1, 1]
-	  Position		  [55, 554, 115, 576]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse7"
-	  Ports			  [1, 1]
-	  Position		  [55, 609, 115, 631]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Out"
-	  Position		  [1135, 320, 1150, 350]
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Visual"
-	  Position		  [1135, 270, 1150, 300]
-	  Port			  "2"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Potential"
-	  Position		  [1100, 380, 1115, 410]
-	  Port			  "3"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Line {
-	  SrcBlock		  "Synapse5"
-	  SrcPort		  1
-	  Points		  [-1, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Inputs1"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Inputs"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Synapse1"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, 110]
-	  DstBlock		  "Sum2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum2"
-	  SrcPort		  1
-	  Points		  [0, -40; -10, 0]
-	  DstBlock		  "Simple Membrane4"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane2"
-	  SrcPort		  2
-	  Points		  [0, -10]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane2"
-	  SrcPort		  1
-	  Points		  [0, 5]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane3"
-	  SrcPort		  1
-	  Points		  [0, -20]
-	  DstBlock		  "Sum12"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane3"
-	  SrcPort		  2
-	  Points		  [0, -25]
-	  DstBlock		  "Sum1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum1"
-	  SrcPort		  1
-	  Points		  [0, -10]
-	  DstBlock		  "Inputs1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Sum12"
-	  SrcPort		  1
-	  DstBlock		  "Inputs"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane4"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, -120]
-	  DstBlock		  "Sum12"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane4"
-	  SrcPort		  2
-	  Points		  [20, 0]
-	  DstBlock		  "Sum1"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane"
-	  SrcPort		  2
-	  Points		  [10, 0]
-	  DstBlock		  "Sum7"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane"
-	  SrcPort		  1
-	  Points		  [10, 0]
-	  DstBlock		  "Sum7"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  1
-	  Points		  [0, -75; -315, 0]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  3
-	}
-	Line {
-	  SrcBlock		  "Sum7"
-	  SrcPort		  1
-	  Points		  [0, 0]
-	  Branch {
-	    DstBlock		    "LTZone"
-	    DstPort		    1
-	  }
-	  Branch {
-	    Points		    [0, 95]
-	    DstBlock		    "Potential"
-	    DstPort		    1
-	  }
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane1"
-	  SrcPort		  2
-	  Points		  [0, -10]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane1"
-	  SrcPort		  1
-	  Points		  [0, 5]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Stimulate5"
-	  SrcPort		  1
-	  DstBlock		  "Synapse1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate1"
-	  SrcPort		  1
-	  DstBlock		  "Synapse"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "C1"
-	  SrcPort		  1
-	  Points		  [10, 0; 0, -60]
-	  DstBlock		  "LTZone"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  3
-	  DstBlock		  "Out"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  2
-	  Points		  [5, 0]
-	  DstBlock		  "Visual"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "C3"
-	  SrcPort		  1
-	  Points		  [25, 0]
-	  Branch {
-	    DstBlock		    "Simple Membrane3"
-	    DstPort		    4
-	  }
-	  Branch {
-	    Points		    [0, 150]
-	    DstBlock		    "Simple Membrane4"
-	    DstPort		    4
-	  }
-	}
-	Line {
-	  SrcBlock		  "C2"
-	  SrcPort		  1
-	  Points		  [35, 0]
-	  Branch {
-	    DstBlock		    "Simple Membrane3"
-	    DstPort		    2
-	  }
-	  Branch {
-	    Points		    [0, 150]
-	    DstBlock		    "Simple Membrane4"
-	    DstPort		    2
-	  }
-	}
-	Line {
-	  SrcBlock		  "Synapse"
-	  SrcPort		  1
-	  Points		  [10, 0]
-	  DstBlock		  "Simple Membrane3"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse2"
-	  SrcPort		  1
-	  Points		  [280, 0]
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate2"
-	  SrcPort		  1
-	  DstBlock		  "Synapse2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse3"
-	  SrcPort		  1
-	  Points		  [470, 0]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate3"
-	  SrcPort		  1
-	  DstBlock		  "Synapse3"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse4"
-	  SrcPort		  1
-	  Points		  [660, 0; 0, 195]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate4"
-	  SrcPort		  1
-	  DstBlock		  "Synapse4"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate6"
-	  SrcPort		  1
-	  DstBlock		  "Synapse5"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate7"
-	  SrcPort		  1
-	  DstBlock		  "Synapse6"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse6"
-	  SrcPort		  1
-	  Points		  [15, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  3
-	}
-	Line {
-	  SrcBlock		  "Stimulate8"
-	  SrcPort		  1
-	  DstBlock		  "Synapse7"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse7"
-	  SrcPort		  1
-	  Points		  [20, 0]
-	  DstBlock		  "Sum2"
-	  DstPort		  4
-	}
-      }
+      ZOrder		      5
+      NameLocation	      "top"
+      LibraryVersion	      "3.92"
+      SourceBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGenSyn"
+      SourceType	      "SubSystem"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      ContentPreviewEnabled   off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
     }
     Block {
-      BlockType		      SubSystem
-      Name		      "Long Dendite Cell"
+      BlockType		      Reference
+      Name		      "Long Dendite Cell ModGenSyn"
+      SID		      "16"
       Ports		      [8, 3]
       Position		      [235, 77, 390, 163]
-      NamePlacement	      "alternate"
-      AncestorBlock	      "NeuroModelerLibrary/Dendrites Cells/Long Dendite Cell"
-      MinAlgLoopOccurrences   off
-      PropExecContextOutsideSubsystem off
-      RTWSystemCode	      "Auto"
-      FunctionWithSeparateData off
-      Opaque		      off
-      RequestExecContextInheritance off
-      MaskHideContents	      off
-      System {
-	Name			"Long Dendite Cell"
-	Location		[2, 80, 873, 559]
-	Open			off
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"A4"
-	PaperUnits		"centimeters"
-	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate1"
-	  Position		  [30, 200, 45, 230]
-	  NamePlacement		  "alternate"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate2"
-	  Position		  [30, 145, 45, 175]
-	  NamePlacement		  "alternate"
-	  Port			  "2"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate3"
-	  Position		  [30, 95, 45, 125]
-	  NamePlacement		  "alternate"
-	  Port			  "3"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Stimulate4"
-	  Position		  [30, 40, 45, 70]
-	  NamePlacement		  "alternate"
-	  Port			  "4"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Arresting1"
-	  Position		  [20, 425, 35, 455]
-	  NamePlacement		  "alternate"
-	  Port			  "5"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Arresting2"
-	  Position		  [20, 490, 35, 520]
-	  NamePlacement		  "alternate"
-	  Port			  "6"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Arresting3"
-	  Position		  [20, 550, 35, 580]
-	  NamePlacement		  "alternate"
-	  Port			  "7"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "Arresting4"
-	  Position		  [20, 605, 35, 635]
-	  NamePlacement		  "alternate"
-	  Port			  "8"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C1"
-	  Position		  [920, 369, 950, 391]
-	  NamePlacement		  "alternate"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C2"
-	  Position		  [70, 264, 100, 286]
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "C3"
-	  Position		  [70, 314, 100, 336]
-	  Value			  "-1"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "LTZone"
-	  Ports			  [2, 3]
-	  Position		  [980, 287, 1065, 343]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/LTZone"
-	  SourceType		  "Ion pump"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  NM			  "1"
-	  FB			  "2"
-	  IT			  "0.005"
-	  T			  "0.1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane"
-	  Ports			  [5, 2]
-	  Position		  [755, 237, 920, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane1"
-	  Ports			  [5, 2]
-	  Position		  [535, 237, 700, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane2"
-	  Ports			  [5, 2]
-	  Position		  [350, 237, 515, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simple Membrane3"
-	  Ports			  [5, 2]
-	  Position		  [160, 237, 325, 363]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ACm			  "1e-9"
-	  ARm			  "1e7"
-	  ECm			  "1e-9"
-	  ERm			  "1e7"
-	  ARFm			  "1e8"
-	  ERFm			  "1e8"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum12"
-	  Ports			  [2, 1]
-	  Position		  [705, 290, 725, 310]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum7"
-	  Ports			  [2, 1]
-	  Position		  [940, 290, 960, 310]
-	  ShowName		  off
-	  IconShape		  "round"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse"
-	  Ports			  [1, 1]
-	  Position		  [70, 204, 130, 226]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse1"
-	  Ports			  [1, 1]
-	  Position		  [55, 429, 115, 451]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse2"
-	  Ports			  [1, 1]
-	  Position		  [70, 149, 130, 171]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse3"
-	  Ports			  [1, 1]
-	  Position		  [70, 99, 130, 121]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse4"
-	  Ports			  [1, 1]
-	  Position		  [70, 44, 130, 66]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse5"
-	  Ports			  [1, 1]
-	  Position		  [55, 494, 115, 516]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse6"
-	  Ports			  [1, 1]
-	  Position		  [55, 554, 115, 576]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Synapse7"
-	  Ports			  [1, 1]
-	  Position		  [55, 609, 115, 631]
-	  SourceBlock		  "NeuroModelerLibrary/Neuron Elements/Synapse"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  SecretionTC		  "0.001"
-	  DecompositionTC	  "0.01"
-	  ksi			  "1"
-	  gamma			  "1e8"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Out"
-	  Position		  [1090, 320, 1105, 350]
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Visual"
-	  Position		  [1125, 300, 1140, 330]
-	  Port			  "2"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Potential"
-	  Position		  [1055, 380, 1070, 410]
-	  Port			  "3"
-	  IconDisplay		  "Port number"
-	  OutDataType		  "sfix(16)"
-	  OutScaling		  "2^0"
-	}
-	Line {
-	  SrcBlock		  "Synapse7"
-	  SrcPort		  1
-	  Points		  [620, 0]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  5
-	}
-	Line {
-	  SrcBlock		  "Arresting4"
-	  SrcPort		  1
-	  DstBlock		  "Synapse7"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse6"
-	  SrcPort		  1
-	  Points		  [400, 0]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  5
-	}
-	Line {
-	  SrcBlock		  "Arresting3"
-	  SrcPort		  1
-	  DstBlock		  "Synapse6"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse5"
-	  SrcPort		  1
-	  Points		  [215, 0]
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  5
-	}
-	Line {
-	  SrcBlock		  "Arresting2"
-	  SrcPort		  1
-	  DstBlock		  "Synapse5"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate4"
-	  SrcPort		  1
-	  DstBlock		  "Synapse4"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse4"
-	  SrcPort		  1
-	  Points		  [605, 0]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate3"
-	  SrcPort		  1
-	  DstBlock		  "Synapse3"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse3"
-	  SrcPort		  1
-	  Points		  [385, 0]
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Stimulate2"
-	  SrcPort		  1
-	  DstBlock		  "Synapse2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse2"
-	  SrcPort		  1
-	  Points		  [200, 0]
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Synapse"
-	  SrcPort		  1
-	  Points		  [10, 0]
-	  DstBlock		  "Simple Membrane3"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "C2"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane3"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "C3"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane3"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Synapse1"
-	  SrcPort		  1
-	  Points		  [5, 0; 0, -90]
-	  DstBlock		  "Simple Membrane3"
-	  DstPort		  5
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane3"
-	  SrcPort		  2
-	  Points		  [0, -10]
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane3"
-	  SrcPort		  1
-	  Points		  [0, 5]
-	  DstBlock		  "Simple Membrane2"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane2"
-	  SrcPort		  2
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  4
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane2"
-	  SrcPort		  1
-	  DstBlock		  "Simple Membrane1"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  2
-	  DstBlock		  "Visual"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  3
-	  DstBlock		  "Out"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "C1"
-	  SrcPort		  1
-	  Points		  [5, 0; 0, -50]
-	  DstBlock		  "LTZone"
-	  DstPort		  2
-	}
-	Line {
-	  SrcBlock		  "Stimulate1"
-	  SrcPort		  1
-	  DstBlock		  "Synapse"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Arresting1"
-	  SrcPort		  1
-	  DstBlock		  "Synapse1"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane1"
-	  SrcPort		  1
-	  Points		  [0, 0]
-	  Branch {
-	    Points		    [25, 0; 0, 5]
-	    DstBlock		    "Simple Membrane"
-	    DstPort		    2
-	  }
-	  Branch {
-	    Points		    [0, 5]
-	    DstBlock		    "Sum12"
-	    DstPort		    1
-	  }
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane1"
-	  SrcPort		  2
-	  Points		  [0, -10]
-	  Branch {
-	    DstBlock		    "Simple Membrane"
-	    DstPort		    4
-	  }
-	  Branch {
-	    DstBlock		    "Sum12"
-	    DstPort		    2
-	  }
-	}
-	Line {
-	  SrcBlock		  "Sum7"
-	  SrcPort		  1
-	  Points		  [0, 0]
-	  Branch {
-	    DstBlock		    "LTZone"
-	    DstPort		    1
-	  }
-	  Branch {
-	    Points		    [0, 95]
-	    DstBlock		    "Potential"
-	    DstPort		    1
-	  }
-	}
-	Line {
-	  SrcBlock		  "LTZone"
-	  SrcPort		  1
-	  Points		  [0, -75; -335, 0; 0, 80]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  3
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane"
-	  SrcPort		  1
-	  Points		  [25, 0]
-	  DstBlock		  "Sum7"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Simple Membrane"
-	  SrcPort		  2
-	  Points		  [25, 0]
-	  DstBlock		  "Sum7"
-	  DstPort		  2
-	}
-      }
+      ZOrder		      2
+      NameLocation	      "top"
+      LibraryVersion	      "3.92"
+      SourceBlock	      "NeuroModelerLibrary/Dendrites Cells/Long Dendite Cell ModGenSyn"
+      SourceType	      "SubSystem"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      ContentPreviewEnabled   off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
     }
     Block {
       BlockType		      Mux
       Name		      "Mux"
+      SID		      "5"
       Ports		      [5, 1]
       Position		      [470, 13, 475, 77]
+      ZOrder		      -5
       ShowName		      off
       Inputs		      "5"
       DisplayOption	      "bar"
@@ -3829,8 +1289,10 @@ Model {
     Block {
       BlockType		      Mux
       Name		      "Mux1"
+      SID		      "6"
       Ports		      [9, 1]
       Position		      [435, 165, 440, 245]
+      ZOrder		      -6
       ShowName		      off
       Inputs		      "9"
       DisplayOption	      "bar"
@@ -3838,8 +1300,10 @@ Model {
     Block {
       BlockType		      Mux
       Name		      "Mux2"
+      SID		      "7"
       Ports		      [2, 1]
       Position		      [520, 201, 525, 239]
+      ZOrder		      -7
       ShowName		      off
       Inputs		      "2"
       DisplayOption	      "bar"
@@ -3847,49 +1311,82 @@ Model {
     Block {
       BlockType		      Mux
       Name		      "Mux4"
+      SID		      "8"
       Ports		      [4, 1]
       Position		      [205, 391, 210, 429]
+      ZOrder		      -8
       ShowName		      off
       DisplayOption	      "bar"
     }
     Block {
       BlockType		      Scope
       Name		      "Scope1"
+      SID		      "9"
       Ports		      [4]
       Position		      [550, 58, 615, 167]
-      Floating		      off
-      Location		      [6, 159, 913, 594]
-      Open		      on
+      ZOrder		      -9
+      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
+      "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
+      "ources','WiredSimulink',true,'DataLoggingSaveFormat','StructureWithTime','DataLoggingMaxPoints','5000000','DataL"
+      "oggingLimitDataPoints',true,'DataLoggingDecimation','1','DataLoggingDecimateData',true),extmgr.Configuration('Vi"
+      "suals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','0','MaxYLimReal','1','YLabelReal','','MinY"
+      "LimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor"
+      "',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666"
+      "666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549"
+      "019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.65"
+      "0980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',5,'"
+      "LineNames',{{'Two-output Pulse Generator4/1','Two-output Pulse Generator4/2','Two-output Pulse Generator/1','Two"
+      "-output Pulse Generator/2','Long Dendite Cell ModGenSyn/3'}},'ShowContent',true,'Placement',1),struct('MinYLimRe"
+      "al','0','MaxYLimReal','1','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',tr"
+      "ue,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0."
+      "686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353"
+      " 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0"
+      ".0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}"
+      "},'UserDefinedChannelNames',{{}},'NumLines',9,'LineNames',{{'Two-output Pulse Generator4/1','Two-output Pulse Ge"
+      "nerator4/2','Two-output Pulse Generator4/2','Two-output Pulse Generator/2','Two-output Pulse Generator1/1','Two-"
+      "output Pulse Generator1/2','Two-output Pulse Generator2/1','Two-output Pulse Generator2/2','Branching Dendrites "
+      "Cell ModGenSyn/3'}},'ShowContent',true,'Placement',2),struct('MinYLimReal','0','MaxYLimReal','1','YLabelReal',''"
+      ",'MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axe"
+      "sColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666"
+      "666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831"
+      "372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.074509803921568"
+      "6 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLine"
+      "s',4,'LineNames',{{'Two-output Pulse Generator5/1','Two-output Pulse Generator5/2','Two-output Pulse Generator3/"
+      "1','Two-output Pulse Generator3/2'}},'ShowContent',true,'Placement',3),struct('MinYLimReal','0','MaxYLimReal','0"
+      ".075','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'Plo"
+      "tMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'Co"
+      "lorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0."
+      "392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 "
+      "1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChanne"
+      "lNames',{{}},'NumLines',2,'LineNames',{{'Branching Dendrites Cell ModGenSyn1/3','Branching Dendrites Cell ModGen"
+      "Syn2/3'}},'ShowContent',true,'Placement',4)},'DisplayPropertyDefaults',struct('MinYLimReal','0','MaxYLimReal','1"
+      "','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMag"
+      "Phase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorO"
+      "rder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.3921"
+      "56862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 "
+      "0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNam"
+      "es',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1),'DisplayLayoutDimensions',[4 1]),extm"
+      "gr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false),extmgr.Configuration('Tools','Measurements',"
+      "true,'Version','2020b')),'Version','2020b','Location',[248.2 339.8 1155.4 775])"
       NumInputPorts	      "4"
-      ZoomMode		      "yonly"
-      List {
-	ListType		AxesTitles
-	axes1			"%<SignalLabel>"
-	axes2			"%<SignalLabel>"
-	axes3			"%<SignalLabel>"
-	axes4			"%<SignalLabel>"
-      }
-      YMin		      "0~0~0~0"
-      YMax		      "1~1~1~0.075"
-      DataFormat	      "StructureWithTime"
-      MaxDataPoints	      "5000000"
-      SampleTime	      "0"
+      Floating		      off
     }
     Block {
       BlockType		      Reference
       Name		      "Two-output\nPulse Generator"
+      SID		      "10"
       Ports		      [0, 2]
       Position		      [50, 170, 120, 210]
+      ZOrder		      -10
+      LibraryVersion	      "3.92"
       SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
       SourceType	      ""
-      ShowPortLabels	      "FromPortIcon"
-      SystemSampleTime	      "-1"
-      FunctionWithSeparateData off
       RTWMemSecFuncInitTerm   "Inherit from model"
       RTWMemSecFuncExecute    "Inherit from model"
       RTWMemSecDataConstants  "Inherit from model"
       RTWMemSecDataInternal   "Inherit from model"
       RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
       A			      "1"
       P1		      "200"
       P2		      "200"
@@ -3903,18 +1400,19 @@ Model {
     Block {
       BlockType		      Reference
       Name		      "Two-output\nPulse Generator1"
+      SID		      "11"
       Ports		      [0, 2]
       Position		      [50, 270, 120, 310]
+      ZOrder		      -11
+      LibraryVersion	      "3.92"
       SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
       SourceType	      ""
-      ShowPortLabels	      "FromPortIcon"
-      SystemSampleTime	      "-1"
-      FunctionWithSeparateData off
       RTWMemSecFuncInitTerm   "Inherit from model"
       RTWMemSecFuncExecute    "Inherit from model"
       RTWMemSecDataConstants  "Inherit from model"
       RTWMemSecDataInternal   "Inherit from model"
       RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
       A			      "1"
       P1		      "200"
       P2		      "200"
@@ -3928,18 +1426,19 @@ Model {
     Block {
       BlockType		      Reference
       Name		      "Two-output\nPulse Generator2"
+      SID		      "12"
       Ports		      [0, 2]
       Position		      [50, 350, 120, 390]
+      ZOrder		      -12
+      LibraryVersion	      "3.92"
       SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
       SourceType	      ""
-      ShowPortLabels	      "FromPortIcon"
-      SystemSampleTime	      "-1"
-      FunctionWithSeparateData off
       RTWMemSecFuncInitTerm   "Inherit from model"
       RTWMemSecFuncExecute    "Inherit from model"
       RTWMemSecDataConstants  "Inherit from model"
       RTWMemSecDataInternal   "Inherit from model"
       RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
       A			      "1"
       P1		      "200"
       P2		      "200"
@@ -3953,18 +1452,19 @@ Model {
     Block {
       BlockType		      Reference
       Name		      "Two-output\nPulse Generator3"
+      SID		      "13"
       Ports		      [0, 2]
       Position		      [60, 540, 130, 580]
+      ZOrder		      -13
+      LibraryVersion	      "3.92"
       SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
       SourceType	      ""
-      ShowPortLabels	      "FromPortIcon"
-      SystemSampleTime	      "-1"
-      FunctionWithSeparateData off
       RTWMemSecFuncInitTerm   "Inherit from model"
       RTWMemSecFuncExecute    "Inherit from model"
       RTWMemSecDataConstants  "Inherit from model"
       RTWMemSecDataInternal   "Inherit from model"
       RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
       A			      "1"
       P1		      "200"
       P2		      "200"
@@ -3978,18 +1478,19 @@ Model {
     Block {
       BlockType		      Reference
       Name		      "Two-output\nPulse Generator4"
+      SID		      "14"
       Ports		      [0, 2]
       Position		      [50, 90, 120, 130]
+      ZOrder		      -14
+      LibraryVersion	      "3.92"
       SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
       SourceType	      ""
-      ShowPortLabels	      "FromPortIcon"
-      SystemSampleTime	      "-1"
-      FunctionWithSeparateData off
       RTWMemSecFuncInitTerm   "Inherit from model"
       RTWMemSecFuncExecute    "Inherit from model"
       RTWMemSecDataConstants  "Inherit from model"
       RTWMemSecDataInternal   "Inherit from model"
       RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
       A			      "1"
       P1		      "200"
       P2		      "200"
@@ -4003,18 +1504,19 @@ Model {
     Block {
       BlockType		      Reference
       Name		      "Two-output\nPulse Generator5"
+      SID		      "15"
       Ports		      [0, 2]
       Position		      [60, 445, 130, 485]
+      ZOrder		      -15
+      LibraryVersion	      "3.92"
       SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
       SourceType	      ""
-      ShowPortLabels	      "FromPortIcon"
-      SystemSampleTime	      "-1"
-      FunctionWithSeparateData off
       RTWMemSecFuncInitTerm   "Inherit from model"
       RTWMemSecFuncExecute    "Inherit from model"
       RTWMemSecDataConstants  "Inherit from model"
       RTWMemSecDataInternal   "Inherit from model"
       RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
       A			      "1"
       P1		      "200"
       P2		      "200"
@@ -4026,74 +1528,91 @@ Model {
       OOff2		      "0.6"
     }
     Line {
+      ZOrder		      1
       SrcBlock		      "Two-output\nPulse Generator4"
       SrcPort		      1
       Points		      [0, -15; 40, 0]
       Branch {
+	ZOrder			74
+	Points			[0, 175]
+	DstBlock		"Branching Dendrites Cell ModGenSyn"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			2
 	Points			[10, 0]
 	Branch {
+	  ZOrder		  3
 	  Points		  [0, -60]
 	  DstBlock		  "Mux"
 	  DstPort		  1
 	}
 	Branch {
+	  ZOrder		  4
 	  Points		  [40, 0]
 	  Branch {
-	    DstBlock		    "Long Dendite Cell"
+	    ZOrder		    69
+	    DstBlock		    "Long Dendite Cell ModGenSyn"
 	    DstPort		    1
 	  }
 	  Branch {
+	    ZOrder		    6
 	    Points		    [0, 80]
 	    DstBlock		    "Mux1"
 	    DstPort		    1
 	  }
 	}
       }
-      Branch {
-	Points			[0, 175]
-	DstBlock		"Branching Dendrites Cell"
-	DstPort			1
-      }
     }
     Line {
+      ZOrder		      8
       SrcBlock		      "Two-output\nPulse Generator4"
       SrcPort		      2
       Points		      [10, 0; 0, -25; 35, 0]
       Branch {
+	ZOrder			75
+	Points			[0, 175]
+	DstBlock		"Branching Dendrites Cell ModGenSyn"
+	DstPort			2
+      }
+      Branch {
+	ZOrder			9
 	Points			[15, 0]
 	Branch {
+	  ZOrder		  10
 	  Points		  [0, -60]
 	  DstBlock		  "Mux"
 	  DstPort		  2
 	}
 	Branch {
+	  ZOrder		  11
 	  Points		  [20, 0]
 	  Branch {
+	    ZOrder		    12
 	    Points		    [5, 0]
 	    Branch {
-	      DstBlock		      "Long Dendite Cell"
+	      ZOrder		      70
+	      DstBlock		      "Long Dendite Cell ModGenSyn"
 	      DstPort		      2
 	    }
 	    Branch {
+	      ZOrder		      14
 	      Points		      [0, 80]
 	      DstBlock		      "Mux1"
 	      DstPort		      2
 	    }
 	  }
 	  Branch {
+	    ZOrder		    15
 	    Points		    [0, 90]
 	    DstBlock		    "Mux1"
 	    DstPort		    3
 	  }
 	}
       }
-      Branch {
-	Points			[0, 175]
-	DstBlock		"Branching Dendrites Cell"
-	DstPort			2
-      }
     }
     Line {
+      ZOrder		      17
       SrcBlock		      "Mux"
       SrcPort		      1
       Points		      [0, 30]
@@ -4101,214 +1620,260 @@ Model {
       DstPort		      1
     }
     Line {
+      ZOrder		      18
       SrcBlock		      "Two-output\nPulse Generator"
       SrcPort		      2
       Points		      [60, 0; 0, -85; 5, 0]
       Branch {
+	ZOrder			77
+	Points			[0, 175]
+	DstBlock		"Branching Dendrites Cell ModGenSyn"
+	DstPort			4
+      }
+      Branch {
+	ZOrder			19
 	Points			[5, 0]
 	Branch {
+	  ZOrder		  20
 	  Points		  [0, -60]
 	  DstBlock		  "Mux"
 	  DstPort		  4
 	}
 	Branch {
+	  ZOrder		  21
 	  Points		  [5, 0]
 	  Branch {
-	    DstBlock		    "Long Dendite Cell"
+	    ZOrder		    71
+	    DstBlock		    "Long Dendite Cell ModGenSyn"
 	    DstPort		    4
 	  }
 	  Branch {
+	    ZOrder		    23
 	    Points		    [0, 80]
 	    DstBlock		    "Mux1"
 	    DstPort		    4
 	  }
 	}
       }
-      Branch {
-	Points			[0, 175]
-	DstBlock		"Branching Dendrites Cell"
-	DstPort			4
-      }
     }
     Line {
+      ZOrder		      25
       SrcBlock		      "Two-output\nPulse Generator"
       SrcPort		      1
       Points		      [50, 0; 0, -75; 5, 0]
       Branch {
+	ZOrder			76
+	Points			[0, 175]
+	DstBlock		"Branching Dendrites Cell ModGenSyn"
+	DstPort			3
+      }
+      Branch {
+	ZOrder			26
 	Points			[10, 0]
 	Branch {
+	  ZOrder		  72
+	  DstBlock		  "Long Dendite Cell ModGenSyn"
+	  DstPort		  3
+	}
+	Branch {
+	  ZOrder		  27
 	  Points		  [0, -60]
 	  DstBlock		  "Mux"
 	  DstPort		  3
 	}
-	Branch {
-	  DstBlock		  "Long Dendite Cell"
-	  DstPort		  3
-	}
-      }
-      Branch {
-	Points			[0, 175]
-	DstBlock		"Branching Dendrites Cell"
-	DstPort			3
       }
     }
     Line {
-      SrcBlock		      "Long Dendite Cell"
+      ZOrder		      73
+      SrcBlock		      "Long Dendite Cell ModGenSyn"
       SrcPort		      3
       Points		      [20, 0; 0, -85]
       DstBlock		      "Mux"
       DstPort		      5
     }
     Line {
+      ZOrder		      31
       SrcBlock		      "Two-output\nPulse Generator1"
       SrcPort		      1
       Points		      [0, 5; 10, 0]
       Branch {
+	ZOrder			78
 	Points			[0, 10; 85, 0]
-	DstBlock		"Branching Dendrites Cell"
+	DstBlock		"Branching Dendrites Cell ModGenSyn"
 	DstPort			5
       }
       Branch {
+	ZOrder			33
 	Points			[0, -80]
 	DstBlock		"Mux1"
 	DstPort			5
       }
     }
     Line {
+      ZOrder		      34
       SrcBlock		      "Two-output\nPulse Generator1"
       SrcPort		      2
       Points		      [15, 0]
       Branch {
+	ZOrder			79
 	Points			[0, 10]
-	DstBlock		"Branching Dendrites Cell"
+	DstBlock		"Branching Dendrites Cell ModGenSyn"
 	DstPort			6
       }
       Branch {
+	ZOrder			36
 	Points			[0, -85]
 	DstBlock		"Mux1"
 	DstPort			6
       }
     }
     Line {
+      ZOrder		      37
       SrcBlock		      "Two-output\nPulse Generator2"
       SrcPort		      1
       Points		      [20, 0]
       Branch {
+	ZOrder			81
 	Points			[55, 0; 0, -40]
-	DstBlock		"Branching Dendrites Cell"
+	DstBlock		"Branching Dendrites Cell ModGenSyn"
 	DstPort			7
       }
       Branch {
+	ZOrder			39
 	Points			[0, -135]
 	DstBlock		"Mux1"
 	DstPort			7
       }
     }
     Line {
+      ZOrder		      40
       SrcBlock		      "Two-output\nPulse Generator2"
       SrcPort		      2
       Points		      [25, 0]
       Branch {
+	ZOrder			80
 	Points			[60, 0; 0, -50]
-	DstBlock		"Branching Dendrites Cell"
+	DstBlock		"Branching Dendrites Cell ModGenSyn"
 	DstPort			8
       }
       Branch {
+	ZOrder			42
 	Points			[0, -145]
 	DstBlock		"Mux1"
 	DstPort			8
       }
     }
     Line {
+      ZOrder		      43
       SrcBlock		      "Two-output\nPulse Generator5"
       SrcPort		      1
       Points		      [5, 0]
       Branch {
+	ZOrder			44
 	Points			[10, 0]
 	Branch {
+	  ZOrder		  85
 	  Points		  [25, 0; 0, 20]
-	  DstBlock		  "Branching Dendrites Cell1"
+	  DstBlock		  "Branching Dendrites Cell ModGenSyn1"
 	  DstPort		  5
 	}
 	Branch {
+	  ZOrder		  46
 	  Points		  [0, -60]
 	  DstBlock		  "Mux4"
 	  DstPort		  1
 	}
       }
       Branch {
+	ZOrder			47
 	Points			[0, 135; 75, 0]
 	Branch {
-	  DstBlock		  "Branching Dendrites Cell2"
+	  ZOrder		  88
+	  DstBlock		  "Branching Dendrites Cell ModGenSyn2"
 	  DstPort		  5
 	}
 	Branch {
+	  ZOrder		  49
 	  Points		  [0, 10]
 	  Branch {
-	    DstBlock		    "Branching Dendrites Cell2"
+	    ZOrder		    89
+	    DstBlock		    "Branching Dendrites Cell ModGenSyn2"
 	    DstPort		    6
 	  }
 	  Branch {
+	    ZOrder		    51
 	    Points		    [0, 10]
 	    Branch {
-	      DstBlock		      "Branching Dendrites Cell2"
-	      DstPort		      7
+	      ZOrder		      92
+	      Points		      [0, 10]
+	      DstBlock		      "Branching Dendrites Cell ModGenSyn2"
+	      DstPort		      8
 	    }
 	    Branch {
-	      Points		      [0, 10]
-	      DstBlock		      "Branching Dendrites Cell2"
-	      DstPort		      8
+	      ZOrder		      91
+	      DstBlock		      "Branching Dendrites Cell ModGenSyn2"
+	      DstPort		      7
 	    }
 	  }
 	}
       }
     }
     Line {
+      ZOrder		      54
       SrcBlock		      "Two-output\nPulse Generator5"
       SrcPort		      2
       Points		      [20, 0]
       Branch {
+	ZOrder			86
 	Points			[15, 0; 0, 10]
-	DstBlock		"Branching Dendrites Cell1"
+	DstBlock		"Branching Dendrites Cell ModGenSyn1"
 	DstPort			6
       }
       Branch {
+	ZOrder			56
 	Points			[0, -70]
 	DstBlock		"Mux4"
 	DstPort			2
       }
     }
     Line {
+      ZOrder		      57
       SrcBlock		      "Two-output\nPulse Generator3"
       SrcPort		      1
       Points		      [25, 0]
       Branch {
+	ZOrder			87
 	Points			[15, 0; 0, -55]
-	DstBlock		"Branching Dendrites Cell1"
+	DstBlock		"Branching Dendrites Cell ModGenSyn1"
 	DstPort			7
       }
       Branch {
+	ZOrder			59
 	Points			[0, -135]
 	DstBlock		"Mux4"
 	DstPort			3
       }
     }
     Line {
+      ZOrder		      60
       SrcBlock		      "Two-output\nPulse Generator3"
       SrcPort		      2
       Points		      [30, 0]
       Branch {
+	ZOrder			84
 	Points			[20, 0; 0, -65]
-	DstBlock		"Branching Dendrites Cell1"
+	DstBlock		"Branching Dendrites Cell ModGenSyn1"
 	DstPort			8
       }
       Branch {
+	ZOrder			62
 	Points			[0, -145]
 	DstBlock		"Mux4"
 	DstPort			4
       }
     }
     Line {
+      ZOrder		      63
       SrcBlock		      "Mux2"
       SrcPort		      1
       Points		      [0, -70]
@@ -4316,20 +1881,23 @@ Model {
       DstPort		      4
     }
     Line {
-      SrcBlock		      "Branching Dendrites Cell2"
+      ZOrder		      90
+      SrcBlock		      "Branching Dendrites Cell ModGenSyn2"
       SrcPort		      3
       Points		      [110, 0]
       DstBlock		      "Mux2"
       DstPort		      2
     }
     Line {
-      SrcBlock		      "Branching Dendrites Cell1"
+      ZOrder		      83
+      SrcBlock		      "Branching Dendrites Cell ModGenSyn1"
       SrcPort		      3
       Points		      [100, 0; 0, -290]
       DstBlock		      "Mux2"
       DstPort		      1
     }
     Line {
+      ZOrder		      66
       SrcBlock		      "Mux4"
       SrcPort		      1
       Points		      [275, 0; 0, -285]
@@ -4337,13 +1905,15 @@ Model {
       DstPort		      3
     }
     Line {
-      SrcBlock		      "Branching Dendrites Cell"
+      ZOrder		      82
+      SrcBlock		      "Branching Dendrites Cell ModGenSyn"
       SrcPort		      3
       Points		      [10, 0; 0, -80]
       DstBlock		      "Mux1"
       DstPort		      9
     }
     Line {
+      ZOrder		      68
       SrcBlock		      "Mux1"
       SrcPort		      1
       Points		      [35, 0; 0, -105]
