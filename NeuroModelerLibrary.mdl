@@ -53,11 +53,11 @@ Library {
 	  IsActive		  [1]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1014"
+	  LoadSaveID		  "1"
 	  Extents		  [1665.0, 1066.0]
-	  ZoomFactor		  [2.0]
-	  Offset		  [-617.05, -218.38333333333324]
-	  SceneRectInView	  [-617.05, -218.38333333333324, 666.0, 426.4]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-878.7, -399.4]
+	  SceneRectInView	  [-878.7, -399.4, 1332.0, 852.8]
 	}
 	Object {
 	  $ObjectID		  6
@@ -152,11 +152,11 @@ Library {
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1"
-	  Extents		  [1665.0, 806.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-878.7, -399.4]
-	  SceneRectInView	  [-878.7, -399.4, 1332.0, 644.8]
+	  LoadSaveID		  "1014"
+	  Extents		  [1665.0, 1066.0]
+	  ZoomFactor		  [2.0]
+	  Offset		  [-617.05, -218.38333333333324]
+	  SceneRectInView	  [-617.05, -218.38333333333324, 666.0, 426.4]
 	}
 	Object {
 	  $ObjectID		  15
@@ -1217,9 +1217,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Bakhshiev"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Jul 04 19:45:12 2021"
-  RTWModifiedTimeStamp	  547328711
-  ModelVersionFormat	  "%<AutoIncrement:3.96>"
+  LastModifiedDate	  "Sun Jul 04 20:08:10 2021"
+  RTWModifiedTimeStamp	  547328974
+  ModelVersionFormat	  "%<AutoIncrement:3.97>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -2716,7 +2716,7 @@ Library {
 	Name			"Analog Simple Cells"
 	Location		[170, -1080, 1552, 7]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -6177,9 +6177,9 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Dendrites Cells"
-	Location		[170, -932, 1552, -53]
+	Location		[170, -1080, 1552, 7]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -7048,6 +7048,861 @@ Library {
 	}
 	Block {
 	  BlockType		  SubSystem
+	  Name			  "Branching Dendrites Cell ModGen"
+	  SID			  "2543"
+	  Ports			  [8, 3]
+	  Position		  [-375, -168, -220, -82]
+	  ZOrder		  4
+	  NameLocation		  "top"
+	  AncestorBlock		  "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell"
+	  LibraryVersion	  "3.96"
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Branching Dendrites Cell ModGen"
+	    Location		    [170, -932, 1552, -53]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "80"
+	    SIDHighWatermark	    "2617"
+	    SIDPrevWatermark	    "2617"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate1"
+	      SID		      "2543:3"
+	      Position		      [30, 200, 45, 230]
+	      ZOrder		      -1
+	      NameLocation	      "top"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate2"
+	      SID		      "2543:4"
+	      Position		      [30, 145, 45, 175]
+	      ZOrder		      -2
+	      NameLocation	      "top"
+	      Port		      "2"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate3"
+	      SID		      "2543:5"
+	      Position		      [30, 95, 45, 125]
+	      ZOrder		      -3
+	      NameLocation	      "top"
+	      Port		      "3"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate4"
+	      SID		      "2543:6"
+	      Position		      [30, 40, 45, 70]
+	      ZOrder		      -4
+	      NameLocation	      "top"
+	      Port		      "4"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate5"
+	      SID		      "2543:7"
+	      Position		      [20, 385, 35, 415]
+	      ZOrder		      -5
+	      NameLocation	      "top"
+	      Port		      "5"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate6"
+	      SID		      "2543:8"
+	      Position		      [20, 490, 35, 520]
+	      ZOrder		      -6
+	      NameLocation	      "top"
+	      Port		      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate7"
+	      SID		      "2543:9"
+	      Position		      [20, 550, 35, 580]
+	      ZOrder		      -7
+	      NameLocation	      "top"
+	      Port		      "7"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate8"
+	      SID		      "2543:10"
+	      Position		      [20, 605, 35, 635]
+	      ZOrder		      -8
+	      NameLocation	      "top"
+	      Port		      "8"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C1"
+	      SID		      "2543:11"
+	      Position		      [960, 379, 990, 401]
+	      ZOrder		      -9
+	      NameLocation	      "top"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C2"
+	      SID		      "2543:12"
+	      Position		      [70, 264, 100, 286]
+	      ZOrder		      -10
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C3"
+	      SID		      "2543:13"
+	      Position		      [70, 314, 100, 336]
+	      ZOrder		      -11
+	      Value		      "-1"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Inputs"
+	      SID		      "2543:14"
+	      Position		      [380, 260, 405, 290]
+	      ZOrder		      -12
+	      Gain		      "0.5"
+	      ParamDataTypeStr	      "Inherit: Same as input"
+	      OutDataTypeStr	      "Inherit: Same as input"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Inputs1"
+	      SID		      "2543:15"
+	      Position		      [385, 310, 410, 340]
+	      ZOrder		      -13
+	      Gain		      "0.5"
+	      ParamDataTypeStr	      "Inherit: Same as input"
+	      OutDataTypeStr	      "Inherit: Same as input"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "LTZone"
+	      SID		      "2543:16"
+	      Ports		      [2, 3]
+	      Position		      [1025, 287, 1110, 343]
+	      ZOrder		      -14
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/LTZone"
+	      SourceType	      "Ion pump"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      NM		      "1"
+	      FB		      "1.7"
+	      IT		      "0.005"
+	      T			      "0.1"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane"
+	      SID		      "2543:17"
+	      Ports		      [5, 2]
+	      Position		      [815, 237, 980, 363]
+	      ZOrder		      -15
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane1"
+	      SID		      "2543:18"
+	      Ports		      [5, 2]
+	      Position		      [620, 237, 785, 363]
+	      ZOrder		      -16
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane2"
+	      SID		      "2543:19"
+	      Ports		      [5, 2]
+	      Position		      [430, 237, 595, 363]
+	      ZOrder		      -17
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane3"
+	      SID		      "2543:20"
+	      Ports		      [5, 2]
+	      Position		      [160, 237, 325, 363]
+	      ZOrder		      -18
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane4"
+	      SID		      "2543:21"
+	      Ports		      [5, 2]
+	      Position		      [160, 387, 325, 513]
+	      ZOrder		      -19
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      SID		      "2543:22"
+	      Ports		      [2, 1]
+	      Position		      [340, 325, 360, 345]
+	      ZOrder		      -20
+	      ShowName		      off
+	      InputSameDT	      on
+	      OutDataTypeStr	      "Inherit: Same as first input"
+	      SaturateOnIntegerOverflow	on
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum12"
+	      SID		      "2543:23"
+	      Ports		      [2, 1]
+	      Position		      [340, 265, 360, 285]
+	      ZOrder		      -21
+	      ShowName		      off
+	      InputSameDT	      on
+	      OutDataTypeStr	      "Inherit: Same as first input"
+	      SaturateOnIntegerOverflow	on
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum2"
+	      SID		      "2543:24"
+	      Ports		      [4, 1]
+	      Position		      [130, 525, 150, 545]
+	      ZOrder		      -22
+	      ShowName		      off
+	      Inputs		      "++++"
+	      InputSameDT	      on
+	      OutDataTypeStr	      "Inherit: Same as first input"
+	      SaturateOnIntegerOverflow	on
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum7"
+	      SID		      "2543:25"
+	      Ports		      [2, 1]
+	      Position		      [985, 290, 1005, 310]
+	      ZOrder		      -23
+	      ShowName		      off
+	      InputSameDT	      on
+	      OutDataTypeStr	      "Inherit: Same as first input"
+	      SaturateOnIntegerOverflow	on
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse"
+	      SID		      "2543:26"
+	      Ports		      [1, 1]
+	      Position		      [70, 204, 130, 226]
+	      ZOrder		      -24
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse1"
+	      SID		      "2543:27"
+	      Ports		      [1, 1]
+	      Position		      [50, 389, 110, 411]
+	      ZOrder		      -25
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse2"
+	      SID		      "2543:28"
+	      Ports		      [1, 1]
+	      Position		      [70, 149, 130, 171]
+	      ZOrder		      -26
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse3"
+	      SID		      "2543:29"
+	      Ports		      [1, 1]
+	      Position		      [70, 99, 130, 121]
+	      ZOrder		      -27
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse4"
+	      SID		      "2543:30"
+	      Ports		      [1, 1]
+	      Position		      [70, 44, 130, 66]
+	      ZOrder		      -28
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse5"
+	      SID		      "2543:31"
+	      Ports		      [1, 1]
+	      Position		      [55, 494, 115, 516]
+	      ZOrder		      -29
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse6"
+	      SID		      "2543:32"
+	      Ports		      [1, 1]
+	      Position		      [55, 554, 115, 576]
+	      ZOrder		      -30
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse7"
+	      SID		      "2543:33"
+	      Ports		      [1, 1]
+	      Position		      [55, 609, 115, 631]
+	      ZOrder		      -31
+	      LibraryVersion	      "3.90"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out"
+	      SID		      "2543:34"
+	      Position		      [1135, 320, 1150, 350]
+	      ZOrder		      -32
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Visual"
+	      SID		      "2543:35"
+	      Position		      [1135, 270, 1150, 300]
+	      ZOrder		      -33
+	      Port		      "2"
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Potential"
+	      SID		      "2543:36"
+	      Position		      [1100, 380, 1115, 410]
+	      ZOrder		      -34
+	      Port		      "3"
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Synapse5"
+	      SrcPort		      1
+	      Points		      [-1, 0]
+	      DstBlock		      "Sum2"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Inputs1"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Inputs"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Synapse1"
+	      SrcPort		      1
+	      Points		      [10, 0; 0, 110]
+	      DstBlock		      "Sum2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Sum2"
+	      SrcPort		      1
+	      Points		      [0, -40; -10, 0]
+	      DstBlock		      "Simple Membrane4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Simple Membrane2"
+	      SrcPort		      2
+	      Points		      [0, -10]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Simple Membrane2"
+	      SrcPort		      1
+	      Points		      [0, 5]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Simple Membrane3"
+	      SrcPort		      1
+	      Points		      [0, -20]
+	      DstBlock		      "Sum12"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Simple Membrane3"
+	      SrcPort		      2
+	      Points		      [0, -25]
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      Points		      [0, -10]
+	      DstBlock		      "Inputs1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "Sum12"
+	      SrcPort		      1
+	      DstBlock		      "Inputs"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Simple Membrane4"
+	      SrcPort		      1
+	      Points		      [10, 0; 0, -120]
+	      DstBlock		      "Sum12"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "Simple Membrane4"
+	      SrcPort		      2
+	      Points		      [20, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "Simple Membrane"
+	      SrcPort		      2
+	      Points		      [10, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "Simple Membrane"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "LTZone"
+	      SrcPort		      1
+	      Points		      [0, -75; -315, 0]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "Sum7"
+	      SrcPort		      1
+	      Points		      [0, 0]
+	      Branch {
+		ZOrder			18
+		DstBlock		"LTZone"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			19
+		Points			[0, 95]
+		DstBlock		"Potential"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      20
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      2
+	      Points		      [0, -10]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      21
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      1
+	      Points		      [0, 5]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "Stimulate5"
+	      SrcPort		      1
+	      DstBlock		      "Synapse1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "Stimulate1"
+	      SrcPort		      1
+	      DstBlock		      "Synapse"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "C1"
+	      SrcPort		      1
+	      Points		      [10, 0; 0, -60]
+	      DstBlock		      "LTZone"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      25
+	      SrcBlock		      "LTZone"
+	      SrcPort		      3
+	      DstBlock		      "Out"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      26
+	      SrcBlock		      "LTZone"
+	      SrcPort		      2
+	      Points		      [5, 0]
+	      DstBlock		      "Visual"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      27
+	      SrcBlock		      "C3"
+	      SrcPort		      1
+	      Points		      [25, 0]
+	      Branch {
+		ZOrder			28
+		DstBlock		"Simple Membrane3"
+		DstPort			4
+	      }
+	      Branch {
+		ZOrder			29
+		Points			[0, 150]
+		DstBlock		"Simple Membrane4"
+		DstPort			4
+	      }
+	    }
+	    Line {
+	      ZOrder		      30
+	      SrcBlock		      "C2"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      Branch {
+		ZOrder			31
+		DstBlock		"Simple Membrane3"
+		DstPort			2
+	      }
+	      Branch {
+		ZOrder			32
+		Points			[0, 150]
+		DstBlock		"Simple Membrane4"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      ZOrder		      33
+	      SrcBlock		      "Synapse"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      34
+	      SrcBlock		      "Synapse2"
+	      SrcPort		      1
+	      Points		      [280, 0]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      35
+	      SrcBlock		      "Stimulate2"
+	      SrcPort		      1
+	      DstBlock		      "Synapse2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      36
+	      SrcBlock		      "Synapse3"
+	      SrcPort		      1
+	      Points		      [470, 0]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      37
+	      SrcBlock		      "Stimulate3"
+	      SrcPort		      1
+	      DstBlock		      "Synapse3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      38
+	      SrcBlock		      "Synapse4"
+	      SrcPort		      1
+	      Points		      [660, 0; 0, 195]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      39
+	      SrcBlock		      "Stimulate4"
+	      SrcPort		      1
+	      DstBlock		      "Synapse4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      40
+	      SrcBlock		      "Stimulate6"
+	      SrcPort		      1
+	      DstBlock		      "Synapse5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      41
+	      SrcBlock		      "Stimulate7"
+	      SrcPort		      1
+	      DstBlock		      "Synapse6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      42
+	      SrcBlock		      "Synapse6"
+	      SrcPort		      1
+	      Points		      [15, 0]
+	      DstBlock		      "Sum2"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      43
+	      SrcBlock		      "Stimulate8"
+	      SrcPort		      1
+	      DstBlock		      "Synapse7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      44
+	      SrcBlock		      "Synapse7"
+	      SrcPort		      1
+	      Points		      [20, 0]
+	      DstBlock		      "Sum2"
+	      DstPort		      4
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
 	  Name			  "Branching Dendrites Cell ModGenSyn"
 	  SID			  "2541"
 	  Ports			  [8, 3]
@@ -7898,37 +8753,6 @@ Library {
 	  }
 	}
 	Block {
-	  BlockType		  Reference
-	  Name			  "Branching Dendrites Cell ModeGen"
-	  SID			  "2543"
-	  Ports			  [8, 3]
-	  Position		  [-375, -168, -220, -82]
-	  ZOrder		  4
-	  NameLocation		  "top"
-	  LibraryVersion	  "3.95"
-	  LinkData {
-	    BlockName		    "LTZone"
-	    DialogParameters {
-	      T			      "0.1"
-	    }
-	  }
-	  SourceBlock		  "$bdroot/Dendrites Cells/Branching Dendrites Cell"
-	  SourceType		  "SubSystem"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  VariantActivationTime	  "update diagram"
-	  AllowZeroVariantControls off
-	  PropagateVariantConditions off
-	  ContentPreviewEnabled	  off
-	  Latency		  "0"
-	  AutoFrameSizeCalculation off
-	}
-	Block {
 	  BlockType		  SubSystem
 	  Name			  "Long Dendite Cell"
 	  SID			  "37"
@@ -8654,35 +9478,1461 @@ Library {
 	  }
 	}
 	Block {
-	  BlockType		  Reference
+	  BlockType		  SubSystem
 	  Name			  "Long Dendite Cell ModGen"
 	  SID			  "2542"
 	  Ports			  [8, 3]
 	  Position		  [-375, -293, -220, -207]
 	  ZOrder		  3
 	  NameLocation		  "top"
-	  LibraryVersion	  "3.95"
-	  LinkData {
-	    BlockName		    "LTZone"
-	    DialogParameters {
+	  AncestorBlock		  "NeuroModelerLibrary/Dendrites Cells/Long Dendite Cell"
+	  LibraryVersion	  "3.96"
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Long Dendite Cell ModGen"
+	    Location		    [170, -932, 1552, -53]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "80"
+	    SIDHighWatermark	    "2617"
+	    SIDPrevWatermark	    "2617"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate1"
+	      SID		      "2542:38"
+	      Position		      [30, 200, 45, 230]
+	      ZOrder		      -1
+	      NameLocation	      "top"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate2"
+	      SID		      "2542:39"
+	      Position		      [30, 145, 45, 175]
+	      ZOrder		      -2
+	      NameLocation	      "top"
+	      Port		      "2"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate3"
+	      SID		      "2542:40"
+	      Position		      [30, 95, 45, 125]
+	      ZOrder		      -3
+	      NameLocation	      "top"
+	      Port		      "3"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate4"
+	      SID		      "2542:41"
+	      Position		      [30, 40, 45, 70]
+	      ZOrder		      -4
+	      NameLocation	      "top"
+	      Port		      "4"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Arresting1"
+	      SID		      "2542:42"
+	      Position		      [20, 425, 35, 455]
+	      ZOrder		      -5
+	      NameLocation	      "top"
+	      Port		      "5"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Arresting2"
+	      SID		      "2542:43"
+	      Position		      [20, 490, 35, 520]
+	      ZOrder		      -6
+	      NameLocation	      "top"
+	      Port		      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Arresting3"
+	      SID		      "2542:44"
+	      Position		      [20, 550, 35, 580]
+	      ZOrder		      -7
+	      NameLocation	      "top"
+	      Port		      "7"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Arresting4"
+	      SID		      "2542:45"
+	      Position		      [20, 605, 35, 635]
+	      ZOrder		      -8
+	      NameLocation	      "top"
+	      Port		      "8"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C1"
+	      SID		      "2542:46"
+	      Position		      [920, 369, 950, 391]
+	      ZOrder		      -9
+	      NameLocation	      "top"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C2"
+	      SID		      "2542:47"
+	      Position		      [70, 264, 100, 286]
+	      ZOrder		      -10
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C3"
+	      SID		      "2542:48"
+	      Position		      [70, 314, 100, 336]
+	      ZOrder		      -11
+	      Value		      "-1"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "LTZone"
+	      SID		      "2542:49"
+	      Ports		      [2, 3]
+	      Position		      [980, 287, 1065, 343]
+	      ZOrder		      -12
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/LTZone"
+	      SourceType	      "Ion pump"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      NM		      "1"
+	      FB		      "1.7"
+	      IT		      "0.005"
 	      T			      "0.1"
 	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane"
+	      SID		      "2542:50"
+	      Ports		      [5, 2]
+	      Position		      [755, 237, 920, 363]
+	      ZOrder		      -13
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane1"
+	      SID		      "2542:51"
+	      Ports		      [5, 2]
+	      Position		      [535, 237, 700, 363]
+	      ZOrder		      -14
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane2"
+	      SID		      "2542:52"
+	      Ports		      [5, 2]
+	      Position		      [350, 237, 515, 363]
+	      ZOrder		      -15
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane3"
+	      SID		      "2542:53"
+	      Ports		      [5, 2]
+	      Position		      [160, 237, 325, 363]
+	      ZOrder		      -16
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum12"
+	      SID		      "2542:54"
+	      Ports		      [2, 1]
+	      Position		      [705, 290, 725, 310]
+	      ZOrder		      -17
+	      ShowName		      off
+	      InputSameDT	      on
+	      OutDataTypeStr	      "Inherit: Same as first input"
+	      SaturateOnIntegerOverflow	on
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum7"
+	      SID		      "2542:55"
+	      Ports		      [2, 1]
+	      Position		      [940, 290, 960, 310]
+	      ZOrder		      -18
+	      ShowName		      off
+	      InputSameDT	      on
+	      OutDataTypeStr	      "Inherit: Same as first input"
+	      SaturateOnIntegerOverflow	on
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse"
+	      SID		      "2542:56"
+	      Ports		      [1, 1]
+	      Position		      [70, 204, 130, 226]
+	      ZOrder		      -19
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse1"
+	      SID		      "2542:57"
+	      Ports		      [1, 1]
+	      Position		      [55, 429, 115, 451]
+	      ZOrder		      -20
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse2"
+	      SID		      "2542:58"
+	      Ports		      [1, 1]
+	      Position		      [70, 149, 130, 171]
+	      ZOrder		      -21
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse3"
+	      SID		      "2542:59"
+	      Ports		      [1, 1]
+	      Position		      [70, 99, 130, 121]
+	      ZOrder		      -22
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse4"
+	      SID		      "2542:60"
+	      Ports		      [1, 1]
+	      Position		      [70, 44, 130, 66]
+	      ZOrder		      -23
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse5"
+	      SID		      "2542:61"
+	      Ports		      [1, 1]
+	      Position		      [55, 494, 115, 516]
+	      ZOrder		      -24
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse6"
+	      SID		      "2542:62"
+	      Ports		      [1, 1]
+	      Position		      [55, 554, 115, 576]
+	      ZOrder		      -25
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse7"
+	      SID		      "2542:63"
+	      Ports		      [1, 1]
+	      Position		      [55, 609, 115, 631]
+	      ZOrder		      -26
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "2"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out"
+	      SID		      "2542:64"
+	      Position		      [1090, 320, 1105, 350]
+	      ZOrder		      -27
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Visual"
+	      SID		      "2542:65"
+	      Position		      [1125, 300, 1140, 330]
+	      ZOrder		      -28
+	      Port		      "2"
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Potential"
+	      SID		      "2542:66"
+	      Position		      [1055, 380, 1070, 410]
+	      ZOrder		      -29
+	      Port		      "3"
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Synapse7"
+	      SrcPort		      1
+	      Points		      [620, 0]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Arresting4"
+	      SrcPort		      1
+	      DstBlock		      "Synapse7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Synapse6"
+	      SrcPort		      1
+	      Points		      [400, 0]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Arresting3"
+	      SrcPort		      1
+	      DstBlock		      "Synapse6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Synapse5"
+	      SrcPort		      1
+	      Points		      [215, 0]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Arresting2"
+	      SrcPort		      1
+	      DstBlock		      "Synapse5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Stimulate4"
+	      SrcPort		      1
+	      DstBlock		      "Synapse4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Synapse4"
+	      SrcPort		      1
+	      Points		      [605, 0]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Stimulate3"
+	      SrcPort		      1
+	      DstBlock		      "Synapse3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Synapse3"
+	      SrcPort		      1
+	      Points		      [385, 0]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "Stimulate2"
+	      SrcPort		      1
+	      DstBlock		      "Synapse2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Synapse2"
+	      SrcPort		      1
+	      Points		      [200, 0]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "Synapse"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "C2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "C3"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "Synapse1"
+	      SrcPort		      1
+	      Points		      [5, 0; 0, -90]
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "Simple Membrane3"
+	      SrcPort		      2
+	      Points		      [0, -10]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "Simple Membrane3"
+	      SrcPort		      1
+	      Points		      [0, 5]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "Simple Membrane2"
+	      SrcPort		      2
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      20
+	      SrcBlock		      "Simple Membrane2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      21
+	      SrcBlock		      "LTZone"
+	      SrcPort		      2
+	      DstBlock		      "Visual"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "LTZone"
+	      SrcPort		      3
+	      DstBlock		      "Out"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "C1"
+	      SrcPort		      1
+	      Points		      [5, 0; 0, -50]
+	      DstBlock		      "LTZone"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "Stimulate1"
+	      SrcPort		      1
+	      DstBlock		      "Synapse"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      25
+	      SrcBlock		      "Arresting1"
+	      SrcPort		      1
+	      DstBlock		      "Synapse1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      26
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      1
+	      Points		      [0, 0]
+	      Branch {
+		ZOrder			27
+		Points			[25, 0; 0, 5]
+		DstBlock		"Simple Membrane"
+		DstPort			2
+	      }
+	      Branch {
+		ZOrder			28
+		Points			[0, 5]
+		DstBlock		"Sum12"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      29
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      2
+	      Points		      [0, -10; 10, 0]
+	      Branch {
+		ZOrder			30
+		DstBlock		"Simple Membrane"
+		DstPort			4
+	      }
+	      Branch {
+		ZOrder			31
+		DstBlock		"Sum12"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      ZOrder		      32
+	      SrcBlock		      "Sum7"
+	      SrcPort		      1
+	      Points		      [0, 0]
+	      Branch {
+		ZOrder			33
+		DstBlock		"LTZone"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			34
+		Points			[0, 95]
+		DstBlock		"Potential"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      35
+	      SrcBlock		      "LTZone"
+	      SrcPort		      1
+	      Points		      [0, -75; -335, 0; 0, 80]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      36
+	      SrcBlock		      "Simple Membrane"
+	      SrcPort		      1
+	      Points		      [25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      37
+	      SrcBlock		      "Simple Membrane"
+	      SrcPort		      2
+	      Points		      [25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      2
+	    }
 	  }
-	  SourceBlock		  "$bdroot/Dendrites Cells/Long Dendite Cell"
-	  SourceType		  "SubSystem"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  VariantActivationTime	  "update diagram"
-	  AllowZeroVariantControls off
-	  PropagateVariantConditions off
-	  ContentPreviewEnabled	  off
-	  Latency		  "0"
-	  AutoFrameSizeCalculation off
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Long Dendite Cell ModGen(FBC)"
+	  SID			  "2544"
+	  Ports			  [8, 3]
+	  Position		  [-165, -293, -10, -207]
+	  ZOrder		  5
+	  NameLocation		  "top"
+	  AncestorBlock		  "NeuroModelerLibrary/Dendrites Cells/Long Dendite Cell"
+	  LibraryVersion	  "*"
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Long Dendite Cell ModGen(FBC)"
+	    Location		    [-7, -7, 1407, 871]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SIDHighWatermark	    "29"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate1"
+	      SID		      "2544:1"
+	      Position		      [30, 200, 45, 230]
+	      ZOrder		      -1
+	      NameLocation	      "top"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate2"
+	      SID		      "2544:2"
+	      Position		      [30, 145, 45, 175]
+	      ZOrder		      -2
+	      NameLocation	      "top"
+	      Port		      "2"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate3"
+	      SID		      "2544:3"
+	      Position		      [30, 95, 45, 125]
+	      ZOrder		      -3
+	      NameLocation	      "top"
+	      Port		      "3"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Stimulate4"
+	      SID		      "2544:4"
+	      Position		      [30, 40, 45, 70]
+	      ZOrder		      -4
+	      NameLocation	      "top"
+	      Port		      "4"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Arresting1"
+	      SID		      "2544:5"
+	      Position		      [20, 425, 35, 455]
+	      ZOrder		      -5
+	      NameLocation	      "top"
+	      Port		      "5"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Arresting2"
+	      SID		      "2544:6"
+	      Position		      [20, 490, 35, 520]
+	      ZOrder		      -6
+	      NameLocation	      "top"
+	      Port		      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Arresting3"
+	      SID		      "2544:7"
+	      Position		      [20, 550, 35, 580]
+	      ZOrder		      -7
+	      NameLocation	      "top"
+	      Port		      "7"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Arresting4"
+	      SID		      "2544:8"
+	      Position		      [20, 605, 35, 635]
+	      ZOrder		      -8
+	      NameLocation	      "top"
+	      Port		      "8"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C1"
+	      SID		      "2544:9"
+	      Position		      [920, 369, 950, 391]
+	      ZOrder		      -9
+	      NameLocation	      "top"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C2"
+	      SID		      "2544:10"
+	      Position		      [70, 264, 100, 286]
+	      ZOrder		      -10
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "C3"
+	      SID		      "2544:11"
+	      Position		      [70, 314, 100, 336]
+	      ZOrder		      -11
+	      Value		      "-1"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "LTZone"
+	      SID		      "2544:12"
+	      Ports		      [2, 3]
+	      Position		      [980, 287, 1065, 343]
+	      ZOrder		      -12
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/LTZone"
+	      SourceType	      "Ion pump"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      NM		      "1"
+	      FB		      "2"
+	      IT		      "0.005"
+	      T			      "0.001"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane"
+	      SID		      "2544:13"
+	      Ports		      [5, 2]
+	      Position		      [755, 237, 920, 363]
+	      ZOrder		      -13
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane1"
+	      SID		      "2544:14"
+	      Ports		      [5, 2]
+	      Position		      [535, 237, 700, 363]
+	      ZOrder		      -14
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane2"
+	      SID		      "2544:15"
+	      Ports		      [5, 2]
+	      Position		      [350, 237, 515, 363]
+	      ZOrder		      -15
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Simple Membrane3"
+	      SID		      "2544:16"
+	      Ports		      [5, 2]
+	      Position		      [160, 237, 325, 363]
+	      ZOrder		      -16
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      ACm		      "1e-9"
+	      ARm		      "1e7"
+	      ECm		      "1e-9"
+	      ERm		      "1e7"
+	      ARFm		      "1e8"
+	      ERFm		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum12"
+	      SID		      "2544:17"
+	      Ports		      [2, 1]
+	      Position		      [705, 290, 725, 310]
+	      ZOrder		      -17
+	      ShowName		      off
+	      InputSameDT	      on
+	      OutDataTypeStr	      "Inherit: Same as first input"
+	      SaturateOnIntegerOverflow	on
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum7"
+	      SID		      "2544:18"
+	      Ports		      [2, 1]
+	      Position		      [940, 290, 960, 310]
+	      ZOrder		      -18
+	      ShowName		      off
+	      InputSameDT	      on
+	      OutDataTypeStr	      "Inherit: Same as first input"
+	      SaturateOnIntegerOverflow	on
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse"
+	      SID		      "2544:19"
+	      Ports		      [1, 1]
+	      Position		      [70, 204, 130, 226]
+	      ZOrder		      -19
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "1"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse1"
+	      SID		      "2544:20"
+	      Ports		      [1, 1]
+	      Position		      [55, 429, 115, 451]
+	      ZOrder		      -20
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "1"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse2"
+	      SID		      "2544:21"
+	      Ports		      [1, 1]
+	      Position		      [70, 149, 130, 171]
+	      ZOrder		      -21
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "1"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse3"
+	      SID		      "2544:22"
+	      Ports		      [1, 1]
+	      Position		      [70, 99, 130, 121]
+	      ZOrder		      -22
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "1"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse4"
+	      SID		      "2544:23"
+	      Ports		      [1, 1]
+	      Position		      [70, 44, 130, 66]
+	      ZOrder		      -23
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "1"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse5"
+	      SID		      "2544:24"
+	      Ports		      [1, 1]
+	      Position		      [55, 494, 115, 516]
+	      ZOrder		      -24
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "1"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse6"
+	      SID		      "2544:25"
+	      Ports		      [1, 1]
+	      Position		      [55, 554, 115, 576]
+	      ZOrder		      -25
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "1"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Synapse7"
+	      SID		      "2544:26"
+	      Ports		      [1, 1]
+	      Position		      [55, 609, 115, 631]
+	      ZOrder		      -26
+	      LibraryVersion	      "3.92"
+	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
+	      SourceType	      ""
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      SecretionTC	      "0.001"
+	      DecompositionTC	      "0.01"
+	      UseKsi		      on
+	      ksi		      "1"
+	      gamma		      "1e8"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out"
+	      SID		      "2544:27"
+	      Position		      [1090, 320, 1105, 350]
+	      ZOrder		      -27
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Visual"
+	      SID		      "2544:28"
+	      Position		      [1125, 300, 1140, 330]
+	      ZOrder		      -28
+	      Port		      "2"
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Potential"
+	      SID		      "2544:29"
+	      Position		      [1055, 380, 1070, 410]
+	      ZOrder		      -29
+	      Port		      "3"
+	      VectorParamsAs1DForOutWhenUnconnected off
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Synapse"
+	      SrcPort		      1
+	      Points		      [5, 0; 0, 35]
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Synapse3"
+	      SrcPort		      1
+	      Points		      [385, 0]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Simple Membrane"
+	      SrcPort		      2
+	      Points		      [25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Simple Membrane"
+	      SrcPort		      1
+	      Points		      [25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "LTZone"
+	      SrcPort		      1
+	      Points		      [0, -75; -335, 0; 0, 80]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Sum7"
+	      SrcPort		      1
+	      Points		      [0, 0]
+	      Branch {
+		ZOrder			7
+		Points			[0, 95]
+		DstBlock		"Potential"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			8
+		DstBlock		"LTZone"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      2
+	      Points		      [0, -10; 10, 0]
+	      Branch {
+		ZOrder			10
+		DstBlock		"Sum12"
+		DstPort			2
+	      }
+	      Branch {
+		ZOrder			11
+		DstBlock		"Simple Membrane"
+		DstPort			4
+	      }
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Simple Membrane1"
+	      SrcPort		      1
+	      Points		      [0, 0]
+	      Branch {
+		ZOrder			13
+		Points			[0, 5]
+		DstBlock		"Sum12"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			14
+		Points			[25, 0; 0, 5]
+		DstBlock		"Simple Membrane"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "Arresting1"
+	      SrcPort		      1
+	      DstBlock		      "Synapse1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "Stimulate1"
+	      SrcPort		      1
+	      DstBlock		      "Synapse"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "C1"
+	      SrcPort		      1
+	      Points		      [5, 0; 0, -50]
+	      DstBlock		      "LTZone"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "LTZone"
+	      SrcPort		      3
+	      DstBlock		      "Out"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "LTZone"
+	      SrcPort		      2
+	      DstBlock		      "Visual"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      20
+	      SrcBlock		      "Simple Membrane2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      21
+	      SrcBlock		      "Simple Membrane2"
+	      SrcPort		      2
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "Simple Membrane3"
+	      SrcPort		      1
+	      Points		      [0, 5]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "Simple Membrane3"
+	      SrcPort		      2
+	      Points		      [0, -10]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "Synapse1"
+	      SrcPort		      1
+	      Points		      [5, 0; 0, -90]
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      25
+	      SrcBlock		      "C3"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      26
+	      SrcBlock		      "C2"
+	      SrcPort		      1
+	      DstBlock		      "Simple Membrane3"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      27
+	      SrcBlock		      "Synapse2"
+	      SrcPort		      1
+	      Points		      [200, 0]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      28
+	      SrcBlock		      "Stimulate2"
+	      SrcPort		      1
+	      DstBlock		      "Synapse2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      29
+	      SrcBlock		      "Stimulate3"
+	      SrcPort		      1
+	      DstBlock		      "Synapse3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      30
+	      SrcBlock		      "Synapse4"
+	      SrcPort		      1
+	      Points		      [605, 0]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      31
+	      SrcBlock		      "Stimulate4"
+	      SrcPort		      1
+	      DstBlock		      "Synapse4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      32
+	      SrcBlock		      "Arresting2"
+	      SrcPort		      1
+	      DstBlock		      "Synapse5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      33
+	      SrcBlock		      "Synapse5"
+	      SrcPort		      1
+	      Points		      [215, 0]
+	      DstBlock		      "Simple Membrane2"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      34
+	      SrcBlock		      "Arresting3"
+	      SrcPort		      1
+	      DstBlock		      "Synapse6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      35
+	      SrcBlock		      "Synapse6"
+	      SrcPort		      1
+	      Points		      [400, 0]
+	      DstBlock		      "Simple Membrane1"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      36
+	      SrcBlock		      "Arresting4"
+	      SrcPort		      1
+	      DstBlock		      "Synapse7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      37
+	      SrcBlock		      "Synapse7"
+	      SrcPort		      1
+	      Points		      [620, 0]
+	      DstBlock		      "Simple Membrane"
+	      DstPort		      5
+	    }
+	  }
 	}
 	Block {
 	  BlockType		  SubSystem
@@ -9338,734 +11588,6 @@ Library {
 	      SrcPort		      1
 	      Points		      [385, 0]
 	      DstBlock		      "Simple Membrane1"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      29
-	      SrcBlock		      "Stimulate3"
-	      SrcPort		      1
-	      DstBlock		      "Synapse3"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      30
-	      SrcBlock		      "Synapse4"
-	      SrcPort		      1
-	      Points		      [605, 0]
-	      DstBlock		      "Simple Membrane"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      31
-	      SrcBlock		      "Stimulate4"
-	      SrcPort		      1
-	      DstBlock		      "Synapse4"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      32
-	      SrcBlock		      "Arresting2"
-	      SrcPort		      1
-	      DstBlock		      "Synapse5"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      33
-	      SrcBlock		      "Synapse5"
-	      SrcPort		      1
-	      Points		      [215, 0]
-	      DstBlock		      "Simple Membrane2"
-	      DstPort		      5
-	    }
-	    Line {
-	      ZOrder		      34
-	      SrcBlock		      "Arresting3"
-	      SrcPort		      1
-	      DstBlock		      "Synapse6"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      35
-	      SrcBlock		      "Synapse6"
-	      SrcPort		      1
-	      Points		      [400, 0]
-	      DstBlock		      "Simple Membrane1"
-	      DstPort		      5
-	    }
-	    Line {
-	      ZOrder		      36
-	      SrcBlock		      "Arresting4"
-	      SrcPort		      1
-	      DstBlock		      "Synapse7"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      37
-	      SrcBlock		      "Synapse7"
-	      SrcPort		      1
-	      Points		      [620, 0]
-	      DstBlock		      "Simple Membrane"
-	      DstPort		      5
-	    }
-	  }
-	}
-	Block {
-	  BlockType		  SubSystem
-	  Name			  "Long Dendite Cell ModeGen(FBC)"
-	  SID			  "2544"
-	  Ports			  [8, 3]
-	  Position		  [-165, -293, -10, -207]
-	  ZOrder		  5
-	  NameLocation		  "top"
-	  AncestorBlock		  "NeuroModelerLibrary/Dendrites Cells/Long Dendite Cell"
-	  LibraryVersion	  "*"
-	  RequestExecContextInheritance	off
-	  System {
-	    Name		    "Long Dendite Cell ModeGen(FBC)"
-	    Location		    [-7, -7, 1407, 871]
-	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-	    Open		    off
-	    PortBlocksUseCompactNotation off
-	    SetExecutionDomain	    off
-	    ExecutionDomainType	    "Deduce"
-	    ModelBrowserVisibility  off
-	    ModelBrowserWidth	    200
-	    ScreenColor		    "white"
-	    PaperOrientation	    "landscape"
-	    PaperPositionMode	    "auto"
-	    PaperType		    "usletter"
-	    PaperUnits		    "inches"
-	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
-	    TiledPageScale	    1
-	    ShowPageBoundaries	    off
-	    ZoomFactor		    "100"
-	    SIDHighWatermark	    "29"
-	    SimulinkSubDomain	    "Simulink"
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Stimulate1"
-	      SID		      "2544:1"
-	      Position		      [30, 200, 45, 230]
-	      ZOrder		      -1
-	      NameLocation	      "top"
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Stimulate2"
-	      SID		      "2544:2"
-	      Position		      [30, 145, 45, 175]
-	      ZOrder		      -2
-	      NameLocation	      "top"
-	      Port		      "2"
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Stimulate3"
-	      SID		      "2544:3"
-	      Position		      [30, 95, 45, 125]
-	      ZOrder		      -3
-	      NameLocation	      "top"
-	      Port		      "3"
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Stimulate4"
-	      SID		      "2544:4"
-	      Position		      [30, 40, 45, 70]
-	      ZOrder		      -4
-	      NameLocation	      "top"
-	      Port		      "4"
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Arresting1"
-	      SID		      "2544:5"
-	      Position		      [20, 425, 35, 455]
-	      ZOrder		      -5
-	      NameLocation	      "top"
-	      Port		      "5"
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Arresting2"
-	      SID		      "2544:6"
-	      Position		      [20, 490, 35, 520]
-	      ZOrder		      -6
-	      NameLocation	      "top"
-	      Port		      "6"
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Arresting3"
-	      SID		      "2544:7"
-	      Position		      [20, 550, 35, 580]
-	      ZOrder		      -7
-	      NameLocation	      "top"
-	      Port		      "7"
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "Arresting4"
-	      SID		      "2544:8"
-	      Position		      [20, 605, 35, 635]
-	      ZOrder		      -8
-	      NameLocation	      "top"
-	      Port		      "8"
-	    }
-	    Block {
-	      BlockType		      Constant
-	      Name		      "C1"
-	      SID		      "2544:9"
-	      Position		      [920, 369, 950, 391]
-	      ZOrder		      -9
-	      NameLocation	      "top"
-	    }
-	    Block {
-	      BlockType		      Constant
-	      Name		      "C2"
-	      SID		      "2544:10"
-	      Position		      [70, 264, 100, 286]
-	      ZOrder		      -10
-	    }
-	    Block {
-	      BlockType		      Constant
-	      Name		      "C3"
-	      SID		      "2544:11"
-	      Position		      [70, 314, 100, 336]
-	      ZOrder		      -11
-	      Value		      "-1"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "LTZone"
-	      SID		      "2544:12"
-	      Ports		      [2, 3]
-	      Position		      [980, 287, 1065, 343]
-	      ZOrder		      -12
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/LTZone"
-	      SourceType	      "Ion pump"
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      NM		      "1"
-	      FB		      "2"
-	      IT		      "0.005"
-	      T			      "0.001"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Simple Membrane"
-	      SID		      "2544:13"
-	      Ports		      [5, 2]
-	      Position		      [755, 237, 920, 363]
-	      ZOrder		      -13
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      ACm		      "1e-9"
-	      ARm		      "1e7"
-	      ECm		      "1e-9"
-	      ERm		      "1e7"
-	      ARFm		      "1e8"
-	      ERFm		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Simple Membrane1"
-	      SID		      "2544:14"
-	      Ports		      [5, 2]
-	      Position		      [535, 237, 700, 363]
-	      ZOrder		      -14
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      ACm		      "1e-9"
-	      ARm		      "1e7"
-	      ECm		      "1e-9"
-	      ERm		      "1e7"
-	      ARFm		      "1e8"
-	      ERFm		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Simple Membrane2"
-	      SID		      "2544:15"
-	      Ports		      [5, 2]
-	      Position		      [350, 237, 515, 363]
-	      ZOrder		      -15
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      ACm		      "1e-9"
-	      ARm		      "1e7"
-	      ECm		      "1e-9"
-	      ERm		      "1e7"
-	      ARFm		      "1e8"
-	      ERFm		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Simple Membrane3"
-	      SID		      "2544:16"
-	      Ports		      [5, 2]
-	      Position		      [160, 237, 325, 363]
-	      ZOrder		      -16
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      ACm		      "1e-9"
-	      ARm		      "1e7"
-	      ECm		      "1e-9"
-	      ERm		      "1e7"
-	      ARFm		      "1e8"
-	      ERFm		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Sum
-	      Name		      "Sum12"
-	      SID		      "2544:17"
-	      Ports		      [2, 1]
-	      Position		      [705, 290, 725, 310]
-	      ZOrder		      -17
-	      ShowName		      off
-	      InputSameDT	      on
-	      OutDataTypeStr	      "Inherit: Same as first input"
-	      SaturateOnIntegerOverflow	on
-	    }
-	    Block {
-	      BlockType		      Sum
-	      Name		      "Sum7"
-	      SID		      "2544:18"
-	      Ports		      [2, 1]
-	      Position		      [940, 290, 960, 310]
-	      ZOrder		      -18
-	      ShowName		      off
-	      InputSameDT	      on
-	      OutDataTypeStr	      "Inherit: Same as first input"
-	      SaturateOnIntegerOverflow	on
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Synapse"
-	      SID		      "2544:19"
-	      Ports		      [1, 1]
-	      Position		      [70, 204, 130, 226]
-	      ZOrder		      -19
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      SecretionTC	      "0.001"
-	      DecompositionTC	      "0.01"
-	      UseKsi		      on
-	      ksi		      "1"
-	      gamma		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Synapse1"
-	      SID		      "2544:20"
-	      Ports		      [1, 1]
-	      Position		      [55, 429, 115, 451]
-	      ZOrder		      -20
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      SecretionTC	      "0.001"
-	      DecompositionTC	      "0.01"
-	      UseKsi		      on
-	      ksi		      "1"
-	      gamma		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Synapse2"
-	      SID		      "2544:21"
-	      Ports		      [1, 1]
-	      Position		      [70, 149, 130, 171]
-	      ZOrder		      -21
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      SecretionTC	      "0.001"
-	      DecompositionTC	      "0.01"
-	      UseKsi		      on
-	      ksi		      "1"
-	      gamma		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Synapse3"
-	      SID		      "2544:22"
-	      Ports		      [1, 1]
-	      Position		      [70, 99, 130, 121]
-	      ZOrder		      -22
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      SecretionTC	      "0.001"
-	      DecompositionTC	      "0.01"
-	      UseKsi		      on
-	      ksi		      "1"
-	      gamma		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Synapse4"
-	      SID		      "2544:23"
-	      Ports		      [1, 1]
-	      Position		      [70, 44, 130, 66]
-	      ZOrder		      -23
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      SecretionTC	      "0.001"
-	      DecompositionTC	      "0.01"
-	      UseKsi		      on
-	      ksi		      "1"
-	      gamma		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Synapse5"
-	      SID		      "2544:24"
-	      Ports		      [1, 1]
-	      Position		      [55, 494, 115, 516]
-	      ZOrder		      -24
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      SecretionTC	      "0.001"
-	      DecompositionTC	      "0.01"
-	      UseKsi		      on
-	      ksi		      "1"
-	      gamma		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Synapse6"
-	      SID		      "2544:25"
-	      Ports		      [1, 1]
-	      Position		      [55, 554, 115, 576]
-	      ZOrder		      -25
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      SecretionTC	      "0.001"
-	      DecompositionTC	      "0.01"
-	      UseKsi		      on
-	      ksi		      "1"
-	      gamma		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "Synapse7"
-	      SID		      "2544:26"
-	      Ports		      [1, 1]
-	      Position		      [55, 609, 115, 631]
-	      ZOrder		      -26
-	      LibraryVersion	      "3.92"
-	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
-	      SourceType	      ""
-	      RTWMemSecFuncInitTerm   "Inherit from model"
-	      RTWMemSecFuncExecute    "Inherit from model"
-	      RTWMemSecDataConstants  "Inherit from model"
-	      RTWMemSecDataInternal   "Inherit from model"
-	      RTWMemSecDataParameters "Inherit from model"
-	      ContentPreviewEnabled   off
-	      SecretionTC	      "0.001"
-	      DecompositionTC	      "0.01"
-	      UseKsi		      on
-	      ksi		      "1"
-	      gamma		      "1e8"
-	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "Out"
-	      SID		      "2544:27"
-	      Position		      [1090, 320, 1105, 350]
-	      ZOrder		      -27
-	      VectorParamsAs1DForOutWhenUnconnected off
-	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "Visual"
-	      SID		      "2544:28"
-	      Position		      [1125, 300, 1140, 330]
-	      ZOrder		      -28
-	      Port		      "2"
-	      VectorParamsAs1DForOutWhenUnconnected off
-	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "Potential"
-	      SID		      "2544:29"
-	      Position		      [1055, 380, 1070, 410]
-	      ZOrder		      -29
-	      Port		      "3"
-	      VectorParamsAs1DForOutWhenUnconnected off
-	    }
-	    Line {
-	      ZOrder		      1
-	      SrcBlock		      "Synapse"
-	      SrcPort		      1
-	      Points		      [5, 0; 0, 35]
-	      DstBlock		      "Simple Membrane3"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      2
-	      SrcBlock		      "Synapse3"
-	      SrcPort		      1
-	      Points		      [385, 0]
-	      DstBlock		      "Simple Membrane1"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      3
-	      SrcBlock		      "Simple Membrane"
-	      SrcPort		      2
-	      Points		      [25, 0]
-	      DstBlock		      "Sum7"
-	      DstPort		      2
-	    }
-	    Line {
-	      ZOrder		      4
-	      SrcBlock		      "Simple Membrane"
-	      SrcPort		      1
-	      Points		      [25, 0]
-	      DstBlock		      "Sum7"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      5
-	      SrcBlock		      "LTZone"
-	      SrcPort		      1
-	      Points		      [0, -75; -335, 0; 0, 80]
-	      DstBlock		      "Simple Membrane"
-	      DstPort		      3
-	    }
-	    Line {
-	      ZOrder		      6
-	      SrcBlock		      "Sum7"
-	      SrcPort		      1
-	      Points		      [0, 0]
-	      Branch {
-		ZOrder			7
-		Points			[0, 95]
-		DstBlock		"Potential"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			8
-		DstBlock		"LTZone"
-		DstPort			1
-	      }
-	    }
-	    Line {
-	      ZOrder		      9
-	      SrcBlock		      "Simple Membrane1"
-	      SrcPort		      2
-	      Points		      [0, -10; 10, 0]
-	      Branch {
-		ZOrder			10
-		DstBlock		"Sum12"
-		DstPort			2
-	      }
-	      Branch {
-		ZOrder			11
-		DstBlock		"Simple Membrane"
-		DstPort			4
-	      }
-	    }
-	    Line {
-	      ZOrder		      12
-	      SrcBlock		      "Simple Membrane1"
-	      SrcPort		      1
-	      Points		      [0, 0]
-	      Branch {
-		ZOrder			13
-		Points			[0, 5]
-		DstBlock		"Sum12"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			14
-		Points			[25, 0; 0, 5]
-		DstBlock		"Simple Membrane"
-		DstPort			2
-	      }
-	    }
-	    Line {
-	      ZOrder		      15
-	      SrcBlock		      "Arresting1"
-	      SrcPort		      1
-	      DstBlock		      "Synapse1"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      16
-	      SrcBlock		      "Stimulate1"
-	      SrcPort		      1
-	      DstBlock		      "Synapse"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      17
-	      SrcBlock		      "C1"
-	      SrcPort		      1
-	      Points		      [5, 0; 0, -50]
-	      DstBlock		      "LTZone"
-	      DstPort		      2
-	    }
-	    Line {
-	      ZOrder		      18
-	      SrcBlock		      "LTZone"
-	      SrcPort		      3
-	      DstBlock		      "Out"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      19
-	      SrcBlock		      "LTZone"
-	      SrcPort		      2
-	      DstBlock		      "Visual"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      20
-	      SrcBlock		      "Simple Membrane2"
-	      SrcPort		      1
-	      DstBlock		      "Simple Membrane1"
-	      DstPort		      2
-	    }
-	    Line {
-	      ZOrder		      21
-	      SrcBlock		      "Simple Membrane2"
-	      SrcPort		      2
-	      DstBlock		      "Simple Membrane1"
-	      DstPort		      4
-	    }
-	    Line {
-	      ZOrder		      22
-	      SrcBlock		      "Simple Membrane3"
-	      SrcPort		      1
-	      Points		      [0, 5]
-	      DstBlock		      "Simple Membrane2"
-	      DstPort		      2
-	    }
-	    Line {
-	      ZOrder		      23
-	      SrcBlock		      "Simple Membrane3"
-	      SrcPort		      2
-	      Points		      [0, -10]
-	      DstBlock		      "Simple Membrane2"
-	      DstPort		      4
-	    }
-	    Line {
-	      ZOrder		      24
-	      SrcBlock		      "Synapse1"
-	      SrcPort		      1
-	      Points		      [5, 0; 0, -90]
-	      DstBlock		      "Simple Membrane3"
-	      DstPort		      5
-	    }
-	    Line {
-	      ZOrder		      25
-	      SrcBlock		      "C3"
-	      SrcPort		      1
-	      DstBlock		      "Simple Membrane3"
-	      DstPort		      4
-	    }
-	    Line {
-	      ZOrder		      26
-	      SrcBlock		      "C2"
-	      SrcPort		      1
-	      DstBlock		      "Simple Membrane3"
-	      DstPort		      2
-	    }
-	    Line {
-	      ZOrder		      27
-	      SrcBlock		      "Synapse2"
-	      SrcPort		      1
-	      Points		      [200, 0]
-	      DstBlock		      "Simple Membrane2"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      28
-	      SrcBlock		      "Stimulate2"
-	      SrcPort		      1
-	      DstBlock		      "Synapse2"
 	      DstPort		      1
 	    }
 	    Line {
