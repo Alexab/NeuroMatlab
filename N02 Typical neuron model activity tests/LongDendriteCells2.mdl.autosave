@@ -1,13 +1,13 @@
 Model {
-  Name			  "Synapse"
+  Name			  "LongDendriteCells2"
   Version		  10.2
   SavedCharacterEncoding  "windows-1251"
-  ModelUUID		  "12d1947f-3c8d-45c3-b452-070115cba627"
+  ModelUUID		  "df4b3bc7-6292-4bb6-abf2-621a1838c03b"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "13.0"
+    ComputedModelVersion    "26.1"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -20,35 +20,65 @@ Model {
     IsArchitectureModel	    0
     IsAUTOSARArchitectureModel 0
     NumParameterArguments   0
-    NumExternalFileReferences 5
+    NumExternalFileReferences 10
     ExternalFileReference {
-      Reference		      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-      Path		      "Synapse/Simple Membrane"
-      SID		      "6"
+      Reference		      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGen"
+      Path		      "LongDendriteCells2/Branching Dendrites Cell ModGen"
+      SID		      "22"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
-      Reference		      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-      Path		      "Synapse/Simple Membrane1"
-      SID		      "7"
+      Reference		      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGen"
+      Path		      "LongDendriteCells2/Branching Dendrites Cell ModGen1"
+      SID		      "23"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
-      Reference		      "NeuroModelerLibrary/Neuron Elements/Synapse"
-      Path		      "Synapse/Synapse"
-      SID		      "8"
+      Reference		      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGen"
+      Path		      "LongDendriteCells2/Branching Dendrites Cell ModGen2"
+      SID		      "24"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Dendrites Cells/Long Dendite Cell ModGen"
+      Path		      "LongDendriteCells2/Long Dendite Cell ModGen"
+      SID		      "21"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
-      Path		      "Synapse/Two-output Pulse Generator"
-      SID		      "9"
+      Path		      "LongDendriteCells2/Two-output Pulse Generator"
+      SID		      "11"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
-      Path		      "Synapse/Two-output Pulse Generator1"
-      SID		      "10"
+      Path		      "LongDendriteCells2/Two-output Pulse Generator1"
+      SID		      "12"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells2/Two-output Pulse Generator2"
+      SID		      "13"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells2/Two-output Pulse Generator3"
+      SID		      "14"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells2/Two-output Pulse Generator4"
+      SID		      "15"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      Path		      "LongDendriteCells2/Two-output Pulse Generator5"
+      SID		      "16"
       Type		      "LIBRARY_BLOCK"
     }
     OrderedModelArguments   1
@@ -80,7 +110,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [369.0, 127.0, 944.0, 688.0]
+      Location		      [16.0, 52.0, 1168.0, 801.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -89,7 +119,7 @@ Model {
 	DockPosition		"Left"
 	Width			[50]
 	Height			[50]
-	Filter			[59]
+	Filter			[9]
 	Minimized		"Unset"
       }
       Object {
@@ -106,10 +136,10 @@ Model {
 	IsTabbed		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1117.0, 567.0]
+	Extents			[1397.0, 708.0]
 	ZoomFactor		[1.0]
-	Offset			[0.0, 0.0]
-	SceneRectInView		[0.0, 0.0, 893.6, 453.6]
+	Offset			[-87.899999999999977, 72.499999999999943]
+	SceneRectInView		[-87.899999999999977, 72.499999999999943, 1117.6, 566.4]
       }
       Array {
 	Type			"Simulink.DockComponentInfo"
@@ -147,29 +177,29 @@ Model {
       "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB5AP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
       "QBzAAAAAAD/////AAAApwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAhYA////AAAEigAAAn0AAAABAAAAAgAAAAEAAAAC/"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAhYA////AAAFogAAAwoAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAA="
       Array {
 	Type			"Cell"
 	Dimension		0
 	PropName		"PersistedApps"
       }
-      WindowUuid	      "d837c80b-73d0-45a4-ae27-6c67a71e47bf"
+      WindowUuid	      "656bd289-712c-4ea4-b411-cfc9b2ba26e1"
     }
-    BDUuid		    "9ce29a02-1619-4494-aae5-68e177487e1b"
+    BDUuid		    "e03c1b09-3a73-47f6-b45e-6f57c2052740"
   }
   HideAutomaticNames	  on
   SequenceViewerTimePrecision 3
   SequenceViewerHistory	  1000
-  Created		  "Fri Dec 04 18:43:12 2009"
-  Creator		  "Tim"
+  Created		  "Fri Oct 30 12:11:32 2009"
+  Creator		  "Bakhshiev"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Bakhshiev"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Sep 09 13:18:07 2021"
-  RTWModifiedTimeStamp	  553094284
-  ModelVersionFormat	  "%<AutoIncrement:13.0>"
+  LastModifiedDate	  "Sun Jul 04 19:47:59 2021"
+  RTWModifiedTimeStamp	  553095002
+  ModelVersionFormat	  "%<AutoIncrement:26.1>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -199,9 +229,9 @@ Model {
   BlockVariantConditionDataTip off
   ToolBar		  on
   StatusBar		  on
-  BrowserShowLibraryLinks on
+  BrowserShowLibraryLinks off
   FunctionConnectors	  off
-  BrowserLookUnderMasks	  on
+  BrowserLookUnderMasks	  off
   MultiThreadCoSim	  "on"
   SimulationMode	  "normal"
   SILPILModeSetting	  "automated"
@@ -228,11 +258,11 @@ Model {
     $PropName		    "DataLoggingOverride"
     $ObjectID		    8
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "Synapse"
+    model_		    "LongDendriteCells2"
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "Synapse"
+      Cell		      "LongDendriteCells2"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -286,7 +316,7 @@ Model {
 	  Description		  ""
 	  Components		  []
 	  StartTime		  "0.0"
-	  StopTime		  "0.5"
+	  StopTime		  "1.5"
 	  AbsTol		  "auto"
 	  AutoScaleAbsTol	  on
 	  FixedStep		  "auto"
@@ -307,7 +337,7 @@ Model {
 	  SolverJacobianMethodControl "auto"
 	  ShapePreserveControl	  "DisableAll"
 	  ZeroCrossControl	  "UseLocalSettings"
-	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  ZeroCrossAlgorithm	  "Non-adaptive"
 	  AlgebraicLoopSolver	  "TrustRegion"
 	  SolverInfoToggleStatus  off
 	  IsAutoAppliedInSIP	  off
@@ -371,13 +401,13 @@ Model {
 	    Dimension		    9
 	    Cell		    "ZeroExternalMemoryAtStartup"
 	    Cell		    "ZeroInternalMemoryAtStartup"
-	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "EfficientTunableParamExpr"
 	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
 	    Cell		    "BooleansAsBitfields"
 	    Cell		    "PassReuseOutputArgsAs"
 	    Cell		    "PassReuseOutputArgsThreshold"
 	    Cell		    "UseSpecifiedMinMax"
-	    Cell		    "EfficientTunableParamExpr"
 	    PropName		    "DisabledProps"
 	  }
 	  Description		  ""
@@ -650,7 +680,7 @@ Model {
 	  SFSimEcho		  on
 	  SimCtrlC		  on
 	  SimIntegrity		  on
-	  SimUseLocalCustomCode	  off
+	  SimUseLocalCustomCode	  on
 	  SimParseCustomCode	  on
 	  SimAnalyzeCustomCode	  off
 	  SimGenImportedTypeDefs  off
@@ -661,7 +691,7 @@ Model {
 	  MATLABDynamicMemAllocThreshold 65536
 	  CustomCodeFunctionArrayLayout	[]
 	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
-	  CustomCodeUndefinedFunction "UseInterfaceOnly"
+	  CustomCodeUndefinedFunction "FilterOut"
 	  CustomCodeGlobalsAsFunctionIO	off
 	  SimTargetLang		  "C"
 	  GPUAcceleration	  off
@@ -719,7 +749,7 @@ Model {
 	  TLCDebug		  off
 	  TLCCoverage		  off
 	  TLCAssert		  off
-	  RTWUseLocalCustomCode	  off
+	  RTWUseLocalCustomCode	  on
 	  RTWUseSimCustomCode	  off
 	  CustomSourceCode	  ""
 	  CustomHeaderCode	  ""
@@ -877,23 +907,23 @@ Model {
 		Type			"Cell"
 		Dimension		18
 		Cell			"IncludeMdlTerminateFcn"
-		Cell			"PortableWordSizes"
+		Cell			"RemoveResetFunc"
 		Cell			"SuppressErrorStatus"
 		Cell			"ERTCustomFileBanners"
 		Cell			"GenerateSampleERTMain"
 		Cell			"GenerateTestInterfaces"
 		Cell			"ModelStepFunctionPrototypeControlCompliant"
 		Cell			"CPPClassGenCompliant"
-		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
 		Cell			"PurelyIntegerCode"
-		Cell			"GenerateAllocFcn"
+		Cell			"PreserveStateflowLocalDataDimensions"
 		Cell			"SupportComplex"
 		Cell			"SupportAbsoluteTime"
 		Cell			"SupportContinuousTime"
-		Cell			"PreserveStateflowLocalDataDimensions"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"GenerateAllocFcn"
 		Cell			"ExistingSharedCode"
 		Cell			"RemoveDisableFunc"
-		Cell			"RemoveResetFunc"
 		PropName		"DisabledProps"
 	      }
 	      Description	      ""
@@ -1006,8 +1036,8 @@ Model {
 	  CovReportOnPause	  on
 	  CovModelRefEnable	  "off"
 	  CovModelRefExcluded	  ""
-	  CovExternalEMLEnable	  off
-	  CovSFcnEnable		  off
+	  CovExternalEMLEnable	  on
+	  CovSFcnEnable		  on
 	  CovBoundaryAbsTol	  1e-05
 	  CovBoundaryRelTol	  0.01
 	  CovUseTimeInterval	  off
@@ -1034,7 +1064,7 @@ Model {
       }
       Name		      "Configuration"
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition    [ 420, 220, 1500, 860 ]
+      ConfigPrmDlgPosition    [ 0, 0, 0, 0 ]
       ExtraOptions	      ""
     }
     PropName		    "ConfigurationSets"
@@ -1111,17 +1141,12 @@ Model {
   }
   BlockParameterDefaults {
     Block {
-      BlockType		      Constant
-      Value		      "1"
-      VectorParams1D	      on
-      SamplingMode	      "Sample based"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
-      LockScale		      off
-      SampleTime	      "inf"
-      FramePeriod	      "inf"
-      PreserveConstantTs      off
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
     }
     Block {
       BlockType		      Scope
@@ -1129,8 +1154,8 @@ Model {
     }
   }
   System {
-    Name		    "Synapse"
-    Location		    [369, 127, 1313, 815]
+    Name		    "LongDendriteCells2"
+    Location		    [16, 52, 1184, 853]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
     Open		    on
     PortBlocksUseCompactNotation off
@@ -1148,179 +1173,246 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "10"
+    SIDHighWatermark	    "24"
     SimulinkSubDomain	    "Simulink"
     Block {
-      BlockType		      Constant
-      Name		      "ARm1"
-      SID		      "1"
-      Position		      [115, 118, 145, 142]
-      ZOrder		      -1
+      BlockType		      Reference
+      Name		      "Branching Dendrites Cell ModGen"
+      SID		      "22"
+      Ports		      [8, 3]
+      Position		      [235, 252, 390, 338]
+      ZOrder		      9
+      NameLocation	      "top"
+      LibraryVersion	      "3.97"
+      SourceBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGen"
+      SourceType	      "SubSystem"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      ContentPreviewEnabled   off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
     }
     Block {
-      BlockType		      Constant
-      Name		      "ARm2"
-      SID		      "2"
-      Position		      [115, 168, 145, 192]
-      ZOrder		      -2
-      Value		      "-1"
+      BlockType		      Reference
+      Name		      "Branching Dendrites Cell ModGen1"
+      SID		      "23"
+      Ports		      [8, 3]
+      Position		      [235, 427, 390, 513]
+      ZOrder		      10
+      NameLocation	      "top"
+      LibraryVersion	      "3.97"
+      SourceBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGen"
+      SourceType	      "SubSystem"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      ContentPreviewEnabled   off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
     }
     Block {
-      BlockType		      Scope
-      Name		      "Scope"
-      SID		      "4"
-      Ports		      [3]
-      Position		      [480, 94, 510, 126]
-      ZOrder		      -4
-      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
-      "gr.Configuration('Core','General UI',true,'FigureColor',[1 1 1]),extmgr.Configuration('Core','Source UI',true),e"
-      "xtmgr.Configuration('Sources','WiredSimulink',true,'DataLoggingSaveFormat','StructureWithTime','DataLoggingLimit"
-      "DataPoints',true,'DataLoggingDecimation','1','DataLoggingDecimateData',true),extmgr.Configuration('Visuals','Tim"
-      "e Domain',true,'SerializedDisplays',{struct('MinYLimReal','-0.0907','MaxYLimReal','1.02383','YLabelReal','X','Mi"
-      "nYLimMag','0.00000','MaxYLimMag','1.125','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false"
-      ",'AxesColor',[1 1 1],'AxesTickColor',[0 0 0],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.8509803921568"
-      "63 0.325490196078431 0.0980392156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 "
-      "0.184313725490196 0.556862745098039;0.466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.74"
-      "5098039215686 0.933333333333333;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','%<SignalLabel>'"
-      ",'LinePropertiesCache',{{struct('Color',[1 0 0],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on')}},"
-      "'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Two-output Pulse Generator/1'}},'ShowContent',true,'P"
-      "lacement',1),struct('MinYLimReal','-0.000000008','MaxYLimReal','0.000000065','YLabelReal','i','MinYLimMag','0.00"
-      "0000000','MaxYLimMag','0.000000065','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axe"
-      "sColor',[1 1 1],'AxesTickColor',[0 0 0],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.850980392156863 0."
-      "325490196078431 0.0980392156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 0.184"
-      "313725490196 0.556862745098039;0.466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.7450980"
-      "39215686 0.933333333333333;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','%<SignalLabel>','Lin"
-      "ePropertiesCache',{{struct('Color',[1 0 0],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on')}},'User"
-      "DefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Synapse'}},'ShowContent',true,'Placement',2),struct('MinYL"
-      "imReal','-1.125','MaxYLimReal','0.125','YLabelReal','U','MinYLimMag','0.00000','MaxYLimMag','1.125','LegendVisib"
-      "ility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[1 1 1],'AxesTickColor',[0 0 0],'ColorOr"
-      "der',[0 0.447058823529412 0.741176470588235;0.850980392156863 0.325490196078431 0.0980392156862745;0.92941176470"
-      "5882 0.694117647058824 0.125490196078431;0.494117647058824 0.184313725490196 0.556862745098039;0.466666666666667"
-      " 0.674509803921569 0.188235294117647;0.301960784313725 0.745098039215686 0.933333333333333;0.635294117647059 0.0"
-      "784313725490196 0.184313725490196],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Color',[1 0 0],'Line"
-      "Style','-','LineWidth',1,'Marker','none','Visible','on')}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineName"
-      "s',{{'Simple Membrane/2'}},'ShowContent',true,'Placement',3)},'ShowTimeAxisLabel',true,'DisplayPropertyDefaults'"
-      ",struct('ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.160784"
-      "31372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.05882352"
-      "94117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDe"
-      "finedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1),'DisplayLayoutDimensio"
-      "ns',[3 1],'PreserveColorsForCopyToClipboard',true),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtSt"
-      "op',false,'PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2020b')),'Versio"
-      "n','2020b','Location',[79 99 753 445.4],'VisibleAtModelOpen','on')"
-      NumInputPorts	      "3"
-      Floating		      off
+      BlockType		      Reference
+      Name		      "Branching Dendrites Cell ModGen2"
+      SID		      "24"
+      Ports		      [8, 3]
+      Position		      [235, 542, 390, 628]
+      ZOrder		      11
+      NameLocation	      "top"
+      LibraryVersion	      "3.97"
+      SourceBlock	      "NeuroModelerLibrary/Dendrites Cells/Branching Dendrites Cell ModGen"
+      SourceType	      "SubSystem"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      ContentPreviewEnabled   off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Long Dendite Cell ModGen"
+      SID		      "21"
+      Ports		      [8, 3]
+      Position		      [235, 77, 390, 163]
+      ZOrder		      8
+      NameLocation	      "top"
+      LibraryVersion	      "3.97"
+      SourceBlock	      "NeuroModelerLibrary/Dendrites Cells/Long Dendite Cell ModGen"
+      SourceType	      "SubSystem"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      ContentPreviewEnabled   off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux"
+      SID		      "5"
+      Ports		      [5, 1]
+      Position		      [470, 13, 475, 77]
+      ZOrder		      -5
+      ShowName		      off
+      Inputs		      "5"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux1"
+      SID		      "6"
+      Ports		      [9, 1]
+      Position		      [435, 165, 440, 245]
+      ZOrder		      -6
+      ShowName		      off
+      Inputs		      "9"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux2"
+      SID		      "7"
+      Ports		      [2, 1]
+      Position		      [550, 201, 555, 239]
+      ZOrder		      -7
+      ShowName		      off
+      Inputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux3"
+      SID		      "8"
+      Ports		      [2, 1]
+      Position		      [515, 106, 520, 144]
+      ZOrder		      -8
+      ShowName		      off
+      Inputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux4"
+      SID		      "9"
+      Ports		      [4, 1]
+      Position		      [205, 391, 210, 429]
+      ZOrder		      -9
+      ShowName		      off
+      DisplayOption	      "bar"
     }
     Block {
       BlockType		      Scope
       Name		      "Scope1"
-      SID		      "5"
-      Ports		      [2]
-      Position		      [480, 256, 510, 289]
-      ZOrder		      -5
+      SID		      "10"
+      Ports		      [4]
+      Position		      [585, 58, 650, 167]
+      ZOrder		      -10
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
-      "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
-      "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData1','DataLoggingSaveFormat','StructureWithTime',"
-      "'DataLoggingLimitDataPoints',true,'DataLoggingDecimation','1','DataLoggingDecimateData',true),extmgr.Configurati"
-      "on('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','0','MaxYLimReal','5e-08','YLabelReal"
-      "','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,"
-      "'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0."
-      "0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0"
-      ".831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07450980392"
-      "15686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'Num"
-      "Lines',1,'LineNames',{{'Two-output Pulse Generator1/2'}},'ShowContent',true,'Placement',1),struct('MinYLimReal',"
-      "'0','MaxYLimReal','1','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'"
-      "YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.6862"
-      "74509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.1"
-      "6078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.058"
-      "8235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'U"
-      "serDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Simple Membrane1/2'}},'ShowContent',true,'Placement',2)"
-      "},'DisplayPropertyDefaults',struct('MinYLimReal','0','MaxYLimReal','5e-08','YLabelReal','','MinYLimMag','0','Max"
-      "YLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesT"
-      "ickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098"
-      "039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098"
-      "039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'"
-      "Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}"
-      "},'ShowContent',true,'Placement',1),'DisplayLayoutDimensions',[2 1]),extmgr.Configuration('Tools','Plot Navigati"
-      "on',true,'OnceAtStop',false),extmgr.Configuration('Tools','Measurements',true,'Version','2020b')),'Version','202"
-      "0b','Location',[938 238 1612 493],'VisibleAtModelOpen','on')"
-      NumInputPorts	      "2"
+      "gr.Configuration('Core','General UI',true,'FigureColor',[1 1 1]),extmgr.Configuration('Core','Source UI',true),e"
+      "xtmgr.Configuration('Sources','WiredSimulink',true,'DataLoggingSaveFormat','StructureWithTime','DataLoggingMaxPo"
+      "ints','5000000','DataLoggingLimitDataPoints',true,'DataLoggingDecimation','1','DataLoggingDecimateData',true),ex"
+      "tmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-0.05187','MaxYLimRe"
+      "al','0.08833','YLabelReal','1','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','Off','XGrid',true,'YGrid',"
+      "true,'PlotMagPhase',false,'AxesColor',[1 1 1],'AxesTickColor',[0.313725490196078 0.313725490196078 0.31372549019"
+      "6078],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.850980392156863 0.325490196078431 0.0980392156862745"
+      ";0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 0.184313725490196 0.556862745098039;0.4"
+      "66666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.745098039215686 0.933333333333333;0.63529"
+      "4117647059 0.0784313725490196 0.184313725490196],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Color'"
+      ",[1 0 0],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('Color',[0.0745098039215686 0.6235"
+      "29411764706 1],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('Color',[1 0.411764705882353"
+      " 0.16078431372549],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('Color',[0.3921568627450"
+      "98 0.831372549019608 0.0745098039215686],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('C"
+      "olor',[0.717647058823529 0.274509803921569 1],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on')}},'U"
+      "serDefinedChannelNames',{{}},'NumLines',5,'LineNames',{{'Two-output Pulse Generator4/1','Two-output Pulse Genera"
+      "tor4/2','Two-output Pulse Generator/1','Two-output Pulse Generator/2','Long Dendite Cell ModGen/3'}},'ShowConten"
+      "t',true,'Placement',1),struct('MinYLimReal','-0.08259','MaxYLimReal','0.11384','YLabelReal','2','MinYLimMag','0."
+      "00000','MaxYLimMag','0.11384','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor"
+      "',[1 1 1],'AxesTickColor',[0.313725490196078 0.313725490196078 0.313725490196078],'ColorOrder',[0 0.447058823529"
+      "412 0.741176470588235;0.850980392156863 0.325490196078431 0.0980392156862745;0.929411764705882 0.694117647058824"
+      " 0.125490196078431;0.494117647058824 0.184313725490196 0.556862745098039;0.466666666666667 0.674509803921569 0.1"
+      "88235294117647;0.301960784313725 0.745098039215686 0.933333333333333;0.635294117647059 0.0784313725490196 0.1843"
+      "13725490196],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Color',[1 0 0],'LineStyle','-','LineWidth'"
+      ",1,'Marker','none','Visible','on'),struct('Color',[0.0745098039215686 0.623529411764706 1],'LineStyle','-','Line"
+      "Width',1,'Marker','none','Visible','on'),struct('Color',[1 0.411764705882353 0.16078431372549],'LineStyle','-','"
+      "LineWidth',1,'Marker','none','Visible','on'),struct('Color',[0.392156862745098 0.831372549019608 0.0745098039215"
+      "686],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('Color',[0.717647058823529 0.274509803"
+      "921569 1],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('Color',[0.0588235294117647 1 1],"
+      "'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('Color',[1 0.0745098039215686 0.65098039215"
+      "6863],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('Color',[0.6 0.2 0],'LineStyle','-','"
+      "LineWidth',1,'Marker','none','Visible','on'),struct('Color',[0.0745098039215686 0.623529411764706 1],'LineStyle'"
+      ",'-','LineWidth',1,'Marker','none','Visible','on')}},'UserDefinedChannelNames',{{}},'NumLines',9,'LineNames',{{'"
+      "Two-output Pulse Generator4/1','Two-output Pulse Generator4/2','Two-output Pulse Generator4/2','Two-output Pulse"
+      " Generator/2','Two-output Pulse Generator1/1','Two-output Pulse Generator1/2','Two-output Pulse Generator2/1','T"
+      "wo-output Pulse Generator2/2','Branching Dendrites Cell ModGen/3'}},'ShowContent',true,'Placement',2),struct('Mi"
+      "nYLimReal','-0.0558','MaxYLimReal','0.0692','YLabelReal','3','MinYLimMag','0.00000','MaxYLimMag','1.125','Legend"
+      "Visibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[1 1 1],'AxesTickColor',[0.31372549"
+      "0196078 0.313725490196078 0.313725490196078],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.8509803921568"
+      "63 0.325490196078431 0.0980392156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 "
+      "0.184313725490196 0.556862745098039;0.466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.74"
+      "5098039215686 0.933333333333333;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','%<SignalLabel>'"
+      ",'LinePropertiesCache',{{struct('Color',[1 0 0],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),st"
+      "ruct('Color',[0.0745098039215686 0.623529411764706 1],'LineStyle','-','LineWidth',1,'Marker','none','Visible','o"
+      "n'),struct('Color',[1 0.411764705882353 0.16078431372549],'LineStyle','-','LineWidth',1,'Marker','none','Visible"
+      "','on'),struct('Color',[0.392156862745098 0.831372549019608 0.0745098039215686],'LineStyle','-','LineWidth',1,'M"
+      "arker','none','Visible','on'),struct('Color',[0.717647058823529 0.274509803921569 1],'LineStyle','-','LineWidth'"
+      ",1,'Marker','none','Visible','on')}},'UserDefinedChannelNames',{{}},'NumLines',5,'LineNames',{{'Two-output Pulse"
+      " Generator5/1','Two-output Pulse Generator5/2','Two-output Pulse Generator3/1','Two-output Pulse Generator3/2','"
+      "Branching Dendrites Cell ModGen1/3'}},'ShowContent',true,'Placement',3),struct('MinYLimReal','-0.09491','MaxYLim"
+      "Real','0.13194','YLabelReal','4','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','Off','XGrid',true,'YGrid"
+      "',true,'PlotMagPhase',false,'AxesColor',[1 1 1],'AxesTickColor',[0.313725490196078 0.313725490196078 0.313725490"
+      "196078],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.850980392156863 0.325490196078431 0.09803921568627"
+      "45;0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 0.184313725490196 0.556862745098039;0"
+      ".466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.745098039215686 0.933333333333333;0.635"
+      "294117647059 0.0784313725490196 0.184313725490196],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Colo"
+      "r',[1 0 0],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on'),struct('Color',[0.0745098039215686 0.62"
+      "3529411764706 1],'LineStyle','-','LineWidth',1,'Marker','none','Visible','on')}},'UserDefinedChannelNames',{{}},"
+      "'NumLines',2,'LineNames',{{'Two-output Pulse Generator5/1','Branching Dendrites Cell ModGen2/3'}},'ShowContent',"
+      "true,'Placement',4)},'DisplayPropertyDefaults',struct('ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0."
+      "623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0."
+      "717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<Si"
+      "gnalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowConte"
+      "nt',true,'Placement',1),'DisplayLayoutDimensions',[4 1]),extmgr.Configuration('Tools','Plot Navigation',true,'On"
+      "ceAtStop',false,'PreviousZoomMode','ZoomY','PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements'"
+      ",true,'Version','2020b')),'Version','2020b','Location',[1 -1005.8 1805.8 -1],'VisibleAtModelOpen','on')"
+      NumInputPorts	      "4"
       Floating		      off
     }
     Block {
       BlockType		      Reference
-      Name		      "Simple Membrane"
-      SID		      "6"
-      Ports		      [5, 2]
-      Position		      [245, 87, 410, 213]
-      ZOrder		      -6
-      LibraryVersion	      "3.97"
-      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-      SourceType	      ""
-      RTWMemSecFuncInitTerm   "Inherit from model"
-      RTWMemSecFuncExecute    "Inherit from model"
-      RTWMemSecDataConstants  "Inherit from model"
-      RTWMemSecDataInternal   "Inherit from model"
-      RTWMemSecDataParameters "Inherit from model"
-      ContentPreviewEnabled   off
-      ACm		      "1e-9"
-      ARm		      "1e7"
-      ECm		      "1e-9"
-      ERm		      "1e7"
-      ARFm		      "1e8"
-      ERFm		      "1e8"
-    }
-    Block {
-      BlockType		      Reference
-      Name		      "Simple Membrane1"
-      SID		      "7"
-      Ports		      [5, 2]
-      Position		      [250, 297, 415, 423]
-      ZOrder		      -7
-      LibraryVersion	      "3.97"
-      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Simple Membrane"
-      SourceType	      ""
-      RTWMemSecFuncInitTerm   "Inherit from model"
-      RTWMemSecFuncExecute    "Inherit from model"
-      RTWMemSecDataConstants  "Inherit from model"
-      RTWMemSecDataInternal   "Inherit from model"
-      RTWMemSecDataParameters "Inherit from model"
-      ContentPreviewEnabled   off
-      ACm		      "1e-9"
-      ARm		      "1e7"
-      ECm		      "1e-9"
-      ERm		      "1e7"
-      ARFm		      "1e8"
-      ERFm		      "1e8"
-    }
-    Block {
-      BlockType		      Reference
-      Name		      "Synapse"
-      SID		      "8"
-      Ports		      [1, 1]
-      Position		      [130, 89, 190, 111]
-      ZOrder		      -8
-      LibraryVersion	      "3.97"
-      SourceBlock	      "NeuroModelerLibrary/Neuron Elements/Synapse"
-      SourceType	      ""
-      RTWMemSecFuncInitTerm   "Inherit from model"
-      RTWMemSecFuncExecute    "Inherit from model"
-      RTWMemSecDataConstants  "Inherit from model"
-      RTWMemSecDataInternal   "Inherit from model"
-      RTWMemSecDataParameters "Inherit from model"
-      ContentPreviewEnabled   off
-      SecretionTC	      "0.001"
-      DecompositionTC	      "0.01"
-      UseKsi		      on
-      ksi		      "2"
-      gamma		      "1e7"
-    }
-    Block {
-      BlockType		      Reference
       Name		      "Two-output\nPulse Generator"
-      SID		      "9"
+      SID		      "11"
       Ports		      [0, 2]
-      Position		      [25, 90, 95, 130]
-      ZOrder		      -9
+      Position		      [50, 170, 120, 210]
+      ZOrder		      -11
       LibraryVersion	      "3.97"
       SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
       SourceType	      ""
@@ -1335,18 +1427,18 @@ Model {
       P2		      "200"
       PW		      "1"
       ST		      "0.001"
-      OOn1		      "0.3"
-      OOff1		      "0.6"
+      OOn1		      "0.9"
+      OOff1		      "1.0"
       OOn2		      "1.1"
       OOff2		      "1.2"
     }
     Block {
       BlockType		      Reference
       Name		      "Two-output\nPulse Generator1"
-      SID		      "10"
+      SID		      "12"
       Ports		      [0, 2]
-      Position		      [30, 255, 100, 295]
-      ZOrder		      -10
+      Position		      [50, 270, 120, 310]
+      ZOrder		      -12
       LibraryVersion	      "3.97"
       SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
       SourceType	      ""
@@ -1356,118 +1448,529 @@ Model {
       RTWMemSecDataInternal   "Inherit from model"
       RTWMemSecDataParameters "Inherit from model"
       ContentPreviewEnabled   off
-      A			      "5/1e8"
+      A			      "1"
       P1		      "200"
       P2		      "200"
       PW		      "1"
-      ST		      "1"
-      OOn1		      "0.3"
+      ST		      "0.001"
+      OOn1		      "0.55"
       OOff1		      "0.6"
-      OOn2		      "0.2"
+      OOn2		      "0.72"
+      OOff2		      "0.8"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Two-output\nPulse Generator2"
+      SID		      "13"
+      Ports		      [0, 2]
+      Position		      [50, 350, 120, 390]
+      ZOrder		      -13
+      LibraryVersion	      "3.97"
+      SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      SourceType	      ""
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      A			      "1"
+      P1		      "200"
+      P2		      "200"
+      PW		      "1"
+      ST		      "0.001"
+      OOn1		      "0.95"
+      OOff1		      "1.1"
+      OOn2		      "1.12"
       OOff2		      "1.2"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Two-output\nPulse Generator3"
+      SID		      "14"
+      Ports		      [0, 2]
+      Position		      [60, 540, 130, 580]
+      ZOrder		      -14
+      LibraryVersion	      "3.97"
+      SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      SourceType	      ""
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      A			      "1"
+      P1		      "200"
+      P2		      "200"
+      PW		      "1"
+      ST		      "0.001"
+      OOn1		      "0.6"
+      OOff1		      "0.7"
+      OOn2		      "0.65"
+      OOff2		      "0.7"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Two-output\nPulse Generator4"
+      SID		      "15"
+      Ports		      [0, 2]
+      Position		      [50, 90, 120, 130]
+      ZOrder		      -15
+      LibraryVersion	      "3.97"
+      SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      SourceType	      ""
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      A			      "1"
+      P1		      "200"
+      P2		      "200"
+      PW		      "1"
+      ST		      "0.001"
+      OOn1		      "0.5"
+      OOff1		      "0.6"
+      OOn2		      "0.7"
+      OOff2		      "0.8"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Two-output\nPulse Generator5"
+      SID		      "16"
+      Ports		      [0, 2]
+      Position		      [60, 445, 130, 485]
+      ZOrder		      -16
+      LibraryVersion	      "3.97"
+      SourceBlock	      "NeuroModelerLibrary/Support/Two-output\nPulse Generator"
+      SourceType	      ""
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      A			      "1"
+      P1		      "200"
+      P2		      "200"
+      PW		      "1"
+      ST		      "0.001"
+      OOn1		      "0.5"
+      OOff1		      "0.6"
+      OOn2		      "0.55"
+      OOff2		      "0.6"
     }
     Line {
       ZOrder		      1
-      SrcBlock		      "ARm1"
+      SrcBlock		      "Two-output\nPulse Generator4"
       SrcPort		      1
-      Points		      [55, 0]
+      Points		      [0, -15; 40, 0]
+      Branch {
+	ZOrder			158
+	Points			[0, 175]
+	DstBlock		"Branching Dendrites Cell ModGen"
+	DstPort			1
+      }
       Branch {
 	ZOrder			2
-	Points			[15, 0]
+	Points			[10, 0]
 	Branch {
 	  ZOrder		  3
-	  Points		  [10, 0]
-	  DstBlock		  "Simple Membrane"
-	  DstPort		  2
+	  Points		  [0, -60]
+	  DstBlock		  "Mux"
+	  DstPort		  1
 	}
 	Branch {
 	  ZOrder		  4
-	  Points		  [0, 205]
-	  DstBlock		  "Simple Membrane1"
+	  Points		  [40, 0]
+	  Branch {
+	    ZOrder		    153
+	    DstBlock		    "Long Dendite Cell ModGen"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    6
+	    Points		    [0, 80]
+	    DstBlock		    "Mux1"
+	    DstPort		    1
+	  }
+	}
+      }
+    }
+    Line {
+      ZOrder		      8
+      SrcBlock		      "Two-output\nPulse Generator4"
+      SrcPort		      2
+      Points		      [10, 0; 0, -25; 35, 0]
+      Branch {
+	ZOrder			157
+	Points			[0, 175]
+	DstBlock		"Branching Dendrites Cell ModGen"
+	DstPort			2
+      }
+      Branch {
+	ZOrder			9
+	Points			[15, 0]
+	Branch {
+	  ZOrder		  10
+	  Points		  [0, -60]
+	  DstBlock		  "Mux"
 	  DstPort		  2
+	}
+	Branch {
+	  ZOrder		  11
+	  Points		  [20, 0]
+	  Branch {
+	    ZOrder		    12
+	    Points		    [5, 0]
+	    Branch {
+	      ZOrder		      151
+	      DstBlock		      "Long Dendite Cell ModGen"
+	      DstPort		      2
+	    }
+	    Branch {
+	      ZOrder		      14
+	      Points		      [0, 80]
+	      DstBlock		      "Mux1"
+	      DstPort		      2
+	    }
+	  }
+	  Branch {
+	    ZOrder		    15
+	    Points		    [0, 90]
+	    DstBlock		    "Mux1"
+	    DstPort		    3
+	  }
+	}
+      }
+    }
+    Line {
+      ZOrder		      17
+      SrcBlock		      "Mux"
+      SrcPort		      1
+      Points		      [0, 30]
+      DstBlock		      "Scope1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      18
+      SrcBlock		      "Two-output\nPulse Generator"
+      SrcPort		      2
+      Points		      [60, 0; 0, -85; 5, 0]
+      Branch {
+	ZOrder			160
+	Points			[0, 175]
+	DstBlock		"Branching Dendrites Cell ModGen"
+	DstPort			4
+      }
+      Branch {
+	ZOrder			19
+	Points			[5, 0]
+	Branch {
+	  ZOrder		  20
+	  Points		  [0, -60]
+	  DstBlock		  "Mux"
+	  DstPort		  4
+	}
+	Branch {
+	  ZOrder		  21
+	  Points		  [5, 0]
+	  Branch {
+	    ZOrder		    155
+	    DstBlock		    "Long Dendite Cell ModGen"
+	    DstPort		    4
+	  }
+	  Branch {
+	    ZOrder		    23
+	    Points		    [0, 80]
+	    DstBlock		    "Mux1"
+	    DstPort		    4
+	  }
+	}
+      }
+    }
+    Line {
+      ZOrder		      25
+      SrcBlock		      "Two-output\nPulse Generator"
+      SrcPort		      1
+      Points		      [50, 0; 0, -75; 5, 0]
+      Branch {
+	ZOrder			156
+	Points			[0, 175]
+	DstBlock		"Branching Dendrites Cell ModGen"
+	DstPort			3
+      }
+      Branch {
+	ZOrder			26
+	Points			[10, 0]
+	Branch {
+	  ZOrder		  154
+	  DstBlock		  "Long Dendite Cell ModGen"
+	  DstPort		  3
+	}
+	Branch {
+	  ZOrder		  27
+	  Points		  [0, -60]
+	  DstBlock		  "Mux"
+	  DstPort		  3
+	}
+      }
+    }
+    Line {
+      ZOrder		      152
+      SrcBlock		      "Long Dendite Cell ModGen"
+      SrcPort		      3
+      Points		      [20, 0; 0, -85]
+      DstBlock		      "Mux"
+      DstPort		      5
+    }
+    Line {
+      ZOrder		      31
+      SrcBlock		      "Two-output\nPulse Generator1"
+      SrcPort		      1
+      Points		      [0, 5; 10, 0]
+      Branch {
+	ZOrder			163
+	Points			[0, 10; 85, 0]
+	DstBlock		"Branching Dendrites Cell ModGen"
+	DstPort			5
+      }
+      Branch {
+	ZOrder			33
+	Points			[0, -80]
+	DstBlock		"Mux1"
+	DstPort			5
+      }
+    }
+    Line {
+      ZOrder		      34
+      SrcBlock		      "Two-output\nPulse Generator1"
+      SrcPort		      2
+      Points		      [15, 0]
+      Branch {
+	ZOrder			164
+	Points			[0, 10]
+	DstBlock		"Branching Dendrites Cell ModGen"
+	DstPort			6
+      }
+      Branch {
+	ZOrder			36
+	Points			[0, -85]
+	DstBlock		"Mux1"
+	DstPort			6
+      }
+    }
+    Line {
+      ZOrder		      37
+      SrcBlock		      "Two-output\nPulse Generator2"
+      SrcPort		      1
+      Points		      [20, 0]
+      Branch {
+	ZOrder			161
+	Points			[55, 0; 0, -40]
+	DstBlock		"Branching Dendrites Cell ModGen"
+	DstPort			7
+      }
+      Branch {
+	ZOrder			39
+	Points			[0, -135]
+	DstBlock		"Mux1"
+	DstPort			7
+      }
+    }
+    Line {
+      ZOrder		      40
+      SrcBlock		      "Two-output\nPulse Generator2"
+      SrcPort		      2
+      Points		      [25, 0]
+      Branch {
+	ZOrder			162
+	Points			[60, 0; 0, -50]
+	DstBlock		"Branching Dendrites Cell ModGen"
+	DstPort			8
+      }
+      Branch {
+	ZOrder			42
+	Points			[0, -145]
+	DstBlock		"Mux1"
+	DstPort			8
+      }
+    }
+    Line {
+      ZOrder		      43
+      SrcBlock		      "Two-output\nPulse Generator5"
+      SrcPort		      1
+      Points		      [5, 0]
+      Branch {
+	ZOrder			44
+	Points			[10, 0]
+	Branch {
+	  ZOrder		  168
+	  Points		  [25, 0; 0, 20]
+	  DstBlock		  "Branching Dendrites Cell ModGen1"
+	  DstPort		  5
+	}
+	Branch {
+	  ZOrder		  46
+	  Points		  [0, -60]
+	  DstBlock		  "Mux4"
+	  DstPort		  1
 	}
       }
       Branch {
-	ZOrder			5
-	Points			[0, 255]
-	DstBlock		"Simple Membrane1"
+	ZOrder			47
+	Points			[0, 135; 55, 0]
+	Branch {
+	  ZOrder		  48
+	  Points		  [20, 0]
+	  Branch {
+	    ZOrder		    178
+	    DstBlock		    "Branching Dendrites Cell ModGen2"
+	    DstPort		    5
+	  }
+	  Branch {
+	    ZOrder		    50
+	    Points		    [0, 10]
+	    Branch {
+	      ZOrder		      179
+	      DstBlock		      "Branching Dendrites Cell ModGen2"
+	      DstPort		      6
+	    }
+	    Branch {
+	      ZOrder		      52
+	      Points		      [0, 10]
+	      Branch {
+		ZOrder			182
+		Points			[0, 10]
+		DstBlock		"Branching Dendrites Cell ModGen2"
+		DstPort			8
+	      }
+	      Branch {
+		ZOrder			181
+		DstBlock		"Branching Dendrites Cell ModGen2"
+		DstPort			7
+	      }
+	    }
+	  }
+	}
+	Branch {
+	  ZOrder		  55
+	  Points		  [0, -65; 325, 0; 0, -315]
+	  DstBlock		  "Mux2"
+	  DstPort		  1
+	}
+      }
+    }
+    Line {
+      ZOrder		      56
+      SrcBlock		      "Two-output\nPulse Generator5"
+      SrcPort		      2
+      Points		      [20, 0]
+      Branch {
+	ZOrder			166
+	Points			[15, 0; 0, 10]
+	DstBlock		"Branching Dendrites Cell ModGen1"
+	DstPort			6
+      }
+      Branch {
+	ZOrder			58
+	Points			[0, -70]
+	DstBlock		"Mux4"
+	DstPort			2
+      }
+    }
+    Line {
+      ZOrder		      59
+      SrcBlock		      "Two-output\nPulse Generator3"
+      SrcPort		      1
+      Points		      [25, 0]
+      Branch {
+	ZOrder			169
+	Points			[15, 0; 0, -55]
+	DstBlock		"Branching Dendrites Cell ModGen1"
+	DstPort			7
+      }
+      Branch {
+	ZOrder			61
+	Points			[0, -135]
+	DstBlock		"Mux4"
+	DstPort			3
+      }
+    }
+    Line {
+      ZOrder		      62
+      SrcBlock		      "Two-output\nPulse Generator3"
+      SrcPort		      2
+      Points		      [30, 0]
+      Branch {
+	ZOrder			165
+	Points			[20, 0; 0, -65]
+	DstBlock		"Branching Dendrites Cell ModGen1"
+	DstPort			8
+      }
+      Branch {
+	ZOrder			64
+	Points			[0, -145]
+	DstBlock		"Mux4"
 	DstPort			4
       }
     }
     Line {
-      ZOrder		      6
-      SrcBlock		      "ARm2"
+      ZOrder		      65
+      SrcBlock		      "Mux2"
       SrcPort		      1
-      Points		      [35, 0; 0, -5]
-      DstBlock		      "Simple Membrane"
+      Points		      [0, -70]
+      DstBlock		      "Scope1"
       DstPort		      4
     }
     Line {
-      ZOrder		      7
-      SrcBlock		      "Simple Membrane"
-      SrcPort		      2
-      Points		      [20, 0; 0, -65]
-      DstBlock		      "Scope"
+      ZOrder		      180
+      SrcBlock		      "Branching Dendrites Cell ModGen2"
+      SrcPort		      3
+      Points		      [140, 0]
+      DstBlock		      "Mux2"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      167
+      SrcBlock		      "Branching Dendrites Cell ModGen1"
+      SrcPort		      3
+      Points		      [100, 0; 0, -290; 5, 0]
+      DstBlock		      "Mux3"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      159
+      SrcBlock		      "Branching Dendrites Cell ModGen"
+      SrcPort		      3
+      Points		      [10, 0; 0, -80]
+      DstBlock		      "Mux1"
+      DstPort		      9
+    }
+    Line {
+      ZOrder		      69
+      SrcBlock		      "Mux1"
+      SrcPort		      1
+      Points		      [35, 0; 0, -105]
+      DstBlock		      "Scope1"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      70
+      SrcBlock		      "Mux3"
+      SrcPort		      1
+      DstBlock		      "Scope1"
       DstPort		      3
     }
     Line {
-      ZOrder		      8
-      SrcBlock		      "Two-output\nPulse Generator"
+      ZOrder		      71
+      SrcBlock		      "Mux4"
       SrcPort		      1
-      Points		      [15, 0]
-      Branch {
-	ZOrder			20
-	Points			[5, 0; 0, -45; 345, 0]
-	DstBlock		"Scope"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			9
-	DstBlock		"Synapse"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      12
-      SrcBlock		      "Synapse"
-      SrcPort		      1
-      Points		      [5, 0]
-      Branch {
-	ZOrder			25
-	Points			[0, -27; 248, 0; 0, 37]
-	DstBlock		"Scope"
-	DstPort			2
-      }
-      Branch {
-	ZOrder			14
-	DstBlock		"Simple Membrane"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      16
-      SrcBlock		      "Two-output\nPulse Generator1"
-      SrcPort		      2
-      Points		      [30, 0; 0, 25; 50, 0]
-      Branch {
-	ZOrder			22
-	Points			[0, -45]
-	DstBlock		"Scope1"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			17
-	DstBlock		"Simple Membrane1"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      24
-      SrcBlock		      "Simple Membrane1"
-      SrcPort		      2
-      Points		      [28, 0; 0, -115]
-      DstBlock		      "Scope1"
-      DstPort		      2
+      Points		      [30, 0; 0, -65; 240, 0; 0, -230]
+      DstBlock		      "Mux3"
+      DstPort		      1
     }
   }
 }

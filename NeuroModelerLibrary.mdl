@@ -52,6 +52,17 @@ Library {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1665.0, 1066.0]
+	  ZoomFactor		  [0.80240963855421688]
+	  Offset		  [-167.08195028927094, -244.20225021947164]
+	  SceneRectInView	  [-167.08195028927094, -244.20225021947164, 1660.0, 1062.7987987987988]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "1"
 	  Extents		  [1665.0, 1066.0]
@@ -60,7 +71,7 @@ Library {
 	  SceneRectInView	  [-878.7, -399.4, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  6
+	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -71,7 +82,7 @@ Library {
 	  SceneRectInView	  [-488.5, -379.9, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  7
+	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -82,7 +93,7 @@ Library {
 	  SceneRectInView	  [-252.03125000000011, -73.5, 1665.0000000000002, 806.00000000000011]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -91,17 +102,6 @@ Library {
 	  ZoomFactor		  [0.79999999999999993]
 	  Offset		  [-24.040610923423515, -11.091091091091073]
 	  SceneRectInView	  [-24.040610923423515, -11.091091091091073, 1665.0000000000002, 806.00000000000011]
-	}
-	Object {
-	  $ObjectID		  9
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1665.0, 806.0]
-	  ZoomFactor		  [0.80240963855421688]
-	  Offset		  [-167.08195028927094, -114.59264060986203]
-	  SceneRectInView	  [-167.08195028927094, -114.59264060986203, 1660.0, 803.57957957957956]
 	}
 	Object {
 	  $ObjectID		  10
@@ -1166,19 +1166,6 @@ Library {
 	Dimension		2
 	Object {
 	  $ObjectID		  106
-	  Type			  "GLUE2:PropertyInspector"
-	  ID			  "Property Inspector"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  ""
-	  Floating		  [0]
-	  DockPosition		  "Right"
-	  Width			  [512]
-	  Height		  [384]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  107
 	  Type			  "Simulink:Editor:ReferencedFiles"
 	  ID			  "Referenced Files"
 	  Visible		  [0]
@@ -1186,6 +1173,19 @@ Library {
 	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
 	  Floating		  [0]
 	  DockPosition		  "Left"
+	  Width			  [512]
+	  Height		  [384]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  107
+	  Type			  "GLUE2:PropertyInspector"
+	  ID			  "Property Inspector"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  ""
+	  Floating		  [0]
+	  DockPosition		  "Right"
 	  Width			  [512]
 	  Height		  [384]
 	  Minimized		  "Unset"
@@ -1217,9 +1217,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Bakhshiev"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Jul 04 20:08:10 2021"
-  RTWModifiedTimeStamp	  547328974
-  ModelVersionFormat	  "%<AutoIncrement:3.97>"
+  LastModifiedDate	  "Thu Sep 09 14:18:50 2021"
+  RTWModifiedTimeStamp	  553097928
+  ModelVersionFormat	  "%<AutoIncrement:3.98>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -2394,9 +2394,9 @@ Library {
   }
   System {
     Name		    "NeuroModelerLibrary"
-    Location		    [170, -932, 1552, -53]
+    Location		    [170, -1080, 1552, 7]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -6179,7 +6179,7 @@ Library {
 	Name			"Dendrites Cells"
 	Location		[170, -1080, 1552, 7]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -61192,7 +61192,6 @@ Library {
 	      ZOrder		      23
 	      SrcBlock		      "Stimulate1"
 	      SrcPort		      1
-	      Points		      [5, 0]
 	      DstBlock		      "Synapse2"
 	      DstPort		      1
 	    }
@@ -65834,9 +65833,9 @@ Library {
     }
     Annotation {
       SID		      "769"
-      Name		      "Copyright Aleksandr Bakhshiev, Sergey Romanov, Filipp Gundelakh, Anton Korsakov 2000-2021\nalexab@a"
-      "ilab.ru\nwww.ailab.ru"
-      Position		      [425, 28, 1008, 93]
+      Name		      "Copyright Aleksandr Bakhshiev, Sergey Romanov, Filipp Gundelakh, Anton Korsakov, Alexandra Demcheva"
+      " 2000-2021\nalexab@ailab.ru\nwww.ailab.ru"
+      Position		      [274, 28, 972, 93]
       InternalMargins	      [0, 0, 0, 0]
       FixedHeight	      on
       FixedWidth	      on
