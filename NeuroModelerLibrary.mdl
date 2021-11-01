@@ -3,13 +3,13 @@ Library {
   Version		  10.2
   SavedCharacterEncoding  "windows-1251"
   ModelUUID		  "0758ad01-5541-449b-9836-01f811f9a473"
+  LogicAnalyzerPlugin	  "on"
+  WebScopes_FoundationPlugin "on"
   SLCCPlugin		  "on"
   slcheck_filter_plugin	  "on"
-  NotesPlugin		  "on"
-  WebScopes_FoundationPlugin "on"
   AnimationPlugin	  "on"
-  LogicAnalyzerPlugin	  "on"
   DiagnosticSuppressor	  "on"
+  NotesPlugin		  "on"
   LibraryType		  "BlockLibrary"
   EnableAccessToBaseWorkspace on
   ScopeRefreshTime	  0.035000
@@ -27,7 +27,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [170.0, -1080.0, 1382.0, 1087.0]
+      Location		      [8.0, 8.0, 1382.0, 788.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -47,20 +47,64 @@ Library {
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		101
+	Dimension		102
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1665.0, 1066.0]
-	  ZoomFactor		  [0.80240963855421688]
-	  Offset		  [-167.08195028927094, -244.20225021947164]
-	  SceneRectInView	  [-167.08195028927094, -244.20225021947164, 1660.0, 1062.7987987987988]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "84"
+	  Extents		  [1328.0, 547.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-82.31566996305412, -307.56875850624874]
+	  SceneRectInView	  [-82.31566996305412, -307.56875850624874, 1660.0, 683.75]
 	}
 	Object {
 	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1859"
+	  Extents		  [1328.0, 547.0]
+	  ZoomFactor		  [1.18]
+	  Offset		  [416.99907309322032, 42.644067796610187]
+	  SceneRectInView	  [416.99907309322032, 42.644067796610187, 1125.4237288135594, 463.55932203389835]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1847"
+	  Extents		  [1328.0, 547.0]
+	  ZoomFactor		  [1.18]
+	  Offset		  [705.43266684322032, 141.64406779661019]
+	  SceneRectInView	  [705.43266684322032, 141.64406779661019, 1125.4237288135594, 463.55932203389835]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1855"
+	  Extents		  [1328.0, 547.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-474.0, -180.0]
+	  SceneRectInView	  [-474.0, -180.0, 1328.0, 547.0]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1328.0, 547.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-99.361898479392508, -5.149191493469516]
+	  SceneRectInView	  [-99.361898479392508, -5.149191493469516, 1328.0, 547.0]
+	}
+	Object {
+	  $ObjectID		  10
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -71,7 +115,7 @@ Library {
 	  SceneRectInView	  [-878.7, -399.4, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  7
+	  $ObjectID		  11
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -82,7 +126,7 @@ Library {
 	  SceneRectInView	  [-488.5, -379.9, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  12
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -93,7 +137,7 @@ Library {
 	  SceneRectInView	  [-252.03125000000011, -73.5, 1665.0000000000002, 806.00000000000011]
 	}
 	Object {
-	  $ObjectID		  9
+	  $ObjectID		  13
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -104,7 +148,7 @@ Library {
 	  SceneRectInView	  [-24.040610923423515, -11.091091091091073, 1665.0000000000002, 806.00000000000011]
 	}
 	Object {
-	  $ObjectID		  10
+	  $ObjectID		  14
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -115,7 +159,7 @@ Library {
 	  SceneRectInView	  [-221.14687500000002, -278.9, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  11
+	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -126,7 +170,7 @@ Library {
 	  SceneRectInView	  [-349.24453125, -192.39999999999998, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  12
+	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -137,7 +181,7 @@ Library {
 	  SceneRectInView	  [-90.217187500000023, 7.1000000000000227, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  13
+	  $ObjectID		  17
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -148,7 +192,7 @@ Library {
 	  SceneRectInView	  [-90.217187500000023, -96.899999999999977, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  14
+	  $ObjectID		  18
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -159,7 +203,7 @@ Library {
 	  SceneRectInView	  [-617.05, -218.38333333333324, 666.0, 426.4]
 	}
 	Object {
-	  $ObjectID		  15
+	  $ObjectID		  19
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -170,7 +214,7 @@ Library {
 	  SceneRectInView	  [-811.0, -491.4, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  16
+	  $ObjectID		  20
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -181,7 +225,7 @@ Library {
 	  SceneRectInView	  [-961.0, -447.9, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  17
+	  $ObjectID		  21
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -192,7 +236,7 @@ Library {
 	  SceneRectInView	  [-629.2815262657341, 73.967287287287377, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  18
+	  $ObjectID		  22
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -203,7 +247,7 @@ Library {
 	  SceneRectInView	  [-653.90581585807547, -158.99184341858717, 1298.8446029776678, 831.57258064516157]
 	}
 	Object {
-	  $ObjectID		  19
+	  $ObjectID		  23
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -214,7 +258,7 @@ Library {
 	  SceneRectInView	  [-762.0, -30.199999999999932, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  20
+	  $ObjectID		  24
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -225,18 +269,7 @@ Library {
 	  SceneRectInView	  [-90.217187500000023, 7.1000000000000227, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  21
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "84"
-	  Extents		  [1665.0, 1066.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-141.17243297712741, -390.4]
-	  SceneRectInView	  [-141.17243297712741, -390.4, 1332.0, 852.8]
-	}
-	Object {
-	  $ObjectID		  22
+	  $ObjectID		  25
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -247,7 +280,7 @@ Library {
 	  SceneRectInView	  [-294.6234375, -253.39999999999998, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  23
+	  $ObjectID		  26
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -258,7 +291,7 @@ Library {
 	  SceneRectInView	  [-295.0234375, -253.39999999999998, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  24
+	  $ObjectID		  27
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -269,7 +302,7 @@ Library {
 	  SceneRectInView	  [-294.6234375, -253.39999999999998, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  25
+	  $ObjectID		  28
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -280,7 +313,7 @@ Library {
 	  SceneRectInView	  [-1187.0, -478.0, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  26
+	  $ObjectID		  29
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -291,7 +324,7 @@ Library {
 	  SceneRectInView	  [-469.06666666666661, -334.01511511511507, 898.66666666666663, 435.03023023023019]
 	}
 	Object {
-	  $ObjectID		  27
+	  $ObjectID		  30
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -302,7 +335,7 @@ Library {
 	  SceneRectInView	  [-89.500000000000227, -128.5, 1665.0000000000005, 806.00000000000023]
 	}
 	Object {
-	  $ObjectID		  28
+	  $ObjectID		  31
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -313,7 +346,7 @@ Library {
 	  SceneRectInView	  [-530.6191895020022, -206.21971971971982, 2213.3333333333339, 1071.4394394394396]
 	}
 	Object {
-	  $ObjectID		  29
+	  $ObjectID		  32
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -324,7 +357,7 @@ Library {
 	  SceneRectInView	  [-266.64296875, -154.39999999999998, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  30
+	  $ObjectID		  33
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -335,7 +368,7 @@ Library {
 	  SceneRectInView	  [-152.00000000000023, -231.5, 1665.0000000000005, 806.00000000000023]
 	}
 	Object {
-	  $ObjectID		  31
+	  $ObjectID		  34
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -346,7 +379,7 @@ Library {
 	  SceneRectInView	  [-7.4000000000000909, -51.244341952204536, 1665.0000000000002, 806.00000000000011]
 	}
 	Object {
-	  $ObjectID		  32
+	  $ObjectID		  35
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -357,7 +390,7 @@ Library {
 	  SceneRectInView	  [-122.00000000000034, -143.5, 1665.0000000000005, 806.00000000000023]
 	}
 	Object {
-	  $ObjectID		  33
+	  $ObjectID		  36
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -368,7 +401,7 @@ Library {
 	  SceneRectInView	  [-327.81367187500007, -85.945465465465475, 1062.4, 514.29093093093093]
 	}
 	Object {
-	  $ObjectID		  34
+	  $ObjectID		  37
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -379,7 +412,7 @@ Library {
 	  SceneRectInView	  [-266.64296875, -154.39999999999998, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  35
+	  $ObjectID		  38
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -390,7 +423,7 @@ Library {
 	  SceneRectInView	  [-340.6, -137.39999999999998, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  36
+	  $ObjectID		  39
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -401,7 +434,7 @@ Library {
 	  SceneRectInView	  [-405.8734375, -94.399999999999977, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  37
+	  $ObjectID		  40
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -412,7 +445,7 @@ Library {
 	  SceneRectInView	  [-405.8734375, -94.399999999999977, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  38
+	  $ObjectID		  41
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -423,7 +456,7 @@ Library {
 	  SceneRectInView	  [-405.8734375, -94.399999999999977, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  39
+	  $ObjectID		  42
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -434,29 +467,7 @@ Library {
 	  SceneRectInView	  [-405.8734375, -94.399999999999977, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  40
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1859"
-	  Extents		  [1328.0, 503.0]
-	  ZoomFactor		  [1.18]
-	  Offset		  [416.99907309322032, 61.288135593220375]
-	  SceneRectInView	  [416.99907309322032, 61.288135593220375, 1125.4237288135594, 426.271186440678]
-	}
-	Object {
-	  $ObjectID		  41
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1847"
-	  Extents		  [1328.0, 503.0]
-	  ZoomFactor		  [1.18]
-	  Offset		  [705.43266684322032, 160.28813559322037]
-	  SceneRectInView	  [705.43266684322032, 160.28813559322037, 1125.4237288135594, 426.271186440678]
-	}
-	Object {
-	  $ObjectID		  42
+	  $ObjectID		  43
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -467,7 +478,7 @@ Library {
 	  SceneRectInView	  [-659.62108884433576, -339.32529268831445, 1660.0, 628.75]
 	}
 	Object {
-	  $ObjectID		  43
+	  $ObjectID		  44
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -478,7 +489,7 @@ Library {
 	  SceneRectInView	  [135.58333333333354, -121.38784570596792, 885.33333333333337, 335.33333333333331]
 	}
 	Object {
-	  $ObjectID		  44
+	  $ObjectID		  45
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -489,7 +500,7 @@ Library {
 	  SceneRectInView	  [-207.36575948826953, -200.41371707450011, 1324.7315189765393, 501.7620135882525]
 	}
 	Object {
-	  $ObjectID		  45
+	  $ObjectID		  46
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -500,7 +511,7 @@ Library {
 	  SceneRectInView	  [663.5, 140.5, 1328.0, 503.0]
 	}
 	Object {
-	  $ObjectID		  46
+	  $ObjectID		  47
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -511,7 +522,7 @@ Library {
 	  SceneRectInView	  [-149.38862503803372, -39.674274518791911, 1062.4, 402.4]
 	}
 	Object {
-	  $ObjectID		  47
+	  $ObjectID		  48
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -522,7 +533,7 @@ Library {
 	  SceneRectInView	  [-984.18046875, -481.4, 1062.4, 402.4]
 	}
 	Object {
-	  $ObjectID		  48
+	  $ObjectID		  49
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -533,7 +544,7 @@ Library {
 	  SceneRectInView	  [-128.0, -157.5, 687.0, 503.0]
 	}
 	Object {
-	  $ObjectID		  49
+	  $ObjectID		  50
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -544,7 +555,7 @@ Library {
 	  SceneRectInView	  [-136.99944846251765, -143.05258369723452, 858.75, 628.75]
 	}
 	Object {
-	  $ObjectID		  50
+	  $ObjectID		  51
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -555,7 +566,7 @@ Library {
 	  SceneRectInView	  [-88.6171875, 63.5, 1328.0, 533.0]
 	}
 	Object {
-	  $ObjectID		  51
+	  $ObjectID		  52
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -566,7 +577,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  52
+	  $ObjectID		  53
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -577,7 +588,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  53
+	  $ObjectID		  54
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -588,7 +599,7 @@ Library {
 	  SceneRectInView	  [-874.748697916667, -643.66666666666652, 4426.666666666667, 1776.6666666666667]
 	}
 	Object {
-	  $ObjectID		  54
+	  $ObjectID		  55
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -599,7 +610,7 @@ Library {
 	  SceneRectInView	  [-1164.6504248903507, -365.83588702469422, 1965.9649122807018, 1525.2682652774586]
 	}
 	Object {
-	  $ObjectID		  55
+	  $ObjectID		  56
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -610,7 +621,7 @@ Library {
 	  SceneRectInView	  [-402.74609375, -131.0, 1328.0, 533.0]
 	}
 	Object {
-	  $ObjectID		  56
+	  $ObjectID		  57
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -621,7 +632,7 @@ Library {
 	  SceneRectInView	  [-1272.9712963505838, -727.38888888888891, 2103.9816552011675, 844.44444444444457]
 	}
 	Object {
-	  $ObjectID		  57
+	  $ObjectID		  58
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -632,7 +643,7 @@ Library {
 	  SceneRectInView	  [-567.58203125, -351.5, 2656.0, 1066.0]
 	}
 	Object {
-	  $ObjectID		  58
+	  $ObjectID		  59
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -643,7 +654,7 @@ Library {
 	  SceneRectInView	  [-449.0, -158.0, 1328.0, 533.0]
 	}
 	Object {
-	  $ObjectID		  59
+	  $ObjectID		  60
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -654,7 +665,7 @@ Library {
 	  SceneRectInView	  [-474.0, -158.5, 1328.0, 533.0]
 	}
 	Object {
-	  $ObjectID		  60
+	  $ObjectID		  61
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -665,7 +676,7 @@ Library {
 	  SceneRectInView	  [-544.88239572978785, 107.95833333333331, 1672.1007289595757, 633.33333333333326]
 	}
 	Object {
-	  $ObjectID		  61
+	  $ObjectID		  62
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -676,7 +687,7 @@ Library {
 	  SceneRectInView	  [-332.47013595510327, 196.63374751491028, 1328.0, 503.0]
 	}
 	Object {
-	  $ObjectID		  62
+	  $ObjectID		  63
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -687,7 +698,7 @@ Library {
 	  SceneRectInView	  [708.31661459812472, 156.16698381141754, 1660.0, 666.25]
 	}
 	Object {
-	  $ObjectID		  63
+	  $ObjectID		  64
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -698,7 +709,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  64
+	  $ObjectID		  65
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -709,7 +720,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  65
+	  $ObjectID		  66
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -720,7 +731,7 @@ Library {
 	  SceneRectInView	  [-414.0, -182.5, 1328.0, 503.0]
 	}
 	Object {
-	  $ObjectID		  66
+	  $ObjectID		  67
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -731,7 +742,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 8.7182014689109337, 1965.964912280702, 866.66666666666674]
 	}
 	Object {
-	  $ObjectID		  67
+	  $ObjectID		  68
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -742,7 +753,7 @@ Library {
 	  SceneRectInView	  [-404.31709155701742, -100.83333333333331, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  68
+	  $ObjectID		  69
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -753,7 +764,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  69
+	  $ObjectID		  70
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -764,7 +775,7 @@ Library {
 	  SceneRectInView	  [-134.48127741228063, 11.554385964912191, 1572.7719298245615, 693.33333333333337]
 	}
 	Object {
-	  $ObjectID		  70
+	  $ObjectID		  71
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -775,7 +786,7 @@ Library {
 	  SceneRectInView	  [-288.73492781432583, -40.712506257189233, 2457.4561403508774, 1083.3333333333335]
 	}
 	Object {
-	  $ObjectID		  71
+	  $ObjectID		  72
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -786,7 +797,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 8.0575392120761649, 1965.964912280702, 866.66666666666674]
 	}
 	Object {
-	  $ObjectID		  72
+	  $ObjectID		  73
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -797,7 +808,7 @@ Library {
 	  SceneRectInView	  [-324.14603892543846, 26.687509626150131, 2457.4561403508774, 1083.3333333333335]
 	}
 	Object {
-	  $ObjectID		  73
+	  $ObjectID		  74
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -808,7 +819,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 8.4649122807017676, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  74
+	  $ObjectID		  75
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -819,7 +830,7 @@ Library {
 	  SceneRectInView	  [-1127.1504248903507, 57.8695259481145, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  75
+	  $ObjectID		  76
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -830,7 +841,7 @@ Library {
 	  SceneRectInView	  [-488.17338267543846, -149.16666666666674, 2298.6666666666665, 1013.3333333333334]
 	}
 	Object {
-	  $ObjectID		  76
+	  $ObjectID		  77
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -841,7 +852,7 @@ Library {
 	  SceneRectInView	  [-630.60671600877174, -67.950002318620648, 2457.4561403508774, 1083.3333333333335]
 	}
 	Object {
-	  $ObjectID		  77
+	  $ObjectID		  78
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -852,7 +863,7 @@ Library {
 	  SceneRectInView	  [-1164.6504248903507, -29.833333333333314, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  78
+	  $ObjectID		  79
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -863,7 +874,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, -41.66557001231007, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  79
+	  $ObjectID		  80
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -874,7 +885,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 15.166666666666458, 1965.964912280702, 866.66666666666674]
 	}
 	Object {
-	  $ObjectID		  80
+	  $ObjectID		  81
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -885,7 +896,7 @@ Library {
 	  SceneRectInView	  [-404.65042489035079, 8.8333333333332682, 1965.9649122807018, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  81
+	  $ObjectID		  82
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -896,7 +907,7 @@ Library {
 	  SceneRectInView	  [-270.36197916666663, 14.955555555555435, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  82
+	  $ObjectID		  83
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -907,7 +918,7 @@ Library {
 	  SceneRectInView	  [-756.33463541666663, -29.822222222222376, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  83
+	  $ObjectID		  84
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -918,7 +929,7 @@ Library {
 	  SceneRectInView	  [-264.66666666666663, -259.33333333333337, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  84
+	  $ObjectID		  85
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -929,7 +940,7 @@ Library {
 	  SceneRectInView	  [-264.66666666666663, -259.33333333333337, 1149.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  85
+	  $ObjectID		  86
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -940,7 +951,7 @@ Library {
 	  SceneRectInView	  [14.049479166666742, 76.166666666666657, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  86
+	  $ObjectID		  87
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -951,7 +962,7 @@ Library {
 	  SceneRectInView	  [-122.47786458333326, -123.33333333333334, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  87
+	  $ObjectID		  88
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -962,7 +973,7 @@ Library {
 	  SceneRectInView	  [-233.19270833333326, -53.0, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  88
+	  $ObjectID		  89
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -973,7 +984,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  89
+	  $ObjectID		  90
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -984,7 +995,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  90
+	  $ObjectID		  91
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -995,7 +1006,7 @@ Library {
 	  SceneRectInView	  [-233.19270833333326, -53.0, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  91
+	  $ObjectID		  92
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1006,7 +1017,7 @@ Library {
 	  SceneRectInView	  [-171.54036458333326, -118.16666666666669, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  92
+	  $ObjectID		  93
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1017,7 +1028,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  93
+	  $ObjectID		  94
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1028,7 +1039,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  94
+	  $ObjectID		  95
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1039,7 +1050,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  95
+	  $ObjectID		  96
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1050,7 +1061,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  96
+	  $ObjectID		  97
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1061,7 +1072,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  97
+	  $ObjectID		  98
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1072,7 +1083,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  98
+	  $ObjectID		  99
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1083,7 +1094,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  99
+	  $ObjectID		  100
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1094,7 +1105,7 @@ Library {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  100
+	  $ObjectID		  101
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1105,7 +1116,7 @@ Library {
 	  SceneRectInView	  [-1350.98046875, -719.83333333333326, 1820.6666666666667, 866.66666666666663]
 	}
 	Object {
-	  $ObjectID		  101
+	  $ObjectID		  102
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1116,7 +1127,7 @@ Library {
 	  SceneRectInView	  [-251.33333333333326, -259.33333333333337, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  102
+	  $ObjectID		  103
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1127,7 +1138,7 @@ Library {
 	  SceneRectInView	  [14.049479166666742, 76.166666666666657, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  103
+	  $ObjectID		  104
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1138,7 +1149,7 @@ Library {
 	  SceneRectInView	  [-151.65545743427566, 13.904562562003832, 641.90476190476215, 289.52380952380963]
 	}
 	Object {
-	  $ObjectID		  104
+	  $ObjectID		  105
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1149,7 +1160,7 @@ Library {
 	  SceneRectInView	  [-201.33333333333326, -130.83333333333334, 1123.3333333333333, 506.66666666666669]
 	}
 	Object {
-	  $ObjectID		  105
+	  $ObjectID		  106
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1165,19 +1176,6 @@ Library {
 	Type			"Simulink.DockComponentInfo"
 	Dimension		2
 	Object {
-	  $ObjectID		  106
-	  Type			  "Simulink:Editor:ReferencedFiles"
-	  ID			  "Referenced Files"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
-	  Floating		  [0]
-	  DockPosition		  "Left"
-	  Width			  [512]
-	  Height		  [384]
-	  Minimized		  "Unset"
-	}
-	Object {
 	  $ObjectID		  107
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
@@ -1186,18 +1184,31 @@ Library {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
-	  Width			  [512]
-	  Height		  [384]
+	  Width			  [640]
+	  Height		  [480]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  108
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
+	  Width			  [640]
+	  Height		  [480]
 	  Minimized		  "Unset"
 	}
 	PropName		"DockComponentsInfo"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB5AP////sAAABgAFMAaQBtAHUAb"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
-      "QBzAAAAAAD/////AAAApwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAhYA////AAAGrgAABHAAAAABAAAAAgAAAAEAAAAC/"
+      "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAFVgAAAmAAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAEAAAACAAAAAA=="
       Array {
 	Type			"Cell"
@@ -1215,11 +1226,11 @@ Library {
   Creator		  "Bakhshiev"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Bakhshiev"
+  LastModifiedBy	  "Александра"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Sep 09 14:18:50 2021"
-  RTWModifiedTimeStamp	  553097928
-  ModelVersionFormat	  "%<AutoIncrement:3.98>"
+  LastModifiedDate	  "Mon Nov 01 22:54:34 2021"
+  RTWModifiedTimeStamp	  557707815
+  ModelVersionFormat	  "%<AutoIncrement:3.99>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -1292,7 +1303,7 @@ Library {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      108
+      $ObjectID		      109
       Version		      "20.1.0"
       DisabledProps	      []
       Description	      ""
@@ -1300,7 +1311,7 @@ Library {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  109
+	  $ObjectID		  110
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1342,7 +1353,7 @@ Library {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  110
+	  $ObjectID		  111
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1384,7 +1395,7 @@ Library {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  111
+	  $ObjectID		  112
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -1458,7 +1469,7 @@ Library {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  112
+	  $ObjectID		  113
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -1581,7 +1592,7 @@ Library {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  113
+	  $ObjectID		  114
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1631,7 +1642,7 @@ Library {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  114
+	  $ObjectID		  115
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1651,7 +1662,7 @@ Library {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  115
+	  $ObjectID		  116
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1695,7 +1706,7 @@ Library {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  116
+	  $ObjectID		  117
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -1801,7 +1812,7 @@ Library {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      117
+	      $ObjectID		      118
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -1891,7 +1902,7 @@ Library {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      118
+	      $ObjectID		      119
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -1998,7 +2009,7 @@ Library {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  119
+	  $ObjectID		  120
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -2394,9 +2405,9 @@ Library {
   }
   System {
     Name		    "NeuroModelerLibrary"
-    Location		    [170, -1080, 1552, 7]
+    Location		    [8, 8, 1390, 796]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -2410,7 +2421,7 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "80"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "2617"
     SimulinkSubDomain	    "Simulink"
@@ -3937,35 +3948,35 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    120
+	    $ObjectID		    121
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		121
+		$ObjectID		122
 		Type			"edit"
 		Name			"tau_syn"
 		Prompt			"Rise time of the exciatory synaptic alpha function"
 		Value			"2e-3"
 	      }
 	      Object {
-		$ObjectID		122
+		$ObjectID		123
 		Type			"edit"
 		Name			"I_syn"
 		Prompt			"Synaptic current amplitude"
 		Value			"1e-12"
 	      }
 	      Object {
-		$ObjectID		123
+		$ObjectID		124
 		Type			"edit"
 		Name			"weight"
 		Prompt			"Weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		124
+		$ObjectID		125
 		Type			"edit"
 		Name			"delay"
 		Prompt			"Delay"
@@ -3977,12 +3988,12 @@ Library {
 	      Type		      "Simulink.dialog.Control"
 	      Dimension		      5
 	      Object {
-		$ObjectID		125
+		$ObjectID		126
 		$ClassName		"Simulink.dialog.Group"
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  126
+		  $ObjectID		  127
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -3990,22 +4001,22 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		127
+		$ObjectID		128
 		$ClassName		"Simulink.dialog.parameter.Edit"
 		Name			"tau_syn"
 	      }
 	      Object {
-		$ObjectID		128
+		$ObjectID		129
 		$ClassName		"Simulink.dialog.parameter.Edit"
 		Name			"I_syn"
 	      }
 	      Object {
-		$ObjectID		129
+		$ObjectID		130
 		$ClassName		"Simulink.dialog.parameter.Edit"
 		Name			"weight"
 	      }
 	      Object {
-		$ObjectID		130
+		$ObjectID		131
 		$ClassName		"Simulink.dialog.parameter.Edit"
 		Name			"delay"
 	      }
@@ -4399,35 +4410,35 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    131
+	    $ObjectID		    132
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		132
+		$ObjectID		133
 		Type			"edit"
 		Name			"tau_syn"
 		Prompt			"Rise time of excitatory synaptic alpha function"
 		Value			"2e-3"
 	      }
 	      Object {
-		$ObjectID		133
+		$ObjectID		134
 		Type			"edit"
 		Name			"I_syn"
 		Prompt			"Synaptic current amplitude"
 		Value			"1e-12"
 	      }
 	      Object {
-		$ObjectID		134
+		$ObjectID		135
 		Type			"edit"
 		Name			"weight"
 		Prompt			"Weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		135
+		$ObjectID		136
 		Type			"edit"
 		Name			"delay"
 		Prompt			"Delay"
@@ -4439,12 +4450,12 @@ Library {
 	      Type		      "Simulink.dialog.Control"
 	      Dimension		      5
 	      Object {
-		$ObjectID		136
+		$ObjectID		137
 		$ClassName		"Simulink.dialog.Group"
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  137
+		  $ObjectID		  138
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -4452,22 +4463,22 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		138
+		$ObjectID		139
 		$ClassName		"Simulink.dialog.parameter.Edit"
 		Name			"tau_syn"
 	      }
 	      Object {
-		$ObjectID		139
+		$ObjectID		140
 		$ClassName		"Simulink.dialog.parameter.Edit"
 		Name			"I_syn"
 	      }
 	      Object {
-		$ObjectID		140
+		$ObjectID		141
 		$ClassName		"Simulink.dialog.parameter.Edit"
 		Name			"weight"
 	      }
 	      Object {
-		$ObjectID		141
+		$ObjectID		142
 		$ClassName		"Simulink.dialog.parameter.Edit"
 		Name			"delay"
 	      }
@@ -4915,49 +4926,49 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    142
+	    $ObjectID		    143
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		143
+		$ObjectID		144
 		Type			"edit"
 		Name			"tau_m"
 		Prompt			"Membrane time constatnt"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		144
+		$ObjectID		145
 		Type			"edit"
 		Name			"Cm"
 		Prompt			"Membrane capacity"
 		Value			"250e-12"
 	      }
 	      Object {
-		$ObjectID		145
+		$ObjectID		146
 		Type			"edit"
 		Name			"I_const"
 		Prompt			"Constant input current"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		146
+		$ObjectID		147
 		Type			"edit"
 		Name			"E_L"
 		Prompt			"Resting membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		147
+		$ObjectID		148
 		Type			"edit"
 		Name			"V_reset"
 		Prompt			"Reset membrane potential"
 		Value			"-0.10"
 	      }
 	      Object {
-		$ObjectID		148
+		$ObjectID		149
 		Type			"edit"
 		Name			"V_th"
 		Prompt			"Threshold potential"
@@ -4969,11 +4980,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		149
+		$ObjectID		150
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  150
+		  $ObjectID		  151
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -4981,33 +4992,33 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		151
+		$ObjectID		152
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    152
+		    $ObjectID		    153
 		    Name		    "tau_m"
 		  }
 		  Object {
-		    $ObjectID		    153
+		    $ObjectID		    154
 		    Name		    "Cm"
 		  }
 		  Object {
-		    $ObjectID		    154
+		    $ObjectID		    155
 		    Name		    "I_const"
 		  }
 		  Object {
-		    $ObjectID		    155
+		    $ObjectID		    156
 		    Name		    "E_L"
 		  }
 		  Object {
-		    $ObjectID		    156
+		    $ObjectID		    157
 		    Name		    "V_reset"
 		  }
 		  Object {
-		    $ObjectID		    157
+		    $ObjectID		    158
 		    Name		    "V_th"
 		  }
 		  PropName		  "DialogControls"
@@ -5339,56 +5350,56 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    158
+	    $ObjectID		    159
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      7
 	      Object {
-		$ObjectID		159
+		$ObjectID		160
 		Type			"edit"
 		Name			"tau_m"
 		Prompt			"Membrane time constatnt"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		160
+		$ObjectID		161
 		Type			"edit"
 		Name			"Cm"
 		Prompt			"Membrane capacity"
 		Value			"250e-12"
 	      }
 	      Object {
-		$ObjectID		161
+		$ObjectID		162
 		Type			"edit"
 		Name			"I_const"
 		Prompt			"Constant input current"
 		Value			"376e-12"
 	      }
 	      Object {
-		$ObjectID		162
+		$ObjectID		163
 		Type			"edit"
 		Name			"E_L"
 		Prompt			"Resting membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		163
+		$ObjectID		164
 		Type			"edit"
 		Name			"V_reset"
 		Prompt			"Reset membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		164
+		$ObjectID		165
 		Type			"edit"
 		Name			"V_th"
 		Prompt			"Threshold potential"
 		Value			"-0.055"
 	      }
 	      Object {
-		$ObjectID		165
+		$ObjectID		166
 		Type			"edit"
 		Name			"tau_ref"
 		Prompt			"Refractory period"
@@ -5400,11 +5411,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		166
+		$ObjectID		167
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  167
+		  $ObjectID		  168
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -5412,37 +5423,37 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		168
+		$ObjectID		169
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  7
 		  Object {
-		    $ObjectID		    169
+		    $ObjectID		    170
 		    Name		    "tau_m"
 		  }
 		  Object {
-		    $ObjectID		    170
+		    $ObjectID		    171
 		    Name		    "Cm"
 		  }
 		  Object {
-		    $ObjectID		    171
+		    $ObjectID		    172
 		    Name		    "I_const"
 		  }
 		  Object {
-		    $ObjectID		    172
+		    $ObjectID		    173
 		    Name		    "E_L"
 		  }
 		  Object {
-		    $ObjectID		    173
+		    $ObjectID		    174
 		    Name		    "V_reset"
 		  }
 		  Object {
-		    $ObjectID		    174
+		    $ObjectID		    175
 		    Name		    "V_th"
 		  }
 		  Object {
-		    $ObjectID		    175
+		    $ObjectID		    176
 		    PromptLocation	    "left"
 		    Name		    "tau_ref"
 		  }
@@ -5953,35 +5964,35 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    176
+	    $ObjectID		    177
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		177
+		$ObjectID		178
 		Type			"edit"
 		Name			"tau_syn"
 		Prompt			"Rise time of the excitatory synaptic alpha function"
 		Value			"2e-3"
 	      }
 	      Object {
-		$ObjectID		178
+		$ObjectID		179
 		Type			"edit"
 		Name			"I_syn"
 		Prompt			"Synaptic current amplitude"
 		Value			"1e-8"
 	      }
 	      Object {
-		$ObjectID		179
+		$ObjectID		180
 		Type			"edit"
 		Name			"weight"
 		Prompt			"Weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		180
+		$ObjectID		181
 		Type			"edit"
 		Name			"delay"
 		Prompt			"Delay"
@@ -5993,11 +6004,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		181
+		$ObjectID		182
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  182
+		  $ObjectID		  183
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -6005,25 +6016,25 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		183
+		$ObjectID		184
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    184
+		    $ObjectID		    185
 		    Name		    "tau_syn"
 		  }
 		  Object {
-		    $ObjectID		    185
+		    $ObjectID		    186
 		    Name		    "I_syn"
 		  }
 		  Object {
-		    $ObjectID		    186
+		    $ObjectID		    187
 		    Name		    "weight"
 		  }
 		  Object {
-		    $ObjectID		    187
+		    $ObjectID		    188
 		    Name		    "delay"
 		  }
 		  PropName		  "DialogControls"
@@ -13523,9 +13534,9 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Neuron Elements"
-	Location		[170, -1080, 1552, 7]
+	Location		[8, 8, 1390, 796]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -13539,7 +13550,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"80"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -13551,62 +13562,62 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    188
+	    $ObjectID		    189
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      8
 	      Object {
-		$ObjectID		189
+		$ObjectID		190
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		190
+		$ObjectID		191
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		191
+		$ObjectID		192
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		192
+		$ObjectID		193
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		193
+		$ObjectID		194
 		Type			"edit"
 		Name			"ARFm"
 		Prompt			"Feedback Arresting Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		194
+		$ObjectID		195
 		Type			"edit"
 		Name			"ERFm"
 		Prompt			"Feedback Excitatory Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		195
+		$ObjectID		196
 		Type			"edit"
 		Name			"U0"
 		Prompt			"Synaptic EMF"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		196
+		$ObjectID		197
 		Type			"edit"
 		Name			"sign"
 		Prompt			"Synaptic Weight Sign"
@@ -13618,11 +13629,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		197
+		$ObjectID		198
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  198
+		  $ObjectID		  199
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -13630,41 +13641,41 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		199
+		$ObjectID		200
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  8
 		  Object {
-		    $ObjectID		    200
+		    $ObjectID		    201
 		    Name		    "ACm"
 		  }
 		  Object {
-		    $ObjectID		    201
+		    $ObjectID		    202
 		    Name		    "ARm"
 		  }
 		  Object {
-		    $ObjectID		    202
+		    $ObjectID		    203
 		    Name		    "ECm"
 		  }
 		  Object {
-		    $ObjectID		    203
+		    $ObjectID		    204
 		    Name		    "ERm"
 		  }
 		  Object {
-		    $ObjectID		    204
+		    $ObjectID		    205
 		    Name		    "ARFm"
 		  }
 		  Object {
-		    $ObjectID		    205
+		    $ObjectID		    206
 		    Name		    "ERFm"
 		  }
 		  Object {
-		    $ObjectID		    206
+		    $ObjectID		    207
 		    Name		    "U0"
 		  }
 		  Object {
-		    $ObjectID		    207
+		    $ObjectID		    208
 		    Name		    "sign"
 		  }
 		  PropName		  "DialogControls"
@@ -14011,35 +14022,35 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    208
+	    $ObjectID		    209
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		209
+		$ObjectID		210
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		210
+		$ObjectID		211
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		211
+		$ObjectID		212
 		Type			"edit"
 		Name			"T"
 		Prompt			"On Threshold"
 		Value			"-0.055"
 	      }
 	      Object {
-		$ObjectID		212
+		$ObjectID		213
 		Type			"edit"
 		Name			"switchOff"
 		Prompt			"Off Threshold"
@@ -14051,11 +14062,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		213
+		$ObjectID		214
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  214
+		  $ObjectID		  215
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -14063,25 +14074,25 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		215
+		$ObjectID		216
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    216
+		    $ObjectID		    217
 		    Name		    "NM"
 		  }
 		  Object {
-		    $ObjectID		    217
+		    $ObjectID		    218
 		    Name		    "FB"
 		  }
 		  Object {
-		    $ObjectID		    218
+		    $ObjectID		    219
 		    Name		    "T"
 		  }
 		  Object {
-		    $ObjectID		    219
+		    $ObjectID		    220
 		    Name		    "switchOff"
 		  }
 		  PropName		  "DialogControls"
@@ -14334,62 +14345,62 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    220
+	    $ObjectID		    221
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      8
 	      Object {
-		$ObjectID		221
+		$ObjectID		222
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		222
+		$ObjectID		223
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		223
+		$ObjectID		224
 		Type			"checkbox"
 		Name			"UseKsi"
 		Prompt			"Use Presynaptic Inhubition"
 		Value			"off"
 	      }
 	      Object {
-		$ObjectID		224
+		$ObjectID		225
 		Type			"edit"
 		Name			"Rs"
 		Prompt			"Synaptic Resistance"
 		Value			"2e7"
 	      }
 	      Object {
-		$ObjectID		225
+		$ObjectID		226
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		226
+		$ObjectID		227
 		Type			"edit"
 		Name			"U0"
 		Prompt			"Synaptic EMF"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		227
+		$ObjectID		228
 		Type			"edit"
 		Name			"Weight"
 		Prompt			"Synaptic Weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		228
+		$ObjectID		229
 		Type			"checkbox"
 		Name			"sign"
 		Prompt			"Synaptic Weight Sign"
@@ -14401,12 +14412,12 @@ Library {
 	      Type		      "Simulink.dialog.Control"
 	      Dimension		      3
 	      Object {
-		$ObjectID		229
+		$ObjectID		230
 		$ClassName		"Simulink.dialog.Group"
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  230
+		  $ObjectID		  231
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -14414,44 +14425,44 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		231
+		$ObjectID		232
 		$ClassName		"Simulink.dialog.Group"
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Control"
 		  Dimension		  7
 		  Object {
-		    $ObjectID		    232
+		    $ObjectID		    233
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "SecretionTC"
 		  }
 		  Object {
-		    $ObjectID		    233
+		    $ObjectID		    234
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "DecompositionTC"
 		  }
 		  Object {
-		    $ObjectID		    234
+		    $ObjectID		    235
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "UseKsi"
 		  }
 		  Object {
-		    $ObjectID		    235
+		    $ObjectID		    236
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "Rs"
 		  }
 		  Object {
-		    $ObjectID		    236
+		    $ObjectID		    237
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "ksi"
 		  }
 		  Object {
-		    $ObjectID		    237
+		    $ObjectID		    238
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "U0"
 		  }
 		  Object {
-		    $ObjectID		    238
+		    $ObjectID		    239
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "Weight"
 		  }
@@ -14460,7 +14471,7 @@ Library {
 		Name			"ParameterGroupVar"
 	      }
 	      Object {
-		$ObjectID		239
+		$ObjectID		240
 		$ClassName		"Simulink.dialog.parameter.CheckBox"
 		Name			"sign"
 	      }
@@ -14906,62 +14917,62 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    240
+	    $ObjectID		    241
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      8
 	      Object {
-		$ObjectID		241
+		$ObjectID		242
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		242
+		$ObjectID		243
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		243
+		$ObjectID		244
 		Type			"checkbox"
 		Name			"UseKsi"
 		Prompt			"Use Presynaptic Inhubition"
 		Value			"off"
 	      }
 	      Object {
-		$ObjectID		244
+		$ObjectID		245
 		Type			"edit"
 		Name			"Rs"
 		Prompt			"Synaptic Resistance"
 		Value			"2e7"
 	      }
 	      Object {
-		$ObjectID		245
+		$ObjectID		246
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		246
+		$ObjectID		247
 		Type			"edit"
 		Name			"U0"
 		Prompt			"Synaptic EMF"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		247
+		$ObjectID		248
 		Type			"edit"
 		Name			"Weight"
 		Prompt			"Synaptic Weight"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		248
+		$ObjectID		249
 		Type			"checkbox"
 		Name			"sign"
 		Prompt			"Synaptic Weight Sign"
@@ -14973,11 +14984,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		249
+		$ObjectID		250
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  250
+		  $ObjectID		  251
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -14985,48 +14996,48 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		251
+		$ObjectID		252
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Control"
 		  Dimension		  8
 		  Object {
-		    $ObjectID		    252
+		    $ObjectID		    253
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "SecretionTC"
 		  }
 		  Object {
-		    $ObjectID		    253
+		    $ObjectID		    254
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "DecompositionTC"
 		  }
 		  Object {
-		    $ObjectID		    254
+		    $ObjectID		    255
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "UseKsi"
 		  }
 		  Object {
-		    $ObjectID		    255
+		    $ObjectID		    256
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "Rs"
 		  }
 		  Object {
-		    $ObjectID		    256
+		    $ObjectID		    257
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "ksi"
 		  }
 		  Object {
-		    $ObjectID		    257
+		    $ObjectID		    258
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "U0"
 		  }
 		  Object {
-		    $ObjectID		    258
+		    $ObjectID		    259
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "Weight"
 		  }
 		  Object {
-		    $ObjectID		    259
+		    $ObjectID		    260
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    Name		    "sign"
 		  }
@@ -15782,53 +15793,46 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    260
+	    $ObjectID		    261
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
-	      Dimension		      6
+	      Dimension		      5
 	      Object {
-		$ObjectID		261
+		$ObjectID		262
 		Type			"edit"
 		Name			"tau_m"
 		Prompt			"Membrane time constatnt"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		262
+		$ObjectID		263
 		Type			"edit"
 		Name			"Cm"
 		Prompt			"Membrane capacity"
 		Value			"250e-12"
 	      }
 	      Object {
-		$ObjectID		263
+		$ObjectID		264
 		Type			"edit"
 		Name			"I_const"
 		Prompt			"Constant input current"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		264
+		$ObjectID		265
 		Type			"edit"
 		Name			"E_L"
 		Prompt			"Resting membrane potential"
 		Value			"-0.070"
 	      }
 	      Object {
-		$ObjectID		265
+		$ObjectID		266
 		Type			"edit"
 		Name			"V_reset"
 		Prompt			"Reset membrane potential"
 		Value			"-0.10"
-	      }
-	      Object {
-		$ObjectID		266
-		Type			"edit"
-		Name			"V_th"
-		Prompt			"Threshold potential"
-		Value			"-0.055"
 	      }
 	      PropName		      "Parameters"
 	    }
@@ -15842,7 +15846,7 @@ Library {
 		  $PropName		  "DialogControls"
 		  $ObjectID		  268
 		  $ClassName		  "Simulink.dialog.Text"
-		  Prompt		  "%<MaskDescription>"
+		  Prompt		  "Threshold potential should be set in IaF LTZone parameters"
 		  Name			  "DescTextVar"
 		}
 		Name			"DescGroupVar"
@@ -15852,7 +15856,7 @@ Library {
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
-		  Dimension		  6
+		  Dimension		  5
 		  Object {
 		    $ObjectID		    270
 		    Name		    "tau_m"
@@ -15873,10 +15877,6 @@ Library {
 		    $ObjectID		    274
 		    Name		    "V_reset"
 		  }
-		  Object {
-		    $ObjectID		    275
-		    Name		    "V_th"
-		  }
 		  PropName		  "DialogControls"
 		}
 		Name			"ParameterGroupVar"
@@ -15890,7 +15890,7 @@ Library {
 	  }
 	  System {
 	    Name		    "IaF Compartment"
-	    Location		    [-8, -8, 1374, 736]
+	    Location		    [8, 8, 1390, 796]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -15974,7 +15974,7 @@ Library {
 	      Ports		      [4, 2]
 	      Position		      [1350, 312, 1465, 388]
 	      ZOrder		      515
-	      LibraryVersion	      "3.73"
+	      LibraryVersion	      "3.98"
 	      SourceBlock	      "$bdroot/Support/Inertial Link With Reset"
 	      SourceType	      "SubSystem"
 	      ShowPortLabels	      "FromPortIcon"
@@ -16114,111 +16114,35 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    276
+	    $ObjectID		    275
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
-	    Array {
-	      Type		      "Simulink.MaskParameter"
-	      Dimension		      6
-	      Object {
-		$ObjectID		277
-		Type			"edit"
-		Name			"tau_m"
-		Prompt			"Membrane time constatnt"
-		Value			"0.01"
-	      }
-	      Object {
-		$ObjectID		278
-		Type			"edit"
-		Name			"Cm"
-		Prompt			"Membrane capacity"
-		Value			"250e-12"
-	      }
-	      Object {
-		$ObjectID		279
-		Type			"edit"
-		Name			"I_const"
-		Prompt			"Constant input current"
-		Value			"0"
-	      }
-	      Object {
-		$ObjectID		280
-		Type			"edit"
-		Name			"E_L"
-		Prompt			"Resting membrane potential"
-		Value			"-0.070"
-	      }
-	      Object {
-		$ObjectID		281
-		Type			"edit"
-		Name			"V_reset"
-		Prompt			"Reset membrane potential"
-		Value			"-0.10"
-	      }
-	      Object {
-		$ObjectID		282
-		Type			"edit"
-		Name			"V_th"
-		Prompt			"Threshold potential"
-		Value			"-0.055"
-	      }
-	      PropName		      "Parameters"
+	    Object {
+	      $PropName		      "Parameters"
+	      $ObjectID		      276
+	      $ClassName	      "Simulink.MaskParameter"
+	      Type		      "edit"
+	      Name		      "V_th"
+	      Prompt		      "Threshold potential"
+	      Value		      "-0.055"
 	    }
-	    Array {
-	      Type		      "Simulink.dialog.Group"
-	      Dimension		      2
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      277
+	      $ClassName	      "Simulink.dialog.Group"
+	      Prompt		      "Simulink:studio:ToolBarParametersMenu"
 	      Object {
-		$ObjectID		283
-		Prompt			"%<MaskType>"
-		Object {
-		  $PropName		  "DialogControls"
-		  $ObjectID		  284
-		  $ClassName		  "Simulink.dialog.Text"
-		  Prompt		  "%<MaskDescription>"
-		  Name			  "DescTextVar"
-		}
-		Name			"DescGroupVar"
+		$PropName		"DialogControls"
+		$ObjectID		278
+		$ClassName		"Simulink.dialog.parameter.Edit"
+		Name			"V_th"
 	      }
-	      Object {
-		$ObjectID		285
-		Prompt			"Simulink:studio:ToolBarParametersMenu"
-		Array {
-		  Type			  "Simulink.dialog.parameter.Edit"
-		  Dimension		  6
-		  Object {
-		    $ObjectID		    286
-		    Name		    "tau_m"
-		  }
-		  Object {
-		    $ObjectID		    287
-		    Name		    "Cm"
-		  }
-		  Object {
-		    $ObjectID		    288
-		    Name		    "I_const"
-		  }
-		  Object {
-		    $ObjectID		    289
-		    Name		    "E_L"
-		  }
-		  Object {
-		    $ObjectID		    290
-		    Name		    "V_reset"
-		  }
-		  Object {
-		    $ObjectID		    291
-		    Name		    "V_th"
-		  }
-		  PropName		  "DialogControls"
-		}
-		Name			"ParameterGroupVar"
-	      }
-	      PropName		      "DialogControls"
+	      Name		      "ParameterGroupVar"
 	    }
 	  }
 	  System {
 	    Name		    "IaF LTZone"
-	    Location		    [-8, -8, 1374, 736]
+	    Location		    [8, 8, 1390, 796]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -17211,35 +17135,35 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    292
+	    $ObjectID		    279
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		293
+		$ObjectID		280
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		294
+		$ObjectID		281
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"1.7"
 	      }
 	      Object {
-		$ObjectID		295
+		$ObjectID		282
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input Time Constant"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		296
+		$ObjectID		283
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -17490,42 +17414,42 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    297
+	    $ObjectID		    284
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		298
+		$ObjectID		285
 		Type			"edit"
 		Name			"Rc"
 		Prompt			"Channel resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		299
+		$ObjectID		286
 		Type			"edit"
 		Name			"Cc"
 		Prompt			"Channel capacity"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		300
+		$ObjectID		287
 		Type			"edit"
 		Name			"RR"
 		Prompt			"Recharge Resistance"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		301
+		$ObjectID		288
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input TC"
 		Value			"0.005"
 	      }
 	      Object {
-		$ObjectID		302
+		$ObjectID		289
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
@@ -18055,49 +17979,49 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    303
+	    $ObjectID		    290
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Ion pump"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		304
+		$ObjectID		291
 		Type			"edit"
 		Name			"NM"
 		Prompt			"Number of Input Membranes"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		305
+		$ObjectID		292
 		Type			"edit"
 		Name			"FB"
 		Prompt			"Feedback Coeff"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		306
+		$ObjectID		293
 		Type			"edit"
 		Name			"IT"
 		Prompt			"Input Time Constant"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		307
+		$ObjectID		294
 		Type			"edit"
 		Name			"T"
 		Prompt			"Threshold"
 		Value			"-0.055"
 	      }
 	      Object {
-		$ObjectID		308
+		$ObjectID		295
 		Type			"checkbox"
 		Name			"inertia"
 		Prompt			"Use inertia link"
 		Value			"on"
 	      }
 	      Object {
-		$ObjectID		309
+		$ObjectID		296
 		Type			"edit"
 		Name			"switchOff"
 		Prompt			"Switch off point"
@@ -18109,11 +18033,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      3
 	      Object {
-		$ObjectID		310
+		$ObjectID		297
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  311
+		  $ObjectID		  298
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "%<MaskDescription>"
 		  Name			  "DescTextVar"
@@ -18121,33 +18045,33 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		312
+		$ObjectID		299
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Control"
 		  Dimension		  5
 		  Object {
-		    $ObjectID		    313
+		    $ObjectID		    300
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "NM"
 		  }
 		  Object {
-		    $ObjectID		    314
+		    $ObjectID		    301
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "FB"
 		  }
 		  Object {
-		    $ObjectID		    315
+		    $ObjectID		    302
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "IT"
 		  }
 		  Object {
-		    $ObjectID		    316
+		    $ObjectID		    303
 		    $ClassName		    "Simulink.dialog.parameter.Edit"
 		    Name		    "T"
 		  }
 		  Object {
-		    $ObjectID		    317
+		    $ObjectID		    304
 		    $ClassName		    "Simulink.dialog.parameter.CheckBox"
 		    HorizontalStretch	    "off"
 		    Name		    "inertia"
@@ -18157,11 +18081,11 @@ Library {
 		Name			"ParameterGroupVar"
 	      }
 	      Object {
-		$ObjectID		318
+		$ObjectID		305
 		Prompt			"Relay "
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  319
+		  $ObjectID		  306
 		  $ClassName		  "Simulink.dialog.parameter.Edit"
 		  Name			  "switchOff"
 		}
@@ -18902,34 +18826,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    320
+	    $ObjectID		    307
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		321
+		$ObjectID		308
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		322
+		$ObjectID		309
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		323
+		$ObjectID		310
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		324
+		$ObjectID		311
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -19239,48 +19163,48 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    325
+	    $ObjectID		    312
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      6
 	      Object {
-		$ObjectID		326
+		$ObjectID		313
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		327
+		$ObjectID		314
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		328
+		$ObjectID		315
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"1e-9"
 	      }
 	      Object {
-		$ObjectID		329
+		$ObjectID		316
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
 		Value			"1e7"
 	      }
 	      Object {
-		$ObjectID		330
+		$ObjectID		317
 		Type			"edit"
 		Name			"ARFm"
 		Prompt			"Feedback Arresting Resistance"
 		Value			"1e8"
 	      }
 	      Object {
-		$ObjectID		331
+		$ObjectID		318
 		Type			"edit"
 		Name			"ERFm"
 		Prompt			"Feedback Excitatory Resistance"
@@ -19557,7 +19481,7 @@ Library {
 	  Ports			  [1, 1]
 	  Position		  [305, -266, 365, -244]
 	  ZOrder		  2
-	  LibraryVersion	  "3.95"
+	  LibraryVersion	  "3.98"
 	  SourceBlock		  "$bdroot/Neuron Elements/Synapse"
 	  SourceType		  ""
 	  RTWMemSecFuncInitTerm	  "Inherit from model"
@@ -19582,41 +19506,41 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    332
+	    $ObjectID		    319
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		333
+		$ObjectID		320
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		334
+		$ObjectID		321
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		335
+		$ObjectID		322
 		Type			"checkbox"
 		Name			"UseKsi"
 		Prompt			"Use Presynaptic Inhubition"
 		Value			"on"
 	      }
 	      Object {
-		$ObjectID		336
+		$ObjectID		323
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"2"
 	      }
 	      Object {
-		$ObjectID		337
+		$ObjectID		324
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -20462,34 +20386,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    338
+	    $ObjectID		    325
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		339
+		$ObjectID		326
 		Type			"edit"
 		Name			"ACm"
 		Prompt			"Arresting Membrane Capacity"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		340
+		$ObjectID		327
 		Type			"edit"
 		Name			"ARm"
 		Prompt			"Arresting Membrane Resistance"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		341
+		$ObjectID		328
 		Type			"edit"
 		Name			"ECm"
 		Prompt			"Excitatory Membrane Capacity"
 		Value			"0.01"
 	      }
 	      Object {
-		$ObjectID		342
+		$ObjectID		329
 		Type			"edit"
 		Name			"ERm"
 		Prompt			"Excitatory Membrane Resistance"
@@ -20796,7 +20720,7 @@ Library {
 	  Ports			  [1, 1]
 	  Position		  [-65, -136, -5, -114]
 	  ZOrder		  1251
-	  LibraryVersion	  "3.95"
+	  LibraryVersion	  "3.98"
 	  SourceBlock		  "$bdroot/Neuron Elements/Synapse v0.1"
 	  SourceType		  ""
 	  RTWMemSecFuncInitTerm	  "Inherit from model"
@@ -20820,34 +20744,34 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    343
+	    $ObjectID		    330
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		344
+		$ObjectID		331
 		Type			"edit"
 		Name			"SecretionTC"
 		Prompt			"Mediator Secretion"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		345
+		$ObjectID		332
 		Type			"edit"
 		Name			"DecompositionTC"
 		Prompt			"Mediator Decomposition"
 		Value			"0.1"
 	      }
 	      Object {
-		$ObjectID		346
+		$ObjectID		333
 		Type			"edit"
 		Name			"ksi"
 		Prompt			"ksi"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		347
+		$ObjectID		334
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"gamma"
@@ -29478,20 +29402,20 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    348
+	    $ObjectID		    335
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      2
 	      Object {
-		$ObjectID		349
+		$ObjectID		336
 		Type			"edit"
 		Name			"ExpCoeff"
 		Prompt			"Input Exp Coeff"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		350
+		$ObjectID		337
 		Type			"edit"
 		Name			"IncCoeff"
 		Prompt			"Input Inc Coeff"
@@ -29503,11 +29427,11 @@ Library {
 	      Type		      "Simulink.dialog.Group"
 	      Dimension		      2
 	      Object {
-		$ObjectID		351
+		$ObjectID		338
 		Prompt			"%<MaskType>"
 		Object {
 		  $PropName		  "DialogControls"
-		  $ObjectID		  352
+		  $ObjectID		  339
 		  $ClassName		  "Simulink.dialog.Text"
 		  Prompt		  "Afferent Parameters"
 		  Name			  "AffParams"
@@ -29515,17 +29439,17 @@ Library {
 		Name			"DescGroupVar"
 	      }
 	      Object {
-		$ObjectID		353
+		$ObjectID		340
 		Prompt			"Simulink:studio:ToolBarParametersMenu"
 		Array {
 		  Type			  "Simulink.dialog.parameter.Edit"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    354
+		    $ObjectID		    341
 		    Name		    "ExpCoeff"
 		  }
 		  Object {
-		    $ObjectID		    355
+		    $ObjectID		    342
 		    Name		    "IncCoeff"
 		  }
 		  PropName		  "DialogControls"
@@ -32726,34 +32650,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		356
+		$ObjectID		343
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    357
+		    $ObjectID		    344
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    358
+		    $ObjectID		    345
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    359
+		    $ObjectID		    346
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    360
+		    $ObjectID		    347
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -33010,34 +32934,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		361
+		$ObjectID		348
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    362
+		    $ObjectID		    349
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    363
+		    $ObjectID		    350
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    364
+		    $ObjectID		    351
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    365
+		    $ObjectID		    352
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -33621,34 +33545,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		366
+		$ObjectID		353
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    367
+		    $ObjectID		    354
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    368
+		    $ObjectID		    355
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    369
+		    $ObjectID		    356
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    370
+		    $ObjectID		    357
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -33916,34 +33840,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		371
+		$ObjectID		358
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    372
+		    $ObjectID		    359
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    373
+		    $ObjectID		    360
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    374
+		    $ObjectID		    361
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    375
+		    $ObjectID		    362
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -34551,34 +34475,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		376
+		$ObjectID		363
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    377
+		    $ObjectID		    364
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    378
+		    $ObjectID		    365
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    379
+		    $ObjectID		    366
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    380
+		    $ObjectID		    367
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -34846,34 +34770,34 @@ Library {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		381
+		$ObjectID		368
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    382
+		    $ObjectID		    369
 		    Type		    "edit"
 		    Name		    "SecretionTC"
 		    Prompt		    "Mediator Secretion"
 		    Value		    "0.001"
 		  }
 		  Object {
-		    $ObjectID		    383
+		    $ObjectID		    370
 		    Type		    "edit"
 		    Name		    "DecompositionTC"
 		    Prompt		    "Mediator Decomposition"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    384
+		    $ObjectID		    371
 		    Type		    "edit"
 		    Name		    "ksi"
 		    Prompt		    "ksi"
 		    Value		    "2"
 		  }
 		  Object {
-		    $ObjectID		    385
+		    $ObjectID		    372
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "gamma"
@@ -47639,7 +47563,7 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    386
+	    $ObjectID		    373
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	  }
@@ -47813,49 +47737,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		387
+		$ObjectID		374
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    388
+		    $ObjectID		    375
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    389
+		    $ObjectID		    376
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    390
+		    $ObjectID		    377
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    391
+		    $ObjectID		    378
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    392
+		    $ObjectID		    379
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    393
+		    $ObjectID		    380
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -47867,11 +47791,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    394
+		    $ObjectID		    381
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    395
+		    $ObjectID		    382
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -47879,33 +47803,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    396
+		    $ObjectID		    383
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    397
+		    $ObjectID		    384
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    398
+		    $ObjectID		    385
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    399
+		    $ObjectID		    386
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    400
+		    $ObjectID		    387
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    401
+		    $ObjectID		    388
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    402
+		    $ObjectID		    389
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -48037,49 +47961,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		403
+		$ObjectID		390
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    404
+		    $ObjectID		    391
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    405
+		    $ObjectID		    392
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    406
+		    $ObjectID		    393
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    407
+		    $ObjectID		    394
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    408
+		    $ObjectID		    395
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    409
+		    $ObjectID		    396
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -48091,11 +48015,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    410
+		    $ObjectID		    397
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    411
+		    $ObjectID		    398
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -48103,33 +48027,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    412
+		    $ObjectID		    399
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    413
+		    $ObjectID		    400
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    414
+		    $ObjectID		    401
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    415
+		    $ObjectID		    402
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    416
+		    $ObjectID		    403
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    417
+		    $ObjectID		    404
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    418
+		    $ObjectID		    405
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -48369,49 +48293,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		419
+		$ObjectID		406
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    420
+		    $ObjectID		    407
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    421
+		    $ObjectID		    408
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    422
+		    $ObjectID		    409
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    423
+		    $ObjectID		    410
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    424
+		    $ObjectID		    411
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    425
+		    $ObjectID		    412
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -48423,11 +48347,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    426
+		    $ObjectID		    413
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    427
+		    $ObjectID		    414
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -48435,33 +48359,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    428
+		    $ObjectID		    415
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    429
+		    $ObjectID		    416
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    430
+		    $ObjectID		    417
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    431
+		    $ObjectID		    418
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    432
+		    $ObjectID		    419
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    433
+		    $ObjectID		    420
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    434
+		    $ObjectID		    421
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -48697,49 +48621,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		435
+		$ObjectID		422
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    436
+		    $ObjectID		    423
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    437
+		    $ObjectID		    424
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    438
+		    $ObjectID		    425
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    439
+		    $ObjectID		    426
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    440
+		    $ObjectID		    427
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    441
+		    $ObjectID		    428
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -48751,11 +48675,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    442
+		    $ObjectID		    429
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    443
+		    $ObjectID		    430
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -48763,33 +48687,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    444
+		    $ObjectID		    431
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    445
+		    $ObjectID		    432
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    446
+		    $ObjectID		    433
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    447
+		    $ObjectID		    434
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    448
+		    $ObjectID		    435
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    449
+		    $ObjectID		    436
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    450
+		    $ObjectID		    437
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -49025,49 +48949,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		451
+		$ObjectID		438
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    452
+		    $ObjectID		    439
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    453
+		    $ObjectID		    440
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    454
+		    $ObjectID		    441
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    455
+		    $ObjectID		    442
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    456
+		    $ObjectID		    443
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    457
+		    $ObjectID		    444
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -49079,11 +49003,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    458
+		    $ObjectID		    445
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    459
+		    $ObjectID		    446
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -49091,33 +49015,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    460
+		    $ObjectID		    447
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    461
+		    $ObjectID		    448
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    462
+		    $ObjectID		    449
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    463
+		    $ObjectID		    450
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    464
+		    $ObjectID		    451
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    465
+		    $ObjectID		    452
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    466
+		    $ObjectID		    453
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -49477,7 +49401,7 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    467
+	    $ObjectID		    454
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	  }
@@ -49651,49 +49575,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		468
+		$ObjectID		455
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    469
+		    $ObjectID		    456
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    470
+		    $ObjectID		    457
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    471
+		    $ObjectID		    458
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    472
+		    $ObjectID		    459
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    473
+		    $ObjectID		    460
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    474
+		    $ObjectID		    461
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -49705,11 +49629,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    475
+		    $ObjectID		    462
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    476
+		    $ObjectID		    463
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -49717,33 +49641,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    477
+		    $ObjectID		    464
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    478
+		    $ObjectID		    465
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    479
+		    $ObjectID		    466
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    480
+		    $ObjectID		    467
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    481
+		    $ObjectID		    468
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    482
+		    $ObjectID		    469
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    483
+		    $ObjectID		    470
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -49880,49 +49804,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		484
+		$ObjectID		471
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    485
+		    $ObjectID		    472
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    486
+		    $ObjectID		    473
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    487
+		    $ObjectID		    474
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    488
+		    $ObjectID		    475
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    489
+		    $ObjectID		    476
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    490
+		    $ObjectID		    477
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -49934,11 +49858,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    491
+		    $ObjectID		    478
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    492
+		    $ObjectID		    479
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -49946,33 +49870,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    493
+		    $ObjectID		    480
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    494
+		    $ObjectID		    481
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    495
+		    $ObjectID		    482
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    496
+		    $ObjectID		    483
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    497
+		    $ObjectID		    484
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    498
+		    $ObjectID		    485
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    499
+		    $ObjectID		    486
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -50212,49 +50136,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		500
+		$ObjectID		487
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    501
+		    $ObjectID		    488
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    502
+		    $ObjectID		    489
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    503
+		    $ObjectID		    490
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    504
+		    $ObjectID		    491
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    505
+		    $ObjectID		    492
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    506
+		    $ObjectID		    493
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -50266,11 +50190,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    507
+		    $ObjectID		    494
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    508
+		    $ObjectID		    495
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -50278,33 +50202,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    509
+		    $ObjectID		    496
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    510
+		    $ObjectID		    497
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    511
+		    $ObjectID		    498
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    512
+		    $ObjectID		    499
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    513
+		    $ObjectID		    500
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    514
+		    $ObjectID		    501
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    515
+		    $ObjectID		    502
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -50540,49 +50464,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		516
+		$ObjectID		503
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    517
+		    $ObjectID		    504
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    518
+		    $ObjectID		    505
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    519
+		    $ObjectID		    506
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    520
+		    $ObjectID		    507
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    521
+		    $ObjectID		    508
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    522
+		    $ObjectID		    509
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -50594,11 +50518,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    523
+		    $ObjectID		    510
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    524
+		    $ObjectID		    511
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -50606,33 +50530,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    525
+		    $ObjectID		    512
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    526
+		    $ObjectID		    513
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    527
+		    $ObjectID		    514
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    528
+		    $ObjectID		    515
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    529
+		    $ObjectID		    516
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    530
+		    $ObjectID		    517
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    531
+		    $ObjectID		    518
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -50868,49 +50792,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		532
+		$ObjectID		519
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    533
+		    $ObjectID		    520
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    534
+		    $ObjectID		    521
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    535
+		    $ObjectID		    522
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    536
+		    $ObjectID		    523
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    537
+		    $ObjectID		    524
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    538
+		    $ObjectID		    525
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -50922,11 +50846,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    539
+		    $ObjectID		    526
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    540
+		    $ObjectID		    527
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -50934,33 +50858,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    541
+		    $ObjectID		    528
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    542
+		    $ObjectID		    529
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    543
+		    $ObjectID		    530
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    544
+		    $ObjectID		    531
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    545
+		    $ObjectID		    532
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    546
+		    $ObjectID		    533
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    547
+		    $ObjectID		    534
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -51343,7 +51267,7 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    548
+	    $ObjectID		    535
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	  }
@@ -51517,49 +51441,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		549
+		$ObjectID		536
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    550
+		    $ObjectID		    537
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    551
+		    $ObjectID		    538
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    552
+		    $ObjectID		    539
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    553
+		    $ObjectID		    540
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    554
+		    $ObjectID		    541
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    555
+		    $ObjectID		    542
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -51571,11 +51495,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    556
+		    $ObjectID		    543
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    557
+		    $ObjectID		    544
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -51583,33 +51507,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    558
+		    $ObjectID		    545
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    559
+		    $ObjectID		    546
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    560
+		    $ObjectID		    547
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    561
+		    $ObjectID		    548
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    562
+		    $ObjectID		    549
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    563
+		    $ObjectID		    550
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    564
+		    $ObjectID		    551
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -51741,49 +51665,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		565
+		$ObjectID		552
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    566
+		    $ObjectID		    553
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    567
+		    $ObjectID		    554
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    568
+		    $ObjectID		    555
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    569
+		    $ObjectID		    556
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    570
+		    $ObjectID		    557
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    571
+		    $ObjectID		    558
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -51795,11 +51719,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    572
+		    $ObjectID		    559
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    573
+		    $ObjectID		    560
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -51807,33 +51731,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    574
+		    $ObjectID		    561
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    575
+		    $ObjectID		    562
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    576
+		    $ObjectID		    563
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    577
+		    $ObjectID		    564
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    578
+		    $ObjectID		    565
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    579
+		    $ObjectID		    566
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    580
+		    $ObjectID		    567
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -52069,49 +51993,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		581
+		$ObjectID		568
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    582
+		    $ObjectID		    569
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    583
+		    $ObjectID		    570
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    584
+		    $ObjectID		    571
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    585
+		    $ObjectID		    572
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    586
+		    $ObjectID		    573
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    587
+		    $ObjectID		    574
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -52123,11 +52047,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    588
+		    $ObjectID		    575
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    589
+		    $ObjectID		    576
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -52135,33 +52059,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    590
+		    $ObjectID		    577
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    591
+		    $ObjectID		    578
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    592
+		    $ObjectID		    579
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    593
+		    $ObjectID		    580
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    594
+		    $ObjectID		    581
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    595
+		    $ObjectID		    582
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    596
+		    $ObjectID		    583
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -52397,49 +52321,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		597
+		$ObjectID		584
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    598
+		    $ObjectID		    585
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    599
+		    $ObjectID		    586
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    600
+		    $ObjectID		    587
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    601
+		    $ObjectID		    588
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    602
+		    $ObjectID		    589
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    603
+		    $ObjectID		    590
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -52451,11 +52375,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    604
+		    $ObjectID		    591
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    605
+		    $ObjectID		    592
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -52463,33 +52387,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    606
+		    $ObjectID		    593
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    607
+		    $ObjectID		    594
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    608
+		    $ObjectID		    595
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    609
+		    $ObjectID		    596
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    610
+		    $ObjectID		    597
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    611
+		    $ObjectID		    598
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    612
+		    $ObjectID		    599
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -52725,49 +52649,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		613
+		$ObjectID		600
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    614
+		    $ObjectID		    601
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    615
+		    $ObjectID		    602
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    616
+		    $ObjectID		    603
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    617
+		    $ObjectID		    604
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    618
+		    $ObjectID		    605
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    619
+		    $ObjectID		    606
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -52779,11 +52703,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    620
+		    $ObjectID		    607
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    621
+		    $ObjectID		    608
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -52791,33 +52715,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    622
+		    $ObjectID		    609
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    623
+		    $ObjectID		    610
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    624
+		    $ObjectID		    611
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    625
+		    $ObjectID		    612
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    626
+		    $ObjectID		    613
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    627
+		    $ObjectID		    614
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    628
+		    $ObjectID		    615
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -53053,49 +52977,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		629
+		$ObjectID		616
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    630
+		    $ObjectID		    617
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    631
+		    $ObjectID		    618
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    632
+		    $ObjectID		    619
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    633
+		    $ObjectID		    620
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    634
+		    $ObjectID		    621
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    635
+		    $ObjectID		    622
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -53107,11 +53031,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    636
+		    $ObjectID		    623
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    637
+		    $ObjectID		    624
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -53119,33 +53043,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    638
+		    $ObjectID		    625
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    639
+		    $ObjectID		    626
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    640
+		    $ObjectID		    627
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    641
+		    $ObjectID		    628
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    642
+		    $ObjectID		    629
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    643
+		    $ObjectID		    630
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    644
+		    $ObjectID		    631
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -53546,7 +53470,7 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    645
+	    $ObjectID		    632
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	  }
@@ -53720,49 +53644,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		646
+		$ObjectID		633
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    647
+		    $ObjectID		    634
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    648
+		    $ObjectID		    635
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    649
+		    $ObjectID		    636
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    650
+		    $ObjectID		    637
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    651
+		    $ObjectID		    638
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    652
+		    $ObjectID		    639
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -53774,11 +53698,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    653
+		    $ObjectID		    640
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    654
+		    $ObjectID		    641
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -53786,33 +53710,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    655
+		    $ObjectID		    642
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    656
+		    $ObjectID		    643
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    657
+		    $ObjectID		    644
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    658
+		    $ObjectID		    645
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    659
+		    $ObjectID		    646
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    660
+		    $ObjectID		    647
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    661
+		    $ObjectID		    648
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -53944,49 +53868,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		662
+		$ObjectID		649
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    663
+		    $ObjectID		    650
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    664
+		    $ObjectID		    651
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    665
+		    $ObjectID		    652
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    666
+		    $ObjectID		    653
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    667
+		    $ObjectID		    654
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    668
+		    $ObjectID		    655
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -53998,11 +53922,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    669
+		    $ObjectID		    656
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    670
+		    $ObjectID		    657
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -54010,33 +53934,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    671
+		    $ObjectID		    658
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    672
+		    $ObjectID		    659
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    673
+		    $ObjectID		    660
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    674
+		    $ObjectID		    661
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    675
+		    $ObjectID		    662
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    676
+		    $ObjectID		    663
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    677
+		    $ObjectID		    664
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -54272,49 +54196,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		678
+		$ObjectID		665
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    679
+		    $ObjectID		    666
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    680
+		    $ObjectID		    667
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    681
+		    $ObjectID		    668
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    682
+		    $ObjectID		    669
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    683
+		    $ObjectID		    670
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    684
+		    $ObjectID		    671
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -54326,11 +54250,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    685
+		    $ObjectID		    672
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    686
+		    $ObjectID		    673
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -54338,33 +54262,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    687
+		    $ObjectID		    674
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    688
+		    $ObjectID		    675
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    689
+		    $ObjectID		    676
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    690
+		    $ObjectID		    677
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    691
+		    $ObjectID		    678
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    692
+		    $ObjectID		    679
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    693
+		    $ObjectID		    680
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -54600,49 +54524,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		694
+		$ObjectID		681
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    695
+		    $ObjectID		    682
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    696
+		    $ObjectID		    683
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    697
+		    $ObjectID		    684
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    698
+		    $ObjectID		    685
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    699
+		    $ObjectID		    686
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    700
+		    $ObjectID		    687
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -54654,11 +54578,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    701
+		    $ObjectID		    688
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    702
+		    $ObjectID		    689
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -54666,33 +54590,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    703
+		    $ObjectID		    690
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    704
+		    $ObjectID		    691
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    705
+		    $ObjectID		    692
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    706
+		    $ObjectID		    693
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    707
+		    $ObjectID		    694
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    708
+		    $ObjectID		    695
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    709
+		    $ObjectID		    696
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -54928,49 +54852,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		710
+		$ObjectID		697
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    711
+		    $ObjectID		    698
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    712
+		    $ObjectID		    699
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    713
+		    $ObjectID		    700
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    714
+		    $ObjectID		    701
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    715
+		    $ObjectID		    702
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    716
+		    $ObjectID		    703
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -54982,11 +54906,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    717
+		    $ObjectID		    704
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    718
+		    $ObjectID		    705
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -54994,33 +54918,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    719
+		    $ObjectID		    706
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    720
+		    $ObjectID		    707
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    721
+		    $ObjectID		    708
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    722
+		    $ObjectID		    709
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    723
+		    $ObjectID		    710
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    724
+		    $ObjectID		    711
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    725
+		    $ObjectID		    712
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -55256,49 +55180,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		726
+		$ObjectID		713
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    727
+		    $ObjectID		    714
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    728
+		    $ObjectID		    715
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    729
+		    $ObjectID		    716
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    730
+		    $ObjectID		    717
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    731
+		    $ObjectID		    718
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    732
+		    $ObjectID		    719
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -55310,11 +55234,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    733
+		    $ObjectID		    720
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    734
+		    $ObjectID		    721
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -55322,33 +55246,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    735
+		    $ObjectID		    722
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    736
+		    $ObjectID		    723
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    737
+		    $ObjectID		    724
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    738
+		    $ObjectID		    725
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    739
+		    $ObjectID		    726
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    740
+		    $ObjectID		    727
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    741
+		    $ObjectID		    728
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -55584,49 +55508,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		742
+		$ObjectID		729
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    743
+		    $ObjectID		    730
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    744
+		    $ObjectID		    731
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    745
+		    $ObjectID		    732
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    746
+		    $ObjectID		    733
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    747
+		    $ObjectID		    734
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    748
+		    $ObjectID		    735
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -55638,11 +55562,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    749
+		    $ObjectID		    736
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    750
+		    $ObjectID		    737
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -55650,33 +55574,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    751
+		    $ObjectID		    738
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    752
+		    $ObjectID		    739
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    753
+		    $ObjectID		    740
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    754
+		    $ObjectID		    741
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    755
+		    $ObjectID		    742
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    756
+		    $ObjectID		    743
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    757
+		    $ObjectID		    744
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -56104,7 +56028,7 @@ Library {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    758
+	    $ObjectID		    745
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	  }
@@ -56278,49 +56202,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		759
+		$ObjectID		746
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    760
+		    $ObjectID		    747
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    761
+		    $ObjectID		    748
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    762
+		    $ObjectID		    749
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    763
+		    $ObjectID		    750
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    764
+		    $ObjectID		    751
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    765
+		    $ObjectID		    752
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -56332,11 +56256,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    766
+		    $ObjectID		    753
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    767
+		    $ObjectID		    754
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -56344,33 +56268,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    768
+		    $ObjectID		    755
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    769
+		    $ObjectID		    756
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    770
+		    $ObjectID		    757
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    771
+		    $ObjectID		    758
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    772
+		    $ObjectID		    759
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    773
+		    $ObjectID		    760
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    774
+		    $ObjectID		    761
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -56502,49 +56426,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		775
+		$ObjectID		762
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    776
+		    $ObjectID		    763
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    777
+		    $ObjectID		    764
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    778
+		    $ObjectID		    765
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    779
+		    $ObjectID		    766
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    780
+		    $ObjectID		    767
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    781
+		    $ObjectID		    768
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -56556,11 +56480,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    782
+		    $ObjectID		    769
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    783
+		    $ObjectID		    770
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -56568,33 +56492,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    784
+		    $ObjectID		    771
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    785
+		    $ObjectID		    772
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    786
+		    $ObjectID		    773
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    787
+		    $ObjectID		    774
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    788
+		    $ObjectID		    775
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    789
+		    $ObjectID		    776
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    790
+		    $ObjectID		    777
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -56830,49 +56754,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		791
+		$ObjectID		778
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    792
+		    $ObjectID		    779
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    793
+		    $ObjectID		    780
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    794
+		    $ObjectID		    781
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    795
+		    $ObjectID		    782
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    796
+		    $ObjectID		    783
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    797
+		    $ObjectID		    784
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -56884,11 +56808,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    798
+		    $ObjectID		    785
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    799
+		    $ObjectID		    786
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -56896,33 +56820,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    800
+		    $ObjectID		    787
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    801
+		    $ObjectID		    788
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    802
+		    $ObjectID		    789
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    803
+		    $ObjectID		    790
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    804
+		    $ObjectID		    791
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    805
+		    $ObjectID		    792
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    806
+		    $ObjectID		    793
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -57158,49 +57082,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		807
+		$ObjectID		794
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    808
+		    $ObjectID		    795
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    809
+		    $ObjectID		    796
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    810
+		    $ObjectID		    797
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    811
+		    $ObjectID		    798
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    812
+		    $ObjectID		    799
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    813
+		    $ObjectID		    800
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -57212,11 +57136,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    814
+		    $ObjectID		    801
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    815
+		    $ObjectID		    802
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -57224,33 +57148,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    816
+		    $ObjectID		    803
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    817
+		    $ObjectID		    804
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    818
+		    $ObjectID		    805
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    819
+		    $ObjectID		    806
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    820
+		    $ObjectID		    807
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    821
+		    $ObjectID		    808
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    822
+		    $ObjectID		    809
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -57486,49 +57410,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		823
+		$ObjectID		810
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    824
+		    $ObjectID		    811
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    825
+		    $ObjectID		    812
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    826
+		    $ObjectID		    813
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    827
+		    $ObjectID		    814
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    828
+		    $ObjectID		    815
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    829
+		    $ObjectID		    816
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -57540,11 +57464,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    830
+		    $ObjectID		    817
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    831
+		    $ObjectID		    818
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -57552,33 +57476,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    832
+		    $ObjectID		    819
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    833
+		    $ObjectID		    820
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    834
+		    $ObjectID		    821
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    835
+		    $ObjectID		    822
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    836
+		    $ObjectID		    823
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    837
+		    $ObjectID		    824
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    838
+		    $ObjectID		    825
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -57814,49 +57738,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		839
+		$ObjectID		826
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    840
+		    $ObjectID		    827
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    841
+		    $ObjectID		    828
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    842
+		    $ObjectID		    829
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    843
+		    $ObjectID		    830
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    844
+		    $ObjectID		    831
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    845
+		    $ObjectID		    832
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -57868,11 +57792,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    846
+		    $ObjectID		    833
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    847
+		    $ObjectID		    834
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -57880,33 +57804,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    848
+		    $ObjectID		    835
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    849
+		    $ObjectID		    836
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    850
+		    $ObjectID		    837
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    851
+		    $ObjectID		    838
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    852
+		    $ObjectID		    839
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    853
+		    $ObjectID		    840
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    854
+		    $ObjectID		    841
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -58142,49 +58066,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		855
+		$ObjectID		842
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    856
+		    $ObjectID		    843
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    857
+		    $ObjectID		    844
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    858
+		    $ObjectID		    845
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    859
+		    $ObjectID		    846
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    860
+		    $ObjectID		    847
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    861
+		    $ObjectID		    848
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -58196,11 +58120,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    862
+		    $ObjectID		    849
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    863
+		    $ObjectID		    850
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -58208,33 +58132,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    864
+		    $ObjectID		    851
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    865
+		    $ObjectID		    852
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    866
+		    $ObjectID		    853
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    867
+		    $ObjectID		    854
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    868
+		    $ObjectID		    855
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    869
+		    $ObjectID		    856
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    870
+		    $ObjectID		    857
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -58470,49 +58394,49 @@ Library {
 	      ContentPreviewEnabled   on
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		871
+		$ObjectID		858
 		$ClassName		"Simulink.Mask"
 		RunInitForIconRedraw	"off"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  6
 		  Object {
-		    $ObjectID		    872
+		    $ObjectID		    859
 		    Type		    "edit"
 		    Name		    "tau_m"
 		    Prompt		    "Membrane time constatnt"
 		    Value		    "0.01"
 		  }
 		  Object {
-		    $ObjectID		    873
+		    $ObjectID		    860
 		    Type		    "edit"
 		    Name		    "Cm"
 		    Prompt		    "Membrane capacity"
 		    Value		    "250e-12"
 		  }
 		  Object {
-		    $ObjectID		    874
+		    $ObjectID		    861
 		    Type		    "edit"
 		    Name		    "I_const"
 		    Prompt		    "Constant input current"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    875
+		    $ObjectID		    862
 		    Type		    "edit"
 		    Name		    "E_L"
 		    Prompt		    "Resting membrane potential"
 		    Value		    "-0.070"
 		  }
 		  Object {
-		    $ObjectID		    876
+		    $ObjectID		    863
 		    Type		    "edit"
 		    Name		    "V_reset"
 		    Prompt		    "Reset membrane potential"
 		    Value		    "-0.10"
 		  }
 		  Object {
-		    $ObjectID		    877
+		    $ObjectID		    864
 		    Type		    "edit"
 		    Name		    "V_th"
 		    Prompt		    "Threshold potential"
@@ -58524,11 +58448,11 @@ Library {
 		  Type			  "Simulink.dialog.Group"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    878
+		    $ObjectID		    865
 		    Prompt		    "%<MaskType>"
 		    Object {
 		    $PropName		    "DialogControls"
-		    $ObjectID		    879
+		    $ObjectID		    866
 		    $ClassName		    "Simulink.dialog.Text"
 		    Prompt		    "%<MaskDescription>"
 		    Name		    "DescTextVar"
@@ -58536,33 +58460,33 @@ Library {
 		    Name		    "DescGroupVar"
 		  }
 		  Object {
-		    $ObjectID		    880
+		    $ObjectID		    867
 		    Prompt		    "Simulink:studio:ToolBarParametersMenu"
 		    Array {
 		    Type		    "Simulink.dialog.parameter.Edit"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    881
+		    $ObjectID		    868
 		    Name		    "tau_m"
 		    }
 		    Object {
-		    $ObjectID		    882
+		    $ObjectID		    869
 		    Name		    "Cm"
 		    }
 		    Object {
-		    $ObjectID		    883
+		    $ObjectID		    870
 		    Name		    "I_const"
 		    }
 		    Object {
-		    $ObjectID		    884
+		    $ObjectID		    871
 		    Name		    "E_L"
 		    }
 		    Object {
-		    $ObjectID		    885
+		    $ObjectID		    872
 		    Name		    "V_reset"
 		    }
 		    Object {
-		    $ObjectID		    886
+		    $ObjectID		    873
 		    Name		    "V_th"
 		    }
 		    PropName		    "DialogControls"
@@ -65550,69 +65474,69 @@ Library {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    887
+	    $ObjectID		    874
 	    $ClassName		    "Simulink.Mask"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      9
 	      Object {
-		$ObjectID		888
+		$ObjectID		875
 		Type			"edit"
 		Name			"A"
 		Prompt			"Amplitude"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		889
+		$ObjectID		876
 		Type			"edit"
 		Name			"P1"
 		Prompt			"Out1: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		890
+		$ObjectID		877
 		Type			"edit"
 		Name			"P2"
 		Prompt			"Out2: Period (number of samples)"
 		Value			"200"
 	      }
 	      Object {
-		$ObjectID		891
+		$ObjectID		878
 		Type			"edit"
 		Name			"PW"
 		Prompt			"Pulse Width (number of samples)"
 		Value			"1"
 	      }
 	      Object {
-		$ObjectID		892
+		$ObjectID		879
 		Type			"edit"
 		Name			"ST"
 		Prompt			"Sample Time"
 		Value			"0.001"
 	      }
 	      Object {
-		$ObjectID		893
+		$ObjectID		880
 		Type			"edit"
 		Name			"OOn1"
 		Prompt			"Out1 On (seconds)"
 		Value			"0.5"
 	      }
 	      Object {
-		$ObjectID		894
+		$ObjectID		881
 		Type			"edit"
 		Name			"OOff1"
 		Prompt			"Out1 Off (seconds)"
 		Value			"0.6"
 	      }
 	      Object {
-		$ObjectID		895
+		$ObjectID		882
 		Type			"edit"
 		Name			"OOn2"
 		Prompt			"Out2 On (seconds)"
 		Value			"1.1"
 	      }
 	      Object {
-		$ObjectID		896
+		$ObjectID		883
 		Type			"edit"
 		Name			"OOff2"
 		Prompt			"Out2 Off (seconds)"
