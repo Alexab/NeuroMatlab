@@ -3,13 +3,13 @@ Library {
   Version		  10.2
   SavedCharacterEncoding  "windows-1251"
   ModelUUID		  "0758ad01-5541-449b-9836-01f811f9a473"
-  LogicAnalyzerPlugin	  "on"
-  WebScopes_FoundationPlugin "on"
   SLCCPlugin		  "on"
   slcheck_filter_plugin	  "on"
-  AnimationPlugin	  "on"
-  DiagnosticSuppressor	  "on"
   NotesPlugin		  "on"
+  WebScopes_FoundationPlugin "on"
+  AnimationPlugin	  "on"
+  LogicAnalyzerPlugin	  "on"
+  DiagnosticSuppressor	  "on"
   LibraryType		  "BlockLibrary"
   EnableAccessToBaseWorkspace on
   ScopeRefreshTime	  0.035000
@@ -52,15 +52,92 @@ Library {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "84"
-	  Extents		  [1328.0, 547.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [-82.31566996305412, -307.56875850624874]
-	  SceneRectInView	  [-82.31566996305412, -307.56875850624874, 1660.0, 683.75]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1665.0, 692.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-146.10043918918927, -12.246668970946928]
+	  SceneRectInView	  [-146.10043918918927, -12.246668970946928, 1332.0, 553.6]
 	}
 	Object {
 	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "84"
+	  Extents		  [1665.0, 692.0]
+	  ZoomFactor		  [0.80240963855421688]
+	  Offset		  [-82.315669963054, -397.39345820594849]
+	  SceneRectInView	  [-82.315669963054, -397.39345820594849, 1660.0, 689.92192192192192]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "728"
+	  Extents		  [1665.0, 692.0]
+	  ZoomFactor		  [1.0764335256659392]
+	  Offset		  [-415.32349846459545, -85.945465465465475]
+	  SceneRectInView	  [-415.32349846459545, -85.945465465465475, 1237.4196531791908, 514.29093093093093]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "163"
+	  Extents		  [1665.0, 692.0]
+	  ZoomFactor		  [0.85856079404466512]
+	  Offset		  [-738.9982892715143, 580.8620849751486]
+	  SceneRectInView	  [-738.9982892715143, 580.8620849751486, 1551.4335260115604, 644.79999999999984]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "473"
+	  Extents		  [1665.0, 692.0]
+	  ZoomFactor		  [0.66572661591427029]
+	  Offset		  [-1004.8941695529077, -158.99184341858717]
+	  SceneRectInView	  [-1004.8941695529077, -158.99184341858717, 2000.8213103673324, 831.57258064516157]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "533"
+	  Extents		  [1665.0, 692.0]
+	  ZoomFactor		  [0.64915572232645413]
+	  Offset		  [-1121.9479768786125, -30.199999999999932]
+	  SceneRectInView	  [-1121.9479768786125, -30.199999999999932, 2051.895953757225, 852.79999999999984]
+	}
+	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "749"
+	  Extents		  [1665.0, 692.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-488.5, -230.3]
+	  SceneRectInView	  [-488.5, -230.3, 1332.0, 553.6]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "496"
+	  Extents		  [1665.0, 692.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-221.14687500000002, -129.3]
+	  SceneRectInView	  [-221.14687500000002, -129.3, 1332.0, 553.6]
+	}
+	Object {
+	  $ObjectID		  13
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -71,7 +148,7 @@ Library {
 	  SceneRectInView	  [416.99907309322032, 42.644067796610187, 1125.4237288135594, 463.55932203389835]
 	}
 	Object {
-	  $ObjectID		  7
+	  $ObjectID		  14
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -82,7 +159,7 @@ Library {
 	  SceneRectInView	  [705.43266684322032, 141.64406779661019, 1125.4237288135594, 463.55932203389835]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -93,18 +170,7 @@ Library {
 	  SceneRectInView	  [-474.0, -180.0, 1328.0, 547.0]
 	}
 	Object {
-	  $ObjectID		  9
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1328.0, 547.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-99.361898479392508, -5.149191493469516]
-	  SceneRectInView	  [-99.361898479392508, -5.149191493469516, 1328.0, 547.0]
-	}
-	Object {
-	  $ObjectID		  10
+	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -115,18 +181,7 @@ Library {
 	  SceneRectInView	  [-878.7, -399.4, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  11
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "749"
-	  Extents		  [1665.0, 1066.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-488.5, -379.9]
-	  SceneRectInView	  [-488.5, -379.9, 1332.0, 852.8]
-	}
-	Object {
-	  $ObjectID		  12
+	  $ObjectID		  17
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -137,7 +192,7 @@ Library {
 	  SceneRectInView	  [-252.03125000000011, -73.5, 1665.0000000000002, 806.00000000000011]
 	}
 	Object {
-	  $ObjectID		  13
+	  $ObjectID		  18
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -148,18 +203,7 @@ Library {
 	  SceneRectInView	  [-24.040610923423515, -11.091091091091073, 1665.0000000000002, 806.00000000000011]
 	}
 	Object {
-	  $ObjectID		  14
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "496"
-	  Extents		  [1665.0, 1066.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-221.14687500000002, -278.9]
-	  SceneRectInView	  [-221.14687500000002, -278.9, 1332.0, 852.8]
-	}
-	Object {
-	  $ObjectID		  15
+	  $ObjectID		  19
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -170,7 +214,7 @@ Library {
 	  SceneRectInView	  [-349.24453125, -192.39999999999998, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  16
+	  $ObjectID		  20
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -181,7 +225,7 @@ Library {
 	  SceneRectInView	  [-90.217187500000023, 7.1000000000000227, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  17
+	  $ObjectID		  21
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -192,7 +236,7 @@ Library {
 	  SceneRectInView	  [-90.217187500000023, -96.899999999999977, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  18
+	  $ObjectID		  22
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -203,7 +247,7 @@ Library {
 	  SceneRectInView	  [-617.05, -218.38333333333324, 666.0, 426.4]
 	}
 	Object {
-	  $ObjectID		  19
+	  $ObjectID		  23
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -214,7 +258,7 @@ Library {
 	  SceneRectInView	  [-811.0, -491.4, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  20
+	  $ObjectID		  24
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -225,40 +269,7 @@ Library {
 	  SceneRectInView	  [-961.0, -447.9, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  21
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "163"
-	  Extents		  [1665.0, 806.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-629.2815262657341, 73.967287287287377]
-	  SceneRectInView	  [-629.2815262657341, 73.967287287287377, 1332.0, 644.8]
-	}
-	Object {
-	  $ObjectID		  22
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "473"
-	  Extents		  [1665.0, 1066.0]
-	  ZoomFactor		  [1.0255268389662024]
-	  Offset		  [-653.90581585807547, -158.99184341858717]
-	  SceneRectInView	  [-653.90581585807547, -158.99184341858717, 1298.8446029776678, 831.57258064516157]
-	}
-	Object {
-	  $ObjectID		  23
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "533"
-	  Extents		  [1665.0, 1066.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-762.0, -30.199999999999932]
-	  SceneRectInView	  [-762.0, -30.199999999999932, 1332.0, 852.8]
-	}
-	Object {
-	  $ObjectID		  24
+	  $ObjectID		  25
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -269,7 +280,7 @@ Library {
 	  SceneRectInView	  [-90.217187500000023, 7.1000000000000227, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  25
+	  $ObjectID		  26
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -280,7 +291,7 @@ Library {
 	  SceneRectInView	  [-294.6234375, -253.39999999999998, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  26
+	  $ObjectID		  27
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -291,7 +302,7 @@ Library {
 	  SceneRectInView	  [-295.0234375, -253.39999999999998, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  27
+	  $ObjectID		  28
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -302,7 +313,7 @@ Library {
 	  SceneRectInView	  [-294.6234375, -253.39999999999998, 1332.0, 852.8]
 	}
 	Object {
-	  $ObjectID		  28
+	  $ObjectID		  29
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -313,7 +324,7 @@ Library {
 	  SceneRectInView	  [-1187.0, -478.0, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  29
+	  $ObjectID		  30
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -324,7 +335,7 @@ Library {
 	  SceneRectInView	  [-469.06666666666661, -334.01511511511507, 898.66666666666663, 435.03023023023019]
 	}
 	Object {
-	  $ObjectID		  30
+	  $ObjectID		  31
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -335,7 +346,7 @@ Library {
 	  SceneRectInView	  [-89.500000000000227, -128.5, 1665.0000000000005, 806.00000000000023]
 	}
 	Object {
-	  $ObjectID		  31
+	  $ObjectID		  32
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -346,7 +357,7 @@ Library {
 	  SceneRectInView	  [-530.6191895020022, -206.21971971971982, 2213.3333333333339, 1071.4394394394396]
 	}
 	Object {
-	  $ObjectID		  32
+	  $ObjectID		  33
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -357,7 +368,7 @@ Library {
 	  SceneRectInView	  [-266.64296875, -154.39999999999998, 1332.0, 644.8]
 	}
 	Object {
-	  $ObjectID		  33
+	  $ObjectID		  34
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -368,7 +379,7 @@ Library {
 	  SceneRectInView	  [-152.00000000000023, -231.5, 1665.0000000000005, 806.00000000000023]
 	}
 	Object {
-	  $ObjectID		  34
+	  $ObjectID		  35
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -379,7 +390,7 @@ Library {
 	  SceneRectInView	  [-7.4000000000000909, -51.244341952204536, 1665.0000000000002, 806.00000000000011]
 	}
 	Object {
-	  $ObjectID		  35
+	  $ObjectID		  36
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -388,17 +399,6 @@ Library {
 	  ZoomFactor		  [0.79999999999999971]
 	  Offset		  [-122.00000000000034, -143.5]
 	  SceneRectInView	  [-122.00000000000034, -143.5, 1665.0000000000005, 806.00000000000023]
-	}
-	Object {
-	  $ObjectID		  36
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "728"
-	  Extents		  [1665.0, 806.0]
-	  ZoomFactor		  [1.2537650602409638]
-	  Offset		  [-327.81367187500007, -85.945465465465475]
-	  SceneRectInView	  [-327.81367187500007, -85.945465465465475, 1062.4, 514.29093093093093]
 	}
 	Object {
 	  $ObjectID		  37
@@ -1177,19 +1177,6 @@ Library {
 	Dimension		2
 	Object {
 	  $ObjectID		  107
-	  Type			  "GLUE2:PropertyInspector"
-	  ID			  "Property Inspector"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  ""
-	  Floating		  [0]
-	  DockPosition		  "Right"
-	  Width			  [640]
-	  Height		  [480]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  108
 	  Type			  "Simulink:Editor:ReferencedFiles"
 	  ID			  "Referenced Files"
 	  Visible		  [0]
@@ -1197,18 +1184,31 @@ Library {
 	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
 	  Floating		  [0]
 	  DockPosition		  "Left"
-	  Width			  [640]
-	  Height		  [480]
+	  Width			  [512]
+	  Height		  [384]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  108
+	  Type			  "GLUE2:PropertyInspector"
+	  ID			  "Property Inspector"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  ""
+	  Floating		  [0]
+	  DockPosition		  "Right"
+	  Width			  [512]
+	  Height		  [384]
 	  Minimized		  "Unset"
 	}
 	PropName		"DockComponentsInfo"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB5AP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
-      "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAFVgAAAmAAAAABAAAAAgAAAAEAAAAC/"
+      "QBzAAAAAAD/////AAAApwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAhYA////AAAGrgAAAvoAAAABAAAAAgAAAAEAAAAC/"
       "AAAAAEAAAACAAAAAA=="
       Array {
 	Type			"Cell"
@@ -1226,11 +1226,11 @@ Library {
   Creator		  "Bakhshiev"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Александра"
+  LastModifiedBy	  "Bakhshiev"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Nov 01 22:54:34 2021"
-  RTWModifiedTimeStamp	  557707815
-  ModelVersionFormat	  "%<AutoIncrement:3.99>"
+  LastModifiedDate	  "Wed Nov 03 18:18:23 2021"
+  RTWModifiedTimeStamp	  557864284
+  ModelVersionFormat	  "%<AutoIncrement:3.100>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -2407,7 +2407,7 @@ Library {
     Name		    "NeuroModelerLibrary"
     Location		    [8, 8, 1390, 796]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -13529,14 +13529,12 @@ Library {
       Ports		      []
       Position		      [145, 28, 217, 93]
       ZOrder		      -3
-      ForegroundColor	      "blue"
-      BackgroundColor	      "cyan"
       RequestExecContextInheritance off
       System {
 	Name			"Neuron Elements"
 	Location		[8, 8, 1390, 796]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -15642,12 +15640,10 @@ Library {
 	  Ports			  [1, 1]
 	  Position		  [540, -151, 630, -109]
 	  ZOrder		  -1
-	  ForegroundColor	  "blue"
-	  BackgroundColor	  "cyan"
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "ContLTZone"
-	    Location		    [170, -1080, 1552, 7]
+	    Location		    [8, 8, 1390, 796]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -19481,7 +19477,7 @@ Library {
 	  Ports			  [1, 1]
 	  Position		  [305, -266, 365, -244]
 	  ZOrder		  2
-	  LibraryVersion	  "3.98"
+	  LibraryVersion	  "3.99"
 	  SourceBlock		  "$bdroot/Neuron Elements/Synapse"
 	  SourceType		  ""
 	  RTWMemSecFuncInitTerm	  "Inherit from model"
@@ -20720,7 +20716,7 @@ Library {
 	  Ports			  [1, 1]
 	  Position		  [-65, -136, -5, -114]
 	  ZOrder		  1251
-	  LibraryVersion	  "3.98"
+	  LibraryVersion	  "3.99"
 	  SourceBlock		  "$bdroot/Neuron Elements/Synapse v0.1"
 	  SourceType		  ""
 	  RTWMemSecFuncInitTerm	  "Inherit from model"
@@ -21253,12 +21249,10 @@ Library {
       Ports		      []
       Position		      [495, 192, 573, 262]
       ZOrder		      -4
-      ForegroundColor	      "blue"
-      BackgroundColor	      "cyan"
       RequestExecContextInheritance off
       System {
 	Name			"Pacemaker Cells"
-	Location		[170, -932, 1552, -53]
+	Location		[8, 8, 1390, 796]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -21274,7 +21268,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"86"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -23497,8 +23491,6 @@ Library {
 	  Ports			  [8, 3]
 	  Position		  [-95, 92, 60, 178]
 	  ZOrder		  -4
-	  ForegroundColor	  "blue"
-	  BackgroundColor	  "cyan"
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
 	  System {
@@ -29368,12 +29360,10 @@ Library {
       Ports		      []
       Position		      [20, 190, 104, 265]
       ZOrder		      -5
-      ForegroundColor	      "blue"
-      BackgroundColor	      "cyan"
       RequestExecContextInheritance off
       System {
 	Name			"Simple Cells"
-	Location		[170, -1080, 1552, 7]
+	Location		[8, 8, 1390, 796]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -29389,7 +29379,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"103"
+	ZoomFactor		"67"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -30140,13 +30130,11 @@ Library {
 	  Ports			  [4, 5]
 	  Position		  [-140, 250, -15, 320]
 	  ZOrder		  -3
-	  ForegroundColor	  "blue"
-	  BackgroundColor	  "cyan"
 	  NameLocation		  "top"
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Electric Simple2 Cell"
-	    Location		    [170, -1080, 1552, 7]
+	    Location		    [8, 8, 1390, 796]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -30249,7 +30237,7 @@ Library {
 	      Ports		      [2, 3]
 	      Position		      [690, 112, 775, 168]
 	      ZOrder		      -10
-	      LibraryVersion	      "3.95"
+	      LibraryVersion	      "3.99"
 	      SourceBlock	      "$bdroot/Neuron Elements/LTZone"
 	      SourceType	      "Ion pump"
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -30270,7 +30258,7 @@ Library {
 	      Ports		      [5, 2]
 	      Position		      [465, 62, 630, 188]
 	      ZOrder		      -11
-	      LibraryVersion	      "3.95"
+	      LibraryVersion	      "3.99"
 	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -30293,7 +30281,7 @@ Library {
 	      Ports		      [5, 2]
 	      Position		      [235, 62, 400, 188]
 	      ZOrder		      -12
-	      LibraryVersion	      "3.95"
+	      LibraryVersion	      "3.99"
 	      SourceBlock	      "$bdroot/Neuron Elements/Simple Membrane"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -30352,7 +30340,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [70, 29, 130, 51]
 	      ZOrder		      -16
-	      LibraryVersion	      "3.95"
+	      LibraryVersion	      "3.99"
 	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -30374,7 +30362,7 @@ Library {
 	      Ports		      [1, 1]
 	      Position		      [70, 214, 130, 236]
 	      ZOrder		      -17
-	      LibraryVersion	      "3.95"
+	      LibraryVersion	      "3.99"
 	      SourceBlock	      "$bdroot/Neuron Elements/Synapse"
 	      SourceType	      ""
 	      RTWMemSecFuncInitTerm   "Inherit from model"
@@ -35243,8 +35231,6 @@ Library {
 	  Ports			  [5, 3]
 	  Position		  [-625, -38, -515, 18]
 	  ZOrder		  2
-	  ForegroundColor	  "blue"
-	  BackgroundColor	  "cyan"
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Small \nNewNeuron v0.1"
@@ -35949,8 +35935,6 @@ Library {
 	  Ports			  [5, 3]
 	  Position		  [-625, 52, -515, 108]
 	  ZOrder		  4
-	  ForegroundColor	  "blue"
-	  BackgroundColor	  "cyan"
 	  AncestorBlock		  "NeuroModelerLibrary/Simple Cells/Small \nNewNeuron v0.1"
 	  LibraryVersion	  "*3.82"
 	  RequestExecContextInheritance	off
@@ -36694,7 +36678,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Sized Cells"
-	Location		[170, -1080, 1552, 7]
+	Location		[8, 8, 1390, 796]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -36710,7 +36694,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"65"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -64477,7 +64461,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Support"
-	Location		[170, -932, 1552, -53]
+	Location		[8, 8, 1390, 796]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -64493,7 +64477,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"125"
+	ZoomFactor		"108"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
